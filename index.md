@@ -12,7 +12,7 @@ Zhiyang (Gee) Zhou
 Simon Fraser University  
 Burnaby, BC  
 Canada V5A 1S6  
-zhiyang_zhou (at) sfu (dot) ca
+Email: zhiyang_zhou (at) sfu (dot) ca
 
 # ABOUT
 
