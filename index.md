@@ -75,6 +75,21 @@ Extra@SCK10504: (Zhiyang) Oct 15 13:00-14:00 & Dec 7 & 8 10:00-11:00 (Grace) Dec
 - STAT 302 Analysis of Experimental and Observational Data instructed by Prof. Brad McNeney, Spring 2017
 - STAT 475/675 Applied Discrete Data Analysis instructed by Prof. Thomas Loughin, Spring 2016
 
+# MISCELLANEA
+
+## SERVICE
+
+- Journal reviewer for 
+    - Stat. Probab. Lett.
+    - J. Multivar. Anal.
+
+## MEMBERSHIP
+
+- American Statistical Association (ASA)
+- International Chinese Statistical Association (ICSA)
+- Statistical Society of Canada (SSC)
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
