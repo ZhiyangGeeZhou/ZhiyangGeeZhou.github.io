@@ -1,16 +1,14 @@
 ![Zhiyang Zhou](https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png)
 
-# ZHIYANG ZHOU
-
-### PRONUNCIATION 
+ZHIYANG ZHOU
 <a href="attach/Pronunciation.m4a" 
 title="Pronunciation of My Name" 
 target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i>
 </a>
 
-### AFFILIATION
-
 Dept. Stat. Actuar. Sci. Simon Fraser Univ.
+
+# ABOUT
 
 ### ACADEMIA
 
