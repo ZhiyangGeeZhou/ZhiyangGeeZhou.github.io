@@ -1,6 +1,6 @@
 ![Zhiyang Zhou](https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png)
 
-# ABOUT
+# ZHIYANG ZHOU
 
 ### PRONUNCIATION
 
