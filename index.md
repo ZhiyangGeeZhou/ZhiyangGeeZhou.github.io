@@ -1,4 +1,5 @@
 ![Zhiyang Zhou](https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png)
+<img align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>
 
 Zhiyang (Gee) Zhou
 <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
