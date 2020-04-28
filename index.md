@@ -51,42 +51,42 @@ _Atmospheric Environment_ 61: 409-418.
 
 ## INSTRUCTOR
 
-- (STAT 450 Statistical Theory)[http://www.sfu.ca/outlines.html?2019/fall/stat/450/d100], Fall 2019
+- [STAT 450 Statistical Theory](http://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), Fall 2019
 
 ## TUTOR
 
-- (STAT 475/675 Applied Discrete Data Analysis)[http://www.sfu.ca/outlines.html?2020/spring/stat/475/d100],
+- [STAT 475/675 Applied Discrete Data Analysis](http://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
 Spring 2020  
-Instructed by Prof. (Thomas Loughin)[http://people.stat.sfu.ca/~tloughin/STATPAGE.html]
-- (STAT 445/645 Applied Multivariate Analysis)[http://www.sfu.ca/outlines.html?2019/spring/stat/445/e100],
+Instructed by Prof. [Thomas Loughin](http://people.stat.sfu.ca/~tloughin/STATPAGE.html)
+- [STAT 445/645 Applied Multivariate Analysis](http://www.sfu.ca/outlines.html?2019/spring/stat/445/e100),
 Spring 2019  
-Instructed by Prof. (Joan Hu)[http://people.stat.sfu.ca/~joanh/]
-- (STAT 475/675 Applied Discrete Data Analysis)[http://people.stat.sfu.ca/~joanh/stat475-675web.html],
+Instructed by Prof. [Joan Hu](http://people.stat.sfu.ca/~joanh/)
+- [STAT 475/675 Applied Discrete Data Analysis](http://people.stat.sfu.ca/~joanh/stat475-675web.html),
 Spring 2018  
-Instructed by Prof. (Joan Hu)[http://people.stat.sfu.ca/~joanh/]
-- (STAT 410 Statistical Analysis of Sample Surveys)[https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100],
+Instructed by Prof. [Joan Hu](http://people.stat.sfu.ca/~joanh/)
+- [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100),
 Spring 2017  
-Instructed by Prof. (Steve Thompson)[http://www.stat.sfu.ca/%7Ethompson/]
-- (STAT 330 Introduction to Mathematical Statistics)[https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100],
+Instructed by Prof. [Steve Thompson](http://www.stat.sfu.ca/%7Ethompson/)
+- [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100),
 Fall 2016  
-Instructed by Prof. (Liangliang Wang)[http://people.stat.sfu.ca/~lwa68/]
+Instructed by Prof. [Liangliang Wang](http://people.stat.sfu.ca/~lwa68/)
 
 ## MARKER
 
-- (STAT 302 Analysis of Experimental and Observational Data)[http://www.sfu.ca/outlines.html?2017/spring/stat/302/d100], 
+- [STAT 302 Analysis of Experimental and Observational Data](http://www.sfu.ca/outlines.html?2017/spring/stat/302/d100), 
 Spring 2017  
-Instructed by Prof. (Brad McNeney)[http://people.stat.sfu.ca/~mcneney/]
-- (STAT 475/675 Applied Discrete Data Analysis)[http://www.sfu.ca/outlines.html?2016/spring/stat/475/d100],
+Instructed by Prof. [Brad McNeney](http://people.stat.sfu.ca/~mcneney/)
+- [STAT 475/675 Applied Discrete Data Analysis](http://www.sfu.ca/outlines.html?2016/spring/stat/475/d100),
 Spring 2016  
-Instructed by Prof. (Thomas Loughin)[http://people.stat.sfu.ca/~tloughin/STATPAGE.html]
+Instructed by Prof. [Thomas Loughin](http://people.stat.sfu.ca/~tloughin/STATPAGE.html)
 
 # MISCELLANEA
 
 ## SERVICE
 
 - Journal reviewer
-    - _Journal of Multivariate Analysis_
-    - _Statistics & Probability Letters_
+    - [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/)
+    - [_Statistics & Probability Letters_](http://www.journals.elsevier.com/statistics-and-probability-letters/)
     
 ## MEMBERSHIP
 
