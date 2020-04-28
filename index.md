@@ -1,5 +1,7 @@
 # ABOUT
 
+![Zhiyang Zhou](img/Zhiyang.png)
+
 ### HOBBIES
 
 - Wall-Climbing
