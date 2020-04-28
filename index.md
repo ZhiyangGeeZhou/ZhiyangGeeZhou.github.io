@@ -1,6 +1,10 @@
 # ABOUT
 
-![Zhiyang Zhou](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/blob/master/img/Zhiyang.png)
+![](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/img/Zhiyang.png)
+
+### NAME
+
+Zhiyang Zhou
 
 ### HOBBIES
 
@@ -11,10 +15,10 @@
 
 ### ACADEMIA
 
-- Functional Data Analysis
-- Design of Experiments
-- High Dimensional Inference
-- Topological Data Analysis
+- Functional data analysis
+- Design of experiments
+- High dimensional inference
+- Topological data analysis
 - Data-stream inference
 
 ### EDUCATION
