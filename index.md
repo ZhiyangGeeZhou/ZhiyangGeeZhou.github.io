@@ -1,6 +1,6 @@
 # ABOUT
 
-![Zhiyang Zhou](img/Zhiyang.png)
+![Zhiyang Zhou](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/blob/master/img/Zhiyang.png)
 
 ### HOBBIES
 
