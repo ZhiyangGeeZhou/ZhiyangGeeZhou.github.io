@@ -11,7 +11,7 @@ Zhiyang (Gee) Zhou
 [Department of Statistics & Actuarial Science](http://www.stat.sfu.ca/)  
 Simon Fraser University  
 Burnaby, BC  
-Canada V5A 1S6
+Canada V5A 1S6  
 zhiyang_zhou (at) sfu (dot) ca
 
 # ABOUT
