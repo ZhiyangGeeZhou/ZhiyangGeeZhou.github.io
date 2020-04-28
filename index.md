@@ -97,7 +97,7 @@ Instructed by Prof. [Thomas Loughin](http://people.stat.sfu.ca/~tloughin/STATPAG
 ### EXTERNAL LINKS
 
 <span>
- <a href="http://www.sfu.ca/~zza115/" title="Home Page"><i class="fab fa-house-user fa-2x" aria-hidden="true"></i></a>
+ <a href="http://www.sfu.ca/~zza115/" title="Home Page"><i class="fas fa-house-user fa-2x" aria-hidden="true"></i></a>
  <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
  <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate"><i class="fab fa-researchgate fa-2x" aria-hidden="true"></i></a>
  <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-2x" aria-hidden="true"></i></a>
