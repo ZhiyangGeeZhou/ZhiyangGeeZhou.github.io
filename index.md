@@ -15,8 +15,11 @@
 - Topological Data Analysis
 - Data-stream inference
 
+## EDUCATION
 
-
+- Ph.D. Candidate in Statistics, [Simon Fraser University](http://www.sfu.ca/), 2015-PRESENT
+    - Supervisor: [Richard Lockhart](http://people.stat.sfu.ca/~lockhart/), 
+    Professor, Fellow of the Royal Society of Canada 
 
 ## Welcome to GitHub Pages
 
