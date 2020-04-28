@@ -1,6 +1,6 @@
 # ABOUT
 
-![](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/img/Zhiyang.png)
+![](https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png)
 
 ### NAME
 
