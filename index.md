@@ -7,12 +7,11 @@ Zhiyang (Gee) Zhou
 <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate"><i class="fab fa-researchgate fa-lg" aria-hidden="true"></i></a>
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.mendeley.com/profiles/zhiyang-zhou/" title="Mendeley"><i class="fab fa-mendeley fa-lg" aria-hidden="true"></i></a>
-
+Email: zhiyang_zhou (at) sfu (dot) ca  
 [Department of Statistics & Actuarial Science](http://www.stat.sfu.ca/)  
 Simon Fraser University  
 Burnaby, BC  
 Canada V5A 1S6  
-Email: zhiyang_zhou (at) sfu (dot) ca
 
 # ABOUT
 
