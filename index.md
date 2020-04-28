@@ -2,6 +2,22 @@
 
 ## HOBBY
 
+- Wall-Climbing
+- Jogging
+- Tennis
+- Badminton
+
+## ACADEMIA
+
+- Functional Data Analysis
+- Design of Experiments
+- High Dimensional Inference
+- Topological Data Analysis
+- Data-stream inference
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
