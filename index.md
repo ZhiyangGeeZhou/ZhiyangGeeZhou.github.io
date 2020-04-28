@@ -51,38 +51,43 @@ _Atmospheric Environment_ 61: 409-418.
 
 ## INSTRUCTOR
 
-- STAT 450 Statistical Theory, Fall 2019  
-Lectures: Mon 10:30-12:20 @WMC3251 & Wed 10:30-11:20 @WMC2522  
-Tutorials: Wed 09:30-10:20 @WMC3255  
-Exams: (midterm) Oct 16 10:30-11:20 @WMC2522 (final) Dec 9 12:00-15:00 @AQ5030  
-Instruction for exams:  
-Midterm: closed-book; 2 pieces of two-sided letter-sized paper as cheat sheets; no other aid.  
-Final: closed-book; 4 pieces of two-sided letter-sized paper as cheat sheets; no other aid.  
-Office Hours:  
-Regular@SCK10504: (Zhiyang) Mon 15:00-16:00 (Grace) Wed 12:00-13:00  
-Extra@SCK10504: (Zhiyang) Oct 15 13:00-14:00 & Dec 7 & 8 10:00-11:00 (Grace) Dec 6 10:00-11:00
+- (STAT 450 Statistical Theory)[http://www.sfu.ca/outlines.html?2019/fall/stat/450/d100], Fall 2019
 
 ## TUTOR
 
-- STAT 475/675 Applied Discrete Data Analysis instructed by Prof. Thomas Loughin, Spring 2020
-- STAT 445/645 Applied Multivariate Analysis instructed by Prof. Joan Hu, Spring 2019
-- STAT 475/675 Applied Discrete Data Analysis instructed by Prof. Joan Hu, Spring 2018
-- STAT 410 Statistical Analysis of Sample Surveys instructed by Prof. Steve Thompson, Spring 2017
-- STAT 330 Introduction to Mathematical Statistics instructed by Prof. Liangliang Wang, Fall 2016
+- (STAT 475/675 Applied Discrete Data Analysis)[http://www.sfu.ca/outlines.html?2020/spring/stat/475/d100],
+Spring 2020  
+Instructed by Prof. (Thomas Loughin)[http://people.stat.sfu.ca/~tloughin/STATPAGE.html]
+- (STAT 445/645 Applied Multivariate Analysis)[http://www.sfu.ca/outlines.html?2019/spring/stat/445/e100],
+Spring 2019  
+Instructed by Prof. (Joan Hu)[http://people.stat.sfu.ca/~joanh/]
+- (STAT 475/675 Applied Discrete Data Analysis)[http://people.stat.sfu.ca/~joanh/stat475-675web.html],
+Spring 2018  
+Instructed by Prof. (Joan Hu)[http://people.stat.sfu.ca/~joanh/]
+- (STAT 410 Statistical Analysis of Sample Surveys)[https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100],
+Spring 2017  
+Instructed by Prof. (Steve Thompson)[http://www.stat.sfu.ca/%7Ethompson/]
+- (STAT 330 Introduction to Mathematical Statistics)[https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100],
+Fall 2016  
+Instructed by Prof. (Liangliang Wang)[http://people.stat.sfu.ca/~lwa68/]
 
 ## MARKER
 
-- STAT 302 Analysis of Experimental and Observational Data instructed by Prof. Brad McNeney, Spring 2017
-- STAT 475/675 Applied Discrete Data Analysis instructed by Prof. Thomas Loughin, Spring 2016
+- (STAT 302 Analysis of Experimental and Observational Data)[http://www.sfu.ca/outlines.html?2017/spring/stat/302/d100], 
+Spring 2017  
+Instructed by Prof. (Brad McNeney)[http://people.stat.sfu.ca/~mcneney/]
+- (STAT 475/675 Applied Discrete Data Analysis)[http://www.sfu.ca/outlines.html?2016/spring/stat/475/d100],
+Spring 2016  
+Instructed by Prof. (Thomas Loughin)[http://people.stat.sfu.ca/~tloughin/STATPAGE.html]
 
 # MISCELLANEA
 
 ## SERVICE
 
-- Journal reviewer for 
-    - Stat. Probab. Lett.
-    - J. Multivar. Anal.
-
+- Journal reviewer
+    - _Journal of Multivariate Analysis_
+    - _Statistics & Probability Letters_
+    
 ## MEMBERSHIP
 
 - American Statistical Association (ASA)
