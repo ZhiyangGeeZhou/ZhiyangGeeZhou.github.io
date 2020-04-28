@@ -1,10 +1,6 @@
-# ABOUT
+### Zhiyang Zhou
 
 ![](https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png)
-
-### NAME
-
-Zhiyang Zhou
 
 ### HOBBIES
 
