@@ -1,13 +1,13 @@
-# ABOUT ME
+# INTERESTS
 
-## HOBBY
+### HOBBIES
 
 - Wall-Climbing
 - Jogging
 - Tennis
 - Badminton
 
-## ACADEMIA
+### ACADEMIA
 
 - Functional Data Analysis
 - Design of Experiments
@@ -15,7 +15,7 @@
 - Topological Data Analysis
 - Data-stream inference
 
-## EDUCATION
+### EDUCATION
 
 - Ph.D. Candidate in Statistics, [Simon Fraser University](http://www.sfu.ca/), 2015-PRESENT  
 Supervisor: [Richard Lockhart](http://people.stat.sfu.ca/~lockhart/), Professor, Fellow of the Royal Society of Canada
@@ -26,7 +26,7 @@ Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/),
 
 # RESEARCH
 
-## PUBLICATIONS
+### PUBLICATIONS
 
 - **Z. Zhou**, R. Lockhart, 2020. Partial least squares for sparsely observed curves with measurement errors.  
 [arXiv:2003.11542 [stat.ME]](http://arxiv.org/abs/2003.11542)
@@ -42,18 +42,18 @@ _Journal of Statistical Planning and Inference_ 148: 95-100.
 _Atmospheric Environment_ 61: 409-418.  
 [doi:10.1016/j.atmosenv.2012.07.029](http://dx.doi.org/10.1016/j.atmosenv.2012.07.029)
 
-## PRESENTATION
+### PRESENTATION
 
 - "Functional continuum regression", oral presentation at ICSA Canada 2019, Aug 09, 2019
 - "An optimum criterion for factorial designs", oral presentation at SSC 2016, May 30, 2016 
 
 # TEACHING
 
-## INSTRUCTOR
+### INSTRUCTOR
 
 - [STAT 450 Statistical Theory](http://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), Fall 2019
 
-## TUTOR
+### TUTOR
 
 - [STAT 475/675 Applied Discrete Data Analysis](http://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
 Spring 2020  
@@ -71,7 +71,7 @@ Instructed by Prof. [Steve Thompson](http://www.stat.sfu.ca/%7Ethompson/)
 Fall 2016  
 Instructed by Prof. [Liangliang Wang](http://people.stat.sfu.ca/~lwa68/)
 
-## MARKER
+### MARKER
 
 - [STAT 302 Analysis of Experimental and Observational Data](http://www.sfu.ca/outlines.html?2017/spring/stat/302/d100), 
 Spring 2017  
@@ -82,13 +82,13 @@ Instructed by Prof. [Thomas Loughin](http://people.stat.sfu.ca/~tloughin/STATPAG
 
 # MISCELLANEA
 
-## SERVICE
+### SERVICE
 
 - Journal reviewer
     - [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/)
     - [_Statistics & Probability Letters_](http://www.journals.elsevier.com/statistics-and-probability-letters/)
     
-## MEMBERSHIPS
+### MEMBERSHIPS
 
 - American Statistical Association (ASA)
 - International Chinese Statistical Association (ICSA)
