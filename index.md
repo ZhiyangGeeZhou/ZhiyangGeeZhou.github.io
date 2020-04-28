@@ -24,9 +24,9 @@ Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor
 - B.Sc. in Statistics, [Beijing Normal University](http://english.bnu.edu.cn/), 2005-2009  
 Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/), Professor
 
-## RESEARCH
+# RESEARCH
 
-### PUBLICATION
+## PUBLICATION
 
 - **Z. Zhou**, R. Lockhart, 2020. Partial least squares for sparsely observed curves with measurement errors.  
 [arXiv:2003.11542 [stat.ME]](http://arxiv.org/abs/2003.11542)
@@ -42,10 +42,38 @@ _Journal of Statistical Planning and Inference_ 148: 95-100.
 _Atmospheric Environment_ 61: 409-418.  
 [doi:10.1016/j.atmosenv.2012.07.029](http://dx.doi.org/10.1016/j.atmosenv.2012.07.029)
 
-### PRESENTATION
+## PRESENTATION
 
 - "Functional continuum regression", oral presentation at ICSA Canada 2019, Aug 09, 2019
 - "An optimum criterion for factorial designs", oral presentation at SSC 2016, May 30, 2016 
+
+# TEACHING
+
+## INSTRUCTOR
+
+- STAT 450 Statistical Theory, Fall 2019  
+Lectures: Mon 10:30-12:20 @WMC3251 & Wed 10:30-11:20 @WMC2522  
+Tutorials: Wed 09:30-10:20 @WMC3255  
+Exams: (midterm) Oct 16 10:30-11:20 @WMC2522 (final) Dec 9 12:00-15:00 @AQ5030  
+Instruction for exams:  
+Midterm: closed-book; 2 pieces of two-sided letter-sized paper as cheat sheets; no other aid.  
+Final: closed-book; 4 pieces of two-sided letter-sized paper as cheat sheets; no other aid.  
+Office Hours:  
+Regular@SCK10504: (Zhiyang) Mon 15:00-16:00 (Grace) Wed 12:00-13:00  
+Extra@SCK10504: (Zhiyang) Oct 15 13:00-14:00 & Dec 7 & 8 10:00-11:00 (Grace) Dec 6 10:00-11:00
+
+## TUTOR
+
+- STAT 475/675 Applied Discrete Data Analysis instructed by Prof. Thomas Loughin, Spring 2020
+- STAT 445/645 Applied Multivariate Analysis instructed by Prof. Joan Hu, Spring 2019
+- STAT 475/675 Applied Discrete Data Analysis instructed by Prof. Joan Hu, Spring 2018
+- STAT 410 Statistical Analysis of Sample Surveys instructed by Prof. Steve Thompson, Spring 2017
+- STAT 330 Introduction to Mathematical Statistics instructed by Prof. Liangliang Wang, Fall 2016
+
+## MARKER
+
+- STAT 302 Analysis of Experimental and Observational Data instructed by Prof. Brad McNeney, Spring 2017
+- STAT 475/675 Applied Discrete Data Analysis instructed by Prof. Thomas Loughin, Spring 2016
 
 ### Markdown
 
