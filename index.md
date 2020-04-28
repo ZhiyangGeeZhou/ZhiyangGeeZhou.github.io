@@ -2,19 +2,14 @@
 
 # ZHIYANG ZHOU
 
-### PRONUNCIATION
-
-<a href="attach/Pronunciation.m4a" 
+### PRONUNCIATION <a href="attach/Pronunciation.m4a" 
 title="Pronunciation of My Name" 
 target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i>
 </a>
 
-### HOBBIES
+### AFFILIATION
 
-- Wall-Climbing
-- Jogging
-- Tennis
-- Badminton
+Dept. Stat. Actuar. Sci. Simon Fraser Univ.
 
 ### ACADEMIA
 
@@ -32,6 +27,13 @@ Supervisor: [Richard Lockhart](http://people.stat.sfu.ca/~lockhart/), Professor,
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor
 - B.Sc. in Statistics, [Beijing Normal University](http://english.bnu.edu.cn/), 2005-2009  
 Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/), Professor
+
+### HOBBIES
+
+- Wall-Climbing
+- Jogging
+- Tennis
+- Badminton
 
 # RESEARCH
 
