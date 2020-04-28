@@ -6,6 +6,13 @@ title="Pronunciation of My Name"
 target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i>
 </a>
 <a href="mailto:zhiyang_zhou@sfu.ca" title="Email"><i class="fas fa-envelope fa-sm" aria-hidden="true"></i></a>
+<span>
+ <a href="http://www.sfu.ca/~zza115/" title="Home Page"><i class="fas fa-house-user fa-2x" aria-hidden="true"></i></a>
+ <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+ <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate"><i class="fab fa-researchgate fa-2x" aria-hidden="true"></i></a>
+ <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-2x" aria-hidden="true"></i></a>
+ <a href="https://www.mendeley.com/profiles/zhiyang-zhou/" title="Mendeley"><i class="fab fa-mendeley fa-2x" aria-hidden="true"></i></a>
+</span>
 
 [Department of Statistics & Actuarial Science](http://www.stat.sfu.ca/)  
 Simon Fraser University  
@@ -107,16 +114,6 @@ Instructed by Prof. [Thomas Loughin](http://people.stat.sfu.ca/~tloughin/STATPAG
 - American Statistical Association (ASA)
 - International Chinese Statistical Association (ICSA)
 - Statistical Society of Canada (SSC)
-
-### EXTERNAL LINKS
-
-<span>
- <a href="http://www.sfu.ca/~zza115/" title="Home Page"><i class="fas fa-house-user fa-2x" aria-hidden="true"></i></a>
- <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
- <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate"><i class="fab fa-researchgate fa-2x" aria-hidden="true"></i></a>
- <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-2x" aria-hidden="true"></i></a>
- <a href="https://www.mendeley.com/profiles/zhiyang-zhou/" title="Mendeley"><i class="fab fa-mendeley fa-2x" aria-hidden="true"></i></a>
-</span>
 
 <head> 
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-add-css="false"></script>
