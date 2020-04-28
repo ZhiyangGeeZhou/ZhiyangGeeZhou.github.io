@@ -1,12 +1,19 @@
 ![Zhiyang Zhou](https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png)
 
-ZHIYANG ZHOU
+Zhiyang (Gee) Zhou
 <a href="attach/Pronunciation.m4a" 
 title="Pronunciation of My Name" 
 target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i>
 </a>
+<a href="mailto:zhiyang_zhou@sfu.ca" title="Email"><i class="fas fa-envelope fa-2x" aria-hidden="true"></i></a>
 
-Dept. Stat. Actuar. Sci. Simon Fraser Univ.
+[Department of Statistics & Actuarial Science](http://www.stat.sfu.ca/), 
+Science Simon Fraser University
+
+Room SC K10545
+8888 University Dr. 
+Burnaby, BC 
+Canada V5A 1S6
 
 # ABOUT
 
