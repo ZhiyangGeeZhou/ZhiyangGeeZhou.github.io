@@ -20,12 +20,29 @@
 - Ph.D. Candidate in Statistics, [Simon Fraser University](http://www.sfu.ca/), 2015-PRESENT
     - Supervisor: [Richard Lockhart](http://people.stat.sfu.ca/~lockhart/), 
     Professor, Fellow of the Royal Society of Canada 
+- M.Sc. in Probability & Statistics, [Nankai University](http://english.nankai.edu.cn/), 2009-2012
+    - Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor 
+- B.Sc. in Statistics, [Beijing Normal University](http://english.bnu.edu.cn/), 2005-2009
+    - Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/), Professor 
 
-## Welcome to GitHub Pages
+# RESEARCH
 
-You can use the [editor on GitHub](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## PUBLICATION
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- **Z. Zhou, R**. Lockhart, 2020. Partial least squares for sparsely observed curves with measurement errors.
+[arXiv:2003.11542 [stat.ME]](http://arxiv.org/abs/2003.11542)
+- **Z. Zhou**, 2019. Functional continuum regression.
+_Journal of Multivariate Analysis_ 173: 328-346. 
+[doi:10.1016/j.jmva.2019.03.006](http://dx.doi.org/10.1016/j.jmva.2019.03.006)
+R source code: 
+[github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression)
+- **Z. Zhou**, R. Zhang, 2014. A generalized general minimum lower order confounding criterion for nonregular designs.
+_Journal of Statistical Planning and Inference_ 148: 95-100. 
+[doi:10.1016/j.jspi.2013.12.003](http://dx.doi.org/10.1016/j.jspi.2013.12.003)
+- W. Wang, D. Gong, **Z. Zhou**, Y. Guo, 2012. Robustness of the aerosol weekly cycle over Southeastern China.
+_Atmospheric Environment_ 61: 409-418. 
+[doi:10.1016/j.atmosenv.2012.07.029](http://dx.doi.org/10.1016/j.atmosenv.2012.07.029)
+
 
 ### Markdown
 
