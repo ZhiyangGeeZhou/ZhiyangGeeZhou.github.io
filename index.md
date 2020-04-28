@@ -2,18 +2,17 @@
 
 Zhiyang (Gee) Zhou
 <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
-<a href="mailto:zhiyang_zhou@sfu.ca" title="Email"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a>
 <a href="http://www.sfu.ca/~zza115/" title="Home Page"><i class="fas fa-house-user fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate"><i class="fab fa-researchgate fa-lg" aria-hidden="true"></i></a>
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.mendeley.com/profiles/zhiyang-zhou/" title="Mendeley"><i class="fab fa-mendeley fa-lg" aria-hidden="true"></i></a>
 
-
 [Department of Statistics & Actuarial Science](http://www.stat.sfu.ca/)  
 Simon Fraser University  
 Burnaby, BC  
 Canada V5A 1S6
+zhiyang_zhou (at) sfu (dot) ca
 
 # ABOUT
 
