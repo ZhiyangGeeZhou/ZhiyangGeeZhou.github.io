@@ -26,14 +26,14 @@ Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/),
 
 # RESEARCH
 
-## PUBLICATION
+## PUBLICATIONS
 
 - **Z. Zhou**, R. Lockhart, 2020. Partial least squares for sparsely observed curves with measurement errors.  
 [arXiv:2003.11542 [stat.ME]](http://arxiv.org/abs/2003.11542)
 - **Z. Zhou**, 2019. Functional continuum regression.
 _Journal of Multivariate Analysis_ 173: 328-346.  
 [doi:10.1016/j.jmva.2019.03.006](http://dx.doi.org/10.1016/j.jmva.2019.03.006)  
-R source code:
+`R` source code:
 [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression)
 - **Z. Zhou**, R. Zhang, 2014. A generalized general minimum lower order confounding criterion for nonregular designs.
 _Journal of Statistical Planning and Inference_ 148: 95-100.  
@@ -88,37 +88,23 @@ Instructed by Prof. [Thomas Loughin](http://people.stat.sfu.ca/~tloughin/STATPAG
     - [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/)
     - [_Statistics & Probability Letters_](http://www.journals.elsevier.com/statistics-and-probability-letters/)
     
-## MEMBERSHIP
+## MEMBERSHIPS
 
 - American Statistical Association (ASA)
 - International Chinese Statistical Association (ICSA)
 - Statistical Society of Canada (SSC)
 
+### EXTERNAL LINKS
 
-### Markdown
+<span>
+ <a href="https://zhiyanggeezhou.github.io/" title="GitHub"><i class="fab fa-github-square fa-2x" aria-hidden="true"></i></a>
+ <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+ <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate"><i class="fab fa-researchgate fa-2x" aria-hidden="true"></i></a>
+ <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-2x" aria-hidden="true"></i></a>
+ <a href="https://www.mendeley.com/profiles/zhiyang-zhou/" title="Mendeley"><i class="fab fa-mendeley fa-2x" aria-hidden="true"></i></a>
+</span>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<head> 
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-add-css="false"></script>
+</head> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/svg-with-js.css">
