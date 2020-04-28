@@ -5,14 +5,11 @@ Zhiyang (Gee) Zhou
 title="Pronunciation of My Name" 
 target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i>
 </a>
-<a href="mailto:zhiyang_zhou@sfu.ca" title="Email"><i class="fas fa-envelope fa-2x" aria-hidden="true"></i></a>
+<a href="mailto:zhiyang_zhou@sfu.ca" title="Email"><i class="fas fa-envelope fa-sm" aria-hidden="true"></i></a>
 
-[Department of Statistics & Actuarial Science](http://www.stat.sfu.ca/), 
-Science Simon Fraser University
-
-Room SC K10545
-8888 University Dr. 
-Burnaby, BC 
+[Department of Statistics & Actuarial Science](http://www.stat.sfu.ca/)  
+Simon Fraser University  
+Burnaby, BC  
 Canada V5A 1S6
 
 # ABOUT
