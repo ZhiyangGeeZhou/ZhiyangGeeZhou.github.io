@@ -57,10 +57,10 @@ _Journal of Statistical Planning and Inference_ 148: 95-100.
 _Atmospheric Environment_ 61: 409-418.  
 [doi:10.1016/j.atmosenv.2012.07.029](http://dx.doi.org/10.1016/j.atmosenv.2012.07.029)
 
-### PRESENTATION
+### ORAL PRESENTATIONS
 
-- "Functional continuum regression", oral presentation at ICSA Canada 2019, Aug 09, 2019
-- "An optimum criterion for factorial designs", oral presentation at SSC 2016, May 30, 2016 
+- "Functional continuum regression", ICSA Canada 2019, Aug 09, 2019
+- "An optimum criterion for factorial designs", SSC 2016, May 30, 2016 
 
 # TEACHING
 
@@ -68,7 +68,7 @@ _Atmospheric Environment_ 61: 409-418.
 
 - [STAT 450 Statistical Theory](http://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), Fall 2019
 
-### TUTOR
+### TUTORS
 
 - [STAT 475/675 Applied Discrete Data Analysis](http://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
 Spring 2020  
@@ -86,7 +86,7 @@ Instructed by Prof. [Steve Thompson](http://www.stat.sfu.ca/%7Ethompson/)
 Fall 2016  
 Instructed by Prof. [Liangliang Wang](http://people.stat.sfu.ca/~lwa68/)
 
-### MARKER
+### MARKERS
 
 - [STAT 302 Analysis of Experimental and Observational Data](http://www.sfu.ca/outlines.html?2017/spring/stat/302/d100), 
 Spring 2017  
