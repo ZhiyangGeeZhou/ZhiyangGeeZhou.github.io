@@ -34,7 +34,7 @@ Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/),
 
 ### HOBBIES
 
-- Wall-Climbing
+- Wall-climbing
 - Jogging
 - Tennis
 - Badminton
