@@ -42,7 +42,7 @@ Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/),
 # RESEARCH
 
 ### PUBLICATIONS
-- **Zhou, Z** (2020). Partial least squares for function-on-function regression via Krylov subspaces.
+- **Zhou, Z** (2020). Partial least squares for function-on-function regression via Krylov subspaces.  
 `R` source code:
 [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
 - **Zhou, Z**, R. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.  
