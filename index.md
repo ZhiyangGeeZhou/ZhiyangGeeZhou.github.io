@@ -43,10 +43,11 @@ Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/),
 
 ### PUBLICATIONS
 - **Zhou, Z.** (2020). Partial least squares for function-on-function regression via Krylov subspaces.  
+[arXiv:2005.04798](http://arxiv.org/abs/2005.04798)  
 `R` source code:
 [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
 - **Zhou, Z.**, R. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.  
-[arXiv:2003.11542 [stat.ME]](http://arxiv.org/abs/2003.11542)
+[arXiv:2003.11542](http://arxiv.org/abs/2003.11542)
 - **Zhou, Z.** (2019). Functional continuum regression.
 _Journal of Multivariate Analysis_ 173: 328-346.  
 [doi:10.1016/j.jmva.2019.03.006](http://dx.doi.org/10.1016/j.jmva.2019.03.006)  
