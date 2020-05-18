@@ -48,6 +48,7 @@ Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/),
 [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
 - **Zhou, Z.**, & R. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.  
 [arXiv:2003.11542](http://arxiv.org/abs/2003.11542)  
+`R` source code:
 [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS)
 - **Zhou, Z.** (2019). Functional continuum regression.
 _Journal of Multivariate Analysis_ 173: 328-346.  
