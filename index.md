@@ -13,16 +13,14 @@ Simon Fraser University
 Burnaby, BC  
 Canada V5A 1S6  
 
-# GENERAL
-
-### INTERESTS
+# INTERESTS
 
 - Functional data analysis
 - Design of experiments
 - Topological data analysis
 - Data-stream inference
 
-### EDUCATION
+# EDUCATION
 
 - Ph.D. Candidate in Statistics, [Simon Fraser University](http://www.sfu.ca/), 2015-2020  
 Supervisor: [Richard Lockhart](http://people.stat.sfu.ca/~lockhart/), Professor, Fellow of the Royal Society of Canada
