@@ -13,8 +13,6 @@ Simon Fraser University
 Burnaby, BC  
 Canada V5A 1S6  
 
-# ABOUT
-
 ### ACADEMIA
 
 - Functional data analysis
@@ -30,13 +28,6 @@ Supervisor: [Richard Lockhart](http://people.stat.sfu.ca/~lockhart/), Professor,
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor
 - B.Sc. in Statistics, [Beijing Normal University](http://english.bnu.edu.cn/), 2005-2009  
 Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/), Professor
-
-### HOBBIES
-
-- Wall-climbing
-- Jogging
-- Tennis
-- Badminton
 
 # RESEARCH
 
