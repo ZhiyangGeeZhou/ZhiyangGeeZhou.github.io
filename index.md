@@ -19,7 +19,6 @@ Canada V5A 1S6
 
 - Functional data analysis
 - Design of experiments
-- High dimensional inference
 - Topological data analysis
 - Data-stream inference
 
