@@ -13,7 +13,9 @@ Simon Fraser University
 Burnaby, BC  
 Canada V5A 1S6  
 
-### ACADEMIA
+# GENERAL
+
+### INTERESTS
 
 - Functional data analysis
 - Design of experiments
@@ -22,7 +24,7 @@ Canada V5A 1S6
 
 ### EDUCATION
 
-- Ph.D. Candidate in Statistics, [Simon Fraser University](http://www.sfu.ca/), 2015-PRESENT  
+- Ph.D. Candidate in Statistics, [Simon Fraser University](http://www.sfu.ca/), 2015-2020  
 Supervisor: [Richard Lockhart](http://people.stat.sfu.ca/~lockhart/), Professor, Fellow of the Royal Society of Canada
 - M.Sc. in Probability & Statistics, [Nankai University](http://english.nankai.edu.cn/), 2009-2012  
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor
