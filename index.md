@@ -47,7 +47,7 @@ _Journal of Multivariate Analysis_ 173: 328-346.
 [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression)
 - **Zhou, Z.**, & R. Zhang (2014). A generalized general minimum lower order confounding criterion for nonregular designs.
 _Journal of Statistical Planning and Inference_ 148: 95-100.  
-[doi:10.1016/j.jspi.2013.12.003](https://dx.doi.org/10.1016/j.jspi.2013.12.003)
+[doi:10.1016/j.jspi.2013.12.003](https://dx.doi.org/10.1016/j.jspi.2013.12.003)  
 `R` source code:
 [github.com/ZhiyangGeeZhou/G-GMC](https://github.com/ZhiyangGeeZhou/G-GMC)
 - Wang, W., D. Gong, **Z. Zhou**, & Y. Guo (2012). Robustness of the aerosol weekly cycle over Southeastern China.
