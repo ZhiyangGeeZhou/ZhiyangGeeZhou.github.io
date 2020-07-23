@@ -18,7 +18,6 @@ Canada V5A 1S6
 - Functional data analysis
 - Design of experiments
 - Topological data analysis
-- Data-stream inference
 
 # EDUCATION
 
