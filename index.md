@@ -48,6 +48,8 @@ _Journal of Multivariate Analysis_ 173: 328-346.
 - **Zhou, Z.**, & R. Zhang (2014). A generalized general minimum lower order confounding criterion for nonregular designs.
 _Journal of Statistical Planning and Inference_ 148: 95-100.  
 [doi:10.1016/j.jspi.2013.12.003](http://dx.doi.org/10.1016/j.jspi.2013.12.003)
+`R` source code:
+[github.com/ZhiyangGeeZhou/G-GMC](https://github.com/ZhiyangGeeZhou/G-GMC)
 - Wang, W., D. Gong, **Z. Zhou**, & Y. Guo (2012). Robustness of the aerosol weekly cycle over Southeastern China.
 _Atmospheric Environment_ 61: 409-418.  
 [doi:10.1016/j.atmosenv.2012.07.029](http://dx.doi.org/10.1016/j.atmosenv.2012.07.029)
