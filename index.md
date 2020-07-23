@@ -13,7 +13,7 @@ Simon Fraser University
 Burnaby, BC  
 Canada V5A 1S6  
 
-# INTERESTS
+# INTEREST
 
 - Functional data analysis
 - Design of experiments
@@ -32,7 +32,7 @@ Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/),
 
 # RESEARCH
 
-### PUBLICATIONS
+### PUBLICATION
 - **Zhou, Z.** (2020). Partial least squares for function-on-function regression via Krylov subspaces.  
 [arXiv:2005.04798](http://arxiv.org/abs/2005.04798)  
 `R` source code:
