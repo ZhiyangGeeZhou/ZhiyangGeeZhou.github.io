@@ -95,10 +95,10 @@ Instructed by Prof. [Thomas Loughin](http://people.stat.sfu.ca/~tloughin/STATPAG
 
 ### SERVICE
 
-- Journal Reviewer: 
+- Reviewer: 
 [_Computational Statistics_](https://www.springer.com/journal/180), 
 [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/),
-[_Statistics & Probability Letters_](http://www.journals.elsevier.com/statistics-and-probability-letters/)
+[_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/)
     
 ### MEMBERSHIP
 
