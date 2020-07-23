@@ -23,8 +23,8 @@ Canada V5A 1S6
 # EDUCATION
 
 - Ph.D. in Statistics, [Simon Fraser University](http://www.sfu.ca/), 2015-2020  
-Supervisor: [Richard Lockhart](http://people.stat.sfu.ca/~lockhart/), Professor, Fellow of the Royal Society of Canada
-PhD dissertation: [Supervised Basis Functions Applied to Functional Regression and Classification]()
+Supervisor: [Richard Lockhart](http://people.stat.sfu.ca/~lockhart/), Professor, Fellow of the Royal Society of Canada  
+Dissertation: [Supervised Basis Functions Applied to Functional Regression and Classification]()
 - M.Sc. in Probability & Statistics, [Nankai University](http://english.nankai.edu.cn/), 2009-2012  
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor
 - B.Sc. in Statistics, [Beijing Normal University](http://english.bnu.edu.cn/), 2005-2009  
