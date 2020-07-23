@@ -53,7 +53,7 @@ _Journal of Statistical Planning and Inference_ 148: 95-100.
 _Atmospheric Environment_ 61: 409-418.  
 [doi:10.1016/j.atmosenv.2012.07.029](http://dx.doi.org/10.1016/j.atmosenv.2012.07.029)
 
-### ORAL PRESENTATIONS
+### ORAL PRESENTATION
 
 - "Functional continuum regression", ICSA Canada 2019, Aug 09, 2019
 - "An optimum criterion for factorial designs", SSC 2016, May 30, 2016 
