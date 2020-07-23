@@ -32,22 +32,22 @@ Advisor: [Feng-yu Wang](http://www.swansea.ac.uk/staff/science/maths/f.y.wang/),
 # RESEARCH
 
 ### PUBLICATION
-- **Zhou, Z.** (2020). Partial least squares for function-on-function regression via Krylov subspaces.  
+- **Zhou, Z.** (2020). Partial least squares for function-on-function regression via Krylov subspaces.
 [arXiv:2005.04798](https://arxiv.org/abs/2005.04798)  
 `R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
-- **Zhou, Z.**, & R. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.  
+- **Zhou, Z.**, & R. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542)  
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS)
 - **Zhou, Z.** (2019). Functional continuum regression.
-_Journal of Multivariate Analysis_ 173: 328-346.  
+_Journal of Multivariate Analysis_ 173: 328-346.
 [doi:10.1016/j.jmva.2019.03.006](https://dx.doi.org/10.1016/j.jmva.2019.03.006)  
 `R` [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression)
 - **Zhou, Z.**, & R. Zhang (2014). A generalized general minimum lower order confounding criterion for nonregular designs.
-_Journal of Statistical Planning and Inference_ 148: 95-100.  
+_Journal of Statistical Planning and Inference_ 148: 95-100.
 [doi:10.1016/j.jspi.2013.12.003](https://dx.doi.org/10.1016/j.jspi.2013.12.003)  
 `R` [github.com/ZhiyangGeeZhou/G-GMC](https://github.com/ZhiyangGeeZhou/G-GMC)
 - Wang, W., D. Gong, **Z. Zhou**, & Y. Guo (2012). Robustness of the aerosol weekly cycle over Southeastern China.
-_Atmospheric Environment_ 61: 409-418.  
+_Atmospheric Environment_ 61: 409-418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029)
 
 ### ORAL PRESENTATION
