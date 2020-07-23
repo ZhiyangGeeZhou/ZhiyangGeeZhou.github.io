@@ -24,6 +24,7 @@ Canada V5A 1S6
 
 - Ph.D. Candidate in Statistics, [Simon Fraser University](http://www.sfu.ca/), 2015-2020  
 Supervisor: [Richard Lockhart](http://people.stat.sfu.ca/~lockhart/), Professor, Fellow of the Royal Society of Canada
+PhD dissertation: [Supervised Basis Functions Applied to Functional Regression and Classification]()
 - M.Sc. in Probability & Statistics, [Nankai University](http://english.nankai.edu.cn/), 2009-2012  
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor
 - B.Sc. in Statistics, [Beijing Normal University](http://english.bnu.edu.cn/), 2005-2009  
@@ -63,7 +64,7 @@ _Atmospheric Environment_ 61: 409-418.
 
 - [STAT 450 Statistical Theory](http://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), Fall 2019
 
-### TUTORS
+### TUTOR
 
 - [STAT 475/675 Applied Discrete Data Analysis](http://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
 Spring 2020  
@@ -81,8 +82,11 @@ Instructed by Prof. [Steve Thompson](http://www.stat.sfu.ca/%7Ethompson/)
 Fall 2016  
 Instructed by Prof. [Liangliang Wang](http://people.stat.sfu.ca/~lwa68/)
 
-### MARKERS
+### MARKER
 
+- [STAT 302 Analysis of Experimental and Observational Data](http://www.sfu.ca/outlines.html?2020/summer/stat/302/d100), 
+Summer 2020  
+Instructed by Prof. [Tim Swartz](http://people.stat.sfu.ca/~tim/)
 - [STAT 302 Analysis of Experimental and Observational Data](http://www.sfu.ca/outlines.html?2017/spring/stat/302/d100), 
 Spring 2017  
 Instructed by Prof. [Brad McNeney](http://people.stat.sfu.ca/~mcneney/)
@@ -94,12 +98,12 @@ Instructed by Prof. [Thomas Loughin](http://people.stat.sfu.ca/~tloughin/STATPAG
 
 ### SERVICE
 
-- Reviewer
+- Journal Reviewer
     - [_Computational Statistics_](https://www.springer.com/journal/180)
     - [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/)
     - [_Statistics & Probability Letters_](http://www.journals.elsevier.com/statistics-and-probability-letters/)
     
-### MEMBERSHIPS
+### MEMBERSHIP
 
 - American Statistical Association (ASA)
 - International Chinese Statistical Association (ICSA)
