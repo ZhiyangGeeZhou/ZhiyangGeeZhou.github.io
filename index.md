@@ -8,9 +8,8 @@ Zhou, Zhiyang (Gee)
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.mendeley.com/profiles/zhiyang-zhou/" title="Mendeley"><i class="fab fa-mendeley fa-lg" aria-hidden="true"></i></a>  
 Email: zhiyang.zhou (at) northwestern (dot) edu  
-Suite 1400  
-680 N Lake Shore Drive  
-Chicago, IL 60611
+[Feinberg School of Medicine](https://www.feinberg.northwestern.edu/) 
+Northwestern University
 
 # INTEREST
 
@@ -56,8 +55,9 @@ _Atmospheric Environment_ 61: 409-418.
 
 ### ORAL PRESENTATION
 
+- "Partial least squares for sparsely observed curves with measurement errors", JSM 2020, Aug 06, 2020
 - "Functional continuum regression", ICSA Canada 2019, Aug 09, 2019
-- "An optimum criterion for factorial designs", SSC 2016, May 30, 2016 
+- "An optimum criterion for factorial designs", SSC 2016, May 30, 2016
 
 # TEACHING
 
