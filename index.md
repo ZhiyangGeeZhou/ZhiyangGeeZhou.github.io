@@ -1,6 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>
 
-Zhou, Zhiyang (Gee)
+Zhiyang (Gee) ZHOU, PhD
 <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
 <a href="https://www.sfu.ca/~zza115/" title="Home Page"><i class="fas fa-house-user fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
@@ -9,7 +9,7 @@ Zhou, Zhiyang (Gee)
 <a href="https://www.mendeley.com/profiles/zhiyang-zhou/" title="Mendeley"><i class="fab fa-mendeley fa-lg" aria-hidden="true"></i></a>  
 Email: zhiyang.zhou (at) northwestern (dot) edu  
 [Feinberg School of Medicine](https://www.feinberg.northwestern.edu/) 
-Northwestern University
+[Northwestern University](https://www.northwestern.edu/)
 
 # INTEREST
 
