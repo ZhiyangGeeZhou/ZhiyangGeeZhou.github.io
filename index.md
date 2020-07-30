@@ -11,11 +11,12 @@ zhiyang.zhou (at) northwestern (dot) edu
 [Feinberg School of Medicine](https://www.feinberg.northwestern.edu/)  
 [Northwestern University](https://www.northwestern.edu/)
 
-# INTEREST
+# HOBBY
 
-- Functional data analysis
-- Design of experiments
-- Topological data analysis
+- Wall climbing
+- Jogging
+- Tennis
+- Badminton
 
 # WORKING
 
@@ -32,6 +33,12 @@ Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor
 Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/), Professor
 
 # RESEARCH
+
+### INTEREST
+
+- Functional data analysis
+- Design of experiments
+- Topological data analysis
 
 ### PUBLICATION
 
