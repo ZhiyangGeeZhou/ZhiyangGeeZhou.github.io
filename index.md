@@ -19,7 +19,7 @@ Email: zhiyang.zhou (at) northwestern (dot) edu
 
 # WORKING
 
-- Postdoctoral Fellow, [Northwestern University](https://www.northwestern.edu/), United States, 2020-
+- Postdoctoral fellow, [Northwestern University](https://www.northwestern.edu/), United States, 2020-
 
 # EDUCATION
 
