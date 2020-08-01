@@ -106,7 +106,7 @@ Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.
 
 ### SERVICE
 
-- Reviewer: 
+- Journal referee: 
 [_Computational Statistics_](https://www.springer.com/journal/180), 
 [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/),
 [_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/)
