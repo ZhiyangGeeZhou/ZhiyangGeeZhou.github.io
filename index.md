@@ -8,7 +8,7 @@ Zhiyang (Gee) ZHOU, Ph.D.
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.mendeley.com/profiles/zhiyang-zhou/" title="Mendeley"><i class="fab fa-mendeley fa-lg" aria-hidden="true"></i></a>  
 zhiyang.zhou (at) northwestern (dot) edu  
-[Department of Preventive Medicine](https://www.preventivemedicine.northwestern.edu/)
+[Department of Preventive Medicine](https://www.preventivemedicine.northwestern.edu/)  
 [Feinberg School of Medicine](https://www.feinberg.northwestern.edu/)  
 [Northwestern University](https://www.northwestern.edu/)
 
