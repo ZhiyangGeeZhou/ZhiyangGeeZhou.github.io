@@ -1,6 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>
 
-Zhiyang (Gee) ZHOU, Ph.D.
+Zhiyang (Gee) ZHOU, PhD
 <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
 <!--- <a href="https://www.sfu.ca/~zza115/" title="Home Page"><i class="fas fa-house-user fa-lg" aria-hidden="true"></i></a> -->
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
@@ -110,6 +110,7 @@ Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.
 - Journal referee: 
 [_Computational Statistics_](https://www.springer.com/journal/180), 
 [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/),
+[_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems),
 [_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/)
     
 ### MEMBERSHIP
