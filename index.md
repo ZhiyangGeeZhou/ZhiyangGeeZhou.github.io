@@ -1,6 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>
 
-Zhiyang (Gee) ZHOU, PhD
+Zhiyang (Gee) Zhou, PhD
 <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
 <!--- <a href="https://www.sfu.ca/~zza115/" title="Home Page"><i class="fas fa-house-user fa-lg" aria-hidden="true"></i></a> -->
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
@@ -49,7 +49,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 - **Zhou, Z.**, & R. A. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542)  
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS)
-- **Zhou, Z.**, & Peijun Sang (2019). Continuum centroid classifier for functional data.  
+- **Zhou, Z.**, & P. Sang (2019). Continuum centroid classifier for functional data.  
 `R` 
 - **Zhou, Z.** (2019). Functional continuum regression.
 _Journal of Multivariate Analysis_ 173: 328-346.
