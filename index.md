@@ -49,7 +49,8 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 - **Zhou, Z.**, & R. A. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542)  
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS)
-- **Zhou, Z.**, & P. Sang (2019). Continuum centroid classifier for functional data.  
+- **Zhou, Z.**, & P. Sang (2019). Continuum centroid classifier for functional data.
+Revision submitted to _Canadian Journal of Statistics_.  
 `R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC)
 - **Zhou, Z.** (2019). Functional continuum regression.
 _Journal of Multivariate Analysis_ 173: 328-346.
