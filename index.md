@@ -96,13 +96,13 @@ Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)
 ### MARKER
 
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100), 
-Summer 2020  
+2020 Summer  
 Instructed by Prof. [Tim Swartz](https://www.stat.sfu.ca/~tim/)
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2017/spring/stat/302/d100), 
-Spring 2017  
+2017 Spring  
 Instructed by Prof. [Brad McNeney](https://www.stat.sfu.ca/~mcneney/)
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2016/spring/stat/475/d100),
-Spring 2016  
+2016 Spring  
 Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)
 
 # MISCELLANEA
