@@ -21,7 +21,8 @@ zhiyang.zhou (at) northwestern (dot) edu
 
 # WORKING
 
-- Postdoctoral fellow, [Northwestern University](https://www.northwestern.edu/), United States, 2020-
+- Postdoctoral fellow, [Northwestern University](https://www.northwestern.edu/), United States, 2020-  
+Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao), Associate Professor
 
 # EDUCATION
 
