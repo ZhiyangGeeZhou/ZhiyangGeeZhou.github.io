@@ -73,24 +73,24 @@ _Atmospheric Environment_ 61: 409-418.
 
 ### INSTRUCTOR
 
-- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), Fall 2019
+- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall
 
 ### TUTOR
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
-Spring 2020  
+2020 Spring  
 Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)
 - [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100),
-Spring 2019  
+2019 Spring  
 Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100),
-Spring 2018  
+2018 Spring  
 Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)
 - [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100),
-Spring 2017  
+2017 Spring  
 Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)
 - [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100),
-Fall 2016  
+2016 Fall  
 Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)
 
 ### MARKER
