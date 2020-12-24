@@ -38,9 +38,9 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### INTEREST
 
+- Dynamic risk prediction
 - Functional data analysis
 - Design of experiments
-- Topological data analysis
 
 ### PUBLICATION
 
