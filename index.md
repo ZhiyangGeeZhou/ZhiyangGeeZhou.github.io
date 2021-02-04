@@ -117,6 +117,7 @@ Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.
 [_Journal of Computational and Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current)  
 [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/)  
 [_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems)  
+[_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258)  
 [_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/)
     
 ### MEMBERSHIP
