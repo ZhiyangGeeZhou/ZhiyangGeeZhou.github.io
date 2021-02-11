@@ -41,6 +41,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 - Dynamic risk prediction
 - Functional data analysis
+- Neural network
 - Design of experiments
 
 ### PUBLICATION
