@@ -28,7 +28,7 @@ Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-
 # EDUCATION
 
 - Ph.D. in Statistics, [Simon Fraser University](https://www.sfu.ca/), Canada, 2015-2020  
-Supervisor: [Richard Lockhart](https://www.stat.sfu.ca/~lockhart/), Professor, Fellow of the Royal Society of Canada  
+Supervisor: [Richard A. Lockhart](https://www.stat.sfu.ca/~lockhart/), Professor, Fellow of the Royal Society of Canada  
 Thesis: [Supervised Basis Functions Applied to Functional Regression and Classification](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/blob/master/ZhiyangZhouSummer2020.pdf)
 - M.Sc. in Probability & Statistics, [Nankai University](https://en.nankai.edu.cn/), China, 2009-2012  
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor
@@ -115,7 +115,7 @@ Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.
 
 - Journal referee   
 [_Computational Statistics_](https://www.springer.com/journal/180)  
-[_Journal of Computational and Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current)  
+[_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current)  
 [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/)  
 [_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems)  
 [_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258)  
