@@ -54,7 +54,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS)
 - **Zhou, Z.**, & P. Sang (2019). Continuum centroid classifier for functional data.
 _Canadian Journal of Statistics_, to appear.
-[doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624) 
+[doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624)
 [arXiv:2102.06130](https://arxiv.org/abs/2102.06130)  
 `R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC)
 - **Zhou, Z.** (2019). Functional continuum regression.
