@@ -47,6 +47,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 ### PUBLICATION
 
 - **Zhou, Z.** (2020). Fast implementation of partial least squares for function-on-function regression.
+_Journal of Multivariate Analysis_, accepted.
 [arXiv:2005.04798](https://arxiv.org/abs/2005.04798)  
 `R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
 - **Zhou, Z.**, & R. A. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
@@ -54,8 +55,8 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS)
 - **Zhou, Z.**, & P. Sang (2019). Continuum centroid classifier for functional data.
 _Canadian Journal of Statistics_, to appear.
-[doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624)
-[arXiv:2102.06130](https://arxiv.org/abs/2102.06130)  
+[arXiv:2102.06130](https://arxiv.org/abs/2102.06130)
+[doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624)  
 `R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC)
 - **Zhou, Z.** (2019). Functional continuum regression.
 _Journal of Multivariate Analysis_ 173: 328-346.
