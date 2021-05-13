@@ -47,8 +47,8 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 ### PUBLICATION
 
 - **Zhou, Z.** (2020). Fast implementation of partial least squares for function-on-function regression.
-_Journal of Multivariate Analysis_, accepted.
-[arXiv:2005.04798](https://arxiv.org/abs/2005.04798)  
+_Journal of Multivariate Analysis_, to appear.
+[doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769)   
 `R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
 - **Zhou, Z.** & R. A. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542)  
