@@ -21,7 +21,7 @@ zhiyang.zhou (at) northwestern (dot) edu
 
 # EMPLOYMENT
 
-- Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/), United States, 2020-  
+- Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/), United States, 2020-2021  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao), Associate Professor
 - Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/), Canada, 2019  
 
