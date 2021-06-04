@@ -39,10 +39,10 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### INTEREST
 
-- Functional/longitudinal data analysis
 - Deep neural network
-- Design of experiments
+- Functional/longitudinal data analysis
 - Survival analysis
+- Design of experiments
 
 ### PUBLICATION
 
