@@ -39,10 +39,10 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### INTEREST
 
-- Dynamic risk prediction (longitudinal data analysis + survival analysis)
-- Functional data analysis
+- Functional/longitudinal data analysis
 - Deep neural network
 - Design of experiments
+- Survival analysis
 
 ### PUBLICATION
 
