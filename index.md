@@ -125,7 +125,8 @@ Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.
 [_Mathematical Modelling and Analysis_](https://journals.vgtu.lt/index.php/MMA)  
 [_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258)  
 [_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/)
-    
+[_Trials_](https://trialsjournal.biomedcentral.com/)
+
 ### MEMBERSHIP
 
 - American Statistical Association (ASA)
