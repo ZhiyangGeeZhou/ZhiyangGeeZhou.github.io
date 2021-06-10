@@ -119,12 +119,12 @@ Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.
 - Journal reviewer   
 [_Biostatistics & Epidemiology_](https://www.tandfonline.com/toc/tbep20/current),
 [_Computational Statistics_](https://www.springer.com/journal/180),
-[_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current), 
-[_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/), 
-[_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems), 
-[_Mathematical Modelling and Analysis_](https://journals.vgtu.lt/index.php/MMA)  
-[_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258)  
-[_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/)  
+[_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current),
+[_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/),
+[_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems),
+[_Mathematical Modelling and Analysis_](https://journals.vgtu.lt/index.php/MMA),
+[_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258),
+[_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/),
 [_Trials_](https://trialsjournal.biomedcentral.com/)
 
 ### MEMBERSHIP
