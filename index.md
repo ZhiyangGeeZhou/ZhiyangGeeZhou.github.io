@@ -1,6 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>
 
-Zhiyang (Gee) Zhou, PhD
+Zhiyang Zhou, PhD
 <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>
 <!--- <a href="https://www.sfu.ca/~zza115/" title="Home Page"><i class="fas fa-house-user fa-lg" aria-hidden="true"></i></a> -->
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
@@ -8,9 +8,8 @@ Zhiyang (Gee) Zhou, PhD
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
 <a href="https://publons.com/researcher/4245722/zhiyang-zhou/" title="Publons"><i class="fab fa-product-hunt fa-lg" aria-hidden="true"></i></a>  
 zhiyang.zhou (at) northwestern (dot) edu  
-[Department of Preventive Medicine](https://www.preventivemedicine.northwestern.edu/)  
-[Feinberg School of Medicine](https://www.feinberg.northwestern.edu/)  
-[Northwestern University](https://www.northwestern.edu/)
+[Department of Statistics](https://sci.umanitoba.ca/statistics/)  
+[University of Manitoba](https://umanitoba.ca/)
 
 # HOBBY
 
@@ -21,6 +20,7 @@ zhiyang.zhou (at) northwestern (dot) edu
 
 # EMPLOYMENT
 
+- Assistant Professor in Statistics, [University of Manitoba](https://umanitoba.ca/), Canada, 2021-
 - Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/), United States, 2020-2021  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao), Associate Professor
 - Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/), Canada, 2019  
@@ -44,16 +44,19 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 - Survival analysis
 - Design of experiments
 
-### PUBLICATION
+### SUBMISSION
 
-- **Zhou, Z.** (2021). Fast implementation of partial least squares for function-on-function regression.
-_Journal of Multivariate Analysis_, in press.
-[doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769)   
-`R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
 - **Zhou, Z.** & R. A. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542)  
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS)
-- **Zhou, Z.** & P. Sang (2019). Continuum centroid classifier for functional data.
+
+### PEER-REVIEWED
+
+- **Zhou, Z.** (2021). Fast implementation of partial least squares for function-on-function regression.
+_Journal of Multivariate Analysis_, 185: 104769.
+[doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769)   
+`R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
+- **Zhou, Z.** & P. Sang (2021). Continuum centroid classifier for functional data.
 _Canadian Journal of Statistics_, in press.
 [arXiv:2102.06130](https://arxiv.org/abs/2102.06130)
 [doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624)  
@@ -78,6 +81,10 @@ _Atmospheric Environment_ 61: 409-418.
 - "An optimum criterion for factorial designs", SSC 2016, May 30, 2016
 
 # TEACHING
+
+## @Univerisity of Manitoba
+
+### INSTRUCTOR
 
 ## @SIMON FRASER UNIVERSITY
 
@@ -119,9 +126,10 @@ Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.
 
 ### SERVICE
 
-- Journal reviewer   
+- Reviewer   
 [_Biostatistics & Epidemiology_](https://www.tandfonline.com/toc/tbep20/current),
 [_Computational Statistics_](https://www.springer.com/journal/180),
+[_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/),
 [_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current),
 [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/),
 [_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems),
