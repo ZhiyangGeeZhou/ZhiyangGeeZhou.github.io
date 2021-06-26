@@ -82,18 +82,6 @@ _Atmospheric Environment_ 61: 409-418.
 
 # TEACHING
 
-### MARKER @SIMON FRASER UNIVERSITY
-
-- [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100), 
-2020 Summer  
-Instructed by Prof. [Tim Swartz](https://www.stat.sfu.ca/~tim/)
-- [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2017/spring/stat/302/d100), 
-2017 Spring  
-Instructed by Prof. [Brad McNeney](https://www.stat.sfu.ca/~mcneney/)
-- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2016/spring/stat/475/d100),
-2016 Spring  
-Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)
-
 # MISCELLANEA
 
 ### SERVICE
@@ -144,3 +132,15 @@ Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)
 - [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100),
 2016 Fall  
 Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)
+
+### MARKER @SIMON FRASER UNIVERSITY
+
+- [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100), 
+2020 Summer  
+Instructed by Prof. [Tim Swartz](https://www.stat.sfu.ca/~tim/)
+- [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2017/spring/stat/302/d100), 
+2017 Spring  
+Instructed by Prof. [Brad McNeney](https://www.stat.sfu.ca/~mcneney/)
+- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2016/spring/stat/475/d100),
+2016 Spring  
+Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)
