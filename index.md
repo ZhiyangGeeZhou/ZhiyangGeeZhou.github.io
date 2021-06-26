@@ -21,7 +21,7 @@ zhiyang.zhou (at) northwestern (dot) edu
 # EMPLOYMENT
 
 - Assistant Professor in Statistics, [University of Manitoba](https://umanitoba.ca/), Canada, 2021-
-- Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/), United States, 2020-2021  
+- Postdoctoral Trainee,[Dept. of Preventive Medicine](https://www.preventivemedicine.northwestern.edu/) [Northwestern University](https://www.northwestern.edu/) [Feinberg School of Medicine](https://www.feinberg.northwestern.edu/), United States, 2020-2021  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao), Associate Professor
 - Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/), Canada, 2019  
 
