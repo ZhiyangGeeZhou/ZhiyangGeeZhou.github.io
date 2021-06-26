@@ -121,7 +121,7 @@ Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.
 </head> 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/svg-with-js.css">
 
-# ARCHIVE
+# ARCHIVED
 
 ### INSTRUCTOR @SIMON FRASER UNIVERSITY
 
