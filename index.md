@@ -8,8 +8,9 @@ Zhiyang Zhou, PhD
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
 <a href="https://publons.com/researcher/4245722/zhiyang-zhou/" title="Publons"><i class="fab fa-product-hunt fa-lg" aria-hidden="true"></i></a>  
 zhiyang.zhou (at) northwestern (dot) edu  
-[Department of Statistics](https://sci.umanitoba.ca/statistics/)  
-[University of Manitoba](https://umanitoba.ca/)
+[Department of Preventive Medicine](https://www.preventivemedicine.northwestern.edu/)  
+[Feinberg School of Medicine](https://www.feinberg.northwestern.edu/)  
+[Northwestern University](https://www.northwestern.edu/)
 
 # HOBBY
 
@@ -20,8 +21,7 @@ zhiyang.zhou (at) northwestern (dot) edu
 
 # EMPLOYMENT
 
-- Assistant Professor in Statistics, [University of Manitoba](https://umanitoba.ca/), Canada, 2021-
-- Postdoctoral Trainee,[Dept. of Preventive Medicine](https://www.preventivemedicine.northwestern.edu/) [Northwestern University](https://www.northwestern.edu/) [Feinberg School of Medicine](https://www.feinberg.northwestern.edu/), United States, 2020-2021  
+- Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/), United States, 2020-2021  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao), Associate Professor
 - Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/), Canada, 2019  
 
@@ -82,35 +82,7 @@ _Atmospheric Environment_ 61: 409-418.
 
 # TEACHING
 
-## @Univerisity of Manitoba
-
-### INSTRUCTOR
-
-## @SIMON FRASER UNIVERSITY
-
-### INSTRUCTOR
-
-- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall
-
-### TUTOR
-
-- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
-2020 Spring  
-Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)
-- [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100),
-2019 Spring  
-Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)
-- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100),
-2018 Spring  
-Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)
-- [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100),
-2017 Spring  
-Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)
-- [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100),
-2016 Fall  
-Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)
-
-### MARKER
+### MARKER @SIMON FRASER UNIVERSITY
 
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100), 
 2020 Summer  
@@ -148,3 +120,27 @@ Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-add-css="false"></script>
 </head> 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/svg-with-js.css">
+
+# ARCHIVE
+
+### INSTRUCTOR @SIMON FRASER UNIVERSITY
+
+- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall
+
+### TUTOR @SIMON FRASER UNIVERSITY
+
+- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
+2020 Spring  
+Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)
+- [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100),
+2019 Spring  
+Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)
+- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100),
+2018 Spring  
+Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)
+- [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100),
+2017 Spring  
+Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)
+- [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100),
+2016 Fall  
+Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)
