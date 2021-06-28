@@ -117,7 +117,7 @@ _Atmospheric Environment_ 61:409-418.
 
 # ARCHIVED
 
-### INSTRUCTOR @SIMON FRASER UNIV
+### INSTRUCTOR @SIMON FRASER U
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall
 
