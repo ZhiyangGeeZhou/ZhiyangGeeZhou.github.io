@@ -75,6 +75,7 @@ _Atmospheric Environment_ 61:409-418.
 
 ### ORAL PRESENTATION
 
+- 2021 NIC-ASA & ICSA Midwest Virtual Joint Fall Meeting, Oct, 2021
 - ICSA 2021 Applied Statistics Symposium, Sep 13, 2021
 - "Partial least squares for sparsely observed curves with measurement errors", JSM 2020, Aug 06, 2020
 - "Functional continuum regression", ICSA Canada 2019, Aug 09, 2019
