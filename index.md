@@ -46,26 +46,26 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### SUBMISSION
 
-- **Zhou, Z.** & R. A. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
+- **Z. Zhou** & R. A. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542)  
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS)
 
 ### PEER-REVIEWED
 
-- **Zhou, Z.** (2021). Fast implementation of partial least squares for function-on-function regression.
+- **Z. Zhou** (2021). Fast implementation of partial least squares for function-on-function regression.
 _Journal of Multivariate Analysis_, 185:104769.
 [doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769)   
 `R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
-- **Zhou, Z.** & P. Sang (2021). Continuum centroid classifier for functional data.
+- **Z. Zhou**, & P. Sang (2021). Continuum centroid classifier for functional data.
 _Canadian Journal of Statistics_, in press.
 [arXiv:2102.06130](https://arxiv.org/abs/2102.06130)
 [doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624)  
 `R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC)
-- **Zhou, Z.** (2019). Functional continuum regression.
+- **Z. Zhou** (2019). Functional continuum regression.
 _Journal of Multivariate Analysis_ 173:328-346.
 [doi:10.1016/j.jmva.2019.03.006](https://dx.doi.org/10.1016/j.jmva.2019.03.006)  
 `R` [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression)
-- **Zhou, Z.** & R. Zhang (2014). A generalized general minimum lower order confounding criterion for nonregular designs.
+- **Z. Zhou**, & R. Zhang (2014). A generalized general minimum lower order confounding criterion for nonregular designs.
 _Journal of Statistical Planning and Inference_ 148:95-100.
 [doi:10.1016/j.jspi.2013.12.003](https://dx.doi.org/10.1016/j.jspi.2013.12.003)  
 `R` [github.com/ZhiyangGeeZhou/G-GMC](https://github.com/ZhiyangGeeZhou/G-GMC)
