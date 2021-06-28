@@ -80,6 +80,11 @@ _Atmospheric Environment_ 61:409-418.
 - "Functional continuum regression", ICSA Canada 2019, Aug 09, 2019
 - "An optimum criterion for factorial designs", SSC 2016, May 30, 2016
 
+# TEACHING
+
+- [STAT 3690 Multivariate Analysis](https://sci.umanitoba.ca/statistics/courses-and-programs/outlines/course-outlines-by-course/outlines-stat-3690/),
+2022 Winter 
+
 # MISCELLANEA
 
 ### SERVICE
