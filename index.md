@@ -46,7 +46,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### SUBMISSION
 
-- **Z. Zhou** & R. A. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
+- **Z. Zhou**, & R. A. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542)  
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS)
 
