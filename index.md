@@ -83,7 +83,7 @@ _Atmospheric Environment_ 61:409-418.
 
 # TEACHING
 
-### @UNIVERSITY OF MANITOBA
+### @U MANITOBA
 
 - [STAT 3690 Multivariate Analysis](https://sci.umanitoba.ca/statistics/courses-and-programs/outlines/course-outlines-by-course/outlines-stat-3690/),
 2022 Winter 
@@ -117,11 +117,11 @@ _Atmospheric Environment_ 61:409-418.
 
 # ARCHIVED
 
-### INSTRUCTOR @SIMON FRASER UNIVERSITY
+### INSTRUCTOR @SIMON FRASER UNIV
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall
 
-### TUTOR @SIMON FRASER UNIVERSITY
+### TUTOR @SIMON FRASER U
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
 2020 Spring  
