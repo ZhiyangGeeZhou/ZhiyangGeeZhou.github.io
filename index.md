@@ -139,7 +139,7 @@ Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)
 2016 Fall  
 Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)
 
-### MARKER @SIMON FRASER UNIVERSITY
+### MARKER @SIMON FRASER U
 
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100), 
 2020 Summer  
