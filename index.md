@@ -44,7 +44,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 - Survival analysis
 - Design of experiments
 
-### SUBMISSION
+### PREPRINT
 
 - **Z. Zhou**, & R. A. Lockhart (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542)  
