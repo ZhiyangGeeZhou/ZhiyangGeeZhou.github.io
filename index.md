@@ -75,11 +75,11 @@ _Atmospheric Environment_ 61:409-418.
 
 ### PRESENTATION
 
-- 2021 NIC-ASA & ICSA Midwest Virtual Joint Fall Meeting, 2021-10-22
-- ICSA 2021 Applied Statistics Symposium, 2021-09-13
-- "Partial least squares for sparsely observed curves with measurement errors", JSM 2020, 2020-08-06
-- "Functional continuum regression", ICSA Canada 2019, 2019-08-09
-- "An optimum criterion for factorial designs", SSC 2016, 2016-05-30
+- 2021-10-22, NIC-ASA & ICSA Midwest Virtual Joint Fall Meeting
+- 2021-09-13, ICSA Applied Statistics Symposium
+- 2020-08-06, "Partial least squares for sparsely observed curves with measurement errors", JSM
+- 2019-08-09, "Functional continuum regression", ICSA Canada
+- 2016-05-30, "An optimum criterion for factorial designs", SSC Annual Meeting
 
 # TEACHING
 
