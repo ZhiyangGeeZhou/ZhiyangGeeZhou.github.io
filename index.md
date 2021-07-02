@@ -94,6 +94,7 @@ _Atmospheric Environment_ 61:409-418.
 
 - Reviewer   
 [_Biostatistics & Epidemiology_](https://www.tandfonline.com/toc/tbep20/current),
+[_Biometrics_](https://onlinelibrary.wiley.com/journal/15410420),
 [_Computational Statistics_](https://www.springer.com/journal/180),
 [_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/),
 [_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current),
