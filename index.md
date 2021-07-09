@@ -42,7 +42,6 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 - Deep neural network/deep learning
 - Functional/longitudinal data analysis
 - Survival analysis
-- Joint modeling of survival and longitudinal data analysis
 - Design of experiments
 
 ### PREPRINT
