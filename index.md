@@ -1,3 +1,8 @@
+<head> 
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-add-css="false"></script>
+</head> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/svg-with-js.css">
+
 <img align="right" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>
 
 Zhiyang Zhou, PhD
@@ -103,17 +108,6 @@ _Atmospheric Environment_ 61:409-418.
 [_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258),
 [_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/),
 [_Trials_](https://trialsjournal.biomedcentral.com/)
-
-### MEMBERSHIP
-
-- American Statistical Association (ASA)
-- International Chinese Statistical Association (ICSA)
-- Statistical Society of Canada (SSC)
-
-<head> 
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-add-css="false"></script>
-</head> 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/svg-with-js.css">
 
 # ARCHIVED
 
