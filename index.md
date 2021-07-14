@@ -58,7 +58,6 @@ _Journal of Multivariate Analysis_, 185:104769.
 `R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
 - **Z. Zhou**, & P. Sang (2021). Continuum centroid classifier for functional data.
 _Canadian Journal of Statistics_, in press.
-[arXiv:2102.06130](https://arxiv.org/abs/2102.06130)
 [doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624)  
 `R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC)
 - **Z. Zhou** (2019). Functional continuum regression.
@@ -83,7 +82,7 @@ _Atmospheric Environment_ 61:409-418.
 
 # TEACHING
 
-### @U MANITOBA
+### INSTRUCTOR @U MANITOBA
 
 - [STAT 3690 Multivariate Analysis](https://sci.umanitoba.ca/statistics/courses-and-programs/outlines/course-outlines-by-course/outlines-stat-3690/),
 2022 Winter 
