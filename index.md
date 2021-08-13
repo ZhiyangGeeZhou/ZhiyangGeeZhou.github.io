@@ -12,7 +12,7 @@ Zhiyang Zhou, PhD
 <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate"><i class="fab fa-researchgate fa-lg" aria-hidden="true"></i></a>
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
 <a href="https://publons.com/researcher/4245722/zhiyang-zhou/" title="Publons"><i class="fab fa-product-hunt fa-lg" aria-hidden="true"></i></a>  
-zhiyang.zhou (at) umanitoba (dot) edu  
+zhiyang.zhou (at) umanitoba (dot) ca  
 [Department of Statistics](https://sci.umanitoba.ca/statistics/)  
 [University of Manitoba](https://umanitoba.ca/)
 
