@@ -113,11 +113,11 @@ _Atmospheric Environment_ 61:409-418.
 
 ### TEACHING ACTIVITIES  @SIMON FRASER U
 
-#### INSTRUCTOR @SIMON FRASER U
+#### INSTRUCTOR
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall
 
-#### TUTOR @SIMON FRASER U
+#### TUTOR
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
 2020 Spring  
@@ -135,7 +135,7 @@ Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)
 2016 Fall  
 Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)
 
-#### MARKER @SIMON FRASER U
+#### MARKER
 
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100), 
 2020 Summer  
