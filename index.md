@@ -57,6 +57,9 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### PEER-REVIEWED
 
+- Y. Zhao, Y. Wang, J. Liu, H. Xia, Z. Xu, Q. Hong, **Z. Zhou**, & L. Petzold (2021). Empirical quantitative analysis of COVID-19 forecasting models.
+_The 9th Workshop on Data Mining in Biomedical Informatics and Healthcare (DMBIH'21) In conjunction with IEEE International Conference on Data Mining (ICDM'21)_.
+[arXiv:2110.00174](https://arxiv.org/abs/2110.00174)  
 - **Z. Zhou** (2021). Fast implementation of partial least squares for function-on-function regression.
 _Journal of Multivariate Analysis_, 185:104769.
 [doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769)   
