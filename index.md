@@ -105,7 +105,7 @@ _Atmospheric Environment_ 61:409-418.
 [_Computational Statistics_](https://www.springer.com/journal/180),
 [_Canadian Journal of Statistics_](https://onlinelibrary.wiley.com/journal/1708945x),
 [_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/),
-[_IIE Transations_](https://www.tandfonline.com/toc/uiie20/current),
+[_IISE Transations_](https://www.tandfonline.com/action/journalInformation?journalCode=uiie21),
 [_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current),
 [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/),
 [_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems),
