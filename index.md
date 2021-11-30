@@ -15,6 +15,7 @@ Zhiyang Zhou, PhD
 zhiyang (dot) zhou (at) umanitoba (dot) ca  
 [Department of Statistics](https://sci.umanitoba.ca/statistics/)  
 [University of Manitoba](https://umanitoba.ca/)
+318 Machray Hall University of Manitoba, Winnipeg, MB R3T 2N2 Canada
 
 # HOBBY
 
