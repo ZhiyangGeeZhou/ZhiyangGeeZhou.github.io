@@ -18,7 +18,7 @@ zhiyang (dot) zhou (at) umanitoba (dot) ca
 
 # HOBBY
 
-- Wall climbing
+- Climbing
 - Jogging
 - Tennis
 - Badminton
