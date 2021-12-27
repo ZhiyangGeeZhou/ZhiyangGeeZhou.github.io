@@ -13,6 +13,7 @@ Zhiyang Zhou, PhD
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
 <a href="https://publons.com/researcher/4245722/zhiyang-zhou/" title="Publons"><i class="fab fa-product-hunt fa-lg" aria-hidden="true"></i></a>  
 zhiyang (dot) zhou (at) umanitoba (dot) ca  
+330 Machray Hall, University of Manitoba, Winnipeg, MB R3T 2N2 Canada  
 [Department of Statistics](https://sci.umanitoba.ca/statistics/)  
 [University of Manitoba](https://umanitoba.ca/)
 
@@ -90,7 +91,7 @@ _Atmospheric Environment_ 61:409-418.
 
 # TEACHING
 
-### INSTRUCTOR @U MANITOBA
+### @U MANITOBA
 
 - [STAT 3690 Multivariate Analysis](https://sci.umanitoba.ca/statistics/courses-and-programs/outlines/course-outlines-by-course/outlines-stat-3690/),
 2022 Winter 
