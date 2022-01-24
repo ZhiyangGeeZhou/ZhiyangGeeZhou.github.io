@@ -122,7 +122,8 @@ _Atmospheric Environment_ 61:409-418.
 
 #### INSTRUCTOR
 
-- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall
+- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall  
+Lecture notes: [01](attach/STAT3690_2022_Lec01Jan24.pdf)
 
 #### TUTOR
 
