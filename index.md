@@ -94,7 +94,7 @@ _Atmospheric Environment_ 61:409-418.
 
 ### @U MANITOBA
 
-- [STAT 3690 Multivariate Analysis](https://sci.umanitoba.ca/statistics/courses-and-programs/outlines/course-outlines-by-course/outlines-stat-3690/),
+- [STAT 3690 Multivariate Analysis](attach/SyllabusUofMSTAT3690Winter2022.pdf),
 2022 Winter  
 Lecture: [01](attach/STAT3690_2022_Lec01Jan24.pdf)
 
