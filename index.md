@@ -99,6 +99,7 @@ _Atmospheric Environment_ 61:409-418.
 Lecture: 
 [01](attach/STAT3690_2022_Lec01Jan24.pdf) 
 [02](attach/STAT3690_2022_Lec02Jan26.pdf)
+[03](attach/STAT3690_2022_Lec03Jan28.pdf)
 
 # MISCELLANEA
 
