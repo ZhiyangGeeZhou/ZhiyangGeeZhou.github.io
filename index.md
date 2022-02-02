@@ -101,6 +101,7 @@ Lecture:
 [02](attach/STAT3690_2022_Lec02Jan26.pdf)
 [03](attach/STAT3690_2022_Lec03Jan28.pdf)
 [04](attach/STAT3690_2022_Lec04Jan31.pdf)
+[05](attach/STAT3690_2022_Lec05Feb02.pdf)
 
 # MISCELLANEA
 
