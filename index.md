@@ -59,6 +59,10 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### PEER-REVIEWED
 
+- **Z. Zhou**, & P. Sang. (2022). Continuum centroid classifier for functional data.
+_Canadian Journal of Statistics_ 50:200-220.
+[doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624)  
+`R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC)
 - Y. Zhao, Y. Wang, J. Liu, H. Xia, Z. Xu, Q. Hong, **Z. Zhou**, & L. Petzold. (2021). Empirical quantitative analysis of COVID-19 forecasting models.
 Best Paper award of _the 9th Workshop on Data Mining in Biomedical Informatics and Healthcare (DMBIH'21) in conjunction with IEEE International Conference on Data Mining (ICDM'21)_.
 [arXiv:2110.00174](https://arxiv.org/abs/2110.00174)  
@@ -66,10 +70,6 @@ Best Paper award of _the 9th Workshop on Data Mining in Biomedical Informatics a
 _Journal of Multivariate Analysis_, 185:104769.
 [doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769)   
 `R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
-- **Z. Zhou**, & P. Sang. (2021). Continuum centroid classifier for functional data.
-_Canadian Journal of Statistics_, in press.
-[doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624)  
-`R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC)
 - **Z. Zhou**. (2019). Functional continuum regression.
 _Journal of Multivariate Analysis_ 173:328-346.
 [doi:10.1016/j.jmva.2019.03.006](https://dx.doi.org/10.1016/j.jmva.2019.03.006)  
@@ -109,6 +109,7 @@ _Atmospheric Environment_ 61:409-418.
   [10](attach/STAT3690_2022_Lec10Feb14.pdf)
   [11](attach/STAT3690_2022_Lec11Feb16.pdf)
   [12](attach/STAT3690_2022_Lec12Feb18.pdf)
+  [13](attach/STAT3690_2022_Lec13Feb28.pdf)
   - Assignments:
   [01](attach/STAT3690_W2022_HW1Feb28Due.pdf)
 
