@@ -114,6 +114,7 @@ _Atmospheric Environment_ 61:409-418.
   [15](attach/STAT3690_2022_Lec15Mar04.pdf)
   - Assignments:
   [01](attach/STAT3690_W2022_HW1Feb28Due.pdf)
+  [02](attach/STAT3690_W2022_HW2Mar16Due.pdf)
 
 # MISCELLANEA
 
