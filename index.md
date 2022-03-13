@@ -115,6 +115,8 @@ _Atmospheric Environment_ 61:409-418.
   [16](attach/STAT3690_2022_Lec16Mar07.pdf)
   [17](attach/STAT3690_2022_Lec17Mar09.pdf)
   [18](attach/STAT3690_2022_Lec18Mar11.pdf)
+  [19](attach/STAT3690_2022_Lec19Mar14.pdf)
+  [20](attach/STAT3690_2022_Lec20Mar16.pdf)
   - Assignments:
   [01](attach/STAT3690_W2022_HW1Feb28Due.pdf)
   [02](attach/STAT3690_W2022_HW2Mar16Due.pdf)
