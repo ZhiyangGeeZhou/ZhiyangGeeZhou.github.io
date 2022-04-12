@@ -90,10 +90,10 @@ _Atmospheric Environment_ 61:409-418.
 - 09/Aug/2019, "Functional continuum regression", ICSA Canada Chapter Symposium
 - 30/May/2016, "An optimum criterion for factorial designs", SSC Annual Meeting
 
-### GRANTS
+### FUNDING
 
-- 01/Apr/2022-31/Mar/2027, Principal Investigator, NSERC Discovery Grant (with Discovery Launch Supplement)
-- 02/Sep/2021-01/Sep/2027, Principal Investigator, University of Manitoba Research Startup Fund
+- Principal Investigator, NSERC Discovery Grant (with Discovery Launch Supplement, 01/Apr/2022-31/Mar/2027)
+- Principal Investigator, University of Manitoba Research Startup Fund (02/Sep/2021-01/Sep/2027)
 
 # TEACHING
 
