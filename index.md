@@ -92,7 +92,7 @@ _Atmospheric Environment_ 61:409-418.
 
 ### FUNDING
 
-- Principal Investigator, NSERC Discovery Grant (with Discovery Launch Supplement, 01/Apr/2022-31/Mar/2027)
+- Principal Investigator, NSERC Discovery Grant (with the Discovery Launch Supplement, 01/Apr/2022-31/Mar/2027)
 - Principal Investigator, University of Manitoba Research Startup Fund (02/Sep/2021-01/Sep/2027)
 
 # TEACHING
@@ -132,11 +132,12 @@ _Atmospheric Environment_ 61:409-418.
   [28](attach/STAT3690_2022_Lec28Apr06.pdf)
   [29](attach/STAT3690_2022_Lec29Apr08.pdf)
   [30](attach/STAT3690_2022_Lec30Apr11.pdf)
+  [31](attach/STAT3690_2022_Lec31Apr13.pdf)
   - Assignments (with solution):
   [01](attach/STAT3690_W2022_HW1Feb28Due.pdf)
   [02](attach/STAT3690_W2022_HW2Mar16Due.pdf)
-  - Assignments (without solution):
   [03](attach/STAT3690_W2022_HW3Apr11Due.pdf)
+  - Assignments (without solution):
    
 # MISCELLANEA
 
