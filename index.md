@@ -101,7 +101,7 @@ _Atmospheric Environment_ 61:409-418.
 ### @U MANITOBA
 
 - [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf), 2022 Winter  
-  - Lecture Notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)
+  - Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)
   - Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)
    
 # MISCELLANEA
@@ -130,26 +130,26 @@ _Atmospheric Environment_ 61:409-418.
 #### INSTRUCTOR
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall  
-Lecture Notes (password-protected): [Download](attach/SFU/STAT450_2019Fall_Lec.zip)  
+Lecture notes (password-protected): [Download](attach/SFU/STAT450_2019Fall_Lec.zip)  
 Assignments (password-protected): [Download](attach/SFU/STAT450_2019Fall_HW.zip)
 
 #### TUTOR
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100), 2020 Spring  
 Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)  
-Tutorial Slides (password-protected): [Download](attach/SFU/STAT475_2020Spring.zip)
+Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2020Spring.zip)
 - [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100), 2019 Spring  
 Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)  
-Tutorial Slides (password-protected): [Download](attach/SFU/STAT445_2019Spring.zip)
+Tutorial slides (password-protected): [Download](attach/SFU/STAT445_2019Spring.zip)
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100), 2018 Spring  
 Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)  
-Tutorial Slides (password-protected): [Download](attach/SFU/STAT475_2018Spring.zip)
+Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2018Spring.zip)
 - [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100), 2017 Spring  
 Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)  
-Tutorial Slides (password-protected): [Download](attach/SFU/STAT410_2017Spring.zip)
+Tutorial slides (password-protected): [Download](attach/SFU/STAT410_2017Spring.zip)
 - [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100), 2016 Fall  
 Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)  
-Tutorial Slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip)
+Tutorial slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip)
 
 #### MARKER
 
