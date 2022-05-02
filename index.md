@@ -82,8 +82,9 @@ _Journal of Statistical Planning and Inference_ 148:95-100.
 _Atmospheric Environment_ 61:409-418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029)
 
-### PRESENTATION
+### PRESENTATIONS
 
+- 20/Jun/2022, ICSA Applied Statistics Symposium
 - 22/Oct/2021, NIC-ASA & ICSA Midwest Chapter Joint Fall Meeting
 - 13/Sep/2021, ICSA Applied Statistics Symposium
 - 06/Aug/2020, "Partial least squares for sparsely observed curves with measurement errors", JSM
@@ -99,7 +100,7 @@ _Atmospheric Environment_ 61:409-418.
 
 ### @U MANITOBA
 
-- [STAT 3690 Multivariate Analysis](attach/SyllabusUofMSTAT3690Winter2022.pdf),
+- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf),
 2022 Winter  
   - Lectures: 
   [01](attach/STAT3690_2022_Lec01Jan24.pdf) 
@@ -141,7 +142,6 @@ _Atmospheric Environment_ 61:409-418.
   [01](attach/STAT3690_W2022_HW1Feb28Due.pdf)
   [02](attach/STAT3690_W2022_HW2Mar16Due.pdf)
   [03](attach/STAT3690_W2022_HW3Apr11Due.pdf)
-  - Assignments (without solution):
   [04](attach/STAT3690_W2022_HW4Apr25Due.pdf)
    
 # MISCELLANEA
@@ -165,29 +165,44 @@ _Atmospheric Environment_ 61:409-418.
 
 # ARCHIVED
 
+### TEACHING ACTIVITIES  @U of MANITOBA
+
+#### INSTRUCTOR
+
+- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf), 2022 Winter  
+Lecture Notes: [Download](attach/UM/STAT3690_2022W_L.zip)  
+Assessments: [Download](attach/UM/STAT3690_2022W_A.zip)
+
 ### TEACHING ACTIVITIES  @SIMON FRASER U
 
 #### INSTRUCTOR
 
-- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall
+- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall  
+Lecture Notes: [Download](attach/SFU/STAT450_2019Fall_Lec.zip)  
+Assignments: [Download](attach/SFU/STAT450_2019Fall_HW.zip)
 
 #### TUTOR
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
 2020 Spring  
 Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)
+  - Tutorial Slides: [Download](attach/SFU/STAT475_2020Spring.zip)
 - [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100),
 2019 Spring  
 Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)
+  - Tutorial Slides: [Download](attach/SFU/STAT445_2019Spring.zip)
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100),
 2018 Spring  
 Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)
+  - Tutorial Slides: [Download](attach/SFU/STAT475_2018Spring.zip)
 - [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100),
 2017 Spring  
 Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)
+  - Tutorial Slides: [Download](attach/SFU/STAT410_2017Spring.zip)
 - [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100),
 2016 Fall  
 Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)
+  - Tutorial Slides: [Download](attach/SFU/STAT330_2016Fall.zip)
 
 #### MARKER
 
