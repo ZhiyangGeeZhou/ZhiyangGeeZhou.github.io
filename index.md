@@ -100,49 +100,9 @@ _Atmospheric Environment_ 61:409-418.
 
 ### @U MANITOBA
 
-- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf),
-2022 Winter  
-  - Lectures: 
-  [01](attach/STAT3690_2022_Lec01Jan24.pdf) 
-  [02](attach/STAT3690_2022_Lec02Jan26.pdf)
-  [03](attach/STAT3690_2022_Lec03Jan28.pdf)
-  [04](attach/STAT3690_2022_Lec04Jan31.pdf)
-  [05](attach/STAT3690_2022_Lec05Feb02.pdf)
-  [06](attach/STAT3690_2022_Lec06Feb04.pdf)
-  [07](attach/STAT3690_2022_Lec07Feb07.pdf)
-  [08](attach/STAT3690_2022_Lec08Feb09.pdf)
-  [09](attach/STAT3690_2022_Lec09Feb11.pdf)
-  [10](attach/STAT3690_2022_Lec10Feb14.pdf)
-  [11](attach/STAT3690_2022_Lec11Feb16.pdf)
-  [12](attach/STAT3690_2022_Lec12Feb18.pdf)
-  [13](attach/STAT3690_2022_Lec13Feb28.pdf)
-  [14](attach/STAT3690_2022_Lec14Mar02.pdf)
-  [15](attach/STAT3690_2022_Lec15Mar04.pdf)
-  [16](attach/STAT3690_2022_Lec16Mar07.pdf)
-  [17](attach/STAT3690_2022_Lec17Mar09.pdf)
-  [18](attach/STAT3690_2022_Lec18Mar11.pdf)
-  [19](attach/STAT3690_2022_Lec19Mar14.pdf)
-  [20](attach/STAT3690_2022_Lec20Mar16.pdf)  
-  [21](attach/STAT3690_2022_Lec21Mar21.pdf)
-  [22](attach/STAT3690_2022_Lec22Mar23.pdf)
-  [23](attach/STAT3690_2022_Lec23Mar25.pdf)
-  [24](attach/STAT3690_2022_Lec24Mar28.pdf)
-  [25](attach/STAT3690_2022_Lec25Mar30.pdf)
-  [26](attach/STAT3690_2022_Lec26Apr01.pdf)
-  [27](attach/STAT3690_2022_Lec27Apr04.pdf)
-  [28](attach/STAT3690_2022_Lec28Apr06.pdf)
-  [29](attach/STAT3690_2022_Lec29Apr08.pdf)
-  [30](attach/STAT3690_2022_Lec30Apr11.pdf)
-  [31](attach/STAT3690_2022_Lec31Apr13.pdf)
-  [32](attach/STAT3690_2022_Lec32Apr18.pdf)
-  [33](attach/STAT3690_2022_Lec33Apr20.pdf)
-  [34](attach/STAT3690_2022_Lec34Apr22.pdf)
-  [35](attach/STAT3690_2022_Lec35Apr25.pdf)
-  - Assignments (with solution):
-  [01](attach/STAT3690_W2022_HW1Feb28Due.pdf)
-  [02](attach/STAT3690_W2022_HW2Mar16Due.pdf)
-  [03](attach/STAT3690_W2022_HW3Apr11Due.pdf)
-  [04](attach/STAT3690_W2022_HW4Apr25Due.pdf)
+- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf), 2022 Winter  
+  - Lecture Notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)
+  - Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)
    
 # MISCELLANEA
 
@@ -165,44 +125,31 @@ _Atmospheric Environment_ 61:409-418.
 
 # ARCHIVED
 
-### TEACHING ACTIVITIES  @U of MANITOBA
-
-#### INSTRUCTOR
-
-- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf), 2022 Winter  
-Lecture Notes: [Download](attach/UM/STAT3690_2022W_L.zip)  
-Assessments: [Download](attach/UM/STAT3690_2022W_A.zip)
-
 ### TEACHING ACTIVITIES  @SIMON FRASER U
 
 #### INSTRUCTOR
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall  
-Lecture Notes: [Download](attach/SFU/STAT450_2019Fall_Lec.zip)  
-Assignments: [Download](attach/SFU/STAT450_2019Fall_HW.zip)
+Lecture Notes (password-protected): [Download](attach/SFU/STAT450_2019Fall_Lec.zip)  
+Assignments (password-protected): [Download](attach/SFU/STAT450_2019Fall_HW.zip)
 
 #### TUTOR
 
-- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100),
-2020 Spring  
-Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)
-  - Tutorial Slides: [Download](attach/SFU/STAT475_2020Spring.zip)
-- [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100),
-2019 Spring  
-Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)
-  - Tutorial Slides: [Download](attach/SFU/STAT445_2019Spring.zip)
-- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100),
-2018 Spring  
-Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)
-  - Tutorial Slides: [Download](attach/SFU/STAT475_2018Spring.zip)
-- [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100),
-2017 Spring  
-Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)
-  - Tutorial Slides: [Download](attach/SFU/STAT410_2017Spring.zip)
-- [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100),
-2016 Fall  
-Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)
-  - Tutorial Slides: [Download](attach/SFU/STAT330_2016Fall.zip)
+- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100), 2020 Spring  
+Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)  
+Tutorial Slides (password-protected): [Download](attach/SFU/STAT475_2020Spring.zip)
+- [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100), 2019 Spring  
+Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)  
+Tutorial Slides (password-protected): [Download](attach/SFU/STAT445_2019Spring.zip)
+- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100), 2018 Spring  
+Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)  
+Tutorial Slides (password-protected): [Download](attach/SFU/STAT475_2018Spring.zip)
+- [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100), 2017 Spring  
+Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)  
+Tutorial Slides (password-protected): [Download](attach/SFU/STAT410_2017Spring.zip)
+- [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100), 2016 Fall  
+Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)  
+Tutorial Slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip)
 
 #### MARKER
 
