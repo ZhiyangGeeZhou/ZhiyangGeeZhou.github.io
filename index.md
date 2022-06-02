@@ -13,6 +13,7 @@ Zhiyang Zhou, PhD
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
 <a href="https://publons.com/researcher/4245722/zhiyang-zhou/" title="Publons"><i class="fab fa-product-hunt fa-lg" aria-hidden="true"></i></a>  
 zhiyang (dot) zhou (at) umanitoba (dot) ca  
++1 204 480 1060  
 330 Machray Hall  
 [Department of Statistics](https://sci.umanitoba.ca/statistics/)  
 [University of Manitoba](https://umanitoba.ca/)  
@@ -85,6 +86,7 @@ _Atmospheric Environment_ 61:409-418.
 ### PRESENTATIONS
 
 - 20/Jun/2022, ICSA Applied Statistics Symposium
+- 07/Jun/2022, Machine Learning Special Interest Group Meeting, George & Fay Yee Centre for Healthcare Innovation
 - 22/Oct/2021, NIC-ASA & ICSA Midwest Chapter Joint Fall Meeting
 - 13/Sep/2021, ICSA Applied Statistics Symposium
 - 06/Aug/2020, "Partial least squares for sparsely observed curves with measurement errors", JSM
