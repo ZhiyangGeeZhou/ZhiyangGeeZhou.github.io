@@ -46,14 +46,15 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 # RESEARCH
 
-### INTEREST
+### INTERESTS (alphabetically ordered)
 
 - Deep neural network/deep learning
+- Design of experiments
 - Functional/longitudinal data analysis
 - Survival analysis
-- Design of experiments
+- Tensor data analysis
 
-### PREPRINT
+### PREPRINTS
 
 - **Z. Zhou**, & R. A. Lockhart. (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542)  
@@ -86,13 +87,14 @@ _Atmospheric Environment_ 61:409-418.
 
 ### PRESENTATIONS
 
+- 10/Jul/2022, ICSA-Canada Chapter Symposium
 - 20/Jun/2022, ICSA Applied Statistics Symposium
 - 07/Jun/2022, Machine Learning Special Interest Group Meeting, George & Fay Yee Centre for Healthcare Innovation
 - 22/Oct/2021, NIC-ASA & ICSA Midwest Chapter Joint Fall Meeting
 - 13/Sep/2021, ICSA Applied Statistics Symposium
-- 06/Aug/2020, "Partial least squares for sparsely observed curves with measurement errors", JSM
-- 09/Aug/2019, "Functional continuum regression", ICSA Canada Chapter Symposium
-- 30/May/2016, "An optimum criterion for factorial designs", SSC Annual Meeting
+- 06/Aug/2020, Joint Statistical Meeting
+- 09/Aug/2019, ICSA-Canada Chapter Symposium
+- 30/May/2016, SSC Annual Meeting
 
 ### FUNDING
 
