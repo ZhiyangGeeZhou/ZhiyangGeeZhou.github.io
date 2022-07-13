@@ -105,7 +105,11 @@ _Atmospheric Environment_ 61:409-418.
 
 ### @U MANITOBA
 
-- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf), 2022 Winter  
+- [STAT 4100 Statistical Inference](), Sep-Dec 2022
+  - Lecture notes:
+  - Assessments:
+
+- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf), Jan-Apr 2022
   - Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)
   - Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)
    
