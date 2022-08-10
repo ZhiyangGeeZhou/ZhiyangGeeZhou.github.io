@@ -20,6 +20,8 @@ zhiyang (dot) zhou (at) umanitoba (dot) ca
 [University of Manitoba](https://umanitoba.ca/)  
 Winnipeg, MB R3T 2N2 Canada  
 
+# [CV](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/blob/master/ZhiyangZhou20220810.pdf)
+
 # HOBBY
 
 - Climbing
@@ -38,7 +40,7 @@ Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-
 
 - Ph.D. in Statistics, [Simon Fraser University](https://www.sfu.ca/), Canada, 2015-2020  
 Supervisor: [Richard A. Lockhart](https://www.stat.sfu.ca/~lockhart/), Professor, Fellow of the Royal Society of Canada  
-Thesis: [_Supervised Basis Functions Applied to Functional Regression and Classification_](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/blob/master/ZhiyangZhouSummer2020.pdf)
+Thesis: [_Supervised Basis Functions Applied to Functional Regression and Classification_](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/blob/master/ZhiyangZhou2020Summer.pdf)
 - M.Sc. in Probability & Statistics, [Nankai University](https://en.nankai.edu.cn/), China, 2009-2012  
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor
 - B.Sc. in Statistics, [Beijing Normal University](https://english.bnu.edu.cn/), China, 2005-2009  
