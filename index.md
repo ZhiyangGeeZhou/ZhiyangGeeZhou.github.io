@@ -18,8 +18,6 @@ zhiyang (dot) zhou (at) umanitoba (dot) ca
 [University of Manitoba](https://umanitoba.ca/)  
 Winnipeg, MB R3T 2N2 Canada  
 
-# [Curriculum Vitae](https://github.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/blob/master/ZhiyangZhou20220810.pdf)
-
 # HOBBY
 
 - Climbing
