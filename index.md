@@ -36,7 +36,7 @@ See the [curriculum vitae](ZhiyangZhou20220810.pdf) for more details.
 
 # EMPLOYMENT
 
-- Assistant Professor of Statistics, [University of Manitoba](https://umanitoba.ca/), Canada, 2021-
+- Assistant Professor of Statistics (Tenure-Track), [University of Manitoba](https://umanitoba.ca/), Canada, 2021-
 - Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/), United States, 2020-2021  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao), Associate Professor
 - Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/), Canada, 2019  
