@@ -25,7 +25,7 @@ Prior to the current appointment,
 he was trained as a postdoc fellow in Northwestern University Feinberg School of Medicine 
 and was awarded the PhD degree in Statistics by Simon Fraser University, Canada. 
 His research interest lies at statistics and deep learning, both methodologically and theoretically.
-See the [curriculum vitae](ZhiyangZhou20220810.pdf) for mored details.
+See the [curriculum vitae](ZhiyangZhou20220810.pdf) for more details.
 
 # HOBBY
 
