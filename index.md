@@ -142,23 +142,23 @@ _Atmospheric Environment_ 61:409-418.
 
 # ARCHIVED
 
-### TEACHING ACTIVITIES  @U MANITOBA
+#### TEACHING ACTIVITIES  @U MANITOBA
+
+##### INSTRUCTOR
 
 - [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf), Jan-Apr 2022
   - Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)
   - Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)
 
-#### INSTRUCTOR
+#### TEACHING ACTIVITIES  @SIMON FRASER U
 
-### TEACHING ACTIVITIES  @SIMON FRASER U
-
-#### INSTRUCTOR
+##### INSTRUCTOR
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall  
 Lecture notes (password-protected): [Download](attach/SFU/STAT450_2019Fall_Lec.zip)  
 Assignments (password-protected): [Download](attach/SFU/STAT450_2019Fall_HW.zip)
 
-#### TUTOR
+##### TUTOR
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100), 2020 Spring  
 Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)  
@@ -176,7 +176,7 @@ Tutorial slides (password-protected): [Download](attach/SFU/STAT410_2017Spring.z
 Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)  
 Tutorial slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip)
 
-#### MARKER
+##### MARKER
 
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100), 
 2020 Summer  
