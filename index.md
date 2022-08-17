@@ -141,7 +141,7 @@ _Atmospheric Environment_ 61:409-418.
 [_Technometrics_](https://www.tandfonline.com/toc/utch20/current),
 [_Trials_](https://trialsjournal.biomedcentral.com/)
 
-# ARCHIVED
+# ARCHIVE
 
 #### TEACHING ACTIVITIES  @U MANITOBA
 
