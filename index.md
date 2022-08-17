@@ -94,7 +94,7 @@ _Atmospheric Environment_ 61:409-418.
 
 ### PRESENTATIONS
 
-- 24/Oct/2022, Northwestern Biostatistics Seminar
+- 24/Oct/2022, Northwestern Biostatistics Seminar Series
 - 10/Jul/2022, ICSA-Canada Chapter Symposium
 - 20/Jun/2022, ICSA Applied Statistics Symposium
 - 07/Jun/2022, Machine Learning Special Interest Group Meeting, George & Fay Yee Centre for Healthcare Innovation
