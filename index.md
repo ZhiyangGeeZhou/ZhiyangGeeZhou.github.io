@@ -14,8 +14,8 @@ zhiyang (dot) zhou (at) umanitoba (dot) ca
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID" target="_blank"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate (Web of Science)" target="_blank"><i class="fas fa-copyright fa-lg" aria-hidden="true"></i></a>  
 330 Machray Hall  
-[Department of Statistics](https://sci.umanitoba.ca/statistics/)  
-[University of Manitoba](https://umanitoba.ca/)  
+[Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}  
+[University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
 Winnipeg, MB R3T 2N2 Canada  
 
 # ABOUT
@@ -36,20 +36,20 @@ See the [curriculum vitae](ZhiyangZhou20220821.pdf){:target="_blank"}.
 
 # EMPLOYMENT
 
-- Assistant Professor of Statistics (Tenure-Track), [University of Manitoba](https://umanitoba.ca/), Canada, 2021-
-- Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/), United States, 2020-2021  
-Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao), Associate Professor
-- Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/), Canada, 2019  
+- Assistant Professor of Statistics (Tenure-Track), [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, Canada, 2021-
+- Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}, United States, 2020-2021  
+Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao){:target="_blank"}, Associate Professor
+- Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada, 2019  
 
 # EDUCATION
 
-- Ph.D. in Statistics, [Simon Fraser University](https://www.sfu.ca/), Canada, 2015-2020  
-Supervisor: [Richard A. Lockhart](https://www.stat.sfu.ca/~lockhart/), Professor, Fellow of the Royal Society of Canada  
-Thesis: [_Supervised Basis Functions Applied to Functional Regression and Classification_](attach/SFU/ZhiyangZhouDissertation.pdf)
-- M.Sc. in Probability & Statistics, [Nankai University](https://en.nankai.edu.cn/), China, 2009-2012  
-Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/), Professor
-- B.Sc. in Statistics, [Beijing Normal University](https://english.bnu.edu.cn/), China, 2005-2009  
-Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/), Professor
+- Ph.D. in Statistics, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada, 2015-2020  
+Supervisor: [Richard A. Lockhart](https://www.stat.sfu.ca/~lockhart/){:target="_blank"}, Professor, Fellow of the Royal Society of Canada  
+Thesis: [_Supervised Basis Functions Applied to Functional Regression and Classification_](attach/SFU/ZhiyangZhouDissertation.pdf){:target="_blank"}
+- M.Sc. in Probability & Statistics, [Nankai University](https://en.nankai.edu.cn/){:target="_blank"}, China, 2009-2012  
+Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/){:target="_blank"}, Professor
+- B.Sc. in Statistics, [Beijing Normal University](https://english.bnu.edu.cn/){:target="_blank"}, China, 2005-2009  
+Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/){:target="_blank"}, Professor
 
 # RESEARCH
 
@@ -64,33 +64,33 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 ### PREPRINTS
 
 - **Z. Zhou**, & R. A. Lockhart. (2020). Partial least squares for sparsely observed curves with measurement errors.
-[arXiv:2003.11542](https://arxiv.org/abs/2003.11542)  
-`R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS)
+[arXiv:2003.11542](https://arxiv.org/abs/2003.11542){:target="_blank"}  
+`R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS){:target="_blank"}
 
 ### PEER-REVIEWED
 
 - **Z. Zhou**, & P. Sang. (2022). Continuum centroid classifier for functional data.
 _Canadian Journal of Statistics_ 50:200-220.
-[doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624)  
-`R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC)
+[doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624){:target="_blank"}  
+`R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC){:target="_blank"}
 - Y. Zhao, Y. Wang, J. Liu, H. Xia, Z. Xu, Q. Hong, **Z. Zhou**, & L. Petzold. (2021). Empirical quantitative analysis of COVID-19 forecasting models.
 Best Paper award of _the 9th Workshop on Data Mining in Biomedical Informatics and Healthcare (DMBIH'21) in conjunction with IEEE International Conference on Data Mining (ICDM'21)_.
-[arXiv:2110.00174](https://arxiv.org/abs/2110.00174)  
+[arXiv:2110.00174](https://arxiv.org/abs/2110.00174){:target="_blank"}  
 - **Z. Zhou**. (2021). Fast implementation of partial least squares for function-on-function regression.
 _Journal of Multivariate Analysis_, 185:104769.
-[doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769)   
-`R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS)
+[doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769){:target="_blank"}   
+`R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS){:target="_blank"}
 - **Z. Zhou**. (2019). Functional continuum regression.
 _Journal of Multivariate Analysis_ 173:328-346.
-[doi:10.1016/j.jmva.2019.03.006](https://dx.doi.org/10.1016/j.jmva.2019.03.006)  
-`R` [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression)
+[doi:10.1016/j.jmva.2019.03.006](https://dx.doi.org/10.1016/j.jmva.2019.03.006){:target="_blank"}  
+`R` [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression){:target="_blank"}
 - **Z. Zhou**, & R. Zhang. (2014). A generalized general minimum lower order confounding criterion for nonregular designs.
 _Journal of Statistical Planning and Inference_ 148:95-100.
-[doi:10.1016/j.jspi.2013.12.003](https://dx.doi.org/10.1016/j.jspi.2013.12.003)  
-`R` [github.com/ZhiyangGeeZhou/G-GMC](https://github.com/ZhiyangGeeZhou/G-GMC)
+[doi:10.1016/j.jspi.2013.12.003](https://dx.doi.org/10.1016/j.jspi.2013.12.003){:target="_blank"}  
+`R` [github.com/ZhiyangGeeZhou/G-GMC](https://github.com/ZhiyangGeeZhou/G-GMC){:target="_blank"}
 - W. Wang, D. Gong, **Z. Zhou**, & Y. Guo. (2012). Robustness of the aerosol weekly cycle over Southeastern China.
 _Atmospheric Environment_ 61:409-418.
-[doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029)
+[doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029){:target="_blank"}
 
 ### PRESENTATIONS
 
@@ -113,11 +113,11 @@ _Atmospheric Environment_ 61:409-418.
 
 #### @U MANITOBA
 
-- [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf), Sep-Dec 2022
+- [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022
   - Lecture notes:
   - Assessments:
 
-- [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf), Sep-Dec 2022
+- [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022
   - Lecture notes:
   - Assessments:
 
@@ -126,20 +126,20 @@ _Atmospheric Environment_ 61:409-418.
 #### SERVICE
 
 - Reviewer   
-[_Biometrics_](https://onlinelibrary.wiley.com/journal/15410420),
-[_Biostatistics & Epidemiology_](https://www.tandfonline.com/toc/tbep20/current),
-[_Computational Statistics_](https://www.springer.com/journal/180),
-[_Canadian Journal of Statistics_](https://onlinelibrary.wiley.com/journal/1708945x),
-[_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/),
-[_IISE Transations_](https://www.tandfonline.com/action/journalInformation?journalCode=uiie21),
-[_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current),
-[_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/),
-[_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems),
-[_Mathematical Modelling and Analysis_](https://journals.vgtu.lt/index.php/MMA),
-[_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258),
-[_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/),
-[_Technometrics_](https://www.tandfonline.com/toc/utch20/current),
-[_Trials_](https://trialsjournal.biomedcentral.com/)
+[_Biometrics_](https://onlinelibrary.wiley.com/journal/15410420){:target="_blank"},
+[_Biostatistics & Epidemiology_](https://www.tandfonline.com/toc/tbep20/current){:target="_blank"},
+[_Computational Statistics_](https://www.springer.com/journal/180){:target="_blank"},
+[_Canadian Journal of Statistics_](https://onlinelibrary.wiley.com/journal/1708945x){:target="_blank"},
+[_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
+[_IISE Transations_](https://www.tandfonline.com/action/journalInformation?journalCode=uiie21){:target="_blank"},
+[_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current){:target="_blank"},
+[_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/){:target="_blank"},
+[_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems){:target="_blank"},
+[_Mathematical Modelling and Analysis_](https://journals.vgtu.lt/index.php/MMA){:target="_blank"},
+[_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258){:target="_blank"},
+[_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/){:target="_blank"},
+[_Technometrics_](https://www.tandfonline.com/toc/utch20/current){:target="_blank"},
+[_Trials_](https://trialsjournal.biomedcentral.com/){:target="_blank"}
 
 # ARCHIVE
 
@@ -147,44 +147,44 @@ _Atmospheric Environment_ 61:409-418.
 
 ##### INSTRUCTOR
 
-- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf), Jan-Apr 2022
-  - Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)
-  - Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)
+- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, Jan-Apr 2022
+  - Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip){:target="_blank"}
+  - Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip){:target="_blank"}
 
 #### TEACHING ACTIVITIES  @SIMON FRASER U
 
 ##### INSTRUCTOR
 
-- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100), 2019 Fall  
-Lecture notes (password-protected): [Download](attach/SFU/STAT450_2019Fall_Lec.zip)  
-Assignments (password-protected): [Download](attach/SFU/STAT450_2019Fall_HW.zip)
+- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100){:target="_blank"}, 2019 Fall  
+Lecture notes (password-protected): [Download](attach/SFU/STAT450_2019Fall_Lec.zip){:target="_blank"}  
+Assignments (password-protected): [Download](attach/SFU/STAT450_2019Fall_HW.zip){:target="_blank"}
 
 ##### TUTOR
 
-- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100), 2020 Spring  
-Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)  
-Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2020Spring.zip)
-- [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100), 2019 Spring  
-Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)  
-Tutorial slides (password-protected): [Download](attach/SFU/STAT445_2019Spring.zip)
-- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100), 2018 Spring  
-Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/)  
-Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2018Spring.zip)
-- [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100), 2017 Spring  
-Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/)  
-Tutorial slides (password-protected): [Download](attach/SFU/STAT410_2017Spring.zip)
-- [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100), 2016 Fall  
-Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/)  
-Tutorial slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip)
+- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100){:target="_blank"}, 2020 Spring  
+Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}  
+Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2020Spring.zip){:target="_blank"}
+- [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100){:target="_blank"}, 2019 Spring  
+Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}  
+Tutorial slides (password-protected): [Download](attach/SFU/STAT445_2019Spring.zip){:target="_blank"}
+- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100){:target="_blank"}, 2018 Spring  
+Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}  
+Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2018Spring.zip){:target="_blank"}
+- [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100){:target="_blank"}, 2017 Spring  
+Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/){:target="_blank"}  
+Tutorial slides (password-protected): [Download](attach/SFU/STAT410_2017Spring.zip){:target="_blank"}
+- [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100){:target="_blank"}, 2016 Fall  
+Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/){:target="_blank"}  
+Tutorial slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip){:target="_blank"}
 
 ##### MARKER
 
-- [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100), 
+- [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100){:target="_blank"}, 
 2020 Summer  
 Instructed by Prof. [Tim Swartz](https://www.stat.sfu.ca/~tim/)
-- [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2017/spring/stat/302/d100), 
+- [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2017/spring/stat/302/d100){:target="_blank"}, 
 2017 Spring  
-Instructed by Prof. [Brad McNeney](https://www.stat.sfu.ca/~mcneney/)
-- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2016/spring/stat/475/d100),
+Instructed by Prof. [Brad McNeney](https://www.stat.sfu.ca/~mcneney/){:target="_blank"}
+- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2016/spring/stat/475/d100){:target="_blank"},
 2016 Spring  
-Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html)
+Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}
