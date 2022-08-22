@@ -12,7 +12,7 @@ zhiyang (dot) zhou (at) umanitoba (dot) ca
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate"><i class="fab fa-researchgate fa-lg" aria-hidden="true"></i></a>
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
-<a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate"><i class="fas fa-copyright" aria-hidden="true"></i></a>  
+<a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate"><i class="fas fa-copyright fa-lg" aria-hidden="true"></i></a>  
 330 Machray Hall  
 [Department of Statistics](https://sci.umanitoba.ca/statistics/)  
 [University of Manitoba](https://umanitoba.ca/)  
