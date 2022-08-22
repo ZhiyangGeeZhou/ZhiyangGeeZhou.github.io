@@ -111,7 +111,7 @@ _Atmospheric Environment_ 61:409-418.
 
 # TEACHING
 
-### @U MANITOBA
+#### @U MANITOBA
 
 - [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf), Sep-Dec 2022
   - Lecture notes:
@@ -123,7 +123,7 @@ _Atmospheric Environment_ 61:409-418.
 
 # MISCELLANEA
 
-### SERVICE
+#### SERVICE
 
 - Reviewer   
 [_Biometrics_](https://onlinelibrary.wiley.com/journal/15410420),
