@@ -118,7 +118,6 @@ _Atmospheric Environment_ 61:409-418.
 - [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022
   - Lecture notes:
   - Assessments:
-
 - [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022
   - Lecture notes:
   - Assessments:
