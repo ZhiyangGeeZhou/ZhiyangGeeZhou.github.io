@@ -124,12 +124,7 @@ _Atmospheric Environment_ 61:409-418.
 
 # SUPERVISION
 
-- Primary Supervision
-  - Ke Wang (MSc student, 2022 Fall --)
-  
-- Co-supervision
-
-- Examining Committee Member
+- Ke Wang (MSc student, 2022 Fall --)
 
 # MISCELLANEA
 
