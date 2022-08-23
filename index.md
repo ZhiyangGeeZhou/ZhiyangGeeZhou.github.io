@@ -113,7 +113,7 @@ _Atmospheric Environment_ 61:409-418.
 
 # TEACHING
 
-#### @U MANITOBA
+#### COURSES
 
 - [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022
   - Lecture notes:
@@ -122,7 +122,7 @@ _Atmospheric Environment_ 61:409-418.
   - Lecture notes:
   - Assessments:
 
-# SUPERVISION
+#### SUPERVISION
 
 - Ke Wang (MSc student, 2022 Fall --)
 
