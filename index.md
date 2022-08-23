@@ -124,7 +124,7 @@ _Atmospheric Environment_ 61:409-418.
 
 #### SUPERVISION
 
-- Ke Wang (MSc student, 2022 Fall --)
+- Ke Wang (MSc student, 2022 Fall--)
 
 # SERVICE
 
