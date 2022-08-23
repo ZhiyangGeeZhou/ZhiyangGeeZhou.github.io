@@ -123,6 +123,13 @@ _Atmospheric Environment_ 61:409-418.
   - Lecture notes:
   - Assessments:
 
+# SUPERVISION
+
+#### PRIMARY SUPERVISION
+
+- Master Students
+  - Ke Wang (2022 Fall --)
+
 # MISCELLANEA
 
 #### SERVICE
