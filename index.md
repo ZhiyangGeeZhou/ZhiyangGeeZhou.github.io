@@ -126,11 +126,10 @@ _Atmospheric Environment_ 61:409-418.
 
 - Ke Wang (MSc student, 2022 Fall --)
 
-# MISCELLANEA
+# SERVICE
 
-#### SERVICE
+#### REVIEWER
 
-- Reviewer   
 [_Biometrics_](https://onlinelibrary.wiley.com/journal/15410420){:target="_blank"},
 [_Biostatistics & Epidemiology_](https://www.tandfonline.com/toc/tbep20/current){:target="_blank"},
 [_Computational Statistics_](https://www.springer.com/journal/180){:target="_blank"},
