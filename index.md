@@ -113,7 +113,7 @@ _Atmospheric Environment_ 61:409-418.
 
 # TEACHING
 
-#### COURSES
+#### CURRENTLY DELIVERED COURSES
 
 - [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022
   - Lecture notes:
