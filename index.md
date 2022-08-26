@@ -130,11 +130,11 @@ _Atmospheric Environment_ 61:409-418.
 
 #### REVIEWER
 
+- Journals: 
 [_Biometrics_](https://onlinelibrary.wiley.com/journal/15410420){:target="_blank"},
 [_Biostatistics & Epidemiology_](https://www.tandfonline.com/toc/tbep20/current){:target="_blank"},
 [_Computational Statistics_](https://www.springer.com/journal/180){:target="_blank"},
 [_Canadian Journal of Statistics_](https://onlinelibrary.wiley.com/journal/1708945x){:target="_blank"},
-[_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
 [_IISE Transations_](https://www.tandfonline.com/action/journalInformation?journalCode=uiie21){:target="_blank"},
 [_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current){:target="_blank"},
 [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/){:target="_blank"},
@@ -144,6 +144,12 @@ _Atmospheric Environment_ 61:409-418.
 [_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/){:target="_blank"},
 [_Technometrics_](https://www.tandfonline.com/toc/utch20/current){:target="_blank"},
 [_Trials_](https://trialsjournal.biomedcentral.com/){:target="_blank"}
+
+- Conferences: 
+[_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
+[_International Conference on Learning Representations (ICLR)_](https://iclr.cc/){:target="_blank"}
+
+#### ADMINISTRATION
 
 # ARCHIVE
 
