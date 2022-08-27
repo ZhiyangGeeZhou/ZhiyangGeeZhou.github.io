@@ -144,7 +144,6 @@ _Atmospheric Environment_ 61:409-418.
 [_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/){:target="_blank"},
 [_Technometrics_](https://www.tandfonline.com/toc/utch20/current){:target="_blank"},
 [_Trials_](https://trialsjournal.biomedcentral.com/){:target="_blank"}
-
 - Conferences: 
 [_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
 [_International Conference on Learning Representations (ICLR)_](https://iclr.cc/){:target="_blank"}
