@@ -147,9 +147,10 @@ _Atmospheric Environment_ 61:409-418.
   [_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
   [_International Conference on Learning Representations (ICLR)_](https://iclr.cc/){:target="_blank"}
 
-- COMMITTEES
-  - Department-level: Graduate (2022-23), IT (2022-23), Research & Seminar (2021-22)
-  - Faculty-level: Executive Council (2022--)
+#### COMMITTEES 
+
+- Department-level: Graduate (2022-23), IT (2022-23), Research & Seminar (2021-22)
+- Faculty-level: Executive Council (2022--)
 
 # ARCHIVE
 
