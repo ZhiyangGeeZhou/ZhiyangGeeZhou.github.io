@@ -37,18 +37,18 @@ See the [curriculum vitae](ZhiyangZhou20220823.pdf){:target="_blank"}.
 # EMPLOYMENT
 
 - Assistant Professor of Statistics (Tenure-Track), [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, Canada, 2021-
-- Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}, United States, 2020-2021  
+- Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}, United States, 2020--21  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao){:target="_blank"}, Associate Professor
 - Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada, 2019  
 
 # EDUCATION
 
-- Ph.D. in Statistics, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada, 2015-2020  
+- Ph.D. in Statistics, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada, 2015--20  
 Supervisor: [Richard A. Lockhart](https://www.stat.sfu.ca/~lockhart/){:target="_blank"}, Professor, Fellow of the Royal Society of Canada  
 Thesis: [_Supervised Basis Functions Applied to Functional Regression and Classification_](attach/SFU/ZhiyangZhouDissertation.pdf){:target="_blank"}
-- M.Sc. in Probability & Statistics, [Nankai University](https://en.nankai.edu.cn/){:target="_blank"}, China, 2009-2012  
+- M.Sc. in Probability & Statistics, [Nankai University](https://en.nankai.edu.cn/){:target="_blank"}, China, 2009--12  
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/){:target="_blank"}, Professor
-- B.Sc. in Statistics, [Beijing Normal University](https://english.bnu.edu.cn/){:target="_blank"}, China, 2005-2009  
+- B.Sc. in Statistics, [Beijing Normal University](https://english.bnu.edu.cn/){:target="_blank"}, China, 2005--09  
 Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/){:target="_blank"}, Professor
 
 # RESEARCH
@@ -70,7 +70,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 ### PEER-REVIEWED
 
 - **Z. Zhou**, & P. Sang. (2022). Continuum centroid classifier for functional data.
-_Canadian Journal of Statistics_ 50:200-220.
+_Canadian Journal of Statistics_ 50:200--220.
 [doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624){:target="_blank"}  
 `R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC){:target="_blank"}
 - Y. Zhao, Y. Wang, J. Liu, H. Xia, Z. Xu, Q. Hong, **Z. Zhou**, & L. Petzold. (2021). Empirical quantitative analysis of COVID-19 forecasting models.
@@ -81,15 +81,15 @@ _Journal of Multivariate Analysis_, 185:104769.
 [doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769){:target="_blank"}   
 `R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS){:target="_blank"}
 - **Z. Zhou**. (2019). Functional continuum regression.
-_Journal of Multivariate Analysis_ 173:328-346.
+_Journal of Multivariate Analysis_ 173:328--346.
 [doi:10.1016/j.jmva.2019.03.006](https://dx.doi.org/10.1016/j.jmva.2019.03.006){:target="_blank"}  
 `R` [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression){:target="_blank"}
 - **Z. Zhou**, & R. Zhang. (2014). A generalized general minimum lower order confounding criterion for nonregular designs.
-_Journal of Statistical Planning and Inference_ 148:95-100.
+_Journal of Statistical Planning and Inference_ 148:95--100.
 [doi:10.1016/j.jspi.2013.12.003](https://dx.doi.org/10.1016/j.jspi.2013.12.003){:target="_blank"}  
 `R` [github.com/ZhiyangGeeZhou/G-GMC](https://github.com/ZhiyangGeeZhou/G-GMC){:target="_blank"}
 - W. Wang, D. Gong, **Z. Zhou**, & Y. Guo. (2012). Robustness of the aerosol weekly cycle over Southeastern China.
-_Atmospheric Environment_ 61:409-418.
+_Atmospheric Environment_ 61:409--418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029){:target="_blank"}
 
 ### PRESENTATIONS
@@ -108,17 +108,17 @@ _Atmospheric Environment_ 61:409-418.
 
 ### FUNDING
 
-- Principal Investigator, NSERC Discovery Grant (with the Discovery Launch Supplement, 01/Apr/2022-31/Mar/2027)
-- Principal Investigator, University of Manitoba Research Startup Fund (02/Sep/2021-01/Sep/2027)
+- Principal Investigator, NSERC Discovery Grant (with the Discovery Launch Supplement, 01/Apr/2022--31/Mar/2027)
+- Principal Investigator, University of Manitoba Research Startup Fund (02/Sep/2021--01/Sep/2027)
 
 # TEACHING
 
 #### CURRENTLY DELIVERED COURSES
 
-- [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022  
+- [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, Sep--Dec 2022  
 Lecture notes:  
 Assessments:
-- [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022  
+- [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, Sep--Dec 2022  
 Lecture notes:  
 Assessments:
 
@@ -150,7 +150,7 @@ Assessments:
 
 #### COMMITTEES 
 
-- Department-level: Graduate (2022-23), IT (2022-23), Research & Seminar (2021-22)
+- Department-level: Graduate (2022--23), IT (2022--23), Research & Seminar (2021--22)
 - Faculty-level: Executive Council (2022--)
 
 # ARCHIVE
@@ -159,7 +159,7 @@ Assessments:
 
 ##### INSTRUCTOR
 
-- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, Jan-Apr 2022  
+- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, Jan--Apr 2022  
 Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip){:target="_blank"}  
 Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip){:target="_blank"}
 
