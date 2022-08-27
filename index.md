@@ -115,12 +115,12 @@ _Atmospheric Environment_ 61:409-418.
 
 #### CURRENTLY DELIVERED COURSES
 
-- [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022
-  - Lecture notes:
-  - Assessments:
-- [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022
-  - Lecture notes:
-  - Assessments:
+- [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022  
+Lecture notes:  
+Assessments:
+- [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, Sep-Dec 2022  
+Lecture notes:  
+Assessments:
 
 #### SUPERVISION
 
@@ -159,9 +159,9 @@ _Atmospheric Environment_ 61:409-418.
 
 ##### INSTRUCTOR
 
-- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, Jan-Apr 2022
-  - Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip){:target="_blank"}
-  - Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip){:target="_blank"}
+- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, Jan-Apr 2022  
+Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip){:target="_blank"}  
+Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip){:target="_blank"}
 
 #### TEACHING ACTIVITIES  @SIMON FRASER U
 
