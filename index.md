@@ -53,13 +53,13 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 # RESEARCH
 
-### INTERESTS (alphabetically ordered)
+### INTERESTS
 
-- Deep neural network/deep learning
-- Design of experiments
 - Functional/longitudinal data analysis
+- Deep neural network/deep learning
 - Survival analysis
 - Tensor data analysis
+- Design of experiments
 
 ### PREPRINTS
 
