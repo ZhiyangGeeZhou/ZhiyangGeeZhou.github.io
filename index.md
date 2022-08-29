@@ -124,7 +124,7 @@ Assessments:
 
 #### SUPERVISION
 
-- Ke Wang (MSc student, 2022 Fall--)
+- Ke Wang (M.Sc. candidate, 2022 Fall--)
 
 # SERVICE
 
