@@ -94,7 +94,7 @@ _Atmospheric Environment_ 61:409--418.
 
 ### PRESENTATIONS
 
-<!--- - 18/Dec/2022, ICSA International Conference-->
+<!--- - 18/Dec/2022, 12th ICSA International Conference-->
 - 17/Dec/2022, 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)
 - 24/Oct/2022, Northwestern Biostatistics Seminar Series, Feinberg School of Medicine
 - 10/Jul/2022, ICSA-Canada Chapter Symposium
