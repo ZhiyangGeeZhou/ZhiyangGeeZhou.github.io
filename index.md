@@ -7,6 +7,7 @@
 
 Zhiyang Zhou, PhD
 <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>  
+<a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn" target="_blank"><i class="fas fa-at" aria-hidden="true"></i></a>
 zhiyang (dot) zhou (at) umanitoba (dot) ca  
 +1 204 480 1060  
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
