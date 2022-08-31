@@ -5,13 +5,12 @@
 
 <img align="right" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>
 
-Zhiyang Zhou, PhD
-<a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>  
+Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>, PhD  
 <i class="far fa-building" aria-hidden="true"></i> [Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
 <i class="fas fa-at" aria-hidden="true"></i> zhiyang (dot) zhou (at) umanitoba (dot) ca  
-<i class="fas fa-phone-square-alt fa-lg" aria-hidden="true"></i> +1 204 480 1060  
-<i class="fas fa-map-marker-alt fa-lg" aria-hidden="true"></i> 330 Machray Hall  
-University of Manitoba 
+<i class="fas fa-phone-square-alt" aria-hidden="true"></i> +1 204 480 1060  
+<i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
+330 Machray Hall, University of Manitoba  
 Winnipeg, MB R3T 2N2  
 Canada  
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
