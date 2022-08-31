@@ -16,7 +16,7 @@ zhiyang (dot) zhou (at) umanitoba (dot) ca
 330 Machray Hall  
 [Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}  
 [University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
-Winnipeg, MB R3T 2N2 
+Winnipeg, MB R3T 2N2  
 Canada  
 
 # ABOUT
