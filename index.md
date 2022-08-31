@@ -5,7 +5,7 @@
 
 <img align="right" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>
 
-Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>, PhD  
+Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>, PhD, Asst. Prof.  
 <i class="far fa-building" aria-hidden="true"></i> [Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
 <i class="fas fa-at" aria-hidden="true"></i> zhiyang (dot) zhou (at) umanitoba (dot) ca  
 <i class="fas fa-phone-square-alt" aria-hidden="true"></i> +1 204 480 1060  
