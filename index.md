@@ -11,8 +11,7 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <i class="fas fa-phone-square-alt" aria-hidden="true"></i> +1 204 480 1060  
 <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
 330 Machray Hall, University of Manitoba  
-Winnipeg, MB R3T 2N2  
-Canada  
+Winnipeg, MB R3T 2N2, Canada  
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate" target="_blank"><i class="fab fa-researchgate fa-lg" aria-hidden="true"></i></a>
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID" target="_blank"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
