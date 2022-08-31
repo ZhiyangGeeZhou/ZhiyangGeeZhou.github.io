@@ -26,7 +26,7 @@ and was awarded the PhD degree in Statistics by Simon Fraser University, Canada.
 His research interest lies at statistics and deep learning, both methodologically and theoretically.
 See the [curriculum vitae](attach/CV20220831.pdf){:target="_blank"}.
 
-#### HOBBIES
+##### HOBBIES
 
 Climbing, Jogging, Tennis, Badminton
 
