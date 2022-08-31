@@ -28,7 +28,7 @@ See the [curriculum vitae](attach/CV20220831.pdf){:target="_blank"}.
 
 #### HOBBIES
 
-Climbing, Jogging, Tennis, Badminton
+- Climbing, Jogging, Tennis, Badminton
 
 # EMPLOYMENT
 
