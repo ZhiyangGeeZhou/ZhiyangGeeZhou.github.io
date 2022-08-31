@@ -11,8 +11,7 @@ Zhiyang Zhou, PhD
 <i class="fas fa-at fa-lg" aria-hidden="true"></i> zhiyang (dot) zhou (at) umanitoba (dot) ca  
 <i class="fas fa-phone-square-alt fa-lg" aria-hidden="true"></i> +1 204 480 1060  
 <i class="fas fa-map-marker-alt fa-lg" aria-hidden="true"></i> 330 Machray Hall  
-[Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}  
-[University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
+University of Manitoba 
 Winnipeg, MB R3T 2N2  
 Canada  
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
