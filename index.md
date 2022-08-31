@@ -7,8 +7,8 @@
 
 Zhiyang Zhou, PhD
 <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>  
-<i class="fas fa-at" aria-hidden="true"></i> zhiyang (dot) zhou (at) umanitoba (dot) ca  
-<i class="fas fa-phone-square-alt"></i> +1 204 480 1060  
+<i class="fa fa-at" aria-hidden="true"></i> zhiyang (dot) zhou (at) umanitoba (dot) ca  
+<i class="fa fa-phone-square-alt"></i> +1 204 480 1060  
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate" target="_blank"><i class="fab fa-researchgate fa-lg" aria-hidden="true"></i></a>
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID" target="_blank"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
