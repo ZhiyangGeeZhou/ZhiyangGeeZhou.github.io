@@ -7,10 +7,10 @@
 
 Zhiyang Zhou, PhD
 <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>  
-<i class="far fa-building fa-lg"></i> [Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
-<i class="fas fa-at fa-lg"></i> zhiyang (dot) zhou (at) umanitoba (dot) ca  
-<i class="fas fa-phone-square-alt fa-lg"></i> +1 204 480 1060  
-<i class="fas fa-map-marker-alt fa-lg"></i> 330 Machray Hall  
+<i class="far fa-building fa-lg" aria-hidden="true"></i> [Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
+<i class="fas fa-at fa-lg" aria-hidden="true"></i> zhiyang (dot) zhou (at) umanitoba (dot) ca  
+<i class="fas fa-phone-square-alt fa-lg" aria-hidden="true"></i> +1 204 480 1060  
+<i class="fas fa-map-marker-alt fa-lg" aria-hidden="true"></i> 330 Machray Hall  
 [Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}  
 [University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
 Winnipeg, MB R3T 2N2  
