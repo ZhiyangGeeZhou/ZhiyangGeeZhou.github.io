@@ -92,37 +92,37 @@ _Atmospheric Environment_ 61:409--418.
 
 ### PRESENTATIONS
 
-<!--- - 18/Dec/2022, 12th ICSA International Conference-->
-- 17/Dec/2022, 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)
-- 24/Oct/2022, Northwestern Biostatistics Seminar Series, Feinberg School of Medicine
-- 10/Jul/2022, ICSA-Canada Chapter Symposium
-- 20/Jun/2022, ICSA Applied Statistics Symposium
-- 07/Jun/2022, Machine Learning Special Interest Group Meeting, George & Fay Yee Centre for Healthcare Innovation
-- 22/Oct/2021, NIC-ASA & ICSA Midwest Chapter Joint Fall Meeting
-- 13/Sep/2021, ICSA Applied Statistics Symposium
-- 06/Aug/2020, Joint Statistical Meeting
-- 09/Aug/2019, ICSA-Canada Chapter Symposium
-- 30/May/2016, SSC Annual Meeting
+<!--- - 2023, 12th ICSA International Conference-->
+- 2022/Dec/17, 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)
+- 2022/Oct/24, Northwestern Biostatistics Seminar Series, Feinberg School of Medicine
+- 2022/Jul/10, ICSA-Canada Chapter Symposium
+- 2022/Jun/20, ICSA Applied Statistics Symposium
+- 2022/Jun/07, Machine Learning Special Interest Group Meeting, George & Fay Yee Centre for Healthcare Innovation
+- 2021/Oct/22, NIC-ASA & ICSA Midwest Chapter Joint Fall Meeting
+- 2021/Sep/13, ICSA Applied Statistics Symposium
+- 2020/Aug/06, Joint Statistical Meeting
+- 2019/Aug/09, ICSA-Canada Chapter Symposium
+- 2016/May/30, SSC Annual Meeting
 
 ### FUNDING
 
-- Principal Investigator, NSERC Discovery Grant (with the Discovery Launch Supplement, 01/Apr/2022--31/Mar/2027)
-- Principal Investigator, University of Manitoba Research Startup Fund (02/Sep/2021--01/Sep/2027)
+- Principal Investigator, NSERC Discovery Grant (with the Discovery Launch Supplement, 2022/Apr/01--2027/Mar/31)
+- Principal Investigator, University of Manitoba Research Startup Fund (2021/Sep/02--2027/Sep/01)
 
 # TEACHING
 
 #### CURRENTLY DELIVERED COURSES
 
-- [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, Sep--Dec 2022  
+- [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
 Lecture notes:  
 Assessments:
-- [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, Sep--Dec 2022  
+- [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
 Lecture notes:  
 Assessments:
 
 #### SUPERVISION
 
-- Ke Wang (M.Sc. candidate, 2022 Fall--)
+- Ke Wang (M.Sc. candidate, 2022 Sep--)
 
 # SERVICE
 
@@ -157,7 +157,7 @@ Assessments:
 
 ##### INSTRUCTOR
 
-- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, Jan--Apr 2022  
+- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, 2022 Jan--Apr  
 Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip){:target="_blank"}  
 Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip){:target="_blank"}
 
@@ -165,36 +165,36 @@ Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip){:ta
 
 ##### INSTRUCTOR
 
-- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100){:target="_blank"}, 2019 Fall  
+- [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100){:target="_blank"}, 2019 Sep--Dec  
 Lecture notes (password-protected): [Download](attach/SFU/STAT450_2019Fall_Lec.zip){:target="_blank"}  
 Assignments (password-protected): [Download](attach/SFU/STAT450_2019Fall_HW.zip){:target="_blank"}
 
 ##### TUTOR
 
-- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100){:target="_blank"}, 2020 Spring  
+- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100){:target="_blank"}, 2020 Jan--Apr  
 Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}  
 Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2020Spring.zip){:target="_blank"}
-- [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100){:target="_blank"}, 2019 Spring  
+- [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100){:target="_blank"}, 2019 Jan--Apr  
 Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}  
 Tutorial slides (password-protected): [Download](attach/SFU/STAT445_2019Spring.zip){:target="_blank"}
-- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100){:target="_blank"}, 2018 Spring  
+- [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100){:target="_blank"}, 2018 Jan--Apr  
 Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}  
 Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2018Spring.zip){:target="_blank"}
-- [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100){:target="_blank"}, 2017 Spring  
+- [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100){:target="_blank"}, 2017 Jan--Apr  
 Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/){:target="_blank"}  
 Tutorial slides (password-protected): [Download](attach/SFU/STAT410_2017Spring.zip){:target="_blank"}
-- [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100){:target="_blank"}, 2016 Fall  
+- [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100){:target="_blank"}, 2016 Sep--Dec  
 Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/){:target="_blank"}  
 Tutorial slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip){:target="_blank"}
 
 ##### MARKER
 
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100){:target="_blank"}, 
-2020 Summer  
+2020 May--Aug  
 Instructed by Prof. [Tim Swartz](https://www.stat.sfu.ca/~tim/)
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2017/spring/stat/302/d100){:target="_blank"}, 
-2017 Spring  
+2017 Jan--Apr  
 Instructed by Prof. [Brad McNeney](https://www.stat.sfu.ca/~mcneney/){:target="_blank"}
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2016/spring/stat/475/d100){:target="_blank"},
-2016 Spring  
+2016 Jan--Apr  
 Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}
