@@ -114,10 +114,10 @@ _Atmospheric Environment_ 61:409--418.
 #### CURRENTLY DELIVERED COURSES
 
 - [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
-Lecture notes:  
+Lecture notes: [1](attach/UM/2022FallUManitobaSTAT3100Week01.pdf){:target="_blank"}  
 Assessments:
 - [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
-Lecture notes:  
+Lecture notes:[1](attach/UM/2022FallUManitobaSTAT4100Week01.pdf){:target="_blank"}  
 Assessments:
 
 #### SUPERVISION
@@ -158,8 +158,8 @@ Assessments:
 ##### INSTRUCTOR
 
 - [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, 2022 Jan--Apr  
-Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip){:target="_blank"}  
-Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip){:target="_blank"}
+Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)  
+Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)
 
 #### TEACHING ACTIVITIES  @SIMON FRASER U
 
