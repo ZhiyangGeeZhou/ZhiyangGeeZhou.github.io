@@ -124,7 +124,7 @@ Assessments:
 
 #### SUPERVISION
 
-- Ke Wang (M.Sc. candidate, 2022 Sep--)
+- 2022 Sep--, Ke Wang (M.Sc. candidate)
 
 # SERVICE
 
