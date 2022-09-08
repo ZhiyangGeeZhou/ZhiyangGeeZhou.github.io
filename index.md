@@ -153,6 +153,10 @@ Assessments:
 - Department-level: Graduate (2022--23), IT (2022--23), Research & Seminar (2021--22)
 - Faculty-level: Executive Council (2022--)
 
+#### EXAMINER
+
+- 2022 Fall, Chenwei Bai (M.Sc. candidate)
+
 # ARCHIVE
 
 #### TEACHING ACTIVITIES  @U MANITOBA
