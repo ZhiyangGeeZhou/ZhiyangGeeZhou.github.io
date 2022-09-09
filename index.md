@@ -111,7 +111,7 @@ _Atmospheric Environment_ 61:409--418.
 
 # TEACHING
 
-#### CURRENTLY DELIVERED COURSES
+#### COURSES IN PROGRESS
 
 - [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
 Lecture notes: 
@@ -119,7 +119,8 @@ Lecture notes:
 Assessments:
 - [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
 Lecture notes: 
-[1](attach/UM/2022FallUManitobaSTAT4100Week01.pdf){:target="_blank"}  
+[1](attach/UM/2022FallUManitobaSTAT4100Week01.pdf){:target="_blank"}
+[2](attach/UM/2022FallUManitobaSTAT4100Week02.pdf){:target="_blank"}  
 Assessments:
 
 #### SUPERVISION
