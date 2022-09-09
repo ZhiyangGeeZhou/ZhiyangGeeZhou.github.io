@@ -155,7 +155,7 @@ Assessments:
 
 #### EXAMINER
 
-- 2022 Fall, Chenwei Bai (M.Sc. candidate)
+- M.Sc. thesis: Chenwei Bai (2022 Sep)
 
 # ARCHIVE
 
