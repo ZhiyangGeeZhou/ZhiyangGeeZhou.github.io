@@ -157,7 +157,7 @@ Assignments:
 
 #### EXAMINER
 
-- M.Sc. thesis: Chenwei Bai (2022 Sep)
+- M.Sc. thesis: Chenwei Bai (2022, U Manitoba)
 
 # ARCHIVE
 
