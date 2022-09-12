@@ -126,7 +126,9 @@ Assignments:
 
 #### SUPERVISION
 
-- 2022 Sep--, Ke Wang (M.Sc. candidate)
+- 2022 Sep--, Ke Wang (M.Sc. candidate, U Manitoba Statistics)
+- 2022 Sep--, Omar Hassan (B.Sc. candidate, U Manitoba Physics, 
+co-supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"})
 
 # SERVICE
 
@@ -157,7 +159,7 @@ Assignments:
 
 #### EXAMINER
 
-- M.Sc. thesis: Chenwei Bai (2022, U Manitoba)
+- M.Sc. thesis: Chenwei Bai (2022, U Manitoba Statistics)
 
 # ARCHIVE
 
