@@ -126,8 +126,10 @@ Assignments:
 
 #### SUPERVISION
 
-- Ke Wang (2022 Sep--, M.Sc. candidate, U Manitoba Statistics),
-Omar Hassan (2022 Sep--, B.Sc. candidate, U Manitoba Physics, 
+- Master students: 
+Ke Wang (2022 Sep--, U Manitoba Statistics)
+- Undergraduate students: 
+Omar Hassan (2022 Sep--, U Manitoba Physics, 
 co-supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"})
 
 # SERVICE
