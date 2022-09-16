@@ -117,6 +117,7 @@ _Atmospheric Environment_ 61:409--418.
 Lecture notes: 
 [1](attach/UM/2022FallUManitobaSTAT3100Week01.pdf){:target="_blank"}
 [2](attach/UM/2022FallUManitobaSTAT3100Week02.pdf){:target="_blank"}
+[3](attach/UM/2022FallUManitobaSTAT3100Week03.pdf){:target="_blank"}
 - [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
 Lecture notes: 
 [1](attach/UM/2022FallUManitobaSTAT4100Week01.pdf){:target="_blank"}
