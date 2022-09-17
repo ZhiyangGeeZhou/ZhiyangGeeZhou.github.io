@@ -122,6 +122,7 @@ Lecture notes:
 Lecture notes: 
 [1](attach/UM/2022FallUManitobaSTAT4100Week01.pdf){:target="_blank"}
 [2](attach/UM/2022FallUManitobaSTAT4100Week02.pdf){:target="_blank"}
+[3](attach/UM/2022FallUManitobaSTAT4100Week03.pdf){:target="_blank"}
 
 #### SUPERVISION
 
