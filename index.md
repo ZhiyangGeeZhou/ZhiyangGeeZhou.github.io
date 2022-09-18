@@ -94,6 +94,7 @@ _Atmospheric Environment_ 61:409--418.
 
 <!--- - 2023, 12th ICSA International Conference-->
 - 2022/Dec/17, 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)
+- 2022/Oct/25, Biostatistics and Bioinformatics Round, George & Fay Yee Centre for Healthcare Innovation
 - 2022/Oct/24, Northwestern Biostatistics Seminar Series, Feinberg School of Medicine
 - 2022/Jul/10, ICSA-Canada Chapter Symposium
 - 2022/Jun/20, ICSA Applied Statistics Symposium
@@ -106,6 +107,7 @@ _Atmospheric Environment_ 61:409--418.
 
 ### FUNDING
 
+<!--- - Co-Investigator, CIHR Training Grant: Clinical Trials Training Platforms (2022/Sep/01--)-->
 - Principal Investigator, NSERC Discovery Grant (with the Discovery Launch Supplement, 2022/Apr/01--2027/Mar/31)
 - Principal Investigator, University of Manitoba Research Startup Fund (2021/Sep/02--2027/Sep/01)
 
