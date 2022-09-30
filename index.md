@@ -133,12 +133,12 @@ Lecture notes:
 #### SUPERVISION
 
 - Master students: 
-Ke Wang (2022--, Department of Statistics, U Manitoba)
+Ke Wang (2022--, Statistics, U Manitoba)
 
 #### CO-SUPERVISION
 
 - Undergraduate students: 
-Omar Hassan (2022--, Department of Physics and Astronomy, U Manitoba, 
+Omar Hassan (2022--, Physics and Astronomy, U Manitoba, 
 supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"})
 
 # SERVICE
