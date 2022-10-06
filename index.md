@@ -165,7 +165,7 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 
 #### COMMITTEES 
 
-- Department-level: Graduate (2022--23), IT (2022--23), Research & Seminar (2021--22)
+- Department-level: Graduate (2022--23), IT (2022--23), Research & Seminar (2021--22), Statistical Consulting (2022--23)
 - Faculty-level: Executive Council (2022--)
 
 #### EXAMINER
