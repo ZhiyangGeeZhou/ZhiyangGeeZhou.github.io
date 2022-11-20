@@ -127,6 +127,7 @@ Lecture notes:
 [8](attach/UM/2022FallUManitobaSTAT3100Week08.pdf){:target="_blank"}
 [9](attach/UM/2022FallUManitobaSTAT3100Week09.pdf){:target="_blank"}
 [10](attach/UM/2022FallUManitobaSTAT3100Week10.pdf){:target="_blank"}
+[11](attach/UM/2022FallUManitobaSTAT3100Week11.pdf){:target="_blank"}
 - [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
 Lecture notes: 
 [1](attach/UM/2022FallUManitobaSTAT4100Week01.pdf){:target="_blank"}
@@ -139,6 +140,7 @@ Lecture notes:
 [8](attach/UM/2022FallUManitobaSTAT4100Week08.pdf){:target="_blank"}
 [9](attach/UM/2022FallUManitobaSTAT4100Week09.pdf){:target="_blank"}
 [10](attach/UM/2022FallUManitobaSTAT4100Week10.pdf){:target="_blank"}
+[11](attach/UM/2022FallUManitobaSTAT4100Week11.pdf){:target="_blank"}
 
 #### SUPERVISION
 
