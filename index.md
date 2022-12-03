@@ -162,6 +162,7 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 - Journals: 
 [_Biometrics_](https://onlinelibrary.wiley.com/journal/15410420){:target="_blank"},
 [_Biostatistics & Epidemiology_](https://www.tandfonline.com/toc/tbep20/current){:target="_blank"},
+[_Chemometrics and Intelligent Laboratory Systems_](https://www.sciencedirect.com/journal/chemometrics-and-intelligent-laboratory-systems){:target="_blank"},
 [_Computational Statistics_](https://www.springer.com/journal/180){:target="_blank"},
 [_Canadian Journal of Statistics_](https://onlinelibrary.wiley.com/journal/1708945x){:target="_blank"},
 [_IISE Transations_](https://www.tandfonline.com/action/journalInformation?journalCode=uiie21){:target="_blank"},
