@@ -181,7 +181,7 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 [_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
 [_International Conference on Learning Representations (ICLR)_](https://iclr.cc/){:target="_blank"}
 
-#### COMMITTEES 
+#### COMMITTEE MEMBER
 
 - Department-level: Graduate (2022--23), IT (2022--23), Research & Seminar (2021--22), Statistical Consulting (2022--23)
 - Faculty-level: Executive Committee (2022--24)
