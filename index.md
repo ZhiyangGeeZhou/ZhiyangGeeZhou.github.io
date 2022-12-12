@@ -169,6 +169,7 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 [_Canadian Journal of Statistics_](https://onlinelibrary.wiley.com/journal/1708945x){:target="_blank"},
 [_IISE Transations_](https://www.tandfonline.com/action/journalInformation?journalCode=uiie21){:target="_blank"},
 [_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current){:target="_blank"},
+[_Journal of Medical Internet Research_](https://www.jmir.org/){:target="_blank"},
 [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/){:target="_blank"},
 [_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems){:target="_blank"},
 [_Mathematical Modelling and Analysis_](https://journals.vgtu.lt/index.php/MMA){:target="_blank"},
