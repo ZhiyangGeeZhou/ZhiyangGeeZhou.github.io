@@ -190,6 +190,11 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 
 - M.Sc. thesis: Chenwei Bai (2022, Statistics, U Manitoba)
 
+#### CHAIR
+
+- M.Sc. defence: Nasiba Ahmed (2022/Aug/22, Statistics, U Manitoba), Keith Uzelmann (2022/Aug/24, Statistics, U Manitoba)
+- Ph.D. defence: Yungang (Yg) Liang (2022/Dec/23, Mathematics, U Manitoba)
+
 # ARCHIVE
 
 #### TEACHING ACTIVITIES  @U MANITOBA
