@@ -118,6 +118,9 @@ _Atmospheric Environment_ 61:409--418.
 
 #### COURSES IN PROGRESS
 
+- [STAT 3690 Multivariate Analysis](){:target="_blank"}, 2023 Jan--Apr  
+Lecture notes: 
+
 - [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
 Lecture notes: 
 [1](attach/UM/2022FallUManitobaSTAT3100Week01.pdf){:target="_blank"}
