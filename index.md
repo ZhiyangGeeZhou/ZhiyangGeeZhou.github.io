@@ -178,10 +178,8 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 ##### INSTRUCTOR
 
 - [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
-Lecture notes: 
 <!--- Lecture notes (password-protected): [Download](attach/UM/STAT3100_2022F_L.zip)-->
 - [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
-Lecture notes: 
 <!--- Lecture notes (password-protected): [Download](attach/UM/STAT4100_2022F_L.zip)-->
 - [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, 2022 Jan--Apr  
 <!--- Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)  -->
