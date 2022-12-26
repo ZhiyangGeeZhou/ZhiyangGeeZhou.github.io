@@ -121,36 +121,6 @@ _Atmospheric Environment_ 61:409--418.
 - [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2023.pdf){:target="_blank"}, 2023 Jan--Apr  
 Lecture notes:
 [1](attach/UM/2023WinterUManitobaSTAT3690Week01.pdf){:target="_blank"}
-- [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
-Lecture notes: 
-[1](attach/UM/2022FallUManitobaSTAT3100Week01.pdf){:target="_blank"}
-[2](attach/UM/2022FallUManitobaSTAT3100Week02.pdf){:target="_blank"}
-[3](attach/UM/2022FallUManitobaSTAT3100Week03.pdf){:target="_blank"}
-[4](attach/UM/2022FallUManitobaSTAT3100Week04.pdf){:target="_blank"}
-[5](attach/UM/2022FallUManitobaSTAT3100Week05.pdf){:target="_blank"}
-[6](attach/UM/2022FallUManitobaSTAT3100Week06.pdf){:target="_blank"}
-[7](attach/UM/2022FallUManitobaSTAT3100Week07.pdf){:target="_blank"}
-[8](attach/UM/2022FallUManitobaSTAT3100Week08.pdf){:target="_blank"}
-[9](attach/UM/2022FallUManitobaSTAT3100Week09.pdf){:target="_blank"}
-[10](attach/UM/2022FallUManitobaSTAT3100Week10.pdf){:target="_blank"}
-[11](attach/UM/2022FallUManitobaSTAT3100Week11.pdf){:target="_blank"}
-[12](attach/UM/2022FallUManitobaSTAT3100Week12.pdf){:target="_blank"}
-[13](attach/UM/2022FallUManitobaSTAT3100Week13.pdf){:target="_blank"}
-- [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
-Lecture notes: 
-[1](attach/UM/2022FallUManitobaSTAT4100Week01.pdf){:target="_blank"}
-[2](attach/UM/2022FallUManitobaSTAT4100Week02.pdf){:target="_blank"}
-[3](attach/UM/2022FallUManitobaSTAT4100Week03.pdf){:target="_blank"}
-[4](attach/UM/2022FallUManitobaSTAT4100Week04.pdf){:target="_blank"}
-[5](attach/UM/2022FallUManitobaSTAT4100Week05.pdf){:target="_blank"}
-[6](attach/UM/2022FallUManitobaSTAT4100Week06.pdf){:target="_blank"}
-[7](attach/UM/2022FallUManitobaSTAT4100Week07.pdf){:target="_blank"}
-[8](attach/UM/2022FallUManitobaSTAT4100Week08.pdf){:target="_blank"}
-[9](attach/UM/2022FallUManitobaSTAT4100Week09.pdf){:target="_blank"}
-[10](attach/UM/2022FallUManitobaSTAT4100Week10.pdf){:target="_blank"}
-[11](attach/UM/2022FallUManitobaSTAT4100Week11.pdf){:target="_blank"}
-[12](attach/UM/2022FallUManitobaSTAT4100Week12.pdf){:target="_blank"}
-[13](attach/UM/2022FallUManitobaSTAT4100Week13.pdf){:target="_blank"}
 
 #### SUPERVISION
 
@@ -207,6 +177,12 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 
 ##### INSTRUCTOR
 
+- [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
+Lecture notes: 
+<!--- Lecture notes (password-protected): [Download](attach/UM/STAT3100_2022F_L.zip)-->
+- [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
+Lecture notes: 
+<!--- Lecture notes (password-protected): [Download](attach/UM/STAT4100_2022F_L.zip)-->
 - [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, 2022 Jan--Apr  
 <!--- Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)  -->
 <!--- Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)-->
