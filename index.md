@@ -190,8 +190,8 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 ##### INSTRUCTOR
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100){:target="_blank"}, 2019 Sep--Dec  
-Lecture notes (password-protected): [Download](attach/SFU/STAT450_2019Fall_Lec.zip)  
-Assignments (password-protected): [Download](attach/SFU/STAT450_2019Fall_HW.zip)
+<!--- Lecture notes (password-protected): [Download](attach/SFU/STAT450_2019Fall_Lec.zip)  -->
+<!--- Assignments (password-protected): [Download](attach/SFU/STAT450_2019Fall_HW.zip)-->
 
 ##### TUTOR
 
