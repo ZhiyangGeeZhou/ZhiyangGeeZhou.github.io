@@ -196,19 +196,19 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 ##### TUTOR
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100){:target="_blank"}, 2020 Jan--Apr  
-<!--- Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}  -->
+Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2020Spring.zip)-->
 - [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100){:target="_blank"}, 2019 Jan--Apr  
-<!--- Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}  -->
+Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT445_2019Spring.zip)-->
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100){:target="_blank"}, 2018 Jan--Apr  
-<!--- Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}  -->
+Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2018Spring.zip)-->
 - [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100){:target="_blank"}, 2017 Jan--Apr  
-<!--- Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/){:target="_blank"}  -->
+Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT410_2017Spring.zip)-->
 - [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100){:target="_blank"}, 2016 Sep--Dec  
-<!--- Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/){:target="_blank"}  -->
+Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip)-->
 
 ##### MARKER
