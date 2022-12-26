@@ -95,7 +95,7 @@ _Atmospheric Environment_ 61:409--418.
 
 ### PRESENTATIONS
 
-<!--- - 2023, 12th ICSA International Conference-->
+- 2023/Jul, 12th ICSA International Conference
 - 2022/Dec/17, 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)
 - 2022/Oct/25, Biostatistics and Bioinformatics Round, George & Fay Yee Centre for Healthcare Innovation
 - 2022/Oct/24, Northwestern Biostatistics Seminar Series, Feinberg School of Medicine
@@ -194,12 +194,12 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 
 #### EXAMINER
 
-- M.Sc. thesis: Chenwei Bai (2022, Statistics, U Manitoba)
+- M.Sc. thesis: Chenwei Bai (2022, Stat, U Manitoba)
 
 #### CHAIR
 
-- M.Sc. defence: Nasiba Ahmed (2022/Aug/22, Statistics, U Manitoba), Keith Uzelmann (2022/Aug/24, Statistics, U Manitoba)
-- Ph.D. defence: Yungang (Yg) Liang (2022/Dec/23, Mathematics, U Manitoba)
+- M.Sc. defence: Aaron (Xiang) Zheng (2023/Jan/18, Stat, U Manitoba), Nasiba Ahmed (2022/Aug/22, Stat, U Manitoba), Keith Uzelmann (2022/Aug/24, Stat, U Manitoba)
+- Ph.D. defence: Yungang (Yg) Liang (2022/Dec/23, Math, U Manitoba)
 
 # ARCHIVE
 
@@ -208,8 +208,8 @@ supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy
 ##### INSTRUCTOR
 
 - [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, 2022 Jan--Apr  
-Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)  
-Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)
+<!--- Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)  -->
+<!--- Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)-->
 
 #### TEACHING ACTIVITIES  @SIMON FRASER U
 
