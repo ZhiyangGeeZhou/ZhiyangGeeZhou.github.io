@@ -14,8 +14,6 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 [Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
 <i class="fas fa-at" aria-hidden="true"></i>
 zhiyang (dot) zhou (at) umanitoba (dot) ca  
-<i class="fas fa-phone-square-alt" aria-hidden="true"></i>
-+1 204 480 1060  
 <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
 330 Machray Hall, University of Manitoba, Winnipeg, MB, Canada R3T 2N2  
 
