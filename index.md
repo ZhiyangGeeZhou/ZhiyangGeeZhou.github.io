@@ -130,7 +130,7 @@ Ke Wang (2022--, Statistics, U Manitoba)
 
 - Undergraduate students: 
 Omar Hassan (2022--, Physics & Astronomy, U Manitoba, 
-supervisd by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"})
+supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"})
 
 # SERVICE
 
