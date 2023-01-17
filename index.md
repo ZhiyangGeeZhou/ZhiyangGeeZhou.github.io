@@ -25,7 +25,7 @@ Prior to the current appointment,
 he was trained as a postdoctoral fellow in Northwestern University Feinberg School of Medicine 
 and was awarded a PhD degree in Statistics by Simon Fraser University. 
 His research interest lies at statistics and deep learning, both methodologically and theoretically.
-See the [curriculum vitae](attach/CV20220831.pdf){:target="_blank"}.
+See the [curriculum vitae](attach/CV20230117.pdf){:target="_blank"}.
 
 #### HOBBIES
 
