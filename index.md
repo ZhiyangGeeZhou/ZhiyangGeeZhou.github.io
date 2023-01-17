@@ -163,7 +163,7 @@ supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronom
 
 #### EXAMINER
 
-- M.Sc. thesis: Chenwei Bai (2022, Stats, U Manitoba)
+- M.Sc. thesis: Chenwei Bai (2023, Stats, U Manitoba)
 
 #### CHAIR
 
