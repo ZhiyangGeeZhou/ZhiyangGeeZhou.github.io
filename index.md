@@ -121,6 +121,7 @@ _Atmospheric Environment_ 61:409--418.
 Lecture notes:
 [1](attach/UM/2023WinterUManitobaSTAT3690Week01.pdf){:target="_blank"}
 [2](attach/UM/2023WinterUManitobaSTAT3690Week02.pdf){:target="_blank"}
+[3](attach/UM/2023WinterUManitobaSTAT3690Week03.pdf){:target="_blank"}
 
 #### SUPERVISION
 
