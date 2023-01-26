@@ -68,7 +68,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 - Y. Deng, L. Liu, H. Jiang, Y. Peng, Y. Wei, **Z. Zhou**, Y. Zhong, Y. Zhao, X. Yang, J. Yu, Z. Lu, A. Kho, H. Ning, N. B. Allen, J. T. Wilkins, K. Liu, D. M. Lloyd-Jones, & L. Zhao. (2022).
 Comparison of state-of-the-art neural network survival models with the pooled cohort equations for cardiovascular disease risk prediction.
-Accepted by _BMC Medical Research Methodology_.
+ _BMC Medical Research Methodology_ 23:22.
 [doi:10.1186/s12874-022-01829-w](https://dx.doi.org/10.1186/s12874-022-01829-w){:target="_blank"}  
 - **Z. Zhou**, & P. Sang. (2022). Continuum centroid classifier for functional data.
 _Canadian Journal of Statistics_ 50:200--220.
@@ -78,7 +78,7 @@ _Canadian Journal of Statistics_ 50:200--220.
 Best Paper award of _the 9th Workshop on Data Mining in Biomedical Informatics and Healthcare (DMBIH'21) in conjunction with IEEE International Conference on Data Mining (ICDM'21)_.
 [doi:10.1109/ICDMW53433.2021.00069](https://dx.doi.org/10.1109/ICDMW53433.2021.00069){:target="_blank"}  
 - **Z. Zhou**. (2021). Fast implementation of partial least squares for function-on-function regression.
-_Journal of Multivariate Analysis_, 185:104769.
+_Journal of Multivariate Analysis_ 185:104769.
 [doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769){:target="_blank"}   
 `R` [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS){:target="_blank"}
 - **Z. Zhou**. (2019). Functional continuum regression.
