@@ -123,6 +123,7 @@ Lecture notes:
 [1](attach/UM/2023WinterUManitobaSTAT3690Week01.pdf){:target="_blank"}
 [2](attach/UM/2023WinterUManitobaSTAT3690Week02.pdf){:target="_blank"}
 [3](attach/UM/2023WinterUManitobaSTAT3690Week03.pdf){:target="_blank"}
+[4](attach/UM/2023WinterUManitobaSTAT3690Week04.pdf){:target="_blank"}
 
 #### SUPERVISION
 
