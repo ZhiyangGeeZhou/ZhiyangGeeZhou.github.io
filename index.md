@@ -75,7 +75,7 @@ _Canadian Journal of Statistics_ **50**:200--220.
 [doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624){:target="_blank"}  
 `R` [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC){:target="_blank"}
 - Y. Zhao, Y. Wang, J. Liu, H. Xia, Z. Xu, Q. Hong, **Z. Zhou**, & L. Petzold. (2021). Empirical quantitative analysis of COVID-19 forecasting models.
-Best Paper award of _the 9th Workshop on Data Mining in Biomedical Informatics and Healthcare (DMBIH'21) in conjunction with IEEE International Conference on Data Mining (ICDM'21)_.
+_2021 International Conference on Data Mining Workshops_ (ICDMW, Best Paper Award) 517--526.
 [doi:10.1109/ICDMW53433.2021.00069](https://dx.doi.org/10.1109/ICDMW53433.2021.00069){:target="_blank"}  
 - **Z. Zhou**. (2021). Fast implementation of partial least squares for function-on-function regression.
 _Journal of Multivariate Analysis_ **185**:104769.
