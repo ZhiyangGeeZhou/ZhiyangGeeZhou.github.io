@@ -27,7 +27,7 @@ and was awarded a PhD degree in Statistics by Simon Fraser University.
 His research interest lies at statistics and deep learning, both methodologically and theoretically.
 Also, 
 he has got an enthusiasm for collabarative and applied works.
-See the [curriculum vitae](attach/CV20230117.pdf){:target="_blank"}.
+See his up-to-date [curriculum vitae](attach/CV20230117.pdf){:target="_blank"}.
 
 #### HOBBIES
 
