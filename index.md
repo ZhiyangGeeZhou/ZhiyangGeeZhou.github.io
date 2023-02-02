@@ -26,7 +26,7 @@ he was trained as a postdoctoral fellow in Northwestern University Feinberg Scho
 and was awarded a PhD degree in Statistics by Simon Fraser University. 
 His research interest lies at statistics and deep learning, both methodologically and theoretically.
 Also, 
-he has got an enthusiasm for collabarative and applied works.
+he has got an enthusiasm for collaborative and applied works.
 See his [curriculum vitae](attach/CV20230130.pdf){:target="_blank"} (updated on 2023/Jan/30).
 
 #### HOBBIES
