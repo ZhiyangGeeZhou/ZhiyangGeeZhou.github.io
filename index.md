@@ -148,6 +148,7 @@ supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronom
 [_Chemometrics and Intelligent Laboratory Systems_](https://www.sciencedirect.com/journal/chemometrics-and-intelligent-laboratory-systems){:target="_blank"},
 [_Computational Statistics_](https://www.springer.com/journal/180){:target="_blank"},
 [_Canadian Journal of Statistics_](https://onlinelibrary.wiley.com/journal/1708945x){:target="_blank"},
+[_Environmental Modeling & Assessment_](https://www.springer.com/journal/10666){:target="_blank"},
 [_IISE Transations_](https://www.tandfonline.com/action/journalInformation?journalCode=uiie21){:target="_blank"},
 [_Journal of Computational & Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current){:target="_blank"},
 [_Journal of Medical Internet Research_](https://www.jmir.org/){:target="_blank"},
