@@ -6,7 +6,7 @@
 <img align="right" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>
 
 Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa fa-volume-up" aria-hidden="true"></i></a>, PhD, Asst. Prof.  
-<a href="https://sci.umanitoba.ca/statistics/profiles/zhiyangzhou/" title="U Manitoba Profile" target="_blank"><i class="fab fa-u fa-lg" aria-hidden="true"></i></a>
+<a href="https://sci.umanitoba.ca/statistics/profiles/zhiyangzhou/" title="U Manitoba Profile" target="_blank"><i class="fa-solid fa-u fa-lg" aria-hidden="true"></i></a>
 <a href="https://scholar.google.com/citations?user=ZpY-nqUAAAAJ&hl=en&oi=ao" title="Google Scholar" target="_blank"><i class="fab fa-google fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
 <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate" target="_blank"><i class="fab fa-researchgate fa-lg" aria-hidden="true"></i></a>
