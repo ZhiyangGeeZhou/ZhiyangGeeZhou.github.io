@@ -6,9 +6,9 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://sci.umanitoba.ca/statistics/profiles/zhiyangzhou/" title="U Manitoba Profile" target="_blank"><i class="fa-solid fa-building-columns"></i></a>
 <a href="https://scholar.google.com/citations?user=ZpY-nqUAAAAJ&hl=en&oi=ao" title="Google Scholar" target="_blank"><i class="fa-brands fa-google"></i></a>
 <a href="https://www.linkedin.com/in/zhiyangzhou" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-<a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate" target="_blank"><i class="fab fa-researchgate fa-lg" aria-hidden="true"></i></a>
-<a href="https://orcid.org/0000-0002-3722-9808" title="ORCID" target="_blank"><i class="fab fa-orcid fa-lg" aria-hidden="true"></i></a>
-<a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate (Web of Science)" target="_blank"><i class="fas fa-copyright fa-lg" aria-hidden="true"></i></a>  
+<a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate" target="_blank"><i class="fa-brands fa-researchgate"></i></a>
+<a href="https://orcid.org/0000-0002-3722-9808" title="ORCID" target="_blank"><i class="fa-brands fa-orcid"></i></a>
+<a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate (Web of Science)" target="_blank"><i class="fa-solid fa-copyright"></i></a>  
 <i class="far fa-building" aria-hidden="true"></i>
 [Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
 <i class="fas fa-at" aria-hidden="true"></i>
