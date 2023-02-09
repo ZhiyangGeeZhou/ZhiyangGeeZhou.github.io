@@ -96,6 +96,7 @@ _Atmospheric Environment_ **61**:409--418.
 ### PRESENTATIONS
 
 - 2023/Jul, 12th ICSA International Conference
+- 2023/Feb/20, Joseph J. Zilber School of Public Health
 - 2022/Dec/17, 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)
 - 2022/Oct/25, Biostatistics and Bioinformatics Round, George & Fay Yee Centre for Healthcare Innovation
 - 2022/Oct/24, Northwestern Biostatistics Seminar Series, Feinberg School of Medicine
