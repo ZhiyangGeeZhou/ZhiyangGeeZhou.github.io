@@ -9,7 +9,7 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://www.researchgate.net/profile/Zhiyang_Zhou2" title="ResearchGate" target="_blank"><i class="fa-brands fa-researchgate"></i></a>
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID" target="_blank"><i class="fa-brands fa-orcid"></i></a>
 <a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate (Web of Science)" target="_blank"><i class="fa-solid fa-copyright"></i></a>
-<a href="https://www.ratemyprofessors.com/professor?tid=2835549" title="Rate My Professor" target="_blank"><i class="fa-solid fa-chalkboard-user"></i></i></a>  
+<a href="https://www.ratemyprofessors.com/professor?tid=2835549" title="Rate My Professor" target="_blank"><i class="fa-solid fa-chalkboard-user"></i></a>  
 <i class="far fa-building" aria-hidden="true"></i>
 [Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
 <i class="fas fa-at" aria-hidden="true"></i>
