@@ -122,6 +122,7 @@ _Atmospheric Environment_ **61**:409--418.
 
 - [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2023.pdf){:target="_blank"}, 2023 Jan--Apr  
 Lecture notes:
+[0](attach/UM/2023WinterUManitobaSTAT3690Part00.pdf){:target="_blank"}
 [1](attach/UM/2023WinterUManitobaSTAT3690Part01.pdf){:target="_blank"}
 [2](attach/UM/2023WinterUManitobaSTAT3690Part02.pdf){:target="_blank"}
 [3](attach/UM/2023WinterUManitobaSTAT3690Part03.pdf){:target="_blank"}
