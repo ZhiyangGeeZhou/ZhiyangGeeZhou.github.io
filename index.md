@@ -122,12 +122,11 @@ _Atmospheric Environment_ **61**:409--418.
 
 - [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2023.pdf){:target="_blank"}, 2023 Jan--Apr  
 Lecture notes:
-[1](attach/UM/2023WinterUManitobaSTAT3690Week01.pdf){:target="_blank"}
-[2](attach/UM/2023WinterUManitobaSTAT3690Week02.pdf){:target="_blank"}
-[3](attach/UM/2023WinterUManitobaSTAT3690Week03.pdf){:target="_blank"}
-[4](attach/UM/2023WinterUManitobaSTAT3690Week04.pdf){:target="_blank"}
-[5](attach/UM/2023WinterUManitobaSTAT3690Week05.pdf){:target="_blank"}
-[6](attach/UM/2023WinterUManitobaSTAT3690Week06.pdf){:target="_blank"}
+[1](attach/UM/2023WinterUManitobaSTAT3690Part01.pdf){:target="_blank"}
+[2](attach/UM/2023WinterUManitobaSTAT3690Part02.pdf){:target="_blank"}
+[3](attach/UM/2023WinterUManitobaSTAT3690Part03.pdf){:target="_blank"}
+[4](attach/UM/2023WinterUManitobaSTAT3690Part04.pdf){:target="_blank"}
+[5](attach/UM/2023WinterUManitobaSTAT3690Part05.pdf){:target="_blank"}
 
 #### SUPERVISION
 
