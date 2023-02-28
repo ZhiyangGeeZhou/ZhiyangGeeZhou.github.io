@@ -140,6 +140,12 @@ Ke Wang (2022--, Statistics, U Manitoba)
 Omar Hassan (2022--, Physics & Astronomy, U Manitoba, 
 supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"})
 
+#### ADVISORY COMMITTEE
+
+- PhD students:
+Hassan Maleki Golandouz (2023--, Community Health Sciences, U Manitoba, 
+supervised by Prof. [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
+
 # SERVICE
 
 #### REVIEWER
