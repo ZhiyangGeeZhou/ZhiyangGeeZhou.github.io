@@ -133,22 +133,26 @@ Lecture notes:
 [9](attach/UM/2023WinterUManitobaSTAT3690Part09.pdf){:target="_blank"}
 [10](attach/UM/2023WinterUManitobaSTAT3690Part10.pdf){:target="_blank"}
 
-#### SUPERVISION
+#### SUPERVISION FOR
 
 - Master students: 
 Ke Wang (2022--, Statistics, U Manitoba)
 
-#### CO-SUPERVISION
+#### CO-SUPERVISION FOR
 
 - Undergraduate students: 
-Omar Hassan (2022--, Physics & Astronomy, U Manitoba, 
+Omar Hassan (2022--2023, Physics & Astronomy, U Manitoba, 
 supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"})
 
-#### ADVISORY COMMITTEE MEMBER
+#### ADVISORY COMMITTEE MEMBER FOR
 
 - PhD students:
 Hassan Maleki Golandouz (2023--, Community Health Sciences, U Manitoba, 
 supervised by Prof. [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
+
+- Master students:
+Ying Miao (2023--, Statistics, U Manitoba, 
+supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
 
 # SERVICE
 
