@@ -139,16 +139,16 @@ Lecture notes:
 
 #### CO-SUPERVISION FOR
 
-- Omar Hassan (2022--2023, BSc, Physics & Astronomy, U Manitoba, 
+- Omar Hassan (2022--2023, B.Sc., Physics & Astronomy, U Manitoba, 
 supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"})
 
 #### ADVISORY COMMITTEE MEMBER FOR
 
-- Hassan Maleki Golandouz (2023--, PhD student, Community Health Sciences, U Manitoba, 
+- Hassan Maleki Golandouz (2023--, Ph.D. student, Community Health Sciences, U Manitoba, 
 supervised by Prof. [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
-- Ying Miao (2023--, MSc student, Statistics, U Manitoba, 
+- Ying Miao (2023--, M.Sc. student, Statistics, U Manitoba, 
 supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
-- Qiao Tang (2023--, PhD student, Statistics, U Manitoba, 
+- Qiao Tang (2023--, Ph.D. student, Statistics, U Manitoba, 
 supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
 
 # SERVICE
