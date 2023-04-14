@@ -149,7 +149,6 @@ supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronom
 - PhD students:
 Hassan Maleki Golandouz (2023--, Community Health Sciences, U Manitoba, 
 supervised by Prof. [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
-
 - Master students:
 Ying Miao (2023--, Statistics, U Manitoba, 
 supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
