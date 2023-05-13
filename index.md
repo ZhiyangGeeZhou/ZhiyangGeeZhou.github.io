@@ -156,6 +156,7 @@ supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyan
 #### REVIEWER
 
 - Journals: 
+[_American Journal of Public Health_](https://ajph.aphapublications.org/){:target="_blank"},
 [_Biometrics_](https://onlinelibrary.wiley.com/journal/15410420){:target="_blank"},
 [_Biostatistics & Epidemiology_](https://www.tandfonline.com/toc/tbep20/current){:target="_blank"},
 [_Chemometrics and Intelligent Laboratory Systems_](https://www.sciencedirect.com/journal/chemometrics-and-intelligent-laboratory-systems){:target="_blank"},
