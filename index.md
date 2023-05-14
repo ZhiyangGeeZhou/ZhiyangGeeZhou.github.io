@@ -189,7 +189,7 @@ supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyan
 #### CHAIR
 
 - M.Sc. defence: Aaron (Xiang) Zheng (2023/Jan/18, Stats, U Manitoba), Keith Uzelmann (2022/Aug/24, Stats, U Manitoba), Nasiba Ahmed (2022/Aug/22, Stats, U Manitoba)
-- Ph.D. defence: Yungang (Yg) Liang (2022/Dec/23, Math, U Manitoba)
+- Ph.D. defence: Xiaohua Liu (2023/Jun/29, Stats, U Manitoba), Yungang (Yg) Liang (2022/Dec/23, Math, U Manitoba)
 
 # ARCHIVE
 
