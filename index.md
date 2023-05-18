@@ -139,8 +139,9 @@ Lecture notes:
 
 #### CO-SUPERVISION FOR
 
-- Omar Hassan (2022--2023, B.Sc. student in Physics, U Manitoba, 
-supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"})
+- Omar Hassan (2022--2023, B.Sc. in Physics, U Manitoba, 
+supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"}; 
+Now M.Sc. student in U Victoria)
 
 #### ADVISORY COMMITTEE MEMBER FOR
 
