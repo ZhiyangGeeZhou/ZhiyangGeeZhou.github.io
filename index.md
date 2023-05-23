@@ -68,7 +68,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 ### PEER-REVIEWED
 
 - J. Liu, X. Cheng, **Z. Zhou**, & N. Vangeepuram. (2023).
-Geographic and Sociodemographic Variations in Prevalence of Mental Health Symptoms Among US Youth, 2022.
+Geographic and sociodemographic variations in prevalence of mental health symptoms among US youth, 2022.
 Accepted by _American Journal of Public Health_.
 - Y. Deng, L. Liu, H. Jiang, Y. Peng, Y. Wei, **Z. Zhou**, Y. Zhong, Y. Zhao, X. Yang, J. Yu, Z. Lu, A. Kho, H. Ning, N. B. Allen, J. T. Wilkins, K. Liu, D. M. Lloyd-Jones, & L. Zhao. (2023).
 Comparison of state-of-the-art neural network survival models with the pooled cohort equations for cardiovascular disease risk prediction.
