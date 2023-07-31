@@ -54,7 +54,6 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 ### INTERESTS
 
 - Functional/longitudinal data analysis
-- Deep neural network/deep learning
 - Survival analysis
 - Tensor data analysis
 - Design of experiments
@@ -99,7 +98,8 @@ _Atmospheric Environment_ **61**:409--418.
 
 ### PRESENTATIONS
 
-- 2023/Jul, 12th ICSA International Conference
+- 2023/Dec, 16th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2023)
+- 2023/Jul/08, 12th ICSA International Conference
 - 2022/Dec/17, 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)
 - 2022/Oct/25, Biostatistics and Bioinformatics Round, George & Fay Yee Centre for Healthcare Innovation
 - 2022/Oct/24, Biostatistics Seminar Series, Northwestern University
@@ -114,7 +114,6 @@ _Atmospheric Environment_ **61**:409--418.
 
 ### FUNDING
 
-<!--- - Co-Investigator, CIHR Training Grant: Clinical Trials Training Platforms (2022/Sep/01--)-->
 - Principal Investigator, NSERC Discovery Grant (with the Discovery Launch Supplement, 2022/Apr/01--2027/Mar/31)
 - Principal Investigator, University of Manitoba Research Startup Fund (2021/Sep/02--2027/Sep/01)
 
@@ -142,9 +141,12 @@ Lecture notes:
 
 #### CO-SUPERVISION FOR
 
+- Yuting Kang (2023--, M.Sc. student in Mathematics, Shandong U, 
+supervised by Prof. [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"})
+
 - Omar Hassan (2022--2023, B.Sc. in Physics, U Manitoba, 
 supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"}; 
-prospective M.Sc. student in U Victoria)
+currently an M.Sc. student in U Victoria)
 
 #### ADVISORY COMMITTEE MEMBER FOR
 
