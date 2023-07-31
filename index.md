@@ -143,7 +143,6 @@ Lecture notes:
 
 - Yuting Kang (2023--, M.Sc. student in Mathematics, Shandong U, 
 supervised by Prof. [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"})
-
 - Omar Hassan (2022--2023, B.Sc. in Physics, U Manitoba, 
 supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"}; 
 currently an M.Sc. student in U Victoria)
