@@ -191,22 +191,22 @@ supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyan
 
 - STAT 3100 Introduction to Statistical Inference, 2022 Sep--Dec  
 Syllabuses: [2022](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf)  
-Lecture notes (password-protected): [2022](attach/UM/STAT3100_2022F_L.zip)
+Lectures (password-protected): [2022](attach/UM/STAT3100_2022F_L.zip)
 - STAT 3690 Multivariate Analysis, 2022--23 Jan--Apr  
 Syllabuses: [2022](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf) [23](attach/UM/SyllabusUofMSTAT3690Winter2023.pdf)  
-Lecture notes (password-protected): [2022](attach/UM/STAT3690_2022W_L.zip) [23](attach/UM/STAT3690_2023W_L.zip)  
+Lectures (password-protected): [2022](attach/UM/STAT3690_2022W_L.zip) [23](attach/UM/STAT3690_2023W_L.zip)  
 Assessments (password-protected): [2022](attach/UM/STAT3690_2022W_A.zip)
 - STAT 4100 Statistical Inference, 2022 Sep--Dec  
 Syllabuses: [2022](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf)  
-Lecture notes (password-protected): [2022](attach/UM/STAT4100_2022F_L.zip)
+Lectures (password-protected): [2022](attach/UM/STAT4100_2022F_L.zip)
 
 #### TEACHING ACTIVITIES  @SIMON FRASER U
 
 ##### INSTRUCTOR
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100){:target="_blank"}, 2019 Sep--Dec  
-<!--- Lecture notes (password-protected): [Download](attach/SFU/STAT450_2019Fall_Lec.zip)  -->
-<!--- Assignments (password-protected): [Download](attach/SFU/STAT450_2019Fall_HW.zip)-->
+Lectures (password-protected): [2019](attach/SFU/STAT450_2019Fall_Lec.zip)  
+Assignments (password-protected): [2019](attach/SFU/STAT450_2019Fall_HW.zip)
 
 ##### TUTOR
 
