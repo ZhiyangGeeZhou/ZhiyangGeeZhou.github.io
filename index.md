@@ -124,7 +124,7 @@ _Atmospheric Environment_ **61**:409--418.
 
 #### SUPERVISION FOR
 
-- Ke Wang (2022--, M.Sc. student in Statistics, U Manitoba)
+- Ke Wang (2022--, M.Sc. student in Stats, U Manitoba)
 
 #### CO-SUPERVISION FOR
 
