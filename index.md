@@ -122,27 +122,13 @@ _Atmospheric Environment_ **61**:409--418.
 
 #### COURSES IN PROGRESS
 
-- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2023.pdf){:target="_blank"}, 2023 Jan--Apr  
-Lecture notes:
-[0](attach/UM/2023WinterUManitobaSTAT3690Part00.pdf){:target="_blank"}
-[1](attach/UM/2023WinterUManitobaSTAT3690Part01.pdf){:target="_blank"}
-[2](attach/UM/2023WinterUManitobaSTAT3690Part02.pdf){:target="_blank"}
-[3](attach/UM/2023WinterUManitobaSTAT3690Part03.pdf){:target="_blank"}
-[4](attach/UM/2023WinterUManitobaSTAT3690Part04.pdf){:target="_blank"}
-[5](attach/UM/2023WinterUManitobaSTAT3690Part05.pdf){:target="_blank"}
-[6](attach/UM/2023WinterUManitobaSTAT3690Part06.pdf){:target="_blank"}
-[7](attach/UM/2023WinterUManitobaSTAT3690Part07.pdf){:target="_blank"}
-[8](attach/UM/2023WinterUManitobaSTAT3690Part08.pdf){:target="_blank"}
-[9](attach/UM/2023WinterUManitobaSTAT3690Part09.pdf){:target="_blank"}
-[10](attach/UM/2023WinterUManitobaSTAT3690Part10.pdf){:target="_blank"}
-
 #### SUPERVISION FOR
 
 - Ke Wang (2022--, M.Sc. student in Statistics, U Manitoba)
 
 #### CO-SUPERVISION FOR
 
-- Yuting Kang (2023--, M.Sc. student in Mathematics, Shandong U, 
+- Yuting Kang (2023--, M.Sc. student in Math, Shandong U, 
 supervised by Prof. [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"})
 - Omar Hassan (2022--2023, B.Sc. in Physics, U Manitoba, 
 supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"}; 
@@ -152,9 +138,9 @@ currently an M.Sc. student in U Victoria)
 
 - Hassan Maleki Golandouz (2023--, Ph.D. student in Community Health Sciences, U Manitoba, 
 supervised by Prof. [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
-- Ying Miao (2023, M.Sc. student in Statistics, U Manitoba, 
+- Ying Miao (2023, M.Sc. student in Stats, U Manitoba, 
 supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
-- Qiao Tang (2023--, Ph.D. student in Statistics, U Manitoba, 
+- Qiao Tang (2023--, Ph.D. student in Stats, U Manitoba, 
 supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
 
 # SERVICE
@@ -186,7 +172,7 @@ supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyan
 #### COMMITTEE MEMBER
 
 - Department-level: Graduate (2022--23), IT (2022--23), Research & Seminar (2021--22), Statistical Consulting (2022--23)
-- Faculty-level: Executive Committee (2022--24)
+- Faculty-level: Executive Committee (2022--23)
 
 #### EXAMINER
 
@@ -194,7 +180,7 @@ supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyan
 
 #### CHAIR
 
-- M.Sc. defence: Aaron (Xiang) Zheng (2023/Jan/18, Stats, U Manitoba), Keith Uzelmann (2022/Aug/24, Stats, U Manitoba), Nasiba Ahmed (2022/Aug/22, Stats, U Manitoba)
+- M.Sc. defence: Guanhong Xiao (2023/Aug/16, Stats, U Manitoba), Aaron (Xiang) Zheng (2023/Jan/18, Stats, U Manitoba), Keith Uzelmann (2022/Aug/24, Stats, U Manitoba), Nasiba Ahmed (2022/Aug/22, Stats, U Manitoba)
 - Ph.D. defence: Xiaohua Liu (2023/Jun/29, Stats, U Manitoba), Yungang (Yg) Liang (2022/Dec/23, Math, U Manitoba)
 
 # ARCHIVE
@@ -203,12 +189,14 @@ supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyan
 
 ##### INSTRUCTOR
 
+- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2023.pdf){:target="_blank"}, 2023 Jan--Apr
+<!--- Lecture notes (password-protected): [Download](attach/UM/STAT3690_2023W_L.zip)-->
 - [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
 <!--- Lecture notes (password-protected): [Download](attach/UM/STAT3100_2022F_L.zip)-->
 - [STAT 4100 Statistical Inference](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
 <!--- Lecture notes (password-protected): [Download](attach/UM/STAT4100_2022F_L.zip)-->
 - [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, 2022 Jan--Apr  
-<!--- Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)  -->
+<!--- Lecture notes (password-protected): [Download](attach/UM/STAT3690_2022W_L.zip)-->
 <!--- Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)-->
 
 #### TEACHING ACTIVITIES  @SIMON FRASER U
