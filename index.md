@@ -193,7 +193,7 @@ supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyan
 <!--- Lecture notes (password-protected): [Download](attach/UM/STAT3690_2023W_L.zip)-->
 - [STAT 3100 Introduction to Statistical Inference](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf){:target="_blank"}, 2022 Sep--Dec  
 <!--- Lecture notes (password-protected): [Download](attach/UM/STAT3100_2022F_L.zip)-->
-- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, 2022--2023 Jan--Apr
+- [STAT 3690 Multivariate Analysis](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf){:target="_blank"}, 2022--2023 Jan--Apr  
 Syllabuses: [2022](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf) [2023](attach/UM/SyllabusUofMSTAT3690Winter2023.pdf)  
 Lecture notes (password-protected): [2022](attach/UM/STAT3690_2022W_L.zip) [2023](attach/UM/STAT3690_2023W_L.zip)
 <!--- Assessments (password-protected): [Download](attach/UM/STAT3690_2022W_A.zip)-->
