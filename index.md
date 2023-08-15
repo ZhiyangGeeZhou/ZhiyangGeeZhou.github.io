@@ -197,6 +197,7 @@ Syllabuses: [2022](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf) [23](attach/UM/
 Lecture notes (password-protected): [2022](attach/UM/STAT3690_2022W_L.zip) [23](attach/UM/STAT3690_2023W_L.zip)  
 Assessments (password-protected): [2022](attach/UM/STAT3690_2022W_A.zip)
 - STAT 4100 Statistical Inference, 2022 Sep--Dec  
+Syllabuses: [2022](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf)  
 Lecture notes (password-protected): [2022](attach/UM/STAT4100_2022F_L.zip)
 
 #### TEACHING ACTIVITIES  @SIMON FRASER U
