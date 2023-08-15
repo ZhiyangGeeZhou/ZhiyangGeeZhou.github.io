@@ -21,8 +21,7 @@ zhiyang (dot) zhou (at) umanitoba (dot) ca
 
 Zhiyang is an Assistant Professor in the Department of Statistics at the University of Manitoba. 
 Prior to the current appointment, 
-he was trained as a postdoctoral fellow in Northwestern University Feinberg School of Medicine 
-and was awarded a PhD degree in Statistics by Simon Fraser University. 
+he was trained as a postdoctoral fellow in Northwestern University Feinberg School of Medicine. 
 His research interest lies at statistics and deep learning, both methodologically and theoretically.
 Also, 
 he has got an enthusiasm for collaborative and applied works.
