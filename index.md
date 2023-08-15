@@ -33,7 +33,7 @@ See his [curriculum vitae](attach/CV20230731.pdf){:target="_blank"} (updated on 
 
 # EMPLOYMENT
 
-- Assistant Professor of Statistics (Tenure-Track), [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, Canada, 2021-
+- Assistant Professor (Tenure-Track), [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, Canada, 2021-
 - Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}, United States, 2020--21  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao){:target="_blank"}, Associate Professor
 - Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada, 2019  
