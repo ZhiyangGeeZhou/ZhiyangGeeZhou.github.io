@@ -66,7 +66,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### PEER-REVIEWED
 
-- J. Liu, X. Cheng, **Z. Zhou**, & N. Vangeepuram. (2023).
+- J. Liu, **Z. Zhou**, X. Cheng, & N. Vangeepuram. (2023).
 Geographic and sociodemographic variations in prevalence of mental health symptoms among US youth, 2022.
 _American Journal of Public Health_ **113**:1116--1119.
 [doi:10.2105/AJPH.2023.307355](https://dx.doi.org/10.2105/AJPH.2023.307355){:target="_blank"}  
