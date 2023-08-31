@@ -34,11 +34,11 @@ See his [curriculum vitae](attach/CV20230731.pdf){:target="_blank"} (updated on 
 
 # APPOINTMENTS
 
-- Assistant Professor (Tenure-Track), [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}, United States, 2023--
-- Assistant Professor (Tenure-Track), [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, Canada, 2021--23
-- Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}, United States, 2020--21  
+- Assistant Professor (Tenure-Track), [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}, 2023--
+- Assistant Professor (Tenure-Track), [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, 2021--23
+- Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}, 2020--21  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao){:target="_blank"}, Associate Professor
-- Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada, 2019  
+- Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, 2019  
 
 # EDUCATION
 
