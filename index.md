@@ -11,7 +11,7 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate (Web of Science)" target="_blank"><i class="fa-solid fa-copyright"></i></a>
 <a href="https://www.ratemyprofessors.com/professor?tid=2835549" title="Rate My Professor" target="_blank"><i class="fa-solid fa-chalkboard-user"></i></a>  
 <i class="far fa-building" aria-hidden="true"></i>
-[Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}, 
+[Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}, 
 [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}  
 <i class="fas fa-at" aria-hidden="true"></i>
 zhou67 (at) uwm (dot) edu  
@@ -117,7 +117,6 @@ _Atmospheric Environment_ **61**:409--418.
 
 ### FUNDING
 
-- Principal Investigator, University of Wisconsin-Milwaukee Research Startup Fund
 - Principal Investigator, NSERC Discovery Grant (with the Discovery Launch Supplement, 2022/Apr/01--2027/Mar/31; terminated early on 2023/Sep/01 due to relocation)
 - Principal Investigator, University of Manitoba Research Startup Fund (2021/Sep/02--2027/Sep/01; terminated early on 2023/Sep/01 due to relocation)
 
@@ -132,10 +131,10 @@ _Atmospheric Environment_ **61**:409--418.
 #### CO-SUPERVISION FOR
 
 - Yuting Kang (2023--, M.Sc. student in Math, ctgu.edu.cn, 
-supervised by Prof. [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:target="_blank"} &
-Prof. [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"})
+with [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:target="_blank"} &
+[Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"} as senior supervisors)
 - Omar Hassan (2022--2023, B.Sc. in Physics, umanitoba.ca, 
-supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"}; 
+with [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"} as the senior supervisor; 
 currently an M.Sc. student in U Victoria)
 
 #### ADVISORY COMMITTEE MEMBER FOR
