@@ -11,7 +11,8 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate (Web of Science)" target="_blank"><i class="fa-solid fa-copyright"></i></a>
 <a href="https://www.ratemyprofessors.com/professor?tid=2835549" title="Rate My Professor" target="_blank"><i class="fa-solid fa-chalkboard-user"></i></a>  
 <i class="far fa-building" aria-hidden="true"></i>
-[Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}, 
+[Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}  
+<i class="far fa-building" aria-hidden="true"></i>
 [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}  
 <i class="fas fa-at" aria-hidden="true"></i>
 zhou67 (at) uwm (dot) edu  
