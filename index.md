@@ -11,19 +11,20 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate (Web of Science)" target="_blank"><i class="fa-solid fa-copyright"></i></a>
 <a href="https://www.ratemyprofessors.com/professor?tid=2835549" title="Rate My Professor" target="_blank"><i class="fa-solid fa-chalkboard-user"></i></a>  
 <i class="far fa-building" aria-hidden="true"></i>
-[Department of Statistics](https://sci.umanitoba.ca/statistics/){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"}  
+[Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}, 
+[University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}  
 <i class="fas fa-at" aria-hidden="true"></i>
-zhiyang (dot) zhou (at) umanitoba (dot) ca  
+zhou67 (at) uwm (dot) edu  
 <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
-330 Machray Hall, University of Manitoba, Winnipeg, MB, Canada R3T 2N2  
+1240 N 10th St, Milwaukee, WI 53205, United States  
 
 # ABOUT
 
-Zhiyang is an Assistant Professor in the Department of Statistics at the University of Manitoba. 
-Prior to the current appointment, 
-he was trained as a postdoctoral fellow in Northwestern University Feinberg School of Medicine. 
+Zhiyang is an Assistant Professor of Biostatistics in Zilber College of Public Health at the University of Wisconsin-Milwaukee.
+Prior to the current appointment,
+he was an Assistant Professor in the Department of Statistics at the University of Manitoba.
 His research interest lies at statistics and deep learning, both methodologically and theoretically.
-Also, 
+Also,
 he has got an enthusiasm for collaborative and applied works.
 See his [curriculum vitae](attach/CV20230731.pdf){:target="_blank"} (updated on 2023/Jul/31).
 
@@ -31,9 +32,10 @@ See his [curriculum vitae](attach/CV20230731.pdf){:target="_blank"} (updated on 
 
 - Climbing, jogging, tennis, badminton
 
-# EMPLOYMENT
+# APPOINTMENTS
 
-- Assistant Professor (Tenure-Track), [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, Canada, 2021-
+- Assistant Professor (Tenure-Track), [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}, United States, 2023--
+- Assistant Professor (Tenure-Track), [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, Canada, 2021--23
 - Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}, United States, 2020--21  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao){:target="_blank"}, Associate Professor
 - Sessional Instructor, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada, 2019  
@@ -115,8 +117,9 @@ _Atmospheric Environment_ **61**:409--418.
 
 ### FUNDING
 
-- Principal Investigator, NSERC Discovery Grant (with the Discovery Launch Supplement, 2022/Apr/01--2027/Mar/31)
-- Principal Investigator, University of Manitoba Research Startup Fund (2021/Sep/02--2027/Sep/01)
+- Principal Investigator, University of Wisconsin-Milwaukee Research Startup Fund
+- Principal Investigator, NSERC Discovery Grant (with the Discovery Launch Supplement, 2022/Apr/01--2027/Mar/31; terminated early on 2023/Sep/01 due to relocation)
+- Principal Investigator, University of Manitoba Research Startup Fund (2021/Sep/02--2027/Sep/01; terminated early on 2023/Sep/01 due to relocation)
 
 # TEACHING
 
@@ -124,23 +127,24 @@ _Atmospheric Environment_ **61**:409--418.
 
 #### SUPERVISION FOR
 
-- Ke Wang (2022--, M.Sc. student in Stats, U Manitoba)
+- Ke Wang (2022--, M.Sc. student in Stats, umanitoba.ca)
 
 #### CO-SUPERVISION FOR
 
-- Yuting Kang (2023--, M.Sc. student in Math, Shandong U, 
-supervised by Prof. [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"})
-- Omar Hassan (2022--2023, B.Sc. in Physics, U Manitoba, 
+- Yuting Kang (2023--, M.Sc. student in Math, ctgu.edu.cn, 
+supervised by Prof. [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:target="_blank"} &
+Prof. [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"})
+- Omar Hassan (2022--2023, B.Sc. in Physics, umanitoba.ca, 
 supervised by Prof. [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"}; 
 currently an M.Sc. student in U Victoria)
 
 #### ADVISORY COMMITTEE MEMBER FOR
 
-- Hassan Maleki Golandouz (2023--, Ph.D. student in Community Health Sciences, U Manitoba, 
+- Hassan Maleki Golandouz (2023--, Ph.D. student in Community Health Sciences, umanitoba.ca, 
 supervised by Prof. [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
-- Ying Miao (2023, M.Sc. student in Stats, U Manitoba, 
+- Ying Miao (2023, M.Sc. student in Stats, umanitoba.ca, 
 supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
-- Qiao Tang (2023--, Ph.D. student in Stats, U Manitoba, 
+- Qiao Tang (2023--, Ph.D. student in Stats, umanitoba.ca, 
 supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
 
 # SERVICE
@@ -171,23 +175,33 @@ supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyan
 
 #### COMMITTEE MEMBER
 
-- Department-level: Graduate (2022--23), IT (2022--23), Research & Seminar (2021--22), Statistical Consulting (2022--23)
-- Faculty-level: Executive Committee (2022--23)
+- U Manitoba: 
+Graduate (Stats, 2022--23), 
+IT (Stats, 2022--23), 
+Research & Seminar (Stats, 2021--22), 
+Statistical Consulting (Stats, 2022--23),
+Executive Committee (Faculty of Science, 2022--23)
 
 #### EXAMINER
 
-- M.Sc. thesis: Chenwei Bai (2023, Stats, U Manitoba)
+- M.Sc. thesis: Chenwei Bai (2023, Stats, umanitoba.ca)
 
 #### CHAIR
 
-- M.Sc. defence: Guanhong Xiao (2023/Aug/16, Stats, U Manitoba), Aaron (Xiang) Zheng (2023/Jan/18, Stats, U Manitoba), Keith Uzelmann (2022/Aug/24, Stats, U Manitoba), Nasiba Ahmed (2022/Aug/22, Stats, U Manitoba)
-- Ph.D. defence: Xiaohua Liu (2023/Jun/29, Stats, U Manitoba), Yungang (Yg) Liang (2022/Dec/23, Math, U Manitoba)
+- M.Sc. defence: 
+Guanhong Xiao (2023/Aug/16, Stats, umanitoba.ca), 
+Aaron (Xiang) Zheng (2023/Jan/18, Stats, umanitoba.ca), 
+Keith Uzelmann (2022/Aug/24, Stats, umanitoba.ca), 
+Nasiba Ahmed (2022/Aug/22, Stats, umanitoba.ca)
+- Ph.D. defence: 
+Xiaohua Liu (2023/Jun/29, Stats, umanitoba.ca), 
+Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 
 # ARCHIVE
 
-#### TEACHING ACTIVITIES  @U MANITOBA
+#### TEACHING ACTIVITIES  
 
-##### INSTRUCTOR
+##### INSTRUCTOR @umanitoba.ca
 
 - STAT 3100 Introduction to Statistical Inference  
 Syllabuses: [2022](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf)  
@@ -200,15 +214,13 @@ Assessments (password-protected): [2022](attach/UM/STAT3690_2022W_A.zip)
 Syllabuses: [2022](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf)  
 Lectures (password-protected): [2022](attach/UM/STAT4100_2022F_L.zip)
 
-#### TEACHING ACTIVITIES  @SIMON FRASER U
-
-##### INSTRUCTOR
+##### INSTRUCTOR @sfu.ca
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100){:target="_blank"}, 2019 Sep--Dec  
 Lectures (password-protected): [2019](attach/SFU/STAT450_2019Fall_Lec.zip)  
 Assignments (password-protected): [2019](attach/SFU/STAT450_2019Fall_HW.zip)
 
-##### TUTOR
+##### TUTOR @sfu.ca
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100){:target="_blank"}, 2020 Jan--Apr  
 Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}
@@ -226,7 +238,7 @@ Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/){:target
 Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip)-->
 
-##### MARKER
+##### MARKER @sfu.ca
 
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100){:target="_blank"}, 
 2020 May--Aug  
