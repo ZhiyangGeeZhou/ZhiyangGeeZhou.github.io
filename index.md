@@ -127,11 +127,12 @@ _Atmospheric Environment_ **61**:409--418.
 
 #### SUPERVISION FOR
 
-- Ke Wang (2022--, M.Sc. student in Stats, umanitoba.ca)
+- Donald Kenneth Cramer (2023--, Ph.D. student in Public Health at uwm.edu)
+- Ke Wang (2022--, M.Sc. student in Stats at umanitoba.ca)
 
 #### CO-SUPERVISION FOR
 
-- Yuting Kang (2023--, M.Sc. student in Math, ctgu.edu.cn, 
+- Yuting Kang (2023--, M.Sc. student in Math at ctgu.edu.cn, 
 with [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:target="_blank"} &
 [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"} as senior supervisors)
 - Omar Hassan (2022--2023, B.Sc. in Physics, umanitoba.ca, 
@@ -140,11 +141,11 @@ currently an M.Sc. student at uvic.ca)
 
 #### ADVISORY COMMITTEE MEMBER FOR
 
-- Hassan Maleki Golandouz (2023--, Ph.D. student in Community Health Sciences, umanitoba.ca, 
+- Hassan Maleki Golandouz (2023--, Ph.D. student in Community Health Sciences at umanitoba.ca, 
 supervised by Prof. [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
-- Ying Miao (2023, M.Sc. student in Stats, umanitoba.ca, 
+- Ying Miao (2023, M.Sc. student in Stats at umanitoba.ca, 
 supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
-- Qiao Tang (2023--, Ph.D. student in Stats, umanitoba.ca, 
+- Qiao Tang (2023--, Ph.D. student in Stats at umanitoba.ca, 
 supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
 
 # SERVICE
