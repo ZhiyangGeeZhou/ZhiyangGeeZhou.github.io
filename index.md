@@ -142,11 +142,11 @@ currently an M.Sc. student at uvic.ca)
 #### ADVISORY COMMITTEE MEMBER FOR
 
 - Hassan Maleki Golandouz (2023--, Ph.D. student in Community Health Sciences at umanitoba.ca, 
-supervised by Prof. [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
+supervised by [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
 - Ying Miao (2023, M.Sc. student in Stats at umanitoba.ca, 
-supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
+supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
 - Qiao Tang (2023--, Ph.D. student in Stats at umanitoba.ca, 
-supervised by Prof. [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
+supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
 
 # SERVICE
 
@@ -224,29 +224,29 @@ Assignments (password-protected): [2019](attach/SFU/STAT450_2019Fall_HW.zip)
 ##### TUTOR @sfu.ca
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100){:target="_blank"}, 2020 Jan--Apr  
-Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}
+Instructed by [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2020Spring.zip)-->
 - [STAT 445/645 Applied Multivariate Analysis](https://www.sfu.ca/outlines.html?2019/spring/stat/445/e100){:target="_blank"}, 2019 Jan--Apr  
-Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}
+Instructed by [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT445_2019Spring.zip)-->
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2018/spring/stat/475/d100){:target="_blank"}, 2018 Jan--Apr  
-Instructed by Prof. [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}
+Instructed by [Joan Hu](https://www.stat.sfu.ca/~joanh/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT475_2018Spring.zip)-->
 - [STAT 410 Statistical Analysis of Sample Surveys](https://www.sfu.ca/outlines.html?2017/spring/stat/410/d100){:target="_blank"}, 2017 Jan--Apr  
-Instructed by Prof. [Steve Thompson](https://www.stat.sfu.ca/~thompson/){:target="_blank"}
+Instructed by [Steve Thompson](https://www.stat.sfu.ca/~thompson/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT410_2017Spring.zip)-->
 - [STAT 330 Introduction to Mathematical Statistics](https://www.sfu.ca/outlines.html?2016/fall/stat/330/d100){:target="_blank"}, 2016 Sep--Dec  
-Instructed by Prof. [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/){:target="_blank"}
+Instructed by [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip)-->
 
 ##### MARKER @sfu.ca
 
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100){:target="_blank"}, 
 2020 May--Aug  
-Instructed by Prof. [Tim Swartz](https://www.stat.sfu.ca/~tim/)
+Instructed by [Tim Swartz](https://www.stat.sfu.ca/~tim/)
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2017/spring/stat/302/d100){:target="_blank"}, 
 2017 Jan--Apr  
-Instructed by Prof. [Brad McNeney](https://www.stat.sfu.ca/~mcneney/){:target="_blank"}
+Instructed by [Brad McNeney](https://www.stat.sfu.ca/~mcneney/){:target="_blank"}
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2016/spring/stat/475/d100){:target="_blank"},
 2016 Jan--Apr  
-Instructed by Prof. [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}
+Instructed by [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}
