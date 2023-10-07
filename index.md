@@ -17,7 +17,7 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <i class="fas fa-at" aria-hidden="true"></i>
 zhou67 (at) uwm (dot) edu  
 <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
-Room 376, 1240 N 10th St, Milwaukee, WI 53205, United States  
+Room 376, 1240 N 10th St, Milwaukee, WI 53205  
 
 # ABOUT
 
