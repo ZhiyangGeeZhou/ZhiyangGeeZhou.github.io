@@ -102,7 +102,7 @@ _Atmospheric Environment_ **61**:409--418.
 
 ### PRESENTATIONS
 
-- 2023/Dec, 16th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2023)
+- 2023/Dec/18, 16th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2023)
 - 2023/Jul/08, 12th ICSA International Conference
 - 2022/Dec/17, 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)
 - 2022/Oct/25, Biostatistics and Bioinformatics Round, George & Fay Yee Centre for Healthcare Innovation
