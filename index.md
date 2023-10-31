@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
-<img align="right" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>
+<img align="right" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/Zhiyang.png"/>  
+<img width="200" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>  
 
 Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name" target="_blank"><i class="fa-solid fa-volume-high"></i></a>, PhD, Asst. Prof.  
 <a href="https://uwm.edu/publichealth/directory/zhou-zhiyang/" title="UWM Profile" target="_blank"><i class="fa-solid fa-building-columns"></i></a>
@@ -18,8 +19,6 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 zhou67 (at) uwm (dot) edu  
 <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
 Room 376, 1240 N 10th St, Milwaukee, WI 53205  
-<img width="300" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>  
-<br/><br/>  
 
 # ABOUT
 
