@@ -18,7 +18,7 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 zhou67 (at) uwm (dot) edu  
 <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
 Room 376, 1240 N 10th St, Milwaukee, WI 53205  
-<img width="20" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>
+<img width="200" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>
 
 # ABOUT
 
