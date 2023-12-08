@@ -29,7 +29,7 @@ he was an Assistant Professor in the Department of Statistics at the University 
 His research interest lies at statistics and deep learning, both methodologically and theoretically.
 Also,
 he has got an enthusiasm for collaborative and applied works.
-See his [curriculum vitae](attach/CV20230901.pdf){:target="_blank"} (updated on 2023/Sep/01).
+See his [curriculum vitae](attach/CV20230901.pdf){:target="_blank"} (updated on 2023/Dec/08).
 
 #### HOBBIES
 
@@ -57,8 +57,8 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### INTERESTS
 
-- Deep learning/deep neural networks
 - Functional/longitudinal data analysis
+- Deep learning/deep neural networks
 - Survival analysis
 - Tensor data analysis
 - Design of experiments
