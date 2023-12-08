@@ -29,7 +29,7 @@ he was an Assistant Professor in the Department of Statistics at the University 
 His research interest lies at statistics and deep learning, both methodologically and theoretically.
 Also,
 he has got an enthusiasm for collaborative and applied works.
-See his [curriculum vitae](attach/CV20230901.pdf){:target="_blank"} (updated on 2023/Dec/08).
+See his [curriculum vitae](attach/CV20231208.pdf){:target="_blank"} (updated on 2023/Dec/08).
 
 #### HOBBIES
 
