@@ -14,10 +14,10 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 [Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}  
 <i class="far fa-building" aria-hidden="true"></i>
 [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}  
+<i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+P.O. Box 413, Milwaukee, WI 53205    
 <i class="fas fa-at" aria-hidden="true"></i>
 zhou67 (at) uwm (dot) edu  
-<i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
-UWM Joseph J. Zilber College of Public Health, P.O. Box 413, Milwaukee, WI 53205  
 <img width="310" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>
 <br /><br />
 
