@@ -154,7 +154,7 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 
 #### REVIEWER
 
-- Grants:
+- Funding agencies:
 [_Natural Sciences and Engineering Research Council of Canada (NSERC)_](https://www.nserc-crsng.gc.ca/index_eng.asp){:target="_blank"}
 - Journals: 
 [_American Journal of Public Health_](https://ajph.aphapublications.org/){:target="_blank"},
