@@ -180,6 +180,12 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 
 #### COMMITTEE MEMBER
 
+##### Conferences:
+
+- Scientific Committee for the V. International Applied Statistics Conference (UYIK-2024)
+
+##### Universities:
+
 - U Manitoba: 
 Graduate (Stats, 2022--23), 
 IT (Stats, 2022--23), 
