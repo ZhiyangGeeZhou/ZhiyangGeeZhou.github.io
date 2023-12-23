@@ -127,6 +127,8 @@ _Atmospheric Environment_ **61**:409--418.
 
 #### COURSES IN PROGRESS
 
+- PH 716 Applied Survival Analysis
+
 #### SUPERVISION FOR
 
 - Donald Kenneth Cramer (2023--, Ph.D. student in Public Health at uwm.edu)
@@ -211,6 +213,8 @@ Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 # ARCHIVE
 
 #### TEACHING ACTIVITIES  
+
+##### INSTRUCTOR @uwm.edu
 
 ##### INSTRUCTOR @umanitoba.ca
 
