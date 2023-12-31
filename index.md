@@ -184,7 +184,7 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 
 ##### Conferences:
 
-- Scientific Committee for the 5th International Applied Statistics Conference (UYIK-2024)
+- Scientific Committee for the 5th International Congress of Applied Statistics (UYIK-2024)
 
 ##### Universities:
 
