@@ -120,7 +120,7 @@ _Atmospheric Environment_ **61**:409--418.
 
 ### FUNDING
 
-- Principal Investigator, [_NSERC Discovery Grants_](https://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsInsDetail-ResultatsEtabDetails_eng.asp?Year=2022&Institution=32){:target="_blank"}
+- Principal Investigator, [NSERC Discovery Grants](https://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsInsDetail-ResultatsEtabDetails_eng.asp?Year=2022&Institution=32){:target="_blank"}
 (with the Discovery Launch Supplement, 2022/Apr/01--2027/Mar/31; terminated early on 2023/Sep/01 due to relocation)
 
 # TEACHING
@@ -157,7 +157,7 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 #### REVIEWER
 
 - Grants:
-[_NSERC Discovery Grants_](https://www.nserc-crsng.gc.ca/professors-professeurs/grants-subs/dgigp-psigp_eng.asp){:target="_blank"}
+[NSERC Discovery Grants](https://www.nserc-crsng.gc.ca/professors-professeurs/grants-subs/dgigp-psigp_eng.asp){:target="_blank"}
 - Journals: 
 [_American Journal of Public Health_](https://ajph.aphapublications.org/){:target="_blank"},
 [_Biometrics_](https://onlinelibrary.wiley.com/journal/15410420){:target="_blank"},
