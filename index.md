@@ -104,6 +104,7 @@ _Atmospheric Environment_ **61**:409--418.
 
 ### PRESENTATIONS
 
+- 2024/Jul/17, 7th International Conference on Econometrics and Statistics (EcoSta 2024)
 - 2023/Dec/18, 16th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2023)
 - 2023/Jul/08, 12th ICSA International Conference
 - 2022/Dec/17, 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)
