@@ -102,6 +102,12 @@ _Journal of Statistical Planning and Inference_ **148**:95--100.
 _Atmospheric Environment_ **61**:409--418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029){:target="_blank"}
 
+### UNDER REVIEW
+
+- Liu, J., Zhou. Z., Cheng, X., Zhang D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
+Trends and Disparities in Food Insecurity Prevalence by Immigration Status in the United States from 2011 to 2021.
+
+
 ### PRESENTATIONS
 
 - 2024/Jul/17, 7th International Conference on Econometrics and Statistics (EcoSta 2024)
