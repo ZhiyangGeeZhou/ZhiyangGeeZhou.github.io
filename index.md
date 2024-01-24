@@ -137,6 +137,7 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 - [PH 716 Applied Survival Analysis](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
 [00](attach/UWM/UWM_PH716_2024Spring_Part00.pdf){:target="_blank"}
 [01](attach/UWM/UWM_PH716_2024Spring_Part01.pdf){:target="_blank"}
+[02](attach/UWM/UWM_PH716_2024Spring_Part02.pdf){:target="_blank"}
 
 #### SUPERVISION FOR
 
