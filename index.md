@@ -192,6 +192,10 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 
 #### COMMITTEE/BOARD MEMBER
 
+##### Editorial Board Member
+
+- [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis/about/editorial-board){:target="_blank"} (Early Career Advisory Board, 2024--26)
+
 ##### Conferences:
 
 - Scientific Committee for the 5th International Congress of Applied Statistics (UYIK-2024)
