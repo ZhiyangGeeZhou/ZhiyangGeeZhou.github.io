@@ -107,7 +107,6 @@ _Atmospheric Environment_ **61**:409--418.
 - Liu, J., Zhou. Z., Cheng, X., Zhang D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
 Trends and Disparities in Food Insecurity Prevalence by Immigration Status in the United States from 2011 to 2021.
 
-
 ### PRESENTATIONS
 
 - 2024/Jul/17, 7th International Conference on Econometrics and Statistics (EcoSta 2024)
@@ -127,7 +126,8 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 
 ### FUNDING
 
-- Principal Investigator, [NSERC Discovery Grants](https://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsInsDetail-ResultatsEtabDetails_eng.asp?Year=2022&Institution=32){:target="_blank"}
+- Principal Investigator, 
+[NSERC Discovery Grants](https://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsInsDetail-ResultatsEtabDetails_eng.asp?Year=2022&Institution=32){:target="_blank"}
 (with the Discovery Launch Supplement, 2022/Apr/01--2027/Mar/31; terminated early on 2023/Sep/01 due to relocation)
 
 # TEACHING
@@ -138,6 +138,7 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 [00](attach/UWM/UWM_PH716_2024Spring_Part00.pdf){:target="_blank"}
 [01](attach/UWM/UWM_PH716_2024Spring_Part01.pdf){:target="_blank"}
 [02](attach/UWM/UWM_PH716_2024Spring_Part02.pdf){:target="_blank"}
+[03](attach/UWM/UWM_PH716_2024Spring_Part03.pdf){:target="_blank"}
 
 #### SUPERVISION FOR
 
