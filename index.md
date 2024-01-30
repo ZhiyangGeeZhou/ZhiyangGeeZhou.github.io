@@ -191,17 +191,15 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 [_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
 [_International Conference on Learning Representations (ICLR)_](https://iclr.cc/){:target="_blank"}
 
-#### COMMITTEE/BOARD MEMBER
-
-##### Editorial Board Member
+#### Editorial Board Member
 
 - [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis/about/editorial-board){:target="_blank"} (Early Career Advisory Board, 2024--26)
 
-##### Conferences:
+#### Conferences:
 
 - Scientific Committee for the 5th International Congress of Applied Statistics (UYIK-2024)
 
-##### Universities:
+#### Universities:
 
 - U Manitoba: 
 Graduate (Stats, 2022--23), 
