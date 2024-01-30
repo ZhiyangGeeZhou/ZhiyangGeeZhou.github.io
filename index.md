@@ -191,15 +191,15 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 [_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
 [_International Conference on Learning Representations (ICLR)_](https://iclr.cc/){:target="_blank"}
 
-#### Editorial Board Member
+#### EDITORIAL BOARD MEMBER
 
-- [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis/about/editorial-board){:target="_blank"} (Early Career Advisory Board, 2024--26)
+- [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/){:target="_blank"} (Early Career Advisory Board, 2024--26)
 
-#### Conferences:
+#### CONFERENCE:
 
 - Scientific Committee for the 5th International Congress of Applied Statistics (UYIK-2024)
 
-#### Universities:
+#### UNIVERSITY:
 
 - U Manitoba: 
 Graduate (Stats, 2022--23), 
@@ -208,11 +208,11 @@ Research & Seminar (Stats, 2021--22),
 Statistical Consulting (Stats, 2022--23),
 Executive Committee (Faculty of Science, 2022--23)
 
-#### Examiner
+#### EXAMINER
 
 - M.Sc. thesis: Chenwei Bai (2023, Stats, umanitoba.ca)
 
-#### Chairing
+#### CHAIRING
 
 - M.Sc. defence: 
 Guanhong Xiao (2023/Aug/16, Stats, umanitoba.ca), 
