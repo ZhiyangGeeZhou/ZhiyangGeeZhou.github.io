@@ -63,12 +63,6 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 - Tensor data analysis
 - Design of experiments
 
-### PREPRINTS
-
-- **Zhou, Z.**, & Lockhart, R. A. (2020). Partial least squares for sparsely observed curves with measurement errors.
-[arXiv:2003.11542](https://arxiv.org/abs/2003.11542){:target="_blank"}  
-`R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS){:target="_blank"}
-
 ### PEER-REVIEWED
 
 - Liu, J., **Zhou, Z.**, Cheng, X., & Vangeepuram, N. (2023).
@@ -102,12 +96,18 @@ _Journal of Statistical Planning and Inference_ **148**:95--100.
 _Atmospheric Environment_ **61**:409--418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029){:target="_blank"}
 
+### PREPRINTS
+
+- **Zhou, Z.**, & Lockhart, R. A. (2020). Partial least squares for sparsely observed curves with measurement errors.
+[arXiv:2003.11542](https://arxiv.org/abs/2003.11542){:target="_blank"}  
+`R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS){:target="_blank"}
+
 ### UNDER REVIEW
 
 - Liu, J., Zhou. Z., Cheng, X., Zhang D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
 Trends and Disparities in Food Insecurity Prevalence by Immigration Status in the United States from 2011 to 2021.
 
-### PRESENTATIONS
+### INVITED PRESENTATIONS
 
 - 2024/Jul/17, 7th International Conference on Econometrics and Statistics (EcoSta 2024)
 - 2024/Apr/19, 1st Annual Southeast Wisconsin Data Science (SEAWINDS) Research Symposium
@@ -121,9 +121,6 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 - 2022/Jun/07, Machine Learning Special Interest Group Meeting, George & Fay Yee Centre for Healthcare Innovation
 - 2021/Oct/22, NIC-ASA & ICSA Midwest Chapter Joint Fall Meeting
 - 2021/Sep/13, ICSA Applied Statistics Symposium
-- 2020/Aug/06, Joint Statistical Meeting
-- 2019/Aug/09, ICSA-Canada Chapter Symposium
-- 2016/May/30, SSC Annual Meeting
 
 ### FUNDING
 
