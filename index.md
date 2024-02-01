@@ -181,11 +181,11 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 [_IISE Transactions_](https://www.tandfonline.com/action/journalInformation?journalCode=uiie21){:target="_blank"},
 [_Journal of Computational and Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current){:target="_blank"},
 [_Journal of Medical Internet Research_](https://www.jmir.org/){:target="_blank"},
-[_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/){:target="_blank"},
-[_Knowledge-Based Systems_](https://www.journals.elsevier.com/knowledge-based-systems){:target="_blank"},
+[_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis){:target="_blank"},
+[_Knowledge-Based Systems_](https://www.sciencedirect.com/journal/knowledge-based-systems){:target="_blank"},
 [_Mathematical Modelling and Analysis_](https://journals.vgtu.lt/index.php/MMA){:target="_blank"},
 [_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258){:target="_blank"},
-[_Statistics & Probability Letters_](https://www.journals.elsevier.com/statistics-and-probability-letters/){:target="_blank"},
+[_Statistics & Probability Letters_](https://www.sciencedirect.com/journal/statistics-and-probability-letters){:target="_blank"},
 [_Technometrics_](https://www.tandfonline.com/toc/utch20/current){:target="_blank"},
 [_Trials_](https://trialsjournal.biomedcentral.com/){:target="_blank"}
 - Conferences: 
