@@ -209,10 +209,6 @@ Research & Seminar (Stats, 2021--22),
 Statistical Consulting (Stats, 2022--23),
 Executive Committee (Faculty of Science, 2022--23)
 
-#### EXAMINER
-
-- M.Sc. thesis: Chenwei Bai (2023, Stats, umanitoba.ca)
-
 #### CHAIRING
 
 - M.Sc. defence: 
