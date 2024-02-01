@@ -194,7 +194,7 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 
 #### EDITORIAL BOARD MEMBER
 
-- [_Journal of Multivariate Analysis_](https://www.journals.elsevier.com/journal-of-multivariate-analysis/){:target="_blank"} (Early Career Advisory Board, 2024--26)
+- [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis){:target="_blank"} (Early Career Advisory Board, 2024--26)
 
 #### CONFERENCE:
 
