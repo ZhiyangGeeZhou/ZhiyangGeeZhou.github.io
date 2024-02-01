@@ -221,9 +221,9 @@ Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 
 #### TEACHING ACTIVITIES  
 
-##### INSTRUCTOR @uwm.edu
+##### INSTRUCTION @uwm.edu
 
-##### INSTRUCTOR @umanitoba.ca
+##### INSTRUCTION @umanitoba.ca
 
 - STAT 3100 Introduction to Statistical Inference  
 Syllabuses: [2022](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf)  
@@ -236,13 +236,13 @@ Assessments (password-protected): [2022](attach/UM/STAT3690_2022W_A.zip)
 Syllabuses: [2022](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf)  
 Lectures (password-protected): [2022](attach/UM/STAT4100_2022F_L.zip)
 
-##### INSTRUCTOR @sfu.ca
+##### INSTRUCTION @sfu.ca
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100){:target="_blank"}, 2019 Sep--Dec  
 Lectures (password-protected): [2019](attach/SFU/STAT450_2019Fall_Lec.zip)  
 Assignments (password-protected): [2019](attach/SFU/STAT450_2019Fall_HW.zip)
 
-##### TUTOR @sfu.ca
+##### TUTORING @sfu.ca
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100){:target="_blank"}, 2020 Jan--Apr  
 Instructed by [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}
@@ -260,7 +260,7 @@ Instructed by [Steve Thompson](https://www.stat.sfu.ca/~thompson/){:target="_bla
 Instructed by [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip)-->
 
-##### MARKER @sfu.ca
+##### MARKING @sfu.ca
 
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100){:target="_blank"}, 
 2020 May--Aug  
