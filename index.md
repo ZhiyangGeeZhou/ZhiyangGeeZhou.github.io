@@ -110,13 +110,14 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 ### INVITED PRESENTATIONS
 
 - 2024/Jul/17, 7th International Conference on Econometrics and Statistics (EcoSta 2024)
+- 2024/Jun/7--9, 6th ICSA-Canada Chapter Symposium
 - 2024/Apr/19, 1st Annual Southeast Wisconsin Data Science (SEAWINDS) Research Symposium
 - 2023/Dec/18, 16th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2023)
 - 2023/Jul/08, 12th ICSA International Conference
 - 2022/Dec/17, 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)
 - 2022/Oct/25, Biostatistics and Bioinformatics Round, George & Fay Yee Centre for Healthcare Innovation
 - 2022/Oct/24, Biostatistics Seminar Series, Northwestern University
-- 2022/Jul/10, ICSA-Canada Chapter Symposium
+- 2022/Jul/10, 5th ICSA-Canada Chapter Symposium
 - 2022/Jun/20, ICSA Applied Statistics Symposium
 - 2022/Jun/07, Machine Learning Special Interest Group Meeting, George & Fay Yee Centre for Healthcare Innovation
 - 2021/Oct/22, NIC-ASA & ICSA Midwest Chapter Joint Fall Meeting
