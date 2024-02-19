@@ -139,6 +139,7 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 [02](attach/UWM/UWM_PH716_2024Spring_Part02.pdf){:target="_blank"}
 [03](attach/UWM/UWM_PH716_2024Spring_Part03.pdf){:target="_blank"}
 [04](attach/UWM/UWM_PH716_2024Spring_Part04.pdf){:target="_blank"}
+[05](attach/UWM/UWM_PH716_2024Spring_Part05.pdf){:target="_blank"}
 
 #### SUPERVISION FOR
 
