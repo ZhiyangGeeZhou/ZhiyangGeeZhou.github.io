@@ -144,9 +144,9 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 #### SUPERVISION FOR
 
 - Donald Kenneth Cramer (2023--, Ph.D. student in Public Health at uwm.edu)
-- Kelly Wikoff (2023--, M.Sc. student in Public Health at uwm.edu)
-- Ian Nadolski (2023--, M.Sc. student in Public Health at uwm.edu)
-- Manthan Mehta (2023--, M.Sc. student in Public Health at uwm.edu)
+- Kelly Wikoff (2023--, M.Sc. student at uwm.edu)
+- Ian Nadolski (2023--, M.Sc. student at uwm.edu)
+- Manthan Mehta (2023--, M.Sc. student at uwm.edu)
 - Ke Wang (2022--, M.Sc. student in Stats at umanitoba.ca)
 
 #### CO-SUPERVISION FOR
