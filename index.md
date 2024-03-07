@@ -196,11 +196,11 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 - [_hLife_](https://www.sciencedirect.com/journal/hlife/){:target="_blank"} (Youth Editorial Board, 2024-25)
 - [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis){:target="_blank"} (Early Career Advisory Board, 2024--26)
 
-#### CONFERENCE:
+#### CONFERENCE
 
 - Scientific Committee for the 5th International Congress of Applied Statistics (UYIK-2024)
 
-#### UNIVERSITY:
+#### UNIVERSITY
 
 - U Manitoba: 
 Graduate (Stats, 2022--23), 
