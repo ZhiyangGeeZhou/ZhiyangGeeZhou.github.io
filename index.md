@@ -31,10 +31,6 @@ Also,
 he has got an enthusiasm for collaborative and applied works.
 See his [curriculum vitae](attach/CV20240227.pdf){:target="_blank"} (updated on 2024/Feb/27).
 
-#### HOBBIES
-
-- Climbing, jogging, tennis, badminton
-
 # APPOINTMENTS
 
 - Assistant Professor (Tenure-Track), [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}, 2023--
