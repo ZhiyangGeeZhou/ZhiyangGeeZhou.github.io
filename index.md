@@ -30,7 +30,7 @@ Zhiyang's research is focused on the intersection of statistics and deep learnin
 where he explores both methodological and theoretical dimensions. 
 His enthusiasm for collaborative and applied research 
 underscores his commitment to leveraging statistical insights to solve real-world problems.
-See his [curriculum vitae](attach/CV20240227.pdf){:target="_blank"} (updated on 2024/Feb/27).
+See his [curriculum vitae](attach/CV20240321.pdf){:target="_blank"} (updated on 2024/Mar/21).
 
 # APPOINTMENTS
 
