@@ -101,7 +101,7 @@ _Atmospheric Environment_ **61**:409--418.
 
 ### UNDER REVIEW
 
-- Liu, J., Zhou. Z., Cheng, X., Zhang D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
+- Liu, J., Zhou. Z., Cheng, X., Zhang D., Li, L., Zhang, X., & Vangeepuram, N. (2023).
 Trends and Disparities in Food Insecurity Prevalence by Immigration Status in the United States from 2011 to 2021.
 
 ### INVITED PRESENTATIONS
