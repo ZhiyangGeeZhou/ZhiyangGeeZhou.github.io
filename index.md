@@ -106,7 +106,8 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 
 ### INVITED PRESENTATIONS
 
-- 2024/Jul/17, [7th International Conference on Econometrics and Statistics (EcoSta 2024)](https://www.cmstatistics.org/EcoSta2024/){:target="_blank"}
+- 2023/Dec/14--16, [18th International Joint Conference CFE-CMStatistics](https://www.cmstatistics.org/CFECMStatistics2024/){:target="_blank"}
+- 2024/Jul/17--19, [7th International Conference on Econometrics and Statistics (EcoSta 2024)](https://www.cmstatistics.org/EcoSta2024/){:target="_blank"}
 - 2024/Jun/7--9, [6th ICSA-Canada Chapter Symposium](https://icsa-canada-chapter.org/symposium2024/){:target="_blank"}
 - 2024/Apr/19, 1st Annual Southeast Wisconsin Data Science (SEAWINDS) Research Symposium
 - 2023/Dec/18, [16th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2023)](https://www.cmstatistics.org/CMStatistics2023/){:target="_blank"}
@@ -142,8 +143,8 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 
 #### SUPERVISION FOR
 
-- Ian Nadolski (2023--, M.Sc. student at uwm.edu)
-- Manthan Mehta (2023--, M.Sc. student at uwm.edu)
+- Ian Nadolski (2024--, M.Sc. student at uwm.edu)
+- Manthan Mehta (2024--, M.Sc. student at uwm.edu)
 - Kelly Wikoff (2023--, M.Sc. student at uwm.edu)
 - Donald Kenneth Cramer (2023--, Ph.D. student at uwm.edu)
 - Ke Wang (2022--, M.Sc. student at umanitoba.ca)
