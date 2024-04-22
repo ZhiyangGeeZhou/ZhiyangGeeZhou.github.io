@@ -147,16 +147,16 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 
 - Ian Nadolski (2024--, M.Sc. student at uwm.edu)
 - Manthan Mehta (2024--, M.Sc. student at uwm.edu)
-- Kelly Wikoff (2023--, M.Sc. student at uwm.edu)
+- Kelly Wikoff (2023--24, M.Sc. in Biostatistics at uwm.edu)
 - Donald Kenneth Cramer (2023--, Ph.D. student at uwm.edu)
-- Ke Wang (2022--, M.Sc. student at umanitoba.ca)
+- Ke Wang (2022--24, M.Sc. in Statistics at umanitoba.ca)
 
 #### CO-SUPERVISION FOR
 
 - Yuting Kang (2023--, M.Sc. student at ctgu.edu.cn, 
 with [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:target="_blank"} &
 [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"} as senior supervisors)
-- Omar Hassan (2022--2023, B.Sc. in Physics, umanitoba.ca, 
+- Omar Hassan (2022--23, B.Sc. in Physics, umanitoba.ca, 
 with [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"} as the senior supervisor; 
 currently M.Sc. student at uvic.ca)
 
