@@ -147,9 +147,9 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 
 - Ian Nadolski (2024--, M.Sc. student at uwm.edu)
 - Manthan Mehta (2024--, M.Sc. student at uwm.edu)
-- Kelly Wikoff (2023--24, M.Sc. in Biostatistics at uwm.edu)
+- Kelly Wikoff (2023--24, M.Sc. in Biostatistics, uwm.edu)
 - Donald Kenneth Cramer (2023--, Ph.D. student at uwm.edu)
-- Ke Wang (2022--24, M.Sc. in Statistics at umanitoba.ca)
+- Ke Wang (2022--24, M.Sc. in Statistics, umanitoba.ca)
 
 #### CO-SUPERVISION FOR
 
