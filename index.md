@@ -108,7 +108,7 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 
 - 2023/Dec/14--16, [18th International Joint Conference CFE-CMStatistics](https://www.cmstatistics.org/CFECMStatistics2024/){:target="_blank"}
 - 2024/Jul/17--19, [7th International Conference on Econometrics and Statistics (EcoSta 2024)](https://www.cmstatistics.org/EcoSta2024/){:target="_blank"}
-- 2024/Jul/17--19, [2nd Joint Conference on Statisitcs and Data Science in China](https://www.jconf-sds.com/cn/web/index/19820_1946330__){:target="_blank"}
+- 2024/Jul/12--14, [2nd Joint Conference on Statisitcs and Data Science in China](https://www.jconf-sds.com/cn/web/index/19820_1946330__){:target="_blank"}
 - 2024/Jun/21, [SFU Statistical Learning for Large Scale Data Conference](https://caojiguo.github.io/SLconference/){:target="_blank"}
 - 2024/Jun/7--9, [6th ICSA-Canada Chapter Symposium](https://icsa-canada-chapter.org/symposium2024/){:target="_blank"}
 - 2024/Apr/19, [Southeast Wisconsin Data Science (SEAWINDS) Collaborative First Annual Research Symposium](https://ctsi.mcw.edu/blog/news-events/southeast-wisconsin-data-science-collaborative-first-annual-research-symposium-all-things-data-science/){:target="_blank"}
