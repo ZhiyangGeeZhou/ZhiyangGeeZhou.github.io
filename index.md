@@ -110,7 +110,7 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 - 2024/Jul/17--19, [7th International Conference on Econometrics and Statistics (EcoSta 2024)](https://www.cmstatistics.org/EcoSta2024/){:target="_blank"}
 - 2024/Jul/12--14, [2nd Joint Conference on Statisitcs and Data Science in China](https://jcsds2024.scimeeting.cn/en/web/index/19820){:target="_blank"}
 - 2024/Jun/21, [SFU Statistical Learning for Large Scale Data Conference](https://caojiguo.github.io/SLconference/){:target="_blank"}
-- 2024/Jun/7--9, [6th ICSA-Canada Chapter Symposium](https://icsa-canada-chapter.org/symposium2024/){:target="_blank"}
+- 2024/Jun/09, [6th ICSA-Canada Chapter Symposium](https://icsa-canada-chapter.org/symposium2024/){:target="_blank"}
 - 2024/Apr/19, [Southeast Wisconsin Data Science (SEAWINDS) Collaborative First Annual Research Symposium](https://ctsi.mcw.edu/blog/news-events/southeast-wisconsin-data-science-collaborative-first-annual-research-symposium-all-things-data-science/){:target="_blank"}
 - 2023/Dec/18, [16th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2023)](https://www.cmstatistics.org/CMStatistics2023/){:target="_blank"}
 - 2023/Jul/08, [12th ICSA International Conference](https://international2023.icsa.org/){:target="_blank"}
