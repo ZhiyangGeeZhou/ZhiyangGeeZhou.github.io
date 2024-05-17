@@ -225,21 +225,21 @@ Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 ##### INSTRUCTION @uwm.edu
 
 - PH 716 Applied Survival Analysis  
-Syllabuses: [2024](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
-Lectures (password-protected): [2024](attach/UWM/Lectures_UWM_PH716_2024Spring.zip)
+Syllabuses: [24S](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
+Lectures (password-protected): [24S](attach/UWM/Lectures_UWM_PH716_2024Spring.zip)
 
 ##### INSTRUCTION @umanitoba.ca
 
 - STAT 3100 Introduction to Statistical Inference  
-Syllabuses: [2022](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf)  
-Lectures (password-protected): [2022](attach/UM/STAT3100_2022F_L.zip)
+Syllabuses: [22F](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf)  
+Lectures (password-protected): [22F](attach/UM/STAT3100_2022F_L.zip)
 - STAT 3690 Multivariate Analysis  
-Syllabuses: [2022](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf) [23](attach/UM/SyllabusUofMSTAT3690Winter2023.pdf)  
-Lectures (password-protected): [2022](attach/UM/STAT3690_2022W_L.zip) [23](attach/UM/STAT3690_2023W_L.zip)  
-Assessments (password-protected): [2022](attach/UM/STAT3690_2022W_A.zip)
+Syllabuses: [22W](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf) [23W](attach/UM/SyllabusUofMSTAT3690Winter2023.pdf)  
+Lectures (password-protected): [22W](attach/UM/STAT3690_2022W_L.zip) [23](attach/UM/STAT3690_2023W_L.zip)  
+Assessments (password-protected): [22W](attach/UM/STAT3690_2022W_A.zip)
 - STAT 4100 Statistical Inference  
-Syllabuses: [2022](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf)  
-Lectures (password-protected): [2022](attach/UM/STAT4100_2022F_L.zip)
+Syllabuses: [22F](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf)  
+Lectures (password-protected): [22F](attach/UM/STAT4100_2022F_L.zip)
 
 ##### INSTRUCTION @sfu.ca
 
