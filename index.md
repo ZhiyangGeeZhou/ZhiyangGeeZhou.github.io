@@ -235,7 +235,7 @@ Syllabuses: [22F](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf)
 Lectures (password-protected): [22F](attach/UM/STAT3100_2022F_L.zip)
 - STAT 3690 Multivariate Analysis  
 Syllabuses: [22W](attach/UM/SyllabusUofMSTAT3690Winter2022.pdf) [23W](attach/UM/SyllabusUofMSTAT3690Winter2023.pdf)  
-Lectures (password-protected): [22W](attach/UM/STAT3690_2022W_L.zip) [23](attach/UM/STAT3690_2023W_L.zip)  
+Lectures (password-protected): [22W](attach/UM/STAT3690_2022W_L.zip) [23W](attach/UM/STAT3690_2023W_L.zip)  
 Assessments (password-protected): [22W](attach/UM/STAT3690_2022W_A.zip)
 - STAT 4100 Statistical Inference  
 Syllabuses: [22F](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf)  
