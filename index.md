@@ -133,17 +133,6 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 
 #### COURSES IN PROGRESS
 
-- [PH 716 Applied Survival Analysis](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
-[00](attach/UWM/UWM_PH716_2024Spring_Part00.pdf){:target="_blank"}
-[01](attach/UWM/UWM_PH716_2024Spring_Part01.pdf){:target="_blank"}
-[02](attach/UWM/UWM_PH716_2024Spring_Part02.pdf){:target="_blank"}
-[03](attach/UWM/UWM_PH716_2024Spring_Part03.pdf){:target="_blank"}
-[04](attach/UWM/UWM_PH716_2024Spring_Part04.pdf){:target="_blank"}
-[05](attach/UWM/UWM_PH716_2024Spring_Part05.pdf){:target="_blank"}
-[06](attach/UWM/UWM_PH716_2024Spring_Part06.pdf){:target="_blank"}
-[07](attach/UWM/UWM_PH716_2024Spring_Part07.pdf){:target="_blank"}
-[08](attach/UWM/UWM_PH716_2024Spring_Part08.pdf){:target="_blank"}
-[09](attach/UWM/UWM_PH716_2024Spring_Part09.pdf){:target="_blank"}
 
 #### SUPERVISION FOR
 
@@ -234,6 +223,10 @@ Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 #### TEACHING ACTIVITIES  
 
 ##### INSTRUCTION @uwm.edu
+
+- PH 716 Applied Survival Analysis  
+Syllabuses: [2024](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
+Lectures (password-protected): [2024](attach/UWM/Lectures_UWM_PH716_2024Spring.zip)
 
 ##### INSTRUCTION @umanitoba.ca
 
