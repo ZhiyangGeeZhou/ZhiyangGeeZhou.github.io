@@ -133,6 +133,8 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 
 #### COURSES IN PROGRESS
 
+- PH 712 Probability and Statistical Inference  
+Lectures: 
 
 #### SUPERVISION FOR
 
