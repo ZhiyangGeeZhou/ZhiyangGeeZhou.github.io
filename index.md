@@ -198,6 +198,7 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 
 #### CONFERENCE
 
+- Program Committee for the ICSA-Canada Chapter 2024 Symposium
 - Scientific Committee for the 5th International Congress of Applied Statistics (UYIK-2024)
 
 #### UNIVERSITY
