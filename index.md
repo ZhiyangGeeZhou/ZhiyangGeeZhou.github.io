@@ -44,7 +44,7 @@ Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-
 
 - Ph.D. in Statistics, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada, 2015--20  
 Supervisor: [Richard A. Lockhart](https://www.stat.sfu.ca/~lockhart/){:target="_blank"}, Professor, Fellow of the Royal Society of Canada  
-Thesis: [_Supervised Basis Functions Applied to Functional Regression and Classification_](attach/SFU/ZhiyangZhouDissertation.pdf){:target="_blank"}
+Thesis: [_Supervised Basis Functions Applied to Functional Regression and Classification_](https://summit.sfu.ca/item/20530){:target="_blank"}
 - M.Sc. in Probability & Statistics, [Nankai University](https://en.nankai.edu.cn/){:target="_blank"}, China, 2009--12  
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/){:target="_blank"}, Professor
 - B.Sc. in Statistics, [Beijing Normal University](https://english.bnu.edu.cn/){:target="_blank"}, China, 2005--09  
