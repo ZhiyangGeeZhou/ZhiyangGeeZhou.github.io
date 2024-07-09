@@ -133,7 +133,7 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 
 #### COURSES IN PROGRESS
 
-- PH 712 Probability and Statistical Inference  
+- [PH 712 Probability and Statistical Inference](attach/UWM/Syllabus_UWM_PH712_2024Fall.pdf)
 Lectures: 
 
 #### SUPERVISION FOR
@@ -221,17 +221,15 @@ Nasiba Ahmed (2022/Aug/22, Stats, umanitoba.ca)
 Xiaohua Liu (2023/Jun/29, Stats, umanitoba.ca), 
 Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 
-# ARCHIVE
+# ARCHIVE OF TEACHING ACTIVITIES  
 
-#### TEACHING ACTIVITIES  
-
-##### INSTRUCTION @uwm.edu
+#### INSTRUCTION @uwm.edu
 
 - PH 716 Applied Survival Analysis  
 Syllabuses: [24S](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
 Lectures (password-protected): [24S](attach/UWM/Lectures_UWM_PH716_2024Spring.zip)
 
-##### INSTRUCTION @umanitoba.ca
+#### INSTRUCTION @umanitoba.ca
 
 - STAT 3100 Introduction to Statistical Inference  
 Syllabuses: [22F](attach/UM/SyllabusUofMSTAT3100Fall2022.pdf)  
@@ -244,13 +242,13 @@ Assessments (password-protected): [22W](attach/UM/STAT3690_2022W_A.zip)
 Syllabuses: [22F](attach/UM/SyllabusUofMSTAT4100Fall2022.pdf)  
 Lectures (password-protected): [22F](attach/UM/STAT4100_2022F_L.zip)
 
-##### INSTRUCTION @sfu.ca
+#### INSTRUCTION @sfu.ca
 
 - [STAT 450 Statistical Theory](https://www.sfu.ca/outlines.html?2019/fall/stat/450/d100){:target="_blank"}, 2019 Sep--Dec  
 Lectures (password-protected): [2019](attach/SFU/STAT450_2019Fall_Lec.zip)  
 Assignments (password-protected): [2019](attach/SFU/STAT450_2019Fall_HW.zip)
 
-##### TUTORING @sfu.ca
+#### TUTORING @sfu.ca
 
 - [STAT 475/675 Applied Discrete Data Analysis](https://www.sfu.ca/outlines.html?2020/spring/stat/475/d100){:target="_blank"}, 2020 Jan--Apr  
 Instructed by [Thomas Loughin](https://www.stat.sfu.ca/~tloughin/STATPAGE.html){:target="_blank"}
@@ -268,7 +266,7 @@ Instructed by [Steve Thompson](https://www.stat.sfu.ca/~thompson/){:target="_bla
 Instructed by [Liangliang Wang](https://www.stat.sfu.ca/~lwa68/){:target="_blank"}
 <!--- Tutorial slides (password-protected): [Download](attach/SFU/STAT330_2016Fall.zip)-->
 
-##### MARKING @sfu.ca
+#### MARKING @sfu.ca
 
 - [STAT 302 Analysis of Experimental and Observational Data](https://www.sfu.ca/outlines.html?2020/summer/stat/302/d100){:target="_blank"}, 
 2020 May--Aug  
