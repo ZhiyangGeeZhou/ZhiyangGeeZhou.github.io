@@ -133,7 +133,7 @@ Trends and Disparities in Food Insecurity Prevalence by Immigration Status in th
 
 #### COURSES IN PROGRESS
 
-- [PH 712 Probability and Statistical Inference](attach/UWM/Syllabus_UWM_PH712_2024Fall.pdf)
+- [PH 712 Probability and Statistical Inference](attach/UWM/Syllabus_UWM_PH712_2024Fall.pdf)  
 Lectures: 
 
 #### SUPERVISION FOR
