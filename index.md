@@ -185,6 +185,7 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 [_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258){:target="_blank"},
 [_Statistics & Probability Letters_](https://www.sciencedirect.com/journal/statistics-and-probability-letters){:target="_blank"},
 [_Technometrics_](https://www.tandfonline.com/toc/utch20/current){:target="_blank"},
+[_The American Statistician_](https://www.tandfonline.com/journals/utas20){:target="_blank"},
 [_Trials_](https://trialsjournal.biomedcentral.com/){:target="_blank"}
 - Conferences: 
 [_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
