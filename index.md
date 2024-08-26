@@ -62,6 +62,9 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### PEER-REVIEWED
 
+- Liu, J., **Zhou, Z.**, Cheng, X., Zhang D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
+Trends and Disparities in Food Insecurity Prevalence by Immigration Status in the United States from 2011 to 2021.
+_Preventive Medicine_.
 - Liu, J., **Zhou, Z.**, Cheng, X., & Vangeepuram, N. (2023).
 Geographic and sociodemographic variations in prevalence of mental health symptoms among US youths, 2022.
 _American Journal of Public Health_ **113**:1116--1119.
@@ -98,11 +101,6 @@ _Atmospheric Environment_ **61**:409--418.
 - **Zhou, Z.**, & Lockhart, R. A. (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542){:target="_blank"}  
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS){:target="_blank"}
-
-### UNDER REVIEW
-
-- Liu, J., Zhou. Z., Cheng, X., Zhang D., Li, L., Zhang, X., & Vangeepuram, N. (2023).
-Trends and Disparities in Food Insecurity Prevalence by Immigration Status in the United States from 2011 to 2021.
 
 ### INVITED PRESENTATIONS
 
