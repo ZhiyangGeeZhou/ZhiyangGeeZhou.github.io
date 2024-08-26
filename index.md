@@ -64,7 +64,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 - Liu, J., **Zhou, Z.**, Cheng, X., Zhang D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
 Trends and Disparities in Food Insecurity Prevalence by Immigration Status in the United States from 2011 to 2021.
-_Preventive Medicine_.
+Accepted by _Preventive Medicine_.
 - Liu, J., **Zhou, Z.**, Cheng, X., & Vangeepuram, N. (2023).
 Geographic and sociodemographic variations in prevalence of mental health symptoms among US youths, 2022.
 _American Journal of Public Health_ **113**:1116--1119.
