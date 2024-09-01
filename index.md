@@ -64,7 +64,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 - Liu, J., **Zhou, Z.**, Cheng, X., Zhang, D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
 Food insecurity trends and disparities according to immigration status in the US households, 2011--2021.
-_Preventive Medicine_, in press.
+_Preventive Medicine_ **187**:108121.
 [doi:10.1016/j.ypmed.2024.108121](https://dx.doi.org/10.1016/j.ypmed.2024.108121){:target="_blank"}
 - Liu, J., **Zhou, Z.**, Cheng, X., & Vangeepuram, N. (2023).
 Geographic and sociodemographic variations in prevalence of mental health symptoms among US youths, 2022.
