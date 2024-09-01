@@ -134,6 +134,7 @@ _Atmospheric Environment_ **61**:409--418.
 - [PH 712 Probability and Statistical Inference](attach/UWM/Syllabus_UWM_PH712_2024Fall.pdf)  
 Lectures: 
 [00](attach/UWM/UWM_PH712_2024Fall_Part00.pdf)
+[01](attach/UWM/UWM_PH712_2024Fall_Part01.pdf)
 
 #### SUPERVISION FOR
 
