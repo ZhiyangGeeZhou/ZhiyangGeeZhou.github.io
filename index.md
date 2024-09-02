@@ -138,6 +138,7 @@ Lectures:
 
 #### SUPERVISION FOR
 
+- Christopher Sullivan (2024--, M.Sc. student, uwm.edu)
 - Ian Nadolski (2024--, M.Sc. student at uwm.edu)
 - Manthan Mehta (2024--, M.Sc. student at uwm.edu)
 - Kelly Wikoff (2023--24, M.Sc. in Biostatistics, uwm.edu)
