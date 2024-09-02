@@ -19,7 +19,7 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 P.O. Box 413, Milwaukee, WI 53205    
 <i class="fas fa-at" aria-hidden="true"></i>
 zhou67 (at) uwm (dot) edu  
-<img width="200" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>
+<img width="150" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>
 <br /><br />
 
 # ABOUT
