@@ -10,7 +10,7 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID" target="_blank"><i class="fa-brands fa-orcid"></i></a>
 <a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate (Web of Science)" target="_blank"><i class="fa-solid fa-copyright"></i></a>
 <a href="https://www.ratemyprofessors.com/professor?tid=2835549" title="Rate My Professor" target="_blank"><i class="fa-solid fa-chalkboard-user"></i></a>  
-<a href="https://sites.uwm.edu/zhou67/" title="Zhiyang's Blog" target="_blank"><i class="fa-solid fa-blog"></i>
+<a href="https://sites.uwm.edu/zhou67/" title="Zhiyang's Blog" target="_blank"><i class="fa-solid fa-blog"></i>  
 <i class="far fa-building" aria-hidden="true"></i>
 [Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}  
 <i class="far fa-building" aria-hidden="true"></i>
