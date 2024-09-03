@@ -63,15 +63,15 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### PEER-REVIEWED
 
-- Liu, J., **Zhou, Z.**, Cheng, X., Zhang, D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
+1. Liu, J., **Zhou, Z.**, Cheng, X., Zhang, D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
 Food insecurity trends and disparities according to immigration status in the US households, 2011--2021.
 _Preventive Medicine_ **187**:108121.
 [doi:10.1016/j.ypmed.2024.108121](https://dx.doi.org/10.1016/j.ypmed.2024.108121){:target="_blank"}
-- Liu, J., **Zhou, Z.**, Cheng, X., & Vangeepuram, N. (2023).
+1. Liu, J., **Zhou, Z.**, Cheng, X., & Vangeepuram, N. (2023).
 Geographic and sociodemographic variations in prevalence of mental health symptoms among US youths, 2022.
 _American Journal of Public Health_ **113**:1116--1119.
 [doi:10.2105/AJPH.2023.307355](https://dx.doi.org/10.2105/AJPH.2023.307355){:target="_blank"}
-- Deng, Y., Liu, L., Jiang, H., Peng, Y., Wei, Y., **Zhou, Z.**, Zhong, Y., Zhao, Y., Yang, X., Yu, J., Lu, Z., Kho, A., Ning, H., Allen, N. B., Wilkins, J. T., Liu, K., Lloyd-Jones, D. M., & Zhao, L. (2023). 
+1. Deng, Y., Liu, L., Jiang, H., Peng, Y., Wei, Y., **Zhou, Z.**, Zhong, Y., Zhao, Y., Yang, X., Yu, J., Lu, Z., Kho, A., Ning, H., Allen, N. B., Wilkins, J. T., Liu, K., Lloyd-Jones, D. M., & Zhao, L. (2023). 
 Comparison of state-of-the-art neural network survival models with the pooled cohort equations for cardiovascular disease risk prediction. 
  _BMC Medical Research Methodology_ **23**:22.
 [doi:10.1186/s12874-022-01829-w](https://dx.doi.org/10.1186/s12874-022-01829-w){:target="_blank"}
