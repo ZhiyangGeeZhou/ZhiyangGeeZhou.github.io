@@ -97,6 +97,7 @@ _Journal of Statistical Planning and Inference_ **148**:95--100.
 1. Wang, W., Gong, D., **Zhou, Z.**, & Guo, Y. (2012). Robustness of the aerosol weekly cycle over Southeastern China.
 _Atmospheric Environment_ **61**:409--418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029){:target="_blank"}
+{: reversed="reversed"}
 
 ### PREPRINTS
 
