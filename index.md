@@ -138,6 +138,7 @@ _Atmospheric Environment_ **61**:409--418.
 Lectures: 
 [00](attach/UWM/UWM_PH712_2024Fall_Part00.pdf)
 [01](attach/UWM/UWM_PH712_2024Fall_Part01.pdf)
+[02](attach/UWM/UWM_PH712_2024Fall_Part02.pdf)
 
 #### SUPERVISION FOR
 
