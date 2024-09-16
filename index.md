@@ -12,13 +12,9 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://www.ratemyprofessors.com/professor?tid=2835549" title="Rate My Professor" target="_blank"><i class="fa-solid fa-chalkboard-user"></i></a>
 <a href="https://genealogy.math.ndsu.nodak.edu/id.php?id=268271" title="Mathematics Genealogy" target="_blank"><i class="fa-solid fa-tree"></i>
 <a href="https://sites.uwm.edu/zhou67/" title="Blog" target="_blank"><i class="fa-solid fa-blog"></i>  
-<i class="far fa-building" aria-hidden="true"></i>
 [Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}  
-<i class="far fa-building" aria-hidden="true"></i>
 [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}  
-<i class="fas fa-map-marker-alt" aria-hidden="true"></i>
 P.O. Box 413, Milwaukee, WI 53205    
-<i class="fas fa-at" aria-hidden="true"></i>
 zhou67 (at) uwm (dot) edu  
 <img width="150" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>
 <br /><br />
