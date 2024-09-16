@@ -12,13 +12,9 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://www.ratemyprofessors.com/professor?tid=2835549" title="Rate My Professor" target="_blank"><i class="fa-solid fa-chalkboard-user"></i></a>
 <a href="https://genealogy.math.ndsu.nodak.edu/id.php?id=268271" title="Mathematics Genealogy" target="_blank"><i class="fa-solid fa-tree"></i>
 <a href="https://sites.uwm.edu/zhou67/" title="Blog" target="_blank"><i class="fa-solid fa-blog"></i>  
-<i class="far fa-building" aria-hidden="true"></i>
-[Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}  
-<i class="far fa-building" aria-hidden="true"></i>
 [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}  
-<i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-P.O. Box 413, Milwaukee, WI 53205  
-zhou67<i class="fas fa-at" aria-hidden="true"></i>uwm (dot) edu  
+1240 N 10th St., Milwaukee, WI 53205  
+zhou67<i class="fas fa-at" aria-hidden="true"></i>uwm<i class="fa-solid fa-circle"></i>edu  
 <img width="150" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>
 <br /><br />
 
@@ -35,7 +31,7 @@ See his [curriculum vitae](attach/CV20240901.pdf){:target="_blank"} (updated on 
 
 # APPOINTMENTS
 
-- Assistant Professor (Tenure-Track), [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}, 2023--
+- Assistant Professor (Tenure-Track), [Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}, [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}, 2023--
 - Assistant Professor (Tenure-Track), [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, 2021--23
 - Postdoctoral Trainee, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}, 2020--21  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao){:target="_blank"}, Associate Professor
