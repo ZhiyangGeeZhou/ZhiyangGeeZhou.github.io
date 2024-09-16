@@ -30,20 +30,20 @@ See his [curriculum vitae](attach/CV20240901.pdf){:target="_blank"} (updated on 
 
 # APPOINTMENTS
 
-- Assistant Professor (Tenure-Track), [Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}, [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}, 2023--
-- Assistant Professor (Tenure-Track), [Department of Statistics](https://umanitoba.ca/science/statistics){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, 2021--23
-- Postdoctoral Trainee, [Department of Preventive Medicine](https://www.preventivemedicine.northwestern.edu/index.html){:target="_blank"}, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}, 2020--21  
+- 2023--, Assistant Professor (Tenure-Track), [Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}, [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"} 
+- 2021--23, Assistant Professor (Tenure-Track), [Department of Statistics](https://umanitoba.ca/science/statistics){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"} 
+- 2020--21, Postdoctoral Trainee, [Department of Preventive Medicine](https://www.preventivemedicine.northwestern.edu/index.html){:target="_blank"}, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}   
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao){:target="_blank"}, Associate Professor
-- Sessional Instructor, [Department of Statistics and Actuarial Science](https://www.sfu.ca/stat-actsci.html){:target="_blank"}, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, 2019  
+- 2019, Sessional Instructor, [Department of Statistics and Actuarial Science](https://www.sfu.ca/stat-actsci.html){:target="_blank"}, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}   
 
 # EDUCATION
 
-- Ph.D. in Statistics, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada, 2015--20  
+- 2015--20, Ph.D. in Statistics, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada   
 Supervisor: [Richard A. Lockhart](https://www.stat.sfu.ca/~lockhart/){:target="_blank"}, Professor, Fellow of the Royal Society of Canada  
 Thesis: [_Supervised Basis Functions Applied to Functional Regression and Classification_](https://summit.sfu.ca/item/20530){:target="_blank"}
-- M.Sc. in Probability & Statistics, [Nankai University](https://en.nankai.edu.cn/){:target="_blank"}, China, 2009--12  
+- 2009--12, M.Sc. in Probability & Statistics, [Nankai University](https://en.nankai.edu.cn/){:target="_blank"}, China  
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/){:target="_blank"}, Professor
-- B.Sc. in Statistics, [Beijing Normal University](https://english.bnu.edu.cn/){:target="_blank"}, China, 2005--09  
+- 2005--09, B.Sc. in Statistics, [Beijing Normal University](https://english.bnu.edu.cn/){:target="_blank"}, China  
 Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/){:target="_blank"}, Professor
 
 # RESEARCH
