@@ -12,7 +12,7 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://www.ratemyprofessors.com/professor?tid=2835549" title="Rate My Professor" target="_blank"><i class="fa-solid fa-chalkboard-user"></i></a>
 <a href="https://genealogy.math.ndsu.nodak.edu/id.php?id=268271" title="Mathematics Genealogy" target="_blank"><i class="fa-solid fa-tree"></i>
 <a href="https://sites.uwm.edu/zhou67/" title="Blog" target="_blank"><i class="fa-solid fa-blog"></i>  
-1240 N 10th St., Milwaukee, WI 53205  
+<p title="Mailing Address">1240 N 10th St., Milwaukee, WI 53205.</p>  
 zhou67<i class="fas fa-at" aria-hidden="true"></i>uwm<i class="fa-solid fa-circle"></i>edu  
 <img width="150" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>
 <br /><br />
