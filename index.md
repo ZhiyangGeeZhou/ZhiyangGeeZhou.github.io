@@ -30,11 +30,11 @@ See his [curriculum vitae](attach/CV20240901.pdf){:target="_blank"} (updated on 
 
 # APPOINTMENTS
 
-- 2023--, Assistant Professor (Tenure-Track), [Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}, [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"} 
-- 2021--23, Assistant Professor (Tenure-Track), [Department of Statistics](https://umanitoba.ca/science/statistics){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"} 
-- 2020--21, Postdoctoral Trainee, [Department of Preventive Medicine](https://www.preventivemedicine.northwestern.edu/index.html){:target="_blank"}, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}   
+- 2023--, Assistant Professor (Tenure-Track), [Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}, [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}, United States
+- 2021--23, Assistant Professor (Tenure-Track), [Department of Statistics](https://umanitoba.ca/science/statistics){:target="_blank"}, [University of Manitoba](https://umanitoba.ca/){:target="_blank"}, Canada
+- 2020--21, Postdoctoral Trainee, [Department of Preventive Medicine](https://www.preventivemedicine.northwestern.edu/index.html){:target="_blank"}, [Northwestern University](https://www.northwestern.edu/){:target="_blank"}, United States  
 Supervisor: [Lihui Zhao](https://www.scholars.northwestern.edu/en/persons/lihui-zhao){:target="_blank"}, Associate Professor
-- 2019, Sessional Instructor, [Department of Statistics and Actuarial Science](https://www.sfu.ca/stat-actsci.html){:target="_blank"}, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}   
+- 2019, Sessional Instructor, [Department of Statistics and Actuarial Science](https://www.sfu.ca/stat-actsci.html){:target="_blank"}, [Simon Fraser University](https://www.sfu.ca/){:target="_blank"}, Canada
 
 # EDUCATION
 
