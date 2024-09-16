@@ -10,9 +10,11 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://orcid.org/0000-0002-3722-9808" title="ORCID" target="_blank"><i class="fa-brands fa-orcid"></i></a>
 <a href="https://www.webofscience.com/wos/author/rid/AAF-1943-2021" title="Clarivate (Web of Science)" target="_blank"><i class="fa-solid fa-copyright"></i></a>
 <a href="https://www.ratemyprofessors.com/professor?tid=2835549" title="Rate My Professor" target="_blank"><i class="fa-solid fa-chalkboard-user"></i></a>
-<a href="https://genealogy.math.ndsu.nodak.edu/id.php?id=268271" title="Mathematics Genealogy" target="_blank"><i class="fa-solid fa-tree"></i>
-<a href="https://sites.uwm.edu/zhou67/" title="Blog" target="_blank"><i class="fa-solid fa-blog"></i>  
-<p title="Mailing Address">1240 N 10th St., Milwaukee, WI 53205.</p>  
+<a href="https://genealogy.math.ndsu.nodak.edu/id.php?id=268271" title="Mathematics Genealogy" target="_blank"><i class="fa-solid fa-tree"></i></a>
+<a href="https://sites.uwm.edu/zhou67/" title="Blog" target="_blank"><i class="fa-solid fa-blog"></i></a>  
+<i class="fa-solid fa-location-dot"></i>
+1240 N 10th St., Milwaukee, WI 53205  
+<i class="fa-regular fa-envelope"></i>
 zhou67<i class="fas fa-at" aria-hidden="true"></i>uwm<i class="fa-solid fa-circle"></i>edu  
 <img width="150" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>
 <br /><br />
