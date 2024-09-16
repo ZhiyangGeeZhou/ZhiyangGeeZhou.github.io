@@ -14,7 +14,7 @@ Zhiyang Zhou <a href="attach/Pronunciation.m4a" title="Pronunciation of My Name"
 <a href="https://sites.uwm.edu/zhou67/" title="Blog" target="_blank"><i class="fa-solid fa-blog"></i></a>  
 <i class="fa-solid fa-location-dot"></i>
 1240 N 10th St., Milwaukee, WI 53205  
-<i class="fa-regular fa-envelope"></i>
+<i class="fa-solid fa-envelope"></i>
 zhou67<i class="fas fa-at" aria-hidden="true"></i>uwm<i class="fa-solid fa-circle"></i>edu  
 <img width="150" align="left" src="https://raw.githubusercontent.com/ZhiyangGeeZhou/ZhiyangGeeZhou.github.io/master/img/ZCPH.png"/>
 <br /><br />
