@@ -55,6 +55,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 - Functional/longitudinal data analysis
 - Deep learning/neural networks
 - Survival analysis
+- Survey sampling
 - Tensor data analysis
 - Design of experiments
 
