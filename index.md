@@ -206,7 +206,7 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 
 #### UNIVERSITY COMMITTEE MEMBER
 
-- U Manitoba: 
+- @manitoba.ca: 
 Graduate (Stats, 2022--23), 
 IT (Stats, 2022--23), 
 Research & Seminar (Stats, 2021--22), 
