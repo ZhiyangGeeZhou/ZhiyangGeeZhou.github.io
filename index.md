@@ -165,6 +165,11 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 
 # SERVICE
 
+#### EDITORIAL BOARD MEMBER
+
+- [_hLife_](https://www.sciencedirect.com/journal/hlife/){:target="_blank"} (Youth Editorial Board, 2024-25)
+- [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis){:target="_blank"} (Early Career Advisory Board, 2024--26)
+
 #### REVIEWER
 
 - Grants:
@@ -193,17 +198,12 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 [_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
 [_International Conference on Learning Representations (ICLR)_](https://iclr.cc/){:target="_blank"}
 
-#### EDITORIAL BOARD MEMBER
-
-- [_hLife_](https://www.sciencedirect.com/journal/hlife/){:target="_blank"} (Youth Editorial Board, 2024-25)
-- [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis){:target="_blank"} (Early Career Advisory Board, 2024--26)
-
-#### CONFERENCE
+#### CONFERENCE COMMITTEE MEMBER
 
 - Program Committee for the ICSA-Canada Chapter 2024 Symposium
 - Scientific Committee for the 5th International Congress of Applied Statistics (UYIK-2024)
 
-#### UNIVERSITY
+#### UNIVERSITY COMMITTEE MEMBER
 
 - U Manitoba: 
 Graduate (Stats, 2022--23), 
