@@ -139,6 +139,7 @@ Lectures:
 [03](attach/UWM/UWM_PH712_2024Fall_Part03.pdf)
 [04](attach/UWM/UWM_PH712_2024Fall_Part04.pdf)
 [05](attach/UWM/UWM_PH712_2024Fall_Part05.pdf)
+[06](attach/UWM/UWM_PH712_2024Fall_Part06.pdf)
 
 #### SUPERVISION FOR
 
