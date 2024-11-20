@@ -24,7 +24,7 @@ zhou67<i class="fas fa-at" aria-hidden="true"></i>uwm<i class="fa-solid fa-circl
 Zhiyang is an Assistant Professor of Biostatistics 
 in the Joseph J. Zilber College of Public Health at the University of Wisconsin-Milwaukee. 
 Prior to the current appointment, he was an Assistant Professor in the Department of Statistics at the University of Manitoba. 
-Zhiyang's research is focused on the intersection of statistics and deep learning, 
+Currently, Zhiyang's research is focused on the intersection of statistics and machine learning, 
 where he explores both methodological and theoretical dimensions. 
 His enthusiasm for collaborative and applied research 
 underscores his commitment to leveraging statistical insights to solve real-world problems.
