@@ -54,6 +54,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 - Functional/longitudinal data analysis
 - Deep learning/neural networks
+- Transfer learning
 - Survival analysis
 - Survey sampling
 - Tensor data analysis
