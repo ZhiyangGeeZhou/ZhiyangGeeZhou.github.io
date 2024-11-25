@@ -195,6 +195,7 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 [_Environmental Modeling & Assessment_](https://www.springer.com/journal/10666){:target="_blank"},
 [_hLife_](https://www.sciencedirect.com/journal/hlife/){:target="_blank"},
 [_IISE Transactions_](https://www.tandfonline.com/action/journalInformation?journalCode=uiie21){:target="_blank"},
+[_Journal of Applied Statistics_](https://www.tandfonline.com/journals/cjas20/about-this-journal#aims-and-scope){:target="_blank"},
 [_Journal of Computational and Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current){:target="_blank"},
 [_Journal of Medical Internet Research_](https://www.jmir.org/){:target="_blank"},
 [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis){:target="_blank"},
