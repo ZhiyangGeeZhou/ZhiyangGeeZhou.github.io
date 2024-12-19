@@ -228,10 +228,9 @@ Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 
 #### INSTRUCTION @uwm.edu
 
-- PH 712 Probability and Statistical Inference 
+- PH 712 Probability and Statistical Inference  
 Syllabuses: [24F](attach/UWM/Syllabus_UWM_PH712_2024Fall.pdf)  
 Lectures (password-protected): [24F](attach/UWM/Lectures_UWM_PH712_2024Fall.zip)
-
 - PH 716 Applied Survival Analysis  
 Syllabuses: [24S](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
 Lectures (password-protected): [24S](attach/UWM/Lectures_UWM_PH716_2024Spring.zip)
