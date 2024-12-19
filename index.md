@@ -138,9 +138,8 @@ Lectures:
 
 #### SUPERVISION FOR
 
-- Christopher Sullivan (2024--, M.Sc. student, uwm.edu)
+- Liliana Isabel Kasta (2024--, M.Sc. student, uwm.edu)
 - Ian Nadolski (2024--, M.Sc. student, uwm.edu)
-- Manthan Mehta (2024--, M.Sc. student, uwm.edu)
 - Kelly Wikoff (2023--24, M.Sc. in Biostatistics, uwm.edu)
 - Donald Kenneth Cramer (2023--, Ph.D. student, uwm.edu)
 - Ke Wang (2022--24, M.Sc. in Statistics, umanitoba.ca)
