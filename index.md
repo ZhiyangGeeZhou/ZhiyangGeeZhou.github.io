@@ -133,21 +133,8 @@ _Atmospheric Environment_ **61**:409--418.
 
 #### COURSES IN PROGRESS
 
-- [PH 712 Probability and Statistical Inference](attach/UWM/Syllabus_UWM_PH712_2024Fall.pdf)  
+- [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2025Spring.pdf)  
 Lectures: 
-[00](attach/UWM/UWM_PH712_2024Fall_Part00.pdf)
-[01](attach/UWM/UWM_PH712_2024Fall_Part01.pdf)
-[02](attach/UWM/UWM_PH712_2024Fall_Part02.pdf)
-[03](attach/UWM/UWM_PH712_2024Fall_Part03.pdf)
-[04](attach/UWM/UWM_PH712_2024Fall_Part04.pdf)
-[05](attach/UWM/UWM_PH712_2024Fall_Part05.pdf)
-[06](attach/UWM/UWM_PH712_2024Fall_Part06.pdf)
-[MidtermRecap](attach/UWM/UWM_PH712_2024Fall_Midterm_Recap.pdf)
-[07](attach/UWM/UWM_PH712_2024Fall_Part07.pdf)
-[08](attach/UWM/UWM_PH712_2024Fall_Part08.pdf)
-[09](attach/UWM/UWM_PH712_2024Fall_Part09.pdf)
-[10](attach/UWM/UWM_PH712_2024Fall_Part10.pdf)
-[FinalRecap](attach/UWM/UWM_PH712_2024Fall_Final_Recap.pdf)
 
 #### SUPERVISION FOR
 
@@ -240,6 +227,10 @@ Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 # ARCHIVE OF TEACHING ACTIVITIES  
 
 #### INSTRUCTION @uwm.edu
+
+- PH 712 Probability and Statistical Inference 
+Syllabuses: [24F](attach/UWM/Syllabus_UWM_PH712_2024Fall.pdf)  
+Lectures (password-protected): [24F](attach/UWM/Lectures_UWM_PH712_2024Fall.zip)
 
 - PH 716 Applied Survival Analysis  
 Syllabuses: [24S](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
