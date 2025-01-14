@@ -106,6 +106,7 @@ _Atmospheric Environment_ **61**:409--418.
 
 ### INVITED PRESENTATIONS
 
+- 2025/Jun/16, [2025 WNAR/IMS Annual Meeting](https://wnarofibs.wildapricot.org/wnar2025/){:target="_blank"}
 - 2024/Dec/16, [18th International Joint Conference on Computational and Financial Econometrics (CFE) and Computational and Methodological Statistics (CMStatistics), CFE-CMStatistics 2024](https://www.cmstatistics.org/CFECMStatistics2024/){:target="_blank"}
 - 2024/Jul/18, [7th International Conference on Econometrics and Statistics (EcoSta 2024)](https://www.cmstatistics.org/EcoSta2024/){:target="_blank"}
 - 2024/Jul/14, [2nd Joint Conference on Statisitics and Data Science in China](https://jcsds2024.scimeeting.cn/en/web/index/19820){:target="_blank"}
