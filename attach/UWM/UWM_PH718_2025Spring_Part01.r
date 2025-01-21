@@ -2,7 +2,6 @@
 # Part 1: R Basic Syntax
 # Zhiyang Zhou (zhou67@uwm.edu, zhiyanggeezhou.github.io)
 # Acknowledgment: Dr. Kourosh Ravvaz
-# 2025/01/21
 
 # This is a R script with ".r" as the file extension, commonly used to save R code.
 # However, Rstudio may handle other file formats,
@@ -11,26 +10,24 @@
 
 # Words following pound signs (#) are comments, which provide annotations or explanations in your code.
 
-# Working directory: the directory where inputs are found and outputs are sent
-# The current working directory
-getwd()
-
-# Change the current working directory using function setwd('C:/file/path')
-setwd('c:/ph717') # Error due to the nonexisting path "c:/ph717"
-setwd('c:/ph718')
-
+#------------------------------------------------------------------
+## Help manual
+#------------------------------------------------------------------
 # Homepage of the help manual
 help.start()
 
 # Help manual of a specific function
 help('lm')
 ?lm
-help('lm', package=stats) # In case functions belonging to different packages share the idential name
+help('lm', package='stats') # In case functions belonging to different packages share the idential name
 ?stats::lm
 
 # Get help of a package
-help(package=stats)
+help(package='stats')
 
+#------------------------------------------------------------------
+## Assigning a value to an object
+#------------------------------------------------------------------
 # The left arrow (<-) or equation sign (=) assigns the value at the right-hand side to the left-hand side.
 a1 = 10 # The name of object is up to the programmer but cannot start with a number or contain spaces
 a1
@@ -40,14 +37,19 @@ a2
 # What is the following code for?
 rm(a2)
 
-# All the data sets in package ‘datasets’
+#------------------------------------------------------------------
+## Loading datasets in package ‘datasets’
+#------------------------------------------------------------------
+# All the datasets in package ‘datasets’
 data()
 
 # Load a specific dataset
 data(mtcars)
 data(iris)
 
+#------------------------------------------------------------------
 ## Data types: let str() or class() tell you
+#------------------------------------------------------------------
 # Numeric (real number, or more specifically, double precision floating-point number)
 class(a1)
 str(a1)
@@ -96,7 +98,9 @@ as.numeric(a8)
 1/0
 0/0
 
+#------------------------------------------------------------------
 ## Data Structures: let str() or class() tell you
+#------------------------------------------------------------------
 # Vector: entries should share the SAME type
 # vector of numbers
 v1 <- c(1, 2, 3, 4, 5, 6, 7, 8)
@@ -114,6 +118,7 @@ v1[c(1,6)]
 v1[-(2:4)]
 v1[v1 == 5]
 v1[v1 %in% c(1, 2, 5)]
+v1[which(v1 < 5)]
 # vector of characters
 v2 <- c('Sarah', 'Tracy', 'Jon')
 v2 <- c(v2, 'Annette') # Adding elements
@@ -146,9 +151,7 @@ m3[, 3] # return the 3rd column
 cbind(m2, m3)
 rbind(m2, m3)
 
-# Array
-
-# Create a 3x3x3 array (3 dimensions) with random values
+# Array: generalizing the matrix
 array1 <- array(data = 1:27, dim = c(3, 3, 3))
 array1
 
@@ -186,3 +189,117 @@ l2 <- list(a = 'MLM', b = 1:10, data = head(mtcars))
 l2
 length(l2)
 str(l2)
+
+#------------------------------------------------------------------
+## Working directories: where inputs are found and outputs are sent
+#------------------------------------------------------------------
+getwd() # The current working directory
+dir()   ## What else is in the directory?
+
+# Change the current working directory using function setwd('C:/file/path')
+setwd('c:/PH717') # Error due to the nonexisting path "c:/PH717"
+setwd('c:/PH718')
+
+# Open a new R script and enter the following lines
+x <- 1:10
+y <- 1:10
+plot(x,y)
+# Save this script as "lecture2_inclass_file.r" to PH718 directory
+source("lecture2_inclass_file.r") # execute/run the code in a R script
+
+#------------------------------------------------------------------
+## Defining functions
+#------------------------------------------------------------------
+
+# A simple example
+example.sum <- function(a, b){
+  return(a + b)
+}
+x <- 1:10
+y <- 11:20
+example.sum(x,y)
+
+## Write a function to convert Celsius to Fahrenheit and vice versa
+C_to_F <- function(temp) {
+  return((temp * 1.8) + 32)
+}
+
+F_to_C<- function(temp) {
+  return((temp - 32)/1.8)
+}
+
+par(mfrow=c(1,2))
+plot(1:100, C_to_F(1:100))
+plot(-40:212, F_to_C(-40:212))
+
+## Combine above two functions by adding argument type_of_conversion
+temp_conversion <- function(temp, type_of_conversion="F_to_C") {
+  if(!type_of_conversion %in% c("F_to_C", "C_to_F")) {
+    stop("STOP!!! I can only convert C to F or F to C.")
+  }
+  if(type_of_conversion == "F_to_C") {
+    new_temp <- F_to_C(temp)
+  }
+  if(type_of_conversion == "C_to_F") {
+    new_temp <- C_to_F(temp)
+  }
+  return(list(temp=new_temp, conversion=type_of_conversion))
+}
+temp_conversion(50:100, type="C_to_F")
+
+#------------------------------------------------------------------
+## "For" loop
+#------------------------------------------------------------------
+
+w <- NULL # or w = c(); initiate an empty vector to store the result
+# What do you think the following w looks like?
+for(i in 1:10){
+  w[i] <- i+10
+}
+w
+
+# What do you think the following w looks like?
+for(hello in 1:10){
+  w[hello] <- hello
+}
+w
+
+# Nested loops
+counter <- 1
+for(j in 11:20){
+  for(i in 1:10){
+    w[counter] <- i + j
+    counter <- counter + 1
+  }
+}
+w
+
+# What is the difference between the following loop and the last loop?
+
+w <- NULL
+counter <- 1
+for (j in 11:20) {
+  for (i in 1:10) {
+    w[counter] <- i + j
+  }
+  counter <- counter + 1
+}
+w
+
+#------------------------------------------------------------------
+## "While" loop
+#------------------------------------------------------------------
+w <- 100
+z <- 5
+
+while(w > 20){
+  w.plus.z <- w + z
+  w <- w - 1
+}
+
+w <- 100
+z <- 5
+while(w > 20){
+  w.plus.z <- w + z
+  w <- w + 1
+}
