@@ -2,6 +2,7 @@
 # Part 1: R Basic Syntax
 # Zhiyang Zhou (zhou67@uwm.edu, zhiyanggeezhou.github.io)
 # Acknowledgment: Dr. Kourosh Ravvaz
+# Reference: ISL Sec 2.3
 
 # This is a R script with ".r" as the file extension, commonly used to save R code.
 # However, Rstudio may handle other file formats,
@@ -204,13 +205,165 @@ setwd('c:/PH718')
 x <- 1:10
 y <- 1:10
 plot(x,y)
-# Save this script as "lecture2_inclass_file.r" to PH718 directory
-source("lecture2_inclass_file.r") # execute/run the code in a R script
+# Save this script as "inclass_file.r" to PH718 directory
+source("inclass_file.r") # execute/run the code in a R script
+
+#------------------------------------------------------------------
+## Logic and control
+#------------------------------------------------------------------
+# Simple logical operations: !: not; &: and; |: or
+a = TRUE
+b = FALSE
+
+a & b
+a | b
+!a & b
+!(a & b)
+!a | !b
+
+x <- 10
+x < 20
+
+x <- 1:10
+x < 5
+x == 6
+
+# Control: "ifelse" function
+x <- 5
+ifelse(x==4, 1, 0)
+
+x <- 1:10
+ifelse(x<=4, 1, 0)
+
+# Control: "if" and "else"
+x <- 4
+if(x < 0.5){
+  y <- x^2	
+}else{
+  y <- sqrt(x)
+}
+y 
+
+#------------------------------------------------------------------
+## Loops: for loop
+#------------------------------------------------------------------
+# If you need to replicate something for multiple times, then
+# a loop is more readable and save your time in coding.
+
+w = c() # or w <- NULL; initiate an empty vector to store the result
+
+# A for loop is implemented by using function 'for'
+for(i in 1:10){ # "i" is a loop variable taking on each value from 1:10.
+  w[i] <- i+10
+}
+w
+
+# What do you think the following w looks like?
+for(hello in 1:10){
+  w[hello] <- hello
+}
+w
+
+# Nested loops
+counter <- 1
+for(j in 11:20){
+  for(i in 1:10){
+    w[counter] <- i + j
+    counter <- counter + 1
+  }
+}
+w
+
+# What is the difference between the following w and the previous one?
+counter <- 1
+for (j in 11:20) {
+  for (i in 1:10) {
+    w[counter] <- i + j
+  }
+  counter <- counter + 1
+}
+w
+
+# It is better to specify the length of w beforehand.
+# Otherwise, R has to reallocate memory at each iteration.
+# Compare the running times of the following two code trunks.
+system.time({
+  w <- c()
+  for(i in 1:10^6)
+    w[i] <- i+10
+}
+)
+
+system.time({
+  w <- rep(NA, times=10^6)
+  for(i in 1:10^6)
+    w[i] <- i+10
+}
+)
+
+# Example: construct a 10 x 10 multiplication table using a nested loop.
+my_mat <- matrix(NA, nrow=10, ncol=10)
+for(rows in 1:10) {
+  for(cols in 1:10) {
+    my_mat[rows, cols] <- rows * cols
+  }
+}
+my_mat
+
+#------------------------------------------------------------------
+## Loops: while loop
+#------------------------------------------------------------------
+# Keep looping if a logical condition holds
+w <- 100
+z <- 5
+while(w > 20){
+  w.plus.z <- w + z
+  w <- w - 1
+}
+w
+
+# Make sure the loop can be terminated.
+# Otherwise it will runs forever.
+w <- 100
+z <- 5
+while(w > 20){
+  w.plus.z <- w + z
+  w <- w + 1
+}
+
+#------------------------------------------------------------------
+## Loops: using "break" or "next"
+#------------------------------------------------------------------
+# A "next" statement is used when we want to skip the current iteration without terminating the loop. 
+# When encountering "next", R skips further evaluation and starts the next iteration.
+m = 20
+for(k in 1:m) {
+  if(!(k %% 2)) # "%%" indicates "x modulo y", i.e., computes the remainder when x is divided by y.
+    next
+  print(k)
+}
+
+# A "break" statement terminates the loop. 
+m = 20
+for(i in 1:m) {
+  if(!(k %% 2))
+    break
+  print(k)
+}
+
+# Example: construct the lower triangular of a 10 x 10 multiplication table.
+my_mat <- matrix(NA, nrow=10, ncol=10)
+for(rows in 1:10) {
+  for(cols in 1:10) {
+    if(rows < cols) next
+    my_mat[rows, cols] <- rows * cols
+  }
+}
+my_mat
 
 #------------------------------------------------------------------
 ## Defining functions
 #------------------------------------------------------------------
-
 # A simple example
 example.sum <- function(a, b){
   return(a + b)
@@ -247,73 +400,27 @@ temp_conversion <- function(temp, type_of_conversion="F_to_C") {
 }
 temp_conversion(50:100, type="C_to_F")
 
-#------------------------------------------------------------------
-## "For" loop
-#------------------------------------------------------------------
-
-w <- NULL # or w = c(); initiate an empty vector to store the result
-# What do you think the following w looks like?
-for(i in 1:10){
-  w[i] <- i+10
-}
-w
-
-# What do you think the following w looks like?
-for(hello in 1:10){
-  w[hello] <- hello
-}
-w
-
-# Nested loops
-counter <- 1
-for(j in 11:20){
-  for(i in 1:10){
-    w[counter] <- i + j
-    counter <- counter + 1
+################################################################
+# Loops within functions
+################################################################
+# Example: a function calculating the factorial of a number via a for loop
+calculate_factorial <- function(n) {
+  factorial_result <- 1
+  for (i in 1:n) {
+    factorial_result <- factorial_result * i
   }
+  return(factorial_result)
 }
-w
-
-# What is the difference between the following loop and the last loop?
-
-w <- NULL
-counter <- 1
-for (j in 11:20) {
-  for (i in 1:10) {
-    w[counter] <- i + j
-  }
-  counter <- counter + 1
-}
-w
-
-#------------------------------------------------------------------
-## "While" loop
-#------------------------------------------------------------------
-w <- 100
-z <- 5
-
-while(w > 20){
-  w.plus.z <- w + z
-  w <- w - 1
-}
-
-w <- 100
-z <- 5
-while(w > 20){
-  w.plus.z <- w + z
-  w <- w + 1
-}
+calculate_factorial(5)
 
 #------------------------------------------------------------------
 ## Debugging
 #------------------------------------------------------------------
-data(cars)
-data(iris)
-
 # What is the error/warning in each of the following examples? 
 # How should the code be fixed?
 
 # Example 1
+data(cars)
 plot(cars[,2], cars[,3])
 
 # Example 2
@@ -330,6 +437,7 @@ find_column <- which(colnames(cars) == "Speed")
 find_column
 
 # Example 5
+data(iris)
 data_bind <- rbind(iris, cars)
 
 # Example 6
@@ -365,5 +473,43 @@ fcn <- function(x, y) {
 }
 fcn(2, 1.3)
      
- 
-     
+#------------------------------------------------------------------
+## Vectorization outperforming loops
+#------------------------------------------------------------------
+# In R, many loops can be implemented faster by using vectorization.
+# Simply speaking, R has been optimized for vectorization.
+# Example 1
+# via loop
+system.time({
+  A <- matrix(1:2e5, nrow=500, ncol=400)
+  B <- matrix((2e5+1):4e5, nrow=500, ncol=400)
+  matsum <- matrix(0, nrow=500, ncol=400)
+  for(i in 1:500) {
+    for(j in 1:400) {
+      matsum[i,j] <- A[i,j] + B[i,j]
+    }
+  }
+})
+# via vectorization
+system.time({
+  A <- matrix(1:200000, nrow=500, ncol=400)
+  B <- matrix(200001:400000, nrow=500, ncol=400)
+  matsum <- A + B
+})
+
+# Example 2
+# via loop
+system.time({
+  x <- 1:1e6
+  result <- numeric(length(x))
+  for (i in x) {
+    result[i] <- x[i] * 2
+  }
+})
+# via vectorization
+system.time(
+  {
+    x <- 1:1e6
+    result <- x*2
+  }
+)
