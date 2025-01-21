@@ -36,6 +36,7 @@ a2 <- a1
 a2
 
 # What is the following code for?
+?rm
 rm(a2)
 
 #------------------------------------------------------------------
@@ -45,6 +46,7 @@ rm(a2)
 data()
 
 # Load a specific dataset
+?mtcars
 data(mtcars)
 data(iris)
 
@@ -72,9 +74,10 @@ str(a4)
 # A logical value arising from a comparison
 5 == 10
 a4 == a5
-a4 != a5
-a1 > a2
+a4 != a5 # !:not
+a1 > a3
 a6 = (a4 == a5)
+a6
 is.logical(a6)
 class(a6)
 str(a6)
@@ -87,7 +90,8 @@ str(a7)
 # To convert a date object to its internal form
 as.numeric(a7)
 # Stores a date and time
-a8 <- as.POSIXct('2025-01-21 16:00')
+a8 <- as.POSIXct('2025-01-21 16:23:45')
+class(a8)
 # If time is included, the numeric form is the number of seconds since 1/1/1970.
 as.numeric(a8)
 
@@ -105,21 +109,25 @@ as.numeric(a8)
 # Vector: entries should share the SAME type
 # vector of numbers
 v1 <- c(1, 2, 3, 4, 5, 6, 7, 8)
+print(v1)
 # or equiv. 
 v1 <- 1:8
 v1 <- seq(from = 1, to = 8, by = 1)
 # More operations on vectors
-length(v1)
-unique(v1)
-rev(v1)
-v1[order(v1)]
-v1[v1 > 3]
-v1[1:3]
-v1[c(1,6)]
-v1[-(2:4)]
-v1[v1 == 5]
-v1[v1 %in% c(1, 2, 5)]
-v1[which(v1 < 5)]
+v2 = c(3,5,5,2)
+length(v2)
+unique(v2)
+rev(v2)
+order(v2)
+sort(v2, decreasing=T)
+v2[order(v2)]
+v2[v2 > 3]
+v2[1:3]
+v2[c(1,6)]
+v2[-(2:4)]
+v2[v2 == 5]
+v2[v2 %in% c(1, 2, 5)]
+v2[which(v2 < 5)]
 # vector of characters
 v2 <- c('Sarah', 'Tracy', 'Jon')
 v2 <- c(v2, 'Annette') # Adding elements
