@@ -303,3 +303,67 @@ while(w > 20){
   w.plus.z <- w + z
   w <- w + 1
 }
+
+#------------------------------------------------------------------
+## Debugging
+#------------------------------------------------------------------
+data(cars)
+data(iris)
+
+# What is the error/warning in each of the following examples? 
+# How should the code be fixed?
+
+# Example 1
+plot(cars[,2], cars[,3])
+
+# Example 2
+new_data <- cars[which(cars$speed == 4)]
+plot(new_data$speed, new_data$dist)
+     
+# Example 3
+index <- which(cars$speed < 20 & cars$dist > 100)
+new_data2 <- cars[index,]
+plot(new_data2$speed, new_data2$dist)
+
+# Example 4
+find_column <- which(colnames(cars) == "Speed")
+find_column
+
+# Example 5
+data_bind <- rbind(iris, cars)
+
+# Example 6
+ggplot(cars) + geom_point(aes(x=speed, y=dist))
+qplot(mpg, wt, data=mtcars)
+
+# Example 7
+log(-1:10)
+     
+# Example 8: Debugging in user-defined functions
+# Example 8a
+ 
+my_fun <- function(x) {
+  y <- x^2 
+  # browser() # Interrupt the execution and allow the inspection of the environment
+  y <- y*2 
+  # browser()
+  y 
+}
+my_fun(x = 7)
+ 
+# Example 8b
+fcn <- function(x, y) {
+  z <- x * y
+  # browser()
+  z1 <- z
+  # browser()
+  z2 <- z1
+  # browser()
+  z3 <- z2 + "a"
+  browser()
+  return(z3 * exp(z3))
+}
+fcn(2, 1.3)
+     
+ 
+     
