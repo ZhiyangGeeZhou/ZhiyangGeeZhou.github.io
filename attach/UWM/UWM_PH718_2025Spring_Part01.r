@@ -208,7 +208,6 @@ str(l2)
 ## Working directories: where inputs are found and outputs are sent
 #------------------------------------------------------------------
 getwd() # The current working directory
-dir()   ## What else is in the directory?
 
 # Change the current working directory using function setwd('C:/file/path')
 setwd('c:/PH717') # Error due to the nonexisting path "c:/PH717"
@@ -220,6 +219,38 @@ y <- 1:10
 plot(x,y)
 # Save this script as "inclass_file.r" to PH718 directory
 source("inclass_file.r") # execute/run the code in a R script
+
+#------------------------------------------------------------------
+## Importing and exporting data
+#------------------------------------------------------------------
+# Import Data from a CSV file
+csv_data <- read.csv("example_csv_file.csv", header = T) 
+# or
+csv_data = read.table("example_csv_file.csv", sep = ",", header = T)
+head(csv_data)  # display the first few rows
+# Export data to a CSV File
+write.csv(csv_data, file = "exported_data.csv", row.names = FALSE) 
+
+# Import data from a tab-delimited text file
+tab_delimited_data <- read.delim("example_tab_delimited_file.txt") 
+# or
+tab_delimited_data = read.table("example_csv_file.csv", sep="\t", header = T)
+head(tab_delimited_data)
+# Export data to a tab-delimited text file
+write.table(tab_delimited_data, file="exported_tab_data.txt", sep="\t", row.names = FALSE)
+
+# Import data without headers
+data_without_headers <- read.csv("example_cvs_file_without_headers.csv", header = F)
+data_without_headers
+colnames(data_without_headers) <- c("Name","Age","Gender")
+rownames(data_without_headers) = c('s1','s2','s3')
+data_without_headers
+
+# Import data with missingness
+data_with_missing_values <- read.csv("example_csv_file_with_missing.csv", na.strings = c('','NA','Bob'))
+is.na(data_with_missing_values)
+# Export data with customized missingness label
+write.csv(data_with_missing_values, file = "exported_data_with_custom_missing_value.csv", na='nothing', row.names = F)
 
 #------------------------------------------------------------------
 ## Logic and control
