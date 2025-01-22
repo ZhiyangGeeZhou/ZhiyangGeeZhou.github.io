@@ -97,7 +97,12 @@ as.numeric(a8)
 
 # Factor: character strings with preset levels
 # Used to represent categorical data
-# To be discussed later
+old = iris$Species
+class(old)
+str(old)
+levels(old) # displays the original levels
+new = factor(old, levels = c("versicolor","setosa","virginica")) # Modify factor levels
+levels(new) # displays the original levels
 
 # Special Values
 1/0
