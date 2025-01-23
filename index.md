@@ -154,7 +154,7 @@ with [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:targe
 [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"} as senior supervisors)
 - Omar Hassan (2022--23, B.Sc. in Physics, umanitoba.ca, 
 with [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"} as the senior supervisor; 
-currently M.Sc. student at uvic.ca)
+currently Ph.D. student at uvic.ca)
 
 #### ADVISORY COMMITTEE MEMBER FOR
 
