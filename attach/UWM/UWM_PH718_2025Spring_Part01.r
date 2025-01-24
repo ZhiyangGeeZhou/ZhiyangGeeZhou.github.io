@@ -111,42 +111,53 @@ levels(new) # displays the original levels
 #------------------------------------------------------------------
 ## Data Structures: let str() or class() tell you
 #------------------------------------------------------------------
-# Vector: entries should share the SAME type
+# Vector: entries should share the SAME data type
 # vector of numbers
 v1 <- c(1, 2, 3, 4, 5, 6, 7, 8)
-print(v1)
 # or equiv. 
 v1 <- 1:8
 v1 <- seq(from = 1, to = 8, by = 1)
-# More operations on vectors
+v1
+# A vector with ties
 v2 = c(3,5,5,2)
 length(v2)
 unique(v2)
 rev(v2)
-order(v2)
-sort(v2, decreasing=T)
-v2[order(v2)]
-v2[v2 > 3]
-v2[1:3]
+# Extract certain entries of a vector
+v2[c(1,1)]
 v2[c(1,6)]
 v2[-(2:4)]
+v2[c(-3,-4)]
+v2[order(v2)]
+v2[v2 > 3]
 v2[v2 == 5]
 v2[v2 %in% c(1, 2, 5)]
-v2[which(v2 < 5)]
+v2[v2 < 5] # equiv. v2[which(v2 < 5)]
+# sort(), order() & rank()
+sort(v2, decreasing = F)
+order(v2, decreasing = F)
+sort(v2, decreasing = T)
+order(v2, decreasing = T)
+rank(v2, ties.method = "last")
+
 # vector of characters
 v2 <- c('Sarah', 'Tracy', 'Jon')
 v2 <- c(v2, 'Annette') # Adding elements
 v2 <- c('Greg', v2) # Adding elements
-# vector with missing Data
+v2
+v2[v2 != 'Tracy']
+
+# vector with missingness
 v3 <- c(0.5, NA, 0.7)
+v3
 v3 <- c(TRUE, FALSE, NA)
 v3 <- c('a', NA, 'c', 'd', 'e')
-v3 <- c(1 + 5i, 2 - 3i, NA) # including complex numbers (real number + imaginary part)
-is.na(v3)
 anyNA(v3)
+is.na(v3)
+v3[!is.na(v3)] # remove NA
 
-# Matrix: entries should share the SAME type
-m1 <- matrix(0, nrow = 2, ncol = 2)
+# Matrix: entries should share the SAME data type
+m1 <- matrix(0, nrow = 2, ncol = 4)
 m1
 dim(m1)
 class(m1)
@@ -158,39 +169,40 @@ m2
 m3 <- matrix(1:6, nrow = 2, ncol = 3, byrow = TRUE)
 m3
 
-m3[1,3] # the (1.3)-entry
+m3[1,3] # the (1,3)-entry
 m3[1, ] # return the 1st row
-m3[, 3] # return the 3rd column
+m3[, 2] # return the 2nd column
 
 cbind(m2, m3)
 rbind(m2, m3)
 
-# Array: generalizing the matrix
-array1 <- array(data = 1:27, dim = c(3, 3, 3))
-array1
-
-array1[2, 1, 3]
-array1[2, , 3]
-array1[2, 1, ]
-
 # Data frame: each column is a variable, each row is an observation
+# Create a data frame
 d1 <- data.frame(id = letters[1:10], x = 1:10, y = 11:20)
 d1
 class(d1)
 str(d1)
-
-d1[1,3]
-d1[1, ]
-d1[, 3]
-d1[['y']] # return the variable with name == 'y'
-d1$y
-d1$'y'
-
+# A data frame with with numbers only
+data(mtcars)
+class(mtcars)
 str(mtcars)
 head(mtcars)
 tail(mtcars)
+# A data frame with both numbers and characters
+data(iris)
+class(iris)
+str(iris)
+head(iris)
+tail(iris)
+# Extract certain entries of a data frame
+iris[1,3]
+iris[1, ]
+iris[, 3]
+iris[['Species']] # return the variable with name == 'y'
+iris$Species
+iris$'Species'
 
-# List: entries of a list are not restricted to the same data type
+# List: entries of a list are NOT restricted to the same data type
 l1 <- list(1, 'a', TRUE, 1 + 4i)
 l1
 length(l1)
