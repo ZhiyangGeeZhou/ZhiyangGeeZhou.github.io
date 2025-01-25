@@ -28,47 +28,54 @@ https://rmarkdown.rstudio.com/lesson-1.html
 Markdown is a lightweight language used for formatting text. 
 It is simple to use and widely supported. Here are some basic Markdown features:
 
-### Headings
+### Headings: using `#`
 
-Use `#` for headings:
 - `# Heading 1`
 - `## Heading 2`
 - `### Heading 3`
 
 ### Emphasis
 
-- **Bold:** `**bold**`
-- *Italics:* `*italics*`
+- **Bold:** `**bold text**`
+- *Italics:* `*italicized text*`
 - ~~Strikethrough:~~ `~~strikethrough~~`
 
 ### Lists
 
-- **Unordered List:**
+- **Unordered list:**
   - Use `-` or `*` for items.
     - Nested list item.
-- **Ordered List:**
+- **Ordered list:**
   1. First item
   2. Second item
+  3. Third item
 
-### Links and Images
+### Links and images
 
 - **Links:** `[text](URL)`
   - Example: [R Markdown website](https://rmarkdown.rstudio.com/)
 - **Images:** `![alt text](image_URL)`
   - Example: `![Sample Image](https://via.placeholder.com/150)`
 
-### Code Blocks
+### Code blocks
 
 - Inline code: Use backticks \`code\`.
-- Code blocks:
+- Fenced code block:
   ```
   print("Hello, Markdown!")
   ```
+- Blockquote: `> blockquote`
+
+
+### Extended syntax 
+
+https://www.markdownguide.org/cheat-sheet/
+
 ---
 
 # Basics of R Markdown
 
-### Code Chunks
+### R code chunks
 
 R Markdown extends Markdown by allowing you to embed R code within your document. A chunk starts with three backticks and `{r}`.
 
@@ -78,33 +85,14 @@ Example:
 summary(cars)
 ```
 
-### Inline Code
+### Inline code
 
 You can include R code inline using backticks and `r`:
 `r 2 + 2` becomes `r 2 + 2`.
 
 ---
 
-# Formatting Text in R Markdown
-
-### Headings
-
-Use `#` for headings:
-- `# Heading 1`
-- `## Heading 2`
-- `### Heading 3`
-
-### Emphasis
-- **Bold:** `**bold**`
-- *Italics:* `*italics*`
-
-### Lists
-- Unordered: `- Item 1`
-- Ordered: `1. First`
-
----
-
-# Adding Visuals
+# Additional features
 
 ### Plots
 Include plots using R code chunks:
@@ -119,10 +107,6 @@ Use functions like `knitr::kable()` or `gt` for formatted tables:
 library(knitr)
 kable(head(mtcars), caption = "Sample Table of mtcars Dataset")
 ```
-
----
-
-# Advanced Features
 
 ### Caching
 Speed up document rendering with caching:
