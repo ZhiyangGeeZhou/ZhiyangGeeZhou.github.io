@@ -265,6 +265,38 @@ is.na(data_with_missing_values)
 write.csv(data_with_missing_values, file = "exported_data_with_custom_missing_value.csv", na='nothing', row.names = F)
 
 #------------------------------------------------------------------
+## Vectorized arithmetic
+#------------------------------------------------------------------
+# For an arbitrary vector, say
+x <- c(1, 2, 3)
+
+x + 3 # Addition
+4 - x # Subtraction
+7 * x # Multiplication
+x / 3  # Division
+2^x  # Exponentiation
+x^(-5)  # Exponentiation
+x %% 3  # Modulus (remainder of division)
+
+# For one more vector, say
+y <- c(4, 5, 6)
+
+x + y
+x - y
+x * y
+x / y
+
+# Entry-wise operations are allowed btw one scalar and one vector (or two vectors of the same length)
+# Entry-wise operations are allowed btw one scalar and one matrix (or two matrices of the same dimension)
+
+# Mathematical functions
+sqrt(x)  # Square root
+abs(x)  # Absolute value
+log(x)  # Natural logarithm 
+exp(x)  # Exponentiation (with base e)
+round(x, 2)  # Rounding numbers
+
+#------------------------------------------------------------------
 ## Logic and control
 #------------------------------------------------------------------
 # Simple logical operations: !: not; &: and; |: or
