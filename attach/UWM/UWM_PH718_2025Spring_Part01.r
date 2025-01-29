@@ -182,12 +182,12 @@ d1 <- data.frame(id = letters[1:10], x = 1:10, y = 11:20)
 d1
 class(d1)
 str(d1)
-# A data frame with with numbers only
+# A data frame with numbers only
 data(mtcars)
 class(mtcars)
 str(mtcars)
-head(mtcars)
-tail(mtcars)
+head(mtcars, 10)
+tail(mtcars, 3)
 # A data frame with both numbers and characters
 data(iris)
 class(iris)
@@ -198,12 +198,12 @@ tail(iris)
 iris[1,3]
 iris[1, ]
 iris[, 3]
-iris[['Species']] # return the variable with name == 'y'
+iris[['Species']] # return the variable with name == 'Species'
 iris$Species
 iris$'Species'
 
 # List: entries of a list are NOT restricted to the same data type
-l1 <- list(1, 'a', TRUE, 1 + 4i)
+l1 <- list(1, 'a', c(TRUE, FALSE))
 l1
 length(l1)
 l1[[2]]
@@ -213,19 +213,21 @@ str(l1)
 
 l2 <- list(a = 'MLM', b = 1:10, data = head(mtcars))
 l2
+l2$a
 length(l2)
 str(l2)
 
 #------------------------------------------------------------------
-## Working directories: where inputs are found and outputs are sent
+## Working directory: where inputs are found and outputs are sent
 #------------------------------------------------------------------
 getwd() # The current working directory
 
 # Change the current working directory using function setwd('C:/file/path')
 setwd('c:/PH717') # Error due to the nonexisting path "c:/PH717"
 setwd('c:/PH718')
+getwd()
 
-# Open a new R script and enter the following lines
+# Open a new R script and enter the following three lines
 x <- 1:10
 y <- 1:10
 plot(x,y)
@@ -235,18 +237,19 @@ source("inclass_file.r") # execute/run the code in a R script
 #------------------------------------------------------------------
 ## Importing and exporting data
 #------------------------------------------------------------------
+# Put data files in the current working directory
 # Import Data from a CSV file
 csv_data <- read.csv("example_csv_file.csv", header = T) 
 # or
 csv_data = read.table("example_csv_file.csv", sep = ",", header = T)
 head(csv_data)  # display the first few rows
 # Export data to a CSV File
-write.csv(csv_data, file = "exported_data.csv", row.names = FALSE) 
+write.csv(csv_data, file = "exported_data.csv", row.names = T) 
 
 # Import data from a tab-delimited text file
-tab_delimited_data <- read.delim("example_tab_delimited_file.txt") 
+tab_delimited_data <- read.delim("example_tab_delimited_file.txt", header = T)
 # or
-tab_delimited_data = read.table("example_csv_file.csv", sep="\t", header = T)
+tab_delimited_data = read.table("example_tab_delimited_file.txt", sep="\t", header = T)
 head(tab_delimited_data)
 # Export data to a tab-delimited text file
 write.table(tab_delimited_data, file="exported_tab_data.txt", sep="\t", row.names = FALSE)
@@ -254,8 +257,8 @@ write.table(tab_delimited_data, file="exported_tab_data.txt", sep="\t", row.name
 # Import data without headers
 data_without_headers <- read.csv("example_cvs_file_without_headers.csv", header = F)
 data_without_headers
-colnames(data_without_headers) <- c("Name","Age","Gender")
-rownames(data_without_headers) = c('s1','s2','s3')
+colnames(data_without_headers) <- c("Name","Age","Sex")
+rownames(data_without_headers) = c('subject1','subject2','subject3')
 data_without_headers
 
 # Import data with missingness
