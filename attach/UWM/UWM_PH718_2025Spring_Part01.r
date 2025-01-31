@@ -262,7 +262,7 @@ rownames(data_without_headers) = c('subject1','subject2','subject3')
 data_without_headers
 
 # Import data with missingness
-data_with_missing_values <- read.csv("example_csv_file_with_missing.csv", na.strings = c('','NA','Bob'))
+data_with_missing_values <- read.csv("example_csv_file_with_missing.csv", na.strings = c('','NA'))
 is.na(data_with_missing_values)
 # Export data with customized missingness label
 write.csv(data_with_missing_values, file = "exported_data_with_custom_missing_value.csv", na='nothing', row.names = F)
@@ -271,18 +271,18 @@ write.csv(data_with_missing_values, file = "exported_data_with_custom_missing_va
 ## Vectorized arithmetic
 #------------------------------------------------------------------
 # For an arbitrary vector, say
-x <- c(1, 2, 3)
+x <- c(0.5, 3.6, 3)
 
 x + 3 # Addition
 4 - x # Subtraction
 7 * x # Multiplication
-x / 3  # Division
+3/x  # Division
 2^x  # Exponentiation
 x^(-5)  # Exponentiation
 x %% 3  # Modulus (remainder of division)
 
 # For one more vector, say
-y <- c(4, 5, 6)
+y <- c(4.1, 5, 6)
 
 x + y
 x - y
@@ -292,8 +292,19 @@ x / y
 # Entry-wise operations are allowed btw one scalar and one vector (or two vectors of the same length)
 # Entry-wise operations are allowed btw one scalar and one matrix (or two matrices of the same dimension)
 
+x = matrix(1:6, 2, 3)
+y = matrix(3:8, 2, 3)
+
+x + y
+x - y
+x * y
+x / y
+
+x %*% t(y)
+
 # Mathematical functions
 sqrt(x)  # Square root
+x^(0.5)
 abs(x)  # Absolute value
 log(x)  # Natural logarithm 
 exp(x)  # Exponentiation (with base e)
@@ -308,9 +319,9 @@ b = FALSE
 
 a & b
 a | b
-!a & b
+!a & b # equiv. (!a) & b
 !(a & b)
-!a | !b
+!a | !b # equiv. (!a) | (!b)
 
 x <- 10
 x < 20
@@ -321,14 +332,14 @@ x == 6
 
 # Control: "ifelse" function
 x <- 5
-ifelse(x==4, 1, 0)
+ifelse((0<x & x<4) | x>5, 1, 0)
 
 x <- 1:10
 ifelse(x<=4, 1, 0)
 
 # Control: "if" and "else"
-x <- 4
-if(x < 0.5){
+x <- .2
+if(x < 0.5 & x<9 & x>0){
   y <- x^2	
 }else{
   y <- sqrt(x)
@@ -336,7 +347,7 @@ if(x < 0.5){
 y 
 
 #------------------------------------------------------------------
-## Loops: for loop
+## Loops: "for" loop
 #------------------------------------------------------------------
 # If you need to replicate something for multiple times, then
 # a loop is more readable and save your time in coding.
@@ -351,7 +362,7 @@ w
 
 # What do you think the following w looks like?
 for(hello in 1:10){
-  w[hello] <- hello
+  w[hello] <- hello+10
 }
 w
 
