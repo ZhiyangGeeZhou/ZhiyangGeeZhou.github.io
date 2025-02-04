@@ -367,6 +367,7 @@ for(hello in 1:10){
 w
 
 # Nested loops
+w = c()
 counter <- 1
 for(j in 11:20){
   for(i in 1:10){
@@ -376,10 +377,12 @@ for(j in 11:20){
 }
 w
 
+
 # What is the difference between the following w and the previous one?
+w = c()
 counter <- 1
 for (j in 11:20) {
-  for (i in 1:10) {
+  for (i in 1:10){
     w[counter] <- i + j
   }
   counter <- counter + 1
@@ -391,15 +394,15 @@ w
 # Compare the running times of the following two code trunks.
 system.time({
   w <- c()
-  for(i in 1:10^6)
-    w[i] <- i+10
+  for(i in 1:10^6){
+    w[i] <- i+10}
 }
 )
 
 system.time({
   w <- rep(NA, times=10^6)
-  for(i in 1:10^6)
-    w[i] <- i+10
+  for(i in 1:10^6){
+    w[i] <- i+10}
 }
 )
 
@@ -412,8 +415,15 @@ for(rows in 1:10) {
 }
 my_mat
 
+# Example: sum_{i=1}^{10^4} i^2
+result = 0 
+for (i in 1:10^4){
+  result = result + i^2
+}
+result
+
 #------------------------------------------------------------------
-## Loops: while loop
+## Loops: "while" loop
 #------------------------------------------------------------------
 # Keep looping if a logical condition holds
 w <- 100
@@ -424,7 +434,7 @@ while(w > 20){
 }
 w
 
-# Make sure the loop can be terminated.
+# Make sure the while loop can be terminated.
 # Otherwise it will runs forever.
 w <- 100
 z <- 5
@@ -433,8 +443,17 @@ while(w > 20){
   w <- w + 1
 }
 
+# Example: sum_{i=1}^{10^4} i^2
+result = 0 
+i = 10^4
+while (i >= 1){
+  result = result + i^2
+  i = i - 1
+}
+result
+
 #------------------------------------------------------------------
-## Loops: using "break" or "next"
+## Loops: using "next" and "break"
 #------------------------------------------------------------------
 # A "next" statement is used when we want to skip the current iteration without terminating the loop. 
 # When encountering "next", R skips further evaluation and starts the next iteration.
@@ -445,9 +464,10 @@ for(k in 1:m) {
   print(k)
 }
 
-# A "break" statement terminates the loop. 
+# A "break" statement terminates the current loop. 
+# When encountering "break", R terminates the current loop.
 m = 20
-for(i in 1:m) {
+for(k in 1:m) {
   if(!(k %% 2))
     break
   print(k)
