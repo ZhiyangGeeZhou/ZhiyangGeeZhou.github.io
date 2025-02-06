@@ -473,6 +473,20 @@ for(k in 1:m) {
   print(k)
 }
 
+# Example created by Copilot
+# with prompt "help me generate an example of r code of 2 nested loops with "break" function involved in the inner loop"
+for (i in 1:5) {
+  cat("Outer loop iteration:", i, "\n") # printing
+  for (j in 1:5) {
+    if (j == 3) {
+      cat("  Inner loop iteration:", j, " - Break condition met! Breaking inner loop.\n")
+      break
+    }
+    cat("  Inner loop iteration:", j, "\n")
+  }
+}
+
+
 # Example: construct the lower triangular of a 10 x 10 multiplication table.
 my_mat <- matrix(NA, nrow=10, ncol=10)
 for(rows in 1:10) {
@@ -492,7 +506,7 @@ example.sum <- function(a, b){
 }
 x <- 1:10
 y <- 11:20
-example.sum(x,y)
+example.sum(b=y,a=x)
 
 ## Write a function to convert Celsius to Fahrenheit and vice versa
 C_to_F <- function(temp) {
@@ -503,12 +517,13 @@ F_to_C<- function(temp) {
   return((temp - 32)/1.8)
 }
 
-par(mfrow=c(1,2))
+par(mfrow=c(2,1))
 plot(1:100, C_to_F(1:100))
 plot(-40:212, F_to_C(-40:212))
+par(mfrow=c(1,1))
 
 ## Combine above two functions by adding argument type_of_conversion
-temp_conversion <- function(temp, type_of_conversion="F_to_C") {
+temp_conversion <- function(temp, type_of_conversion) {
   if(!type_of_conversion %in% c("F_to_C", "C_to_F")) {
     stop("STOP!!! I can only convert C to F or F to C.")
   }
@@ -523,17 +538,20 @@ temp_conversion <- function(temp, type_of_conversion="F_to_C") {
 temp_conversion(50:100, type="C_to_F")
 
 ################################################################
-# Loops within functions
+# Loops in functions
 ################################################################
-# Example: a function calculating the factorial of a number via a for loop
+# Example: a function calculating the factorial of a number via a "for" loop
 calculate_factorial <- function(n) {
+  if (n %% 1 != 0){
+    stop("wrong n")
+  }
   factorial_result <- 1
   for (i in 1:n) {
     factorial_result <- factorial_result * i
   }
   return(factorial_result)
 }
-calculate_factorial(5)
+calculate_factorial(5.1)
 
 #------------------------------------------------------------------
 ## Debugging
