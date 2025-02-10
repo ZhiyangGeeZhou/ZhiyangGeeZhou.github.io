@@ -106,20 +106,20 @@ _Atmospheric Environment_ **61**:409--418.
 
 ### INVITED PRESENTATIONS
 
-- 2025/Jul/11--13, [3rd Joint Conference on Statistics and Data Science in China](https://www.jconf-sds.com/en/web/index/25705){:target="_blank"}
+- 2025/Jul/13, [The 3rd Joint Conference on Statistics and Data Science in China](https://www.jconf-sds.com/en/web/index/25705){:target="_blank"}
 - 2025/Jun/16, [WNAR/IMS Annual Meeting](https://wnarofibs.wildapricot.org/wnar2025/){:target="_blank"}
-- 2024/Dec/16, [18th International Joint Conference on Computational and Financial Econometrics (CFE) and Computational and Methodological Statistics (CMStatistics), CFE-CMStatistics 2024](https://www.cmstatistics.org/CFECMStatistics2024/){:target="_blank"}
-- 2024/Jul/18, [7th International Conference on Econometrics and Statistics (EcoSta 2024)](https://www.cmstatistics.org/EcoSta2024/){:target="_blank"}
-- 2024/Jul/14, [2nd Joint Conference on Statistics and Data Science in China](https://jcsds2024.scimeeting.cn/en/web/index/19820){:target="_blank"}
+- 2024/Dec/16, [The 18th International Joint Conference on Computational and Financial Econometrics (CFE) and Computational and Methodological Statistics (CMStatistics), CFE-CMStatistics 2024](https://www.cmstatistics.org/CFECMStatistics2024/){:target="_blank"}
+- 2024/Jul/18, [The 7th International Conference on Econometrics and Statistics (EcoSta 2024)](https://www.cmstatistics.org/EcoSta2024/){:target="_blank"}
+- 2024/Jul/14, [The 2nd Joint Conference on Statistics and Data Science in China](https://jcsds2024.scimeeting.cn/en/web/index/19820){:target="_blank"}
 - 2024/Jun/21, [Statistical Learning for Large Scale Data: A conference celebrating the 70th birthday of Richard Lockhart](https://caojiguo.github.io/SLconference/){:target="_blank"}
-- 2024/Jun/09, [6th ICSA-Canada Chapter Symposium](https://icsa-canada-chapter.org/symposium2024/){:target="_blank"}
+- 2024/Jun/09, [The 6th ICSA-Canada Chapter Symposium](https://icsa-canada-chapter.org/symposium2024/){:target="_blank"}
 - 2024/Apr/19, [Southeast Wisconsin Data Science (SEAWINDS) Collaborative First Annual Research Symposium](https://ctsi.mcw.edu/blog/news-events/southeast-wisconsin-data-science-collaborative-first-annual-research-symposium-all-things-data-science/){:target="_blank"}
-- 2023/Dec/18, [16th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2023)](https://www.cmstatistics.org/CMStatistics2023/){:target="_blank"}
-- 2023/Jul/08, [12th ICSA International Conference](https://international2023.icsa.org/){:target="_blank"}
-- 2022/Dec/17, [15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)](https://www.cmstatistics.org/CMStatistics2022/){:target="_blank"}
+- 2023/Dec/18, [The 16th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2023)](https://www.cmstatistics.org/CMStatistics2023/){:target="_blank"}
+- 2023/Jul/08, [The 12th ICSA International Conference](https://international2023.icsa.org/){:target="_blank"}
+- 2022/Dec/17, [The 15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)](https://www.cmstatistics.org/CMStatistics2022/){:target="_blank"}
 - 2022/Oct/25, Biostatistics and Bioinformatics Round, George & Fay Yee Centre for Healthcare Innovation
 - 2022/Oct/24, Biostatistics Seminar Series, Northwestern University
-- 2022/Jul/10, [5th ICSA-Canada Chapter Symposium](https://icsa-canada-chapter.org/symposium2022/){:target="_blank"}
+- 2022/Jul/10, [The 5th ICSA-Canada Chapter Symposium](https://icsa-canada-chapter.org/symposium2022/){:target="_blank"}
 - 2022/Jun/20, [ICSA Applied Statistics Symposium](https://symposium2022.icsa.org/){:target="_blank"}
 - 2022/Jun/07, Machine Learning Special Interest Group Meeting, George & Fay Yee Centre for Healthcare Innovation
 - 2021/Oct/22, NIC-ASA & ICSA Midwest Chapter Joint Fall Meeting
