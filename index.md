@@ -28,7 +28,7 @@ Currently, Zhiyang's research is focused on the intersection of statistics and m
 where he explores both methodological and theoretical dimensions. 
 His enthusiasm for collaborative and applied research 
 underscores his commitment to leveraging statistical insights to solve real-world problems.
-See his [curriculum vitae](attach/CV20250210.pdf){:target="_blank"} (updated on 2024/Sep/01).
+See his [curriculum vitae](attach/CV20250210.pdf){:target="_blank"} (updated on 2025/Feb/10).
 
 # APPOINTMENTS
 
