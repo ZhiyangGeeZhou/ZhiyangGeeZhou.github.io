@@ -608,7 +608,7 @@ fcn <- function(x, y) {
   z2 <- z1
   # browser()
   z3 <- z2 + "a"
-  browser()
+  # browser()
   return(z3 * exp(z3))
 }
 fcn(2, 1.3)
@@ -620,9 +620,9 @@ fcn(2, 1.3)
 # Simply speaking, R has been optimized for vectorization.
 # Example 1
 # via loop
+A <- matrix(1:2e5, nrow=500, ncol=400)
+B <- matrix((2e5+1):4e5, nrow=500, ncol=400)
 system.time({
-  A <- matrix(1:2e5, nrow=500, ncol=400)
-  B <- matrix((2e5+1):4e5, nrow=500, ncol=400)
   matsum <- matrix(0, nrow=500, ncol=400)
   for(i in 1:500) {
     for(j in 1:400) {
@@ -632,8 +632,6 @@ system.time({
 })
 # via vectorization
 system.time({
-  A <- matrix(1:200000, nrow=500, ncol=400)
-  B <- matrix(200001:400000, nrow=500, ncol=400)
   matsum <- A + B
 })
 
@@ -653,3 +651,14 @@ system.time(
     result <- x*2
   }
 )
+
+# Example 3: sum_{i=1}^{10^4} i^2
+
+result1 = 0 
+for (i in 1:10^3){
+  result1 = result1 + i^2
+}
+result1
+
+result2 = sum((1:1e3)^2)
+result2
