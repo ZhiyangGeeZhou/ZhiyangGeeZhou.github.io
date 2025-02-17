@@ -1,6 +1,6 @@
 ---
 title: "PH 718 Data Management and Visualization in `R`"
-subtitle: "Part 0: Syllabus Review & Introduction to `R`"
+subtitle: "Part 3: Basic Graphics in `R`"
 author: 
   - Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))
 date: "`r format(Sys.time(), '%Y/%m/%d %H:%M:%S')`"
