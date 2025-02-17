@@ -1,13 +1,16 @@
 ---
-title: "How to Use R Markdown"
-author: "Your Name"
+title: "PH 718 Data Management and Visualization in `R`"
+subtitle: "Part 2: How to Use R Markdown"
+author: 
+  - Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))
 date: "`r Sys.Date()`"
 output: pdf_document
 ---
 
 # Introduction
 
-R Markdown is versatile tools for creating documents, presentations, dashboards, and more. 
+R Markdown is versatile tools for creating documents, presentations, dashboards, and more.
+
 This guide covers basic Markdown syntax, features of R Markdown, and examples to help you get started.
 
 ---
@@ -42,13 +45,13 @@ It is simple to use and widely supported. Here are some basic Markdown features:
 
 ### Lists
 
-- **Unordered list:**
+* **Unordered list:**
   - Use `-` or `*` for items.
     - Nested list item.
-- **Ordered list:**
+* **Ordered list:**
   1. First item
-  2. Second item
-  3. Third item
+  1. Second item
+  1. Third item
 
 ### Links and images
 
@@ -80,10 +83,21 @@ https://www.markdownguide.org/cheat-sheet/
 R Markdown extends Markdown by allowing you to embed R code within your document. A chunk starts with three backticks and `{r}`.
 
 Example:
-```{r}
+```{r, cache=T}
 # A simple R code chunk
+data(cars)
 summary(cars)
 ```
+
+```{r, cache=T}
+# A simple R code chunk
+result1 = 0 
+for (i in 1:10^4){
+  result1 = result1 + i^2
+}
+result1
+```
+
 
 ### Inline code
 
@@ -96,21 +110,28 @@ You can include R code inline using backticks and `r`:
 
 ### Plots
 Include plots using R code chunks:
-```{r}
+```{r, cache=T}
 # Example of a scatter plot
-plot(mtcars$mpg, mtcars$wt, main = "Scatter Plot of MPG vs Weight", xlab = "Weight", ylab = "MPG")
+data(mtcars)
+plot(
+  mtcars$mpg, 
+  mtcars$wt, 
+  main = "Scatter Plot of MPG vs Weight", 
+  xlab = "Weight", 
+  ylab = "MPG"
+)
 ```
 
 ### Tables
 Use functions like `knitr::kable()` or `gt` for formatted tables:
-```{r}
+```{r, cache=T}
 library(knitr)
 kable(head(mtcars), caption = "Sample Table of mtcars Dataset")
 ```
 
 ### Caching
 Speed up document rendering with caching:
-```{r cache = TRUE}
+```{r, cache=T}
 # Cached code chunk
 summary(mtcars)
 ```
