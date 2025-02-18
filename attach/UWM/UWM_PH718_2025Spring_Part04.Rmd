@@ -1,0 +1,319 @@
+---
+title: "PH 718 Data Management and Visualization in `R`"
+subtitle: "Part 4: Introduction to `Tidyverse`"
+author: 
+  - Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))
+date: "`r format(Sys.time(), '%Y/%m/%d %H:%M:%S')`"
+output: pdf_document
+---
+
+## What is the `Tidyverse` (https://www.tidyverse.org/)
+
+- A collection of `R` packages designed for data science. 
+These packages share a common philosophy, grammar, and data structure, making data manipulation, visualization, and modeling easier and more efficient.
+
+| Package   | Purpose                                               |
+|-----------|-------------------------------------------------------|
+| `ggplot2` | Data visualization                                    |
+| `dplyr`   | Data manipulation (filter, summarize, mutate, etc.)   |
+| `tidyr`   | Data tidying (reshaping data)                         |
+| `readr`   | Reading CSVs and text files                           |
+| `tibble`  | Modern replacement for data frames                    |
+| `purrr`   | Functional programming (working with lists)           |
+| `stringr` | String manipulation                                   |
+| `forcats` | Handling categorical data (factors)                   |
+
+## Why use `Tidyverse`?
+
+- Consistency: Functions follow similar syntax and principles.
+- Readability: Code is easier to write and understand.
+- Efficiency: Optimized for modern data workflows.
+- Integration: `Tidyverse` functions work well together.
+
+## Installing and loading `Tidyverse`
+
+```{r, eval = F}
+install.packages("tidyverse")
+library(tidyverse) # load ALL core tidyverse packages
+```
+
+If you need a specific package, you can load it individually, e.g.,
+
+```{r, eval = F}
+library(dplyr)
+```
+
+--- 
+
+## Toy examples illustrating features of `Tidyverse` 
+
+### Data manipulation with `dplyr`
+
+```{r, eval = F}
+mtcars_filtered1 = 
+  mtcars %>%
+  filter(cyl == 6) %>%       # Keep only cars with 6 cylinders
+  select(mpg, hp, wt) %>%    # Select relevant columns
+  arrange(desc(mpg))         # Arrange in descending order of mpg
+```
+
+or, equivalently, without using functions in `Tidyverse`,
+
+```{r, eval = F}
+mtcars_filtered3 <- mtcars[mtcars$cyl == 6, ]
+mtcars_filtered3 <- mtcars_filtered3[, c("mpg", "hp", "wt")]
+mtcars_filtered3 <- mtcars_filtered3[order(-mtcars_filtered3$mpg), ]
+```
+
+### Creating elegant, layered plots with `ggplot2`
+
+```{r, eval = F}
+ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) + # aesthetics
+  geom_point() + # type of plot
+  theme_minimal() # style
+```
+
+or, similarly, without using `ggplot2`
+
+```{r, eval = F}
+colors <- c("red", "blue", "green") 
+cyl_factor <- as.factor(mtcars$cyl)
+color_map <- colors[as.numeric(cyl_factor)]
+plot(mtcars$wt, mtcars$mpg, col = color_map, pch = 16,
+     xlab = "Weight (wt)", ylab = "Miles per Gallon (mpg)",
+     main = "Scatter plot of wt vs mpg by cyl")
+legend("topright", legend = levels(cyl_factor), col = colors, pch = 16, title = "Cylinders")
+```
+
+### Reshaping data with `tidyr`
+
+```{r, eval = F}
+# Converting wide data to the long format
+wide_data <- data.frame(
+  name = c("Alice", "Bob", "Cindy"), 
+  math = c(90, 85, 69), 
+  science = c(88, 92, 99)
+)
+long_data1 <- wide_data %>%
+  pivot_longer(cols = math:science, names_to = "subject", values_to = "score")
+```
+
+or, equivalently, without using functions in `Tidyverse`,
+
+```{r, eval = F}
+# Converting wide data to the long format
+wide_data <- data.frame(
+  name = c("Alice", "Bob", "Charlie"),
+  age = c(23, 25, 22),
+  score = c(90, 85, 88)
+)
+long_data2 <- reshape(
+  wide_data, 
+  varying = c("math", "science"), 
+  v.names = "score", 
+  timevar = "subject", 
+  times = c("math", "science"), 
+  direction = "long"
+)
+rownames(long_data2) <- NULL
+long_data2 = subset(long_data2, select = -id)
+```
+
+---
+
+## Tibble
+
+### What is a tibble?
+
+- A modern version of data frame optimized for better readability and usability in `R`
+- Working seamlessly with packages belonging to `tidyverse` 
+- Rumor: "Tibble" is similar to how New Zealanders pronounce "table", and Dr. Hadley Wickham, the creator of `tibble`, is from New Zealand.
+
+### Creating tibbles
+
+```{r, eval = F}
+# Creating a tibble manually with tibble::tibble()
+students1 <- tibble(
+  name = c("Alice", "Bob", "Charlie"),
+  age = c(23, 25, 22),
+  score = c(90, 85, 88)
+)
+students1
+```
+
+```{r, eval = F}
+# For small datasets, tibble::tribble() allows for a more intuitive way
+students2 <- tribble(
+  ~name,    ~age, ~score,
+  "Alice",    23,    90,
+  "Bob",      25,    85,
+  "Charlie",  22,    88
+)
+students2
+```
+
+```{r, eval = F}
+# Converting between tibbles and data frames
+iris
+iris_t <- as_tibble(iris)
+iris_t 
+iris_df = as.data.frame(iris_t)
+iris_df
+```
+
+## Accessing subsets of a tibble
+
+```{r, eval = F}
+iris_t$Species     
+iris_t[,c("Petal.Length","Petal.Width","Species")]
+iris_t[iris_t$Species=='setosa', ]
+subset(iris_t, select = c(Petal.Length,Petal.Width,Species))
+subset(iris_t, select = -c(Petal.Length,Petal.Width,Species))
+```
+
+### Key advantages of tibbles
+
+```{r, eval = F}
+# Tibbles do not convert character vectors into factors automatically
+df <- data.frame(name = c("Alice", "Bob"), age = c(23, 25))
+tib <- tibble(name = c("Alice", "Bob"), age = c(23, 25))
+
+str(df)   # name is converted to factor
+str(tib)  # name remains as character
+```
+
+```{r, eval = F}
+# Tibbles print only the first 10 rows and all the columns that fit on screen
+large_tibble <- tibble(x = 1:1000, y = runif(1000))
+large_tibble
+```
+
+---
+
+## Pipe operator `%>%`
+
+### What is the pipe operator
+
+- A fundamental feature in `tidyverse`
+- Designed to improve code readability and workflow efficiency
+  - Chaining multiple operations together in a logical sequence
+  - Making data manipulation in `R` clearer and more intuitive
+
+### History of pipes
+
+- 1970s: Pipe `|` was introduced in Unix, allowing command-line programs to pass output to the next command;
+- Languages like F#, Elixir, and Haskell have similar piping mechanisms;
+- 2014: `%>%` was introduced in `R` package `magrittr`;
+- 2016: `%>%` was integrated into `tidyverse`;
+- 2021: `|>` was introduced in base R 4.1 and an alternative for users who prefer not to load `tidyverse`.
+
+### Why use the pipe operator
+
+```{r, eval = F}
+# Sample dataset
+student_data <- data.frame(
+  name = c("Alice", "Bob", "Charlie", "David", "Eve", "Frank"),
+  score = c(85, 92, 78, NA, 95, 88)
+)
+```
+
+- Given the above dataset of student exam scores, we want to:
+  1. Remove any students with missing scores (NA).
+  1. Standardize the scores.
+  1. Screen out students who scored below average after standardization.
+  1. Sort the remaining students by their standardized scores in descending order.
+
+```{r, eval = F}
+# If we use multiple intermediate variables
+clean_data <- na.omit(student_data)
+mean_score <- mean(clean_data$score)
+sd_score <- sd(clean_data$score)
+clean_data$z_score <- (clean_data$score - mean_score) / sd_score
+filtered_data <- clean_data[clean_data$z_score > 0, ]
+sorted_data <- filtered_data[order(-filtered_data$z_score), ]
+sorted_data
+
+## Problem: requires multiple intermediate variables, making the workflow less readable.
+```
+
+```{r, eval = F}
+# If we use a nested function
+subset(
+  transform(
+    na.omit(student_data),
+    z_score = (score - mean(score)) / sd(score)
+  ),
+  z_score > 0
+)[order(-subset(
+  transform(
+    na.omit(student_data),
+    z_score = (score - mean(score)) / sd(score)
+  ),
+  z_score > 0
+)$z_score), ]
+
+## Problem: reversed order of operations (we must read inside-out), making the workflow less readable
+```
+
+```{r, eval = F}
+# If we use %>%
+student_data %>%
+  na.omit() %>%  # Step 1: Remove missing values
+  transform(z_score = (score - mean(score)) / sd(score)) %>%  # Step 2: standardize scores
+  subset(z_score > 0) %>%  # Step 3: Keep students with above-average scores
+  .[order(-.$z_score), ] # Step 4: Sort in descending order
+
+## More readable, following a left-to-right logic, no need for temporary variables, and easier to debug
+```
+
+### How the pipe operator works
+
+- Passing the output of one function as the first argument to the next function
+
+```{r, eval = F}
+mean(mtcars$mpg)
+# equiv.
+mtcars$mpg %>% mean()
+```
+
+```{r, eval = F}
+head(iris)
+# equiv.
+iris %>% head()
+```
+
+```{r, eval = F}
+x <- runif(10)
+round(exp(diff(log(x))), 1)
+# equiv.
+x %>% log() %>% diff() %>% exp() %>% round(1)
+```
+
+- Passing a dataset to positions where placeholders (dots) lie
+  - The dot is not a general placeholder for any function argument
+  but specifically represents the dataset in the pipeline;
+  it is only necessary when the dataset is not automatically placed as the first argument in a function
+
+```{r, eval = F}
+student_data <- data.frame(
+  name = c("Alice", "Bob", "Charlie", "David", "Eve", "Frank"),
+  score = c(85, 92, 78, NA, 95, 88)
+)
+student_data %>%
+  na.omit() %>%
+  transform(z_score = (score - mean(score)) / sd(score)) %>%
+  subset(z_score > 0) %>%
+  .[order(-.$z_score), ] # R is going to replace the two dots with the previously generated dataset
+```
+
+---
+
+## `tidyr`
+
+---
+
+## `dplyr`
+
+---
+
+## `ggplot2`
