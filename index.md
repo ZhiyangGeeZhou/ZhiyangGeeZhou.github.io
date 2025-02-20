@@ -141,6 +141,7 @@ Lectures:
 [01](attach/UWM/UWM_PH718_2025Spring_Part01.r)
 [02](attach/UWM/UWM_PH718_2025Spring_Part02.Rmd)
 [03](attach/UWM/UWM_PH718_2025Spring_Part03.Rmd)
+[04](attach/UWM/UWM_PH718_2025Spring_Part04.Rmd)
 
 #### SUPERVISION FOR
 
