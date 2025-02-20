@@ -1,34 +1,61 @@
 ---
 title: "PH 718 Data Management and Visualization in `R`"
-subtitle: "Part 4: Introduction to `Tidyverse`"
-author: 
-  - Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))
+author: "Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))"
 date: "`r format(Sys.time(), '%Y/%m/%d %H:%M:%S')`"
-output: pdf_document
+output:
+  pdf_document: default
+  word_document: default
+subtitle: 'Part 4: Introduction to `Tidyverse`'
 ---
 
-## What is the `Tidyverse` (https://www.tidyverse.org/)
+## What is the `Tidyverse` (<https://www.tidyverse.org/>)
 
-- A collection of `R` packages designed for data science. 
-These packages share a common philosophy, grammar, and data structure, making data manipulation, visualization, and modeling easier and more efficient.
+A collection of `R` packages designed for data science. These packages share a common philosophy, grammar, and data structure, making data manipulation, visualization, and modeling easier and more efficient.
+By the way, you may find below an R Markdown table simply created via dashes and bars. 
+It could be more convenient to resort to an online tool: <https://www.tablesgenerator.com/markdown_tables>
 
-| Package   | Purpose                                               |
-|-----------|-------------------------------------------------------|
-| `ggplot2` | Data visualization                                    |
-| `dplyr`   | Data manipulation (filter, summarize, mutate, etc.)   |
-| `tidyr`   | Data tidying (reshaping data)                         |
-| `readr`   | Reading CSVs and text files                           |
-| `tibble`  | Modern replacement for data frames                    |
-| `purrr`   | Functional programming (working with lists)           |
-| `stringr` | String manipulation                                   |
-| `forcats` | Handling categorical data (factors)                   |
+| Package   | Purpose                                     |
+|-----------|---------------------------------------------|
+| `ggplot2` | Data visualization                          |
+| `dplyr`   | Data manipulation                           |
+| `tidyr`   | Rreshaping data                             |
+| `readr`   | Reading CSV and text files                  |
+| `tibble`  | Modern replacement for data frames          |
+| `purrr`   | Functional programming (working with lists) |
+| `stringr` | String manipulation                         |
+| `forcats` | Handling categorical data (factors)         |
+
+Alternatively,
+one may utilize the `knitr::kable` to output the same table with an indexed caption.
+
+```{r echo=FALSE, results="asis"}
+# Create the table as a data frame
+tidyr_functions <- data.frame(
+  Package = c(
+    "`ggplot2`", "`dplyr`", "`tidyr`", "`readr`", "`tibble`", "`purrr`", "`stringr`", "`forcats`"
+  ),
+  Purpose = c(
+    "Data visualization",
+    "Data manipulation",
+    "Rreshaping data",
+    "Reading CSV and text files",
+    "Modern replacement for data frames",
+    "Functional programming (working with lists)",
+    "String manipulation",
+    "Handling categorical data (factors)"
+  )
+)
+
+# Print the table using knitr::kable() for nice formatting
+knitr::kable(tidyr_functions, caption = "Summary of Key `tidyr` Functions")
+```
 
 ## Why use `Tidyverse`?
 
-- Consistency: Functions follow similar syntax and principles.
-- Readability: Code is easier to write and understand.
-- Efficiency: Optimized for modern data workflows.
-- Integration: `Tidyverse` functions work well together.
+-   Consistency: Functions follow similar syntax and principles.
+-   Readability: Code is easier to write and understand.
+-   Efficiency: Optimized for modern data workflows.
+-   Integration: `Tidyverse` functions work well together.
 
 ## Installing and loading `Tidyverse`
 
@@ -43,9 +70,9 @@ If you need a specific package, you can load it individually, e.g.,
 library(dplyr)
 ```
 
---- 
+---
 
-## Toy examples illustrating features of `Tidyverse` 
+## Toy examples illustrating features of `Tidyverse`
 
 ### Data manipulation with `dplyr`
 
@@ -125,9 +152,9 @@ long_data2 = subset(long_data2, select = -id)
 
 ### What is a tibble?
 
-- A modern version of data frame optimized for better readability and usability in `R`
-- Working seamlessly with packages belonging to `tidyverse` 
-- Rumor: "Tibble" is similar to how New Zealanders pronounce "table", and Dr. Hadley Wickham, the creator of `tibble`, is from New Zealand.
+-   A modern version of data frame optimized for better readability and usability in `R`
+-   Working seamlessly with packages belonging to `tidyverse`
+-   Rumor: "Tibble" is similar to how New Zealanders pronounce "table", and Dr. Hadley Wickham, the creator of `tibble`, is from New Zealand.
 
 ### Creating tibbles
 
@@ -194,18 +221,18 @@ large_tibble
 
 ### What is the pipe operator
 
-- A fundamental feature in `tidyverse`
-- Designed to improve code readability and workflow efficiency
-  - Chaining multiple operations together in a logical sequence
-  - Making data manipulation in `R` clearer and more intuitive
+-   A fundamental feature in `tidyverse`
+-   Designed to improve code readability and workflow efficiency
+    -   Chaining multiple operations together in a logical sequence
+    -   Making data manipulation in `R` clearer and more intuitive
 
 ### History of pipes
 
-- 1970s: Pipe `|` was introduced in Unix, allowing command-line programs to pass output to the next command;
-- Languages like F#, Elixir, and Haskell have similar piping mechanisms;
-- 2014: `%>%` was introduced in `R` package `magrittr`;
-- 2016: `%>%` was integrated into `tidyverse`;
-- 2021: `|>` was introduced in base R 4.1 and an alternative for users who prefer not to load `tidyverse`.
+-   1970s: Pipe `|` was introduced in Unix, allowing command-line programs to pass output to the next command;
+-   Languages like F#, Elixir, and Haskell have similar piping mechanisms;
+-   2014: `%>%` was introduced in `R` package `magrittr`;
+-   2016: `%>%` was integrated into `tidyverse`;
+-   2021: `|>` was introduced in base R 4.1 and an alternative for users who prefer not to load `tidyverse`.
 
 ### Why use the pipe operator
 
@@ -217,11 +244,11 @@ student_data <- data.frame(
 )
 ```
 
-- Given the above dataset of student exam scores, we want to:
-  1. Remove any students with missing scores (NA).
-  1. Standardize the scores.
-  1. Screen out students who scored below average after standardization.
-  1. Sort the remaining students by their standardized scores in descending order.
+-   Given the above dataset of student exam scores, we want to:
+    1.  Remove any students with missing scores (NA).
+    2.  Standardize the scores.
+    3.  Screen out students who scored below average after standardization.
+    4.  Sort the remaining students by their standardized scores in descending order.
 
 ```{r, eval = F}
 # If we use multiple intermediate variables
@@ -268,7 +295,7 @@ student_data %>%
 
 ### How the pipe operator works
 
-- Passing the output of one function as the first argument to the next function
+-   Passing the output of one function as the first argument to the next function
 
 ```{r, eval = F}
 mean(mtcars$mpg)
@@ -289,10 +316,8 @@ round(exp(diff(log(x))), 1)
 x %>% log() %>% diff() %>% exp() %>% round(1)
 ```
 
-- Passing a dataset to positions where placeholders (dots) lie
-  - The dot is not a general placeholder for any function argument
-  but specifically represents the dataset in the pipeline;
-  it is only necessary when the dataset is not automatically placed as the first argument in a function
+-   Passing a dataset to positions where placeholders (dots) lie
+    -   The dot is not a general placeholder for any function argument but specifically represents the dataset in the pipeline; it is only necessary when the dataset is not automatically placed as the first argument in a function
 
 ```{r, eval = F}
 student_data <- data.frame(
@@ -309,6 +334,107 @@ student_data %>%
 ---
 
 ## `tidyr`
+
+### **Key Functions in `tidyr`**
+
+The `tidyr` package provides functions for reshaping and tidying data efficiently. Below is a summary of some of the most commonly used functions:
+
+```{r echo=FALSE, results="asis"}
+# Create the table as a data frame
+tidyr_functions <- data.frame(
+  Function = c("`pivot_longer()`", "`pivot_wider()`", "`separate()`", "`unite()`", "`fill()`", "`drop_na()`"),
+  Purpose = c(
+    "Convert wide data to long format",
+    "Convert long data to wide format",
+    "Split a column into multiple columns",
+    "Merge multiple columns into one",
+    "Fill in missing values",
+    "Remove missing values"
+  )
+)
+
+# Print the table using knitr::kable() for nice formatting
+knitr::kable(tidyr_functions, caption = "Summary of Key `tidyr` Functions")
+```
+
+### Reshaping data
+
+One of the most common tasks in `tidyr` is reshaping wide data into long format (and vice versa)
+  - Long format: 
+  each row corresponds to a unique combination of original a row id and a column name
+
+```{r, eval = F}
+wide_data <- data.frame(
+  name = c("Alice", "Bob", "Charlie"), 
+  math = c(90, 85, 78), 
+  science = c(88, 92, 80)
+)
+# Wide -> long
+long_data <- wide_data %>%
+  pivot_longer(cols = c(math,science), names_to = "subject", values_to = "score")
+long_data
+```
+
+
+```{r, eval = F}
+# Long -> wide
+wide_again <- long_data %>%
+  pivot_wider(names_from = subject, values_from = score)
+wide_again
+```
+
+### Splitting columns
+
+```{r, eval = F}
+data <- data.frame(full_name = c("Alice Johnson", "Bob Smith"))
+# Split full_name into first_name and last_name
+separated_data <- data %>%
+  separate(full_name, into = c("first_name", "last_name"), sep = " ")
+separated_data
+```
+
+### Merging columns
+
+```{r, eval = F}
+data <- data.frame(first_name = c("Alice", "Bob"), last_name = c("Johnson", "Smith"))
+# Merge first_name and last_name into full_name
+united_data <- data %>%
+  unite(full_name, first_name, last_name, sep = "_")
+united_data
+```
+
+### Removing rows with missing values
+
+```{r, eval = F}
+data <- data.frame(name = c("Alice", "Bob", "Charlie"),
+                   score = c(90, NA, 85))
+clean_data <- data %>% drop_na()
+clean_data
+```
+
+### Filling missing values
+
+```{r, eval = F}
+tidy_pets <- tibble::tribble(
+  ~rank, ~pet_type, ~breed,
+  1L,        NA,    "Boston Terrier",
+  2L,        NA,    "Retrievers (Labrador)",
+  3L,        NA,    "Retrievers (Golden)",
+  4L,        NA,    NA,
+  5L,        NA,    "Bulldogs",
+  6L,     "Dog",    "Beagles",
+  1L,        NA,    "Persian",
+  2L,        NA,    "Maine Coon",
+  3L,        NA,    "Ragdoll",
+  4L,     "Cat",    "Exotic",
+  5L,        NA,    "Siamese",
+  6L,        NA,    "American Short"
+)
+filled_data1 <- tidy_pets %>% fill(breed, .direction = "down")
+filled_data1
+filled_data2 <- tidy_pets %>% fill(pet_type, .direction = "down")
+filled_data2
+```
 
 ---
 
