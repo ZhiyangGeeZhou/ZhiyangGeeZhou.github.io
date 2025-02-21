@@ -2,15 +2,14 @@
 title: "PH 718 Data Management and Visualization in `R`"
 author: "Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))"
 date: "`r format(Sys.time(), '%Y/%m/%d %H:%M:%S')`"
-output:
-  pdf_document: default
-  word_document: default
+output: pdf_document
 subtitle: 'Part 4: Introduction to `Tidyverse`'
 ---
 
 ## What is the `Tidyverse` (<https://www.tidyverse.org/>)
 
-A collection of `R` packages designed for data science. These packages share a common philosophy, grammar, and data structure, making data manipulation, visualization, and modeling easier and more efficient.
+A collection of `R` packages designed for data science. 
+These packages share a common philosophy, grammar, and data structure, making data manipulation, visualization, and modeling easier and more efficient.
 By the way, you may find below an R Markdown table simply created via dashes and bars. 
 It could be more convenient to resort to an online tool: <https://www.tablesgenerator.com/markdown_tables>
 
@@ -28,7 +27,7 @@ It could be more convenient to resort to an online tool: <https://www.tablesgene
 Alternatively,
 one may utilize the `knitr::kable` to output the same table with an indexed caption.
 
-```{r echo=FALSE, results="asis"}
+```{r, echo=FALSE, results="asis"}
 # Create the table as a data frame
 tidyr_functions <- data.frame(
   Package = c(
@@ -50,7 +49,7 @@ tidyr_functions <- data.frame(
 knitr::kable(tidyr_functions, caption = "Summary of Key `tidyr` Functions")
 ```
 
-## Why use `Tidyverse`?
+## Why use `Tidyverse`
 
 -   Consistency: Functions follow similar syntax and principles.
 -   Readability: Code is easier to write and understand.
@@ -130,9 +129,9 @@ or, equivalently, without using functions in `Tidyverse`,
 ```{r, eval = F}
 # Converting wide data to the long format
 wide_data <- data.frame(
-  name = c("Alice", "Bob", "Charlie"),
-  age = c(23, 25, 22),
-  score = c(90, 85, 88)
+  name = c("Alice", "Bob", "Cindy"), 
+  math = c(90, 85, 69), 
+  science = c(88, 92, 99)
 )
 long_data2 <- reshape(
   wide_data, 
