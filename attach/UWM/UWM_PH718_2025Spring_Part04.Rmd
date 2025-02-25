@@ -468,7 +468,7 @@ pets_filled3 = pets %>% replace_na(list(pet_type = 'UnknownType', breed = 'Unkno
 ```{r, eval = F}
 students <- tibble(
   name = c("Alice", "Bob", "Charlie", "Alice", "Eve", "Charlie", "Eve"),
-  gender = c("F", "M", "M", "F", "F", "M", "F"),
+  sex = c("F", "M", "M", "F", "F", "M", "F"),
   subject = c("Math", "Math", "Science", "Math", "Science", "Science", "Science"),
   score = c(88, 92, 85, 88, 78, 85, 78)
 )
@@ -711,19 +711,22 @@ starwars %>%
   geom_smooth(method = lm, se = T)
 ```
 
-Group points and color them by a categorical variable (e.g., `gender`).
+Group points and color them by a categorical variable (e.g., `sex`).
 
 ```{r, eval = F}
 starwars %>% 
   filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
-  replace_na(list(gender = 'Unknown')) %>%
+  replace_na(list(sex = 'Unknown')) %>%
   ggplot(
-    aes(x = mass, y = height, color = gender)
+    aes(x = mass, y = height, color = sex)
   ) +
   geom_point() +
+  # scale_color_manual( # Customize colors
+  #   values = c("female" = "blue", "male" = "red", 'Unknown'='yellow')
+  # ) + 
   labs(
     title = "Height vs. Mass",
-    x = "Mass (kg)", y = "Height (cm)", color = "Gender"
+    x = "Mass (kg)", y = "Height (cm)", color = "sex"
   ) +
   theme_light()
 ```
@@ -733,18 +736,18 @@ Differentiate points using `shape` or `size`.
 ```{r, eval = F}
 starwars %>% 
   filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
-  replace_na(list(gender = 'Unknown')) %>%
+  replace_na(list(sex = 'Unknown')) %>%
   ggplot(
     aes(
       x = mass, y = height, 
-      shape = gender,  # different symbols for different genders
+      shape = sex,  # different symbols for different sexs
       size = mass # larger mass values create bigger points (called bubble plot sometimes)
     ) 
   ) +
   geom_point() +
   labs(
     title = "Height vs. Mass",
-    x = "Mass (kg)", y = "Height (cm)", shape = "Gender", size = 'Mass'
+    x = "Mass (kg)", y = "Height (cm)", shape = "sex", size = 'Mass'
   ) +
   theme_grey()
 ```
@@ -754,15 +757,15 @@ Create subplots by a categorical variable.
 ```{r, eval = F}
 starwars %>% 
   filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
-  replace_na(list(gender = 'Unknown')) %>%
-  ggplot(aes(x = mass, y = height,color = gender)) +
+  replace_na(list(sex = 'Unknown')) %>%
+  ggplot(aes(x = mass, y = height,color = sex)) +
   geom_point() +
   labs(
-    title = "Height vs. Mass by gender",
+    title = "Height vs. Mass by sex",
     x = "Mass (kg)", y = "Height (cm)", size = 'Mass'
   ) +
   theme_minimal() +
-  facet_wrap(~gender) +
+  facet_wrap(~sex) +
   geom_smooth(method = lm, se= T)
 ```
 
@@ -784,7 +787,7 @@ A jitter plot reduces overplotting in scatter plots when points overlap.
 starwars %>% 
   filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
   ggplot(
-    aes(x = mass, y = height, color = gender)
+    aes(x = mass, y = height, color = sex)
   ) +
   geom_point() +
   geom_jitter(
@@ -894,10 +897,10 @@ Stacked bar chart
 
 ```{r, eval = F}
 starwars %>% 
-  ggplot(aes(x = fct_rev(species), fill = gender)) + # Reverses the order of species to correct flipping
+  ggplot(aes(x = fct_rev(species), fill = sex)) + # Reverses the order of species to correct flipping
   geom_bar(position = "stack") +  # position = "fill" or "stack"
   labs(title = "Stacked Bar Chart",
-       x = "Gender", y = "Count") +
+       x = "sex", y = "Count") +
   theme_minimal() +
   coord_flip()
 ```
@@ -908,10 +911,10 @@ A polar chart is simply a bar chart
 with a single category that is transformed using `coord_polar(theta = "y")`.
 
 ```{r, eval = F}
-ggplot(starwars, aes(x = '', fill = gender)) +
+ggplot(starwars, aes(x = '', fill = sex)) +
   geom_bar(width = 1) +
   coord_polar(theta = "y") +
-  labs(title = "Numbers of Characters by Gender", x='', y='') +
+  labs(title = "Numbers of Characters by sex", x='', y='') +
   theme_minimal()
 ```
 
@@ -919,27 +922,27 @@ Change the labels to proportions instead of counts.
 
 ```{r, eval = F}
 starwars %>%
-  count(gender) %>%
+  count(sex) %>%
   mutate(prop = n / sum(n)) %>%
-  ggplot(aes(x = "", y = prop, fill = gender)) +
+  ggplot(aes(x = "", y = prop, fill = sex)) +
   geom_bar(stat = "identity", width = 1) + # stat = "count" (by default), "identity" (precomputed values)
   coord_polar(theta = "y") + 
-  labs(title = "Proportion of Characters by Gender", x='', y='') +
+  labs(title = "Proportion of Characters by sex", x='', y='') +
   theme_minimal()
 ```
 
 ### Box plot
 
-Compare heights by gender.
+Compare heights by sex.
 
 ```{r, eval = F}
 starwars %>% 
   filter(!is.na(height)) %>%
-  replace_na(list(gender = 'Unknown')) %>%
-  ggplot(aes(x = gender, y = height, fill = gender)) + # "fill=gender": paint boxes by gender
+  replace_na(list(sex = 'Unknown')) %>%
+  ggplot(aes(x = sex, y = height, fill = sex)) + # "fill=sex": paint boxes by sex
   geom_boxplot() +
-  labs(title = "Height Distribution by Gender",
-       x = "Gender", y = "Height (cm)") +
+  labs(title = "Height Distribution by sex",
+       x = "sex", y = "Height (cm)") +
   theme_minimal()
 ```
 
@@ -949,10 +952,10 @@ Shows distributions of continuous variables
 
 ```{r, eval = F}
 starwars %>%
-  filter(!is.na(mass) & !is.na(gender) & mass<1000) %>%
-  ggplot(aes(x = mass, fill = gender)) +
+  filter(!is.na(mass) & !is.na(sex) & mass<1000) %>%
+  ggplot(aes(x = mass, fill = sex)) +
   geom_density(alpha = 0.6) + # alpha controls the transparency
-  labs(title = "Density Plot of Mass by Gender",
+  labs(title = "Density Plot of Mass by sex",
        x = "Mass (kg)",
        y = "Density") +
   theme_minimal()
@@ -972,24 +975,81 @@ A combination of a box plot and a density plot.
 
 ```{r, eval = F}
 starwars %>%
-  ggplot(aes(x = gender, y = height, fill = gender)) +
+  ggplot(aes(x = sex, y = height, fill = sex)) +
   geom_violin(alpha = 0.5) + 
   geom_boxplot(width = 0.1) +  
   labs(title = "Violin Plot with Box Plot",
-       x = "Gender", y = "Height (cm)") +
+       x = "sex", y = "Height (cm)") +
   theme_minimal()
 ```
 
-### Heatmap
+### Contour plot 
 
-Visualizing relationships between two categorical variables.
+Visualize a 3D surface in 2D by drawing lines of equal values.
 
 ```{r, eval = F}
 x <- seq(-pi, pi, length = 50)
 y <- x
-f_matrix <- outer(x, y, function(x, y) x^2 + y^2)
-df <- expand.grid(x = x, y = y) %>% mutate(f = as.vector(f_matrix))
-ggplot(df, aes(x = x, y = y, fill = f)) +
+z_matrix <- outer(x, y, function(x, y) x^2 + y^2)
+df <- expand.grid(x = x, y = y) %>% mutate(z = as.vector(z_matrix))
+ggplot(df, aes(x = x, y = y, z = z)) +
+  geom_contour(
+    bins = 10, # number of contour levels
+    color = "blue"
+  ) +
+  metR::geom_text_contour(skip = 0, stroke = 0.2) + # Add contour labels
+  labs(title = "Function Visualization: f(x, y) = x^2 + y^2",
+       x = "X-axis", y = "Y-axis") +
+  theme_minimal()
+```
+
+Could be more illustrative by filling the regions between adjacent lines.
+
+```{r, eval = F}
+ggplot(df, aes(x = x, y = y, z = z)) +
+  geom_contour_filled(bins = 10) +
+  scale_fill_viridis_d(direction = -1, option = "H") +
+  labs(title = "Function Visualization: f(x, y) = x^2 + y^2",
+       x = "X-axis", y = "Y-axis", fill = "Z value") +
+  theme_minimal()
+```
+
+Interactive 2D contour plot with `plotly`
+
+```{r, eval = F}
+p_contour = ggplot(df, aes(x = x, y = y, z = z)) +
+  geom_contour(
+    bins = 10, # number of contour levels
+    color = "blue"
+  ) +
+  labs(title = "Function Visualization: f(x, y) = x^2 + y^2",
+       x = "X-axis", y = "Y-axis") +
+  theme_minimal()
+plotly::ggplotly(p_contour)
+```
+
+Interactive 3D plot with `plotly`
+
+```{r, eval = F}
+library(plotly)
+plot_ly(x = ~x, y = ~y, z = ~z_matrix , type = "surface", colorscale = "Viridis") %>%
+  layout(
+    title = "3D Surface Plot: f(x, y) = x^2 + y^2",
+    scene = list(
+      xaxis = list(title = "X-axis"),
+      yaxis = list(title = "Y-axis"),
+      zaxis = list(title = "Z-axis")
+    )
+  )
+```
+
+### Heatmap
+
+Representing the magnitude of values as colors.
+
+```{r, eval = F}
+df %>%
+  ggplot(aes(x = x, y = y, fill = z)) +
   geom_tile() +
   scale_fill_gradient(low="yellow", high="red") +
   labs(title = "Function Visualization: f(x, y) = x^2 + y^2",
