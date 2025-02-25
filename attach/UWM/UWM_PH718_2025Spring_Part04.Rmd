@@ -94,9 +94,9 @@ mtcars_filtered3 <- mtcars_filtered3[order(-mtcars_filtered3$mpg), ]
 ### Creating elegant, layered plots with `ggplot2`
 
 ```{r, eval = F}
-ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) + # aesthetics
-  geom_point() + # type of plot
-  theme_minimal() # style
+ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
+  geom_point() +
+  theme_minimal()
 ```
 
 or, similarly, without using `ggplot2`
@@ -225,7 +225,7 @@ large_tibble
     -   Chaining multiple operations together in a logical sequence
     -   Making data manipulation in `R` clearer and more intuitive
 
-### History of pipes
+### History of piping
 
 -   1970s: Pipe `|` was introduced in Unix, allowing command-line programs to pass output to the next command;
 -   Languages like F#, Elixir, and Haskell have similar piping mechanisms;
@@ -372,10 +372,7 @@ wide_data <- data.frame(
 long_data <- wide_data %>%
   pivot_longer(cols = c(math,science), names_to = "subject", values_to = "score")
 long_data
-```
 
-
-```{r, eval = F}
 # Long -> wide
 wide_again <- long_data %>%
   pivot_wider(names_from = subject, values_from = score)
@@ -411,10 +408,10 @@ clean_data <- data %>% drop_na()
 clean_data
 ```
 
-### Filling missing values
+### Filling missing values with neigbours
 
 ```{r, eval = F}
-tidy_pets <- tibble::tribble(
+pets <- tibble::tribble(
   ~rank, ~pet_type, ~breed,
   1L,        NA,    "Boston Terrier",
   2L,        NA,    "Retrievers (Labrador)",
@@ -429,16 +426,634 @@ tidy_pets <- tibble::tribble(
   5L,        NA,    "Siamese",
   6L,        NA,    "American Short"
 )
-filled_data1 <- tidy_pets %>% fill(breed, .direction = "down")
-filled_data1
-filled_data2 <- tidy_pets %>% fill(pet_type, .direction = "down")
-filled_data2
+pets_filled1 <- pets %>% fill(breed, .direction = "down")
+pets_filled2 <- pets %>% fill(pet_type, .direction = "down")
+```
+
+### Filling missing values with customized values
+
+```{r, eval = F}
+pets$pet_type %>% replace_na('UnknownType')
+pets_filled3 = pets %>% replace_na(list(pet_type = 'UnknownType', breed = 'UnknownBreed'))
 ```
 
 ---
 
 ## `dplyr`
 
+### Why use `dplyr`
+
+- Simplifies data manipulation (compared to base `R`)
+- Readable and intuitive syntax (using verb-based functions)
+- Faster execution (optimized with `C++`)
+- Works seamlessly with `tibbles` and other `tidyverse` members
+- Uses the pipe operator for chaining multiple operations
+
+### Key functions in `dplyr`
+
+| Function           | Purpose                                              |
+|--------------------|------------------------------------------------------|
+| `filter()`         | Select rows based on conditions                      |
+| `slice()`          | Select specific rows by position                     |
+| `select()`         | Choose specific columns                              |
+| `mutate()`         | Create or modify columns                             |
+| `summarize()`      | Compute summary statistics                           |
+| `group_by()`       | Group data for aggregation                           |
+| `arrange()`        | Sort rows by column values                           |
+| `distinct()`       | Remove duplicate rows                                |
+| `join()` functions | Merge datasets (`left_join()`, `inner_join()`, etc.) |
+
+### Removing duplicate rows
+
+```{r, eval = F}
+students <- tibble(
+  name = c("Alice", "Bob", "Charlie", "Alice", "Eve", "Charlie", "Eve"),
+  gender = c("F", "M", "M", "F", "F", "M", "F"),
+  subject = c("Math", "Math", "Science", "Math", "Science", "Science", "Science"),
+  score = c(88, 92, 85, 88, 78, 85, 78)
+)
+students
+
+# Removing exact duplicate rows
+students %>% distinct()
+
+# Removing duplicates based on one column
+students %>% distinct(name, .keep_all = TRUE)
+
+# Removing duplicates based on multiple columns
+students %>% distinct(name, subject, .keep_all = TRUE)
+```
+
+### Selecting rows based on conditions
+
+```{r, eval = F}
+mtcars %>% filter(cyl == 6)  
+# base R alternative: mtcars[mtcars$cyl == 6, ]
+```
+
+### Selecting rows by position
+
+```{r, eval = F}
+starwars %>% slice(2,4)  # Select the 2nd and 4th rows
+# base R alternative: starwars[c(2,4), ]
+
+starwars %>% slice_head(n = 3)  # Select the first 3 rows
+# base R alternative: head(starwars, 3)
+
+starwars %>% slice_tail(n = 2)  # Select the last 2 rows
+# base R alternative: tail(starwars, 2)
+
+set.seed(718)  # Ensure reproducibility
+starwars %>% slice_sample(n = 3)  # Randomly select 3 rows
+# base R alternative: starwars[sample(nrow(starwars), 3),]
+
+starwars %>% slice_max(order_by = height, n = 2)  # Select top 2 highest characters
+# base R alternative: starwars[order(-starwars$height), ][1:2, ]
+
+starwars %>% slice_min(order_by = height, n = 2)  # Select top 2 lowest characters
+# base R alternative: starwars[order(starwars$height), ][1:2, ]
+```
+
+### Selecting columns
+
+```{r, eval = F}
+mtcars %>% select(mpg, hp, wt)  
+# base R alternative: subset(mtcars, select = c(mpg, hp, wt))
+
+mtcars %>% select(-c(mpg, hp, wt))
+mtcars %>% select(!c(mpg, hp, wt))
+# base R alternative: subset(mtcars, select = -c(mpg, hp, wt))
+```
+
+### Creating new columns that are functions of existing variables
+
+```{r, eval = F}
+mtcars %>% mutate(weight_kg = wt * 453.5)  
+# base R alternative: mtcars$weight_kg <- mtcars$wt*453.5
+```
+
+### Summarizing data
+
+```{r, eval = F}
+mtcars %>% summarize(avg_mpg = mean(mpg), max_hp = max(hp)) 
+# base R alternative: data.frame(avg_mpg = mean(mtcars$mpg), max_hp = max(mtcars$hp))
+```
+
+### Grouping data by one or more variables before further move
+
+```{r, eval = F}
+mtcars %>%
+  group_by(cyl) %>%
+  summarize(avg_mpg = mean(mpg), max_hp = max(hp))
+# (imperfect) base R alternative: 
+# aggregate(cbind(mpg, hp) ~ cyl, data = mtcars, FUN = function(x) c(mean = mean(x), max = max(x)))
+
+mtcars %>%
+  group_by(cyl, gear) %>%
+  summarize(avg_mpg = mean(mpg), max_hp = max(hp))
+# (imperfect) base R alternative: 
+# aggregate(cbind(mpg, hp) ~ cyl+gear, data = mtcars, FUN = function(x) c(mean = mean(x), max = max(x)))
+
+mtcars %>%
+  group_by(cyl, gear) %>%
+  count()
+# (imperfect) base R alternative: 
+# aggregate(mpg ~ cyl+gear, data = mtcars, FUN = length)
+
+mtcars %>%
+  group_by(cyl, gear) %>%
+  mutate(avg_mpg_cy_gear = mean(mpg))
+# (imperfect) base R alternative: 
+# group_means <- aggregate(mpg ~ cyl + gear, data = mtcars, FUN = mean)
+# colnames(group_means)[3] <- "avg_mpg_cy_gear"
+# merge(mtcars, group_means, by = c("cyl", "gear"))
+```
+
+### Arranging rows
+
+```{r, eval = F}
+mtcars %>% arrange(mpg) # Sort by mpg in ascending order
+# base R alternative: mtcars[order(mtcars$mpg), ]
+
+mtcars %>% arrange(desc(mpg)) # Sort by mpg in descending order
+# base R alternative: mtcars[order(-mtcars$mpg), ]
+
+mtcars %>% arrange(cyl, desc(mpg)) # Sort by cyl (ascending), then by mpg (descending)
+# base R alternative: mtcars[order(mtcars$cyl, -mtcars$mpg), ]
+
+mtcars %>% arrange(rownames(mtcars)) # Sort by cars name in alphabetical order
+# base R alternative: mtcars[order(rownames(mtcars)), ]
+```
+
+### Concatenating multiple functions
+
+```{r, eval = F}
+mtcars %>%
+  filter(cyl == 6) %>%
+  select(mpg, hp, wt) %>%
+  arrange(desc(mpg))
+# base R alternative:
+# mtcars_filtered <- mtcars[mtcars$cyl == 6, ]
+# mtcars_selected <- mtcars_filtered[, c("mpg", "hp", "wt")]
+# mtcars_sorted <- mtcars_selected[order(-mtcars_selected$mpg), ]
+```
+
+### Merging datasets
+
+```{r, eval = F}
+# two data frames on student names and scores, respectively
+p_names <- data.frame(
+  patient_id = c(1, 2, 3, 4),
+  name = c("Alice", "Bob", "Charlie", "David")
+)
+results <- data.frame(
+  patient_id = c(2, 3, 5),
+  exam_res = c(85, 90, 78)
+)
+p_names
+results
+
+# Keeps all rows from p_names, adding available results
+# Use left_join() when your primary dataset is on the left
+left_join(p_names, results, by = "patient_id")
+
+# Keeps all rows from results, adding available p_names
+# Use right_join() when your primary dataset is on the right
+right_join(p_names, results, by = "patient_id")
+
+# Keep only matched rows
+# Use inner_join() when you only need matched records
+inner_join(p_names, results, by = "patient_id")
+
+# Keep all rows from both tables
+# Use full_join() when you want to retain everything
+full_join(p_names, results, by = "patient_id")
+```
+
 ---
 
 ## `ggplot2`
+
+### Why use `ggplot2`
+
+- One of the most powerful and flexible visualization tools in `R`
+- Building plots layer by layer
+- Providing highly customizable and publication-quality visualizations
+
+### Basic syntax of `ggplot2`
+
+`ggplot2` follows a layered grammar of graphics, 
+where each component adds a layer to the plot.
+
+```{r, eval = F}
+ggplot(
+  data = <DATA>, # Initializes the plot with a dataset
+  aes(
+    x = <X-VAR>, y = <Y-VAR>, color = <COLOR-VAR>, # maps data variables to visual properties
+    ...
+  ) 
+) +
+  <GEOM_FUNCTION>() +  # geometric shapes (i.e., type of plot; e.g., points, bars and lines)
+  <SCALE_FUNCTION>() + #  sizes and scales
+  <FACET_FUNCTION>() + # creates small multiples
+  <THEME_FUNCTION>() + # customizes the plot appearance
+  <LABEL_FUNCTION>()   # labels and titles
+```
+
+### Scatter plot
+
+A scatter plot visualizes the relationship between two numerical variables
+(e.g., `mass` vs `height`).
+
+```{r, eval = F}
+ggplot(
+  starwars, 
+  aes(x = mass, y = height)
+) +
+  geom_point() + # scatter plot
+  labs( # titles and axis labels
+    title = "Height vs. Mass of Star Wars Characters",
+    x = "Mass (kg)", y = "Height (cm)"
+  ) +
+  theme_minimal() # background theme
+```
+
+Filter out NAs and extreme values before plotting.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
+  ggplot(
+    aes(x = mass, y = height)
+  ) +
+  geom_point() +
+  labs(
+    title = "Height vs. Mass",
+    x = "Mass (kg)", y = "Height (cm)"
+  ) +
+  theme_bw()
+```
+
+Fit a trend line with prediction intervals using lm, loess, etc
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
+  ggplot(
+    aes(x = mass, y = height)
+  ) +
+  geom_point() +
+  labs(
+    title = "Height vs. Mass",
+    x = "Mass (kg)", y = "Height (cm)"
+  ) +
+  theme_bw()+
+  geom_smooth(method = lm, se = T)
+```
+
+Group points and color them by a categorical variable (e.g., `gender`).
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
+  replace_na(list(gender = 'Unknown')) %>%
+  ggplot(
+    aes(x = mass, y = height, color = gender)
+  ) +
+  geom_point() +
+  labs(
+    title = "Height vs. Mass",
+    x = "Mass (kg)", y = "Height (cm)", color = "Gender"
+  ) +
+  theme_light()
+```
+
+Differentiate points using `shape` or `size`.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
+  replace_na(list(gender = 'Unknown')) %>%
+  ggplot(
+    aes(
+      x = mass, y = height, 
+      shape = gender,  # different symbols for different genders
+      size = mass # larger mass values create bigger points (called bubble plot sometimes)
+    ) 
+  ) +
+  geom_point() +
+  labs(
+    title = "Height vs. Mass",
+    x = "Mass (kg)", y = "Height (cm)", shape = "Gender", size = 'Mass'
+  ) +
+  theme_grey()
+```
+
+Create subplots by a categorical variable.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
+  replace_na(list(gender = 'Unknown')) %>%
+  ggplot(aes(x = mass, y = height,color = gender)) +
+  geom_point() +
+  labs(
+    title = "Height vs. Mass by gender",
+    x = "Mass (kg)", y = "Height (cm)", size = 'Mass'
+  ) +
+  theme_minimal() +
+  facet_wrap(~gender) +
+  geom_smooth(method = lm, se= T)
+```
+
+### Jitter plot
+
+A jitter plot reduces overplotting in scatter plots when points overlap.
+  - Overplotting occurs when too many data points overlap, 
+  making it difficult to distinguish individual values in a plot. 
+  This happens especially in scatter plots 
+  when multiple points share the same or very similar coordinates.
+  For example, age is measured in years,
+  and height is given in centimeters.
+  If you construct a scatter plot of weight versus age for a sufficiently 
+# large sample of people, there might be many people recorded 
+# as, say, 29 years and 70 kg, and therefore many markers 
+# plotted at the point (29, 70).
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
+  ggplot(
+    aes(x = mass, y = height, color = gender)
+  ) +
+  geom_point() +
+  geom_jitter(
+    width= .2, # each point is randomly moved up to 0.2 units left or right.
+    height= .2, # each point is randomly moved up to 0.2 units up or down.
+    alpha = 0.5, color = "purple" # the transparency and color for jittered points
+  ) + 
+  labs(
+    title = "Height vs. Mass",
+    x = "Mass (kg)", y = "Height (cm)"
+  ) +
+  theme_bw()
+```
+
+### Histogram
+
+Count (number of observations per bin) as the y-axis.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height)) %>%
+  ggplot(aes(x = height)) +
+    geom_histogram(bins = 10, fill = "steelblue", color = "black") +
+    labs(title = "Distribution of Character Heights",
+         x = "Height (cm)", y = "Count") +
+    theme_minimal()
+```
+
+Relative frequency (proportion of total observations per bin) as the y-axis.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height)) %>%
+  ggplot(aes(x = height)) +
+    geom_histogram(
+      aes(y = after_stat(count / sum(count))),
+      bins = 10, fill = "steelblue", color = "black"
+    ) +
+    labs(title = "Distribution of Character Heights",
+         x = "Height (cm)", y = "Count") +
+    theme_minimal()
+```
+
+Add a scaled fitted curve.
+
+```{r, eval = F}
+binwidth_value = 10
+starwars %>% 
+  filter(!is.na(height)) %>%
+  ggplot(aes(x = height)) +
+    geom_histogram(
+      aes(y = after_stat(count / sum(count))),
+      binwidth = binwidth_value, fill = "steelblue", color = "black"
+    ) +
+    labs(title = "Distribution of Character Heights",
+         x = "Height (cm)", y = "Count") +
+    theme_minimal()+
+    geom_density(aes(y = after_stat(density)*binwidth_value), color = "red", linewidth = 1.2)
+```
+
+Density (=relative frequency divided by binwidth) as the y-axis with the fitted density curve.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height)) %>%
+  ggplot(aes(x = height)) +
+    geom_histogram(
+      aes(y = after_stat(density)),
+      bins = 20, fill = "steelblue", color = "black"
+    ) +
+    labs(title = "Distribution of Character Heights",
+         x = "Height (cm)", y = "Count") +
+    theme_minimal()+
+    geom_density(aes(y = after_stat(density)), color = "red", linewidth = 1.2)
+```
+
+### Bar plot
+
+Visualize categorical data by showing counts (by default)
+
+```{r, eval = F}
+starwars %>% 
+  ggplot(aes(x = species)) +
+  geom_bar(fill = "steelblue", color = "black") +
+  labs(title = "Character Count by Species",
+       x = "Species", y = "Count") +
+  theme_minimal() +
+  coord_flip()  # Flip for better readability
+```
+
+Visualize categorical data by showing proportions
+  - Include `aes(y = after_stat(count / sum(count)))` in `geom_bar()`
+
+```{r, eval = F}
+starwars %>% 
+  ggplot(aes(x = species)) +
+  geom_bar(
+    aes(y = after_stat(count / sum(count))),
+    fill = "steelblue", color = "black") +
+  labs(title = "Character Count by Species",
+       x = "Species", y = "Proportion") +
+  theme_minimal() +
+  coord_flip()
+```
+
+Stacked bar chart
+
+```{r, eval = F}
+starwars %>% 
+  ggplot(aes(x = fct_rev(species), fill = gender)) + # Reverses the order of species to correct flipping
+  geom_bar(position = "stack") +  # position = "fill" or "stack"
+  labs(title = "Stacked Bar Chart",
+       x = "Gender", y = "Count") +
+  theme_minimal() +
+  coord_flip()
+```
+
+### Polar chart
+
+A polar chart is simply a bar chart 
+with a single category that is transformed using `coord_polar(theta = "y")`.
+
+```{r, eval = F}
+ggplot(starwars, aes(x = '', fill = gender)) +
+  geom_bar(width = 1) +
+  coord_polar(theta = "y") +
+  labs(title = "Numbers of Characters by Gender", x='', y='') +
+  theme_minimal()
+```
+
+Change the labels to proportions instead of counts.
+
+```{r, eval = F}
+starwars %>%
+  count(gender) %>%
+  mutate(prop = n / sum(n)) %>%
+  ggplot(aes(x = "", y = prop, fill = gender)) +
+  geom_bar(stat = "identity", width = 1) + # stat = "count" (by default), "identity" (precomputed values)
+  coord_polar(theta = "y") + 
+  labs(title = "Proportion of Characters by Gender", x='', y='') +
+  theme_minimal()
+```
+
+### Box plot
+
+Compare heights by gender.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height)) %>%
+  replace_na(list(gender = 'Unknown')) %>%
+  ggplot(aes(x = gender, y = height, fill = gender)) + # "fill=gender": paint boxes by gender
+  geom_boxplot() +
+  labs(title = "Height Distribution by Gender",
+       x = "Gender", y = "Height (cm)") +
+  theme_minimal()
+```
+
+### Density plot
+
+Shows distributions of continuous variables
+
+```{r, eval = F}
+starwars %>%
+  filter(!is.na(mass) & !is.na(gender) & mass<1000) %>%
+  ggplot(aes(x = mass, fill = gender)) +
+  geom_density(alpha = 0.6) + # alpha controls the transparency
+  labs(title = "Density Plot of Mass by Gender",
+       x = "Mass (kg)",
+       y = "Density") +
+  theme_minimal()
+```
+
+### Violin plot with a box plot inside
+
+A combination of a box plot and a density plot.
+
+| Component | Description |
+|---|---|
+| Violin Shape | Density curve. |
+| Thick Line | Sample median the dataset. |
+| Quartiles (Box Edges)| 25% quantile (Q1) and 75% quantile (Q3). |
+| Whiskers (Thin Lines) | Extend up to 1.5x(Q3-Q1). |
+| Outliers | Points outside the whiskers. |
+
+```{r, eval = F}
+starwars %>%
+  ggplot(aes(x = gender, y = height, fill = gender)) +
+  geom_violin(alpha = 0.5) + 
+  geom_boxplot(width = 0.1) +  
+  labs(title = "Violin Plot with Box Plot",
+       x = "Gender", y = "Height (cm)") +
+  theme_minimal()
+```
+
+### Heatmap
+
+Visualizing relationships between two categorical variables.
+
+```{r, eval = F}
+x <- seq(-pi, pi, length = 50)
+y <- x
+f_matrix <- outer(x, y, function(x, y) x^2 + y^2)
+df <- expand.grid(x = x, y = y) %>% mutate(f = as.vector(f_matrix))
+ggplot(df, aes(x = x, y = y, fill = f)) +
+  geom_tile() +
+  scale_fill_gradient(low="yellow", high="red") +
+  labs(title = "Function Visualization: f(x, y) = x^2 + y^2",
+       x = "X-axis", y = "Y-axis", fill = "f(x,y)") +
+  theme_minimal()
+```
+
+### Line plot
+
+Showing relationships between two variables.
+
+```{r, eval = F}
+economics %>%
+  ggplot(aes(x = date, y = unemploy)) +
+  geom_line(color = "blue", linewidth = 1) +
+  labs(title = "U.S. Unemployment Over Time",
+       x = "Time", y = "Number of unemployed in thousands") +
+  theme_minimal()
+```
+
+Two-line plot.
+
+```{r, eval = F}
+economics %>%
+  ggplot(aes(x = date)) +
+  geom_line(aes(y = unemploy, color = "Unemployment"), linewidth = 1) +
+  geom_line(aes(y = pop, color = "total population"), linewidth = 1) +
+  scale_color_manual(values = c("Unemployment" = "blue", "total population" = "red")) +
+  labs(title = "Total Population and Unemployment Over Time",
+       x = "Time", y = "Number in thousands", color = "Variable") +
+  theme_minimal()
+```
+
+Two trajectories on different scales with a second y-axis added.
+
+```{r, eval = F}
+economics %>%
+  ggplot(aes(x = date)) +
+  geom_line(aes(y = unemploy, color = "Unemployment"), linewidth = 1) +  
+  geom_line(aes(y = psavert*1000, color = "Personal Savings Rate"), linewidth = 1) +  
+  scale_color_manual(values = c("Unemployment" = "blue", "Personal Savings Rate" = "red")) +
+  scale_y_continuous(sec.axis = sec_axis(~./1000, name = "Savings Rate (%)")) +
+  labs(title = "U.S. Unemployment and Savings Rate Over Time",
+       x = "Year", y = "Unemployed People (in Thousands)", color = "Variable") +
+  theme_minimal()
+```
+
+### Saving figures
+
+```{r, eval = F}
+ggsave(filename="first_ggplot.png")  ## Save the last plot
+g = starwars %>% 
+  filter(!is.na(height)) %>%
+  ggplot(aes(x = height)) +
+    geom_histogram(
+      aes(y = after_stat(density)),
+      bins = 20, fill = "steelblue", color = "black"
+    ) +
+    labs(title = "Distribution of Character Heights",
+         x = "Height (cm)", y = "Count") +
+    theme_minimal()+
+    geom_density(aes(y = after_stat(density)), color = "red", linewidth = 1.2)
+g
+ggsave(g, filename="second_ggplot.pdf") ## Save a specific plot
+```
+
+
