@@ -3,7 +3,7 @@ title: "PH 718 Data Management and Visualization in `R`"
 author: "Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))"
 date: "`r format(Sys.time(), '%Y/%m/%d %H:%M:%S')`"
 output: pdf_document
-subtitle: 'Part 4: Introduction to `Tidyverse`'
+subtitle: 'Part 4: Introduction to `tidyverse`'
 ---
 
 ## What is the `Tidyverse` (<https://www.tidyverse.org/>)
@@ -124,7 +124,7 @@ long_data1 <- wide_data %>%
   pivot_longer(cols = math:science, names_to = "subject", values_to = "score")
 ```
 
-or, equivalently, without using functions in `Tidyverse`,
+or, equivalently, without using functions in `tidyverse`,
 
 ```{r, eval = F}
 # Converting wide data to the long format
@@ -159,7 +159,7 @@ long_data2 = subset(long_data2, select = -id)
 
 ```{r, eval = F}
 # Creating a tibble manually with tibble::tibble()
-students1 <- tibble(
+students1 <- data.frame(
   name = c("Alice", "Bob", "Charlie"),
   age = c(23, 25, 22),
   score = c(90, 85, 88)
@@ -193,25 +193,16 @@ iris_df
 iris_t$Species     
 iris_t[,c("Petal.Length","Petal.Width","Species")]
 iris_t[iris_t$Species=='setosa', ]
-subset(iris_t, select = c(Petal.Length,Petal.Width,Species))
-subset(iris_t, select = -c(Petal.Length,Petal.Width,Species))
+subset(iris_t, select = c(Petal.Length, Petal.Width, Species))
+subset(iris_t, select = -c(Petal.Length, Petal.Width, Species))
 ```
 
-### Key advantages of tibbles
+### Additional advantages of tibbles
 
 ```{r, eval = F}
-# Tibbles do not convert character vectors into factors automatically
-df <- data.frame(name = c("Alice", "Bob"), age = c(23, 25))
-tib <- tibble(name = c("Alice", "Bob"), age = c(23, 25))
-
-str(df)   # name is converted to factor
-str(tib)  # name remains as character
-```
-
-```{r, eval = F}
-# Tibbles print only the first 10 rows and all the columns that fit on screen
-large_tibble <- tibble(x = 1:1000, y = runif(1000))
-large_tibble
+# Tibbles print out only the first 10 rows and all the columns that fit on screen
+starwars 
+as.data.frame(starwars)
 ```
 
 ---
@@ -237,33 +228,33 @@ large_tibble
 
 ```{r, eval = F}
 # Sample dataset
-student_data <- data.frame(
+student_data <- tibble(
   name = c("Alice", "Bob", "Charlie", "David", "Eve", "Frank"),
   score = c(85, 92, 78, NA, 95, 88)
 )
 ```
 
--   Given the above dataset of student exam scores, we want to:
+Given the above dataset of student exam scores, we want to:
     1.  Remove any students with missing scores (NA).
     2.  Standardize the scores.
     3.  Screen out students who scored below average after standardization.
-    4.  Sort the remaining students by their standardized scores in descending order.
+    4.  Sort the remaining students by their standardized scores in a descending order.
+
+If we use multiple intermediate variables, then
 
 ```{r, eval = F}
-# If we use multiple intermediate variables
 clean_data <- na.omit(student_data)
-mean_score <- mean(clean_data$score)
-sd_score <- sd(clean_data$score)
-clean_data$z_score <- (clean_data$score - mean_score) / sd_score
-filtered_data <- clean_data[clean_data$z_score > 0, ]
+clean_data$z_score <- scale(clean_data$score, center = TRUE, scale = TRUE)
+filtered_data <- clean_data[clean_data$z_score >= 0, ]
 sorted_data <- filtered_data[order(-filtered_data$z_score), ]
 sorted_data
 
 ## Problem: requires multiple intermediate variables, making the workflow less readable.
 ```
 
+If we avoid intermediate variables by using a nested function, then
+
 ```{r, eval = F}
-# If we use a nested function
 subset(
   transform(
     na.omit(student_data),
@@ -281,8 +272,9 @@ subset(
 ## Problem: reversed order of operations (we must read inside-out), making the workflow less readable
 ```
 
+If we use `%>%`, then
+
 ```{r, eval = F}
-# If we use %>%
 student_data %>%
   na.omit() %>%  # Step 1: Remove missing values
   transform(z_score = (score - mean(score)) / sd(score)) %>%  # Step 2: standardize scores
@@ -544,25 +536,29 @@ mtcars %>% summarize(avg_mpg = mean(mpg), max_hp = max(hp))
 ```{r, eval = F}
 mtcars %>%
   group_by(cyl) %>%
-  summarize(avg_mpg = mean(mpg), max_hp = max(hp))
+  summarize(avg_mpg = mean(mpg), max_hp = max(hp)) %>%
+  ungroup()  # ensures further operations are done on the entire data frame
 # (imperfect) base R alternative: 
 # aggregate(cbind(mpg, hp) ~ cyl, data = mtcars, FUN = function(x) c(mean = mean(x), max = max(x)))
 
 mtcars %>%
   group_by(cyl, gear) %>%
-  summarize(avg_mpg = mean(mpg), max_hp = max(hp))
+  summarize(avg_mpg = mean(mpg), max_hp = max(hp)) %>%
+  ungroup()
 # (imperfect) base R alternative: 
 # aggregate(cbind(mpg, hp) ~ cyl+gear, data = mtcars, FUN = function(x) c(mean = mean(x), max = max(x)))
 
 mtcars %>%
   group_by(cyl, gear) %>%
-  count()
+  count() %>%
+  ungroup()
 # (imperfect) base R alternative: 
 # aggregate(mpg ~ cyl+gear, data = mtcars, FUN = length)
 
 mtcars %>%
   group_by(cyl, gear) %>%
-  mutate(avg_mpg_cy_gear = mean(mpg))
+  mutate(avg_mpg_cy_gear = mean(mpg)) %>%
+  ungroup()
 # (imperfect) base R alternative: 
 # group_means <- aggregate(mpg ~ cyl + gear, data = mtcars, FUN = mean)
 # colnames(group_means)[3] <- "avg_mpg_cy_gear"
@@ -1045,7 +1041,7 @@ plot_ly(x = ~x, y = ~y, z = ~z_matrix , type = "surface", colorscale = "Viridis"
 
 ### Heatmap
 
-Representing the magnitude of values as colors.
+Represent the magnitude of values as colors.
 
 ```{r, eval = F}
 df %>%
@@ -1054,6 +1050,45 @@ df %>%
   scale_fill_gradient(low="yellow", high="red") +
   labs(title = "Function Visualization: f(x, y) = x^2 + y^2",
        x = "X-axis", y = "Y-axis", fill = "f(x,y)") +
+  theme_minimal()
+```
+
+Commonly used to visualize correlation matrices.
+
+```{r, eval = F}
+# Convert the correlation matrix to long format
+cor_df <- as.data.frame(cor(mtcars)) %>%
+  rownames_to_column(var = "Var1") %>%
+  pivot_longer(cols = -Var1, names_to = "Var2", values_to = "Correlation")
+# Convert values in Var2 to a factor with reversed alphabetical order
+cor_df <- cor_df %>%
+  mutate(Var2 = factor(Var2, levels = rev(sort(unique(Var2)))))
+# plotting
+ggplot(cor_df, aes(Var1, Var2, fill = Correlation)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "red") +
+  labs(title = "Heatmap of mtcars Correlation Matrix",
+       x = "Variable", y = "Variable") +
+  theme_minimal()
+```
+
+Useful too when showing the relationship among three variables 
+(e.g., flight delay by month and origin airport).
+
+```{r, eval = F}
+# Summarize average departure delay by month and origin
+flights_summary <- nycflights13::flights %>%
+  group_by(month, origin) %>%
+  summarise(avg_dep_delay = mean(dep_delay, na.rm = T)) %>%
+  ungroup()
+
+# Plotting
+flights_summary %>%
+  ggplot(aes(x = factor(month), y = origin, fill = avg_dep_delay)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "red") +
+  labs(title = "Average Departure Delay by Month and Origin",
+       x = "Month", y = "Origin Airport", fill = "Avg Delay (mins)") +
   theme_minimal()
 ```
 
@@ -1068,6 +1103,21 @@ economics %>%
   labs(title = "U.S. Unemployment Over Time",
        x = "Time", y = "Number of unemployed in thousands") +
   theme_minimal()
+```
+
+Include more components: data points and auxiliary lines.
+
+```{r, eval = F}
+economics %>%
+  ggplot(aes(x = date, y = unemploy)) +
+  geom_line(color = "blue", linewidth = 1) +
+  labs(title = "U.S. Unemployment Over Time",
+       x = "Time", y = "Number of unemployed in thousands") +
+  theme_minimal() +
+  geom_point(color = "red") +
+  geom_abline(aes(intercept = 0, slope=1), color='green', lty=2)+
+  geom_vline(aes(xintercept = 1990), color='green', lty=2)+
+  geom_hline(aes(yintercept = 8000), color='green', lty=2)
 ```
 
 Two-line plot.
