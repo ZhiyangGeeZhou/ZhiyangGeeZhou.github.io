@@ -122,6 +122,7 @@ wide_data <- data.frame(
 )
 long_data1 <- wide_data %>%
   pivot_longer(cols = math:science, names_to = "subject", values_to = "score")
+# gather() is similar but is superseded by pivot_longer()
 ```
 
 or, equivalently, without using functions in `tidyverse`,
@@ -301,7 +302,9 @@ iris %>% head()
 ```
 
 ```{r, eval = F}
+set.seed(718)
 x <- runif(10)
+
 round(exp(diff(log(x))), 1)
 # equiv.
 x %>% log() %>% diff() %>% exp() %>% round(1)
@@ -312,14 +315,12 @@ x %>% log() %>% diff() %>% exp() %>% round(1)
 
 ```{r, eval = F}
 student_data <- data.frame(
-  name = c("Alice", "Bob", "Charlie", "David", "Eve", "Frank"),
-  score = c(85, 92, 78, NA, 95, 88)
+  name = c("Alice", "Bob", "Charlie", "Eve", "Frank"),
+  score = c(85, 92, 78, 95, 88)
 )
-student_data %>%
-  na.omit() %>%
-  transform(z_score = (score - mean(score)) / sd(score)) %>%
-  subset(z_score > 0) %>%
-  .[order(-.$z_score), ] # R is going to replace the two dots with the previously generated dataset
+student_data %>% .[order(.$score), ]
+# equiv.
+student_data[order(student_data$score), ]
 ```
 
 ---
@@ -350,9 +351,9 @@ knitr::kable(tidyr_functions, caption = "Summary of Key `tidyr` Functions")
 
 ### Reshaping data
 
-One of the most common tasks in `tidyr` is reshaping wide data into long format (and vice versa)
+One of the most common tasks in `tidyr` is reshaping wide data into long format
   - Long format: 
-  each row corresponds to a unique combination of original a row id and a column name
+  each row corresponds to a unique combination of a row id and a column name
 
 ```{r, eval = F}
 wide_data <- data.frame(
@@ -374,10 +375,10 @@ wide_again
 ### Splitting columns
 
 ```{r, eval = F}
-data <- data.frame(full_name = c("Alice Johnson", "Bob Smith"))
+data <- data.frame(full_name = c("Alice.Johnson", "Bob.Smith"))
 # Split full_name into first_name and last_name
 separated_data <- data %>%
-  separate(full_name, into = c("first_name", "last_name"), sep = " ")
+  separate(full_name, into = c("first_name", "last_name"), sep = "\\.")
 separated_data
 ```
 
@@ -387,7 +388,7 @@ separated_data
 data <- data.frame(first_name = c("Alice", "Bob"), last_name = c("Johnson", "Smith"))
 # Merge first_name and last_name into full_name
 united_data <- data %>%
-  unite(full_name, first_name, last_name, sep = "_")
+  unite(full_name, first_name, last_name, sep = " ")
 united_data
 ```
 
@@ -418,8 +419,8 @@ pets <- tibble::tribble(
   5L,        NA,    "Siamese",
   6L,        NA,    "American Short"
 )
-pets_filled1 <- pets %>% fill(breed, .direction = "down")
-pets_filled2 <- pets %>% fill(pet_type, .direction = "down")
+pets_filled1 <- pets %>% fill(breed, .direction = "up")
+pets_filled2 <- pets %>% fill(pet_type, .direction = "updown")
 ```
 
 ### Filling missing values with customized values
@@ -489,7 +490,7 @@ mtcars %>% filter(cyl == 6)
 starwars %>% slice(2,4)  # Select the 2nd and 4th rows
 # base R alternative: starwars[c(2,4), ]
 
-starwars %>% slice_head(n = 3)  # Select the first 3 rows
+starwars %>% slice_head(n = 3) # Select the first 3 rows
 # base R alternative: head(starwars, 3)
 
 starwars %>% slice_tail(n = 2)  # Select the last 2 rows
@@ -624,6 +625,75 @@ inner_join(p_names, results, by = "patient_id")
 # Keep all rows from both tables
 # Use full_join() when you want to retain everything
 full_join(p_names, results, by = "patient_id")
+```
+
+--- 
+
+## `stringr`
+
+Providing functions for manipulating strings in `R`.
+
+### Measuring string length
+
+Find the number of characters in each character's name:
+
+```{r, eval = F}
+starwars %>%
+  mutate(name_length = str_length(name)) %>%
+  select(name, name_length) %>%
+  head()
+```
+
+### Converting case
+
+Convert the character names to uppercase/lowercase:
+
+```{r, eval = F}
+starwars %>%
+  mutate(
+    name_upper = str_to_upper(name),
+    name_lower = str_to_lower(name)
+  ) %>%
+  select(name, name_upper, name_lower) %>%
+  head()
+```
+
+### Concatenating strings
+
+Create a new column that 
+concatenates the character's name with their species:
+
+```{r, eval = F}
+starwars %>%
+  mutate(name_species = str_c(name, " (", species, ")")) %>%
+  select(name_species) %>%
+  head()
+```
+
+### Dectecting patterns
+
+Filter out characters with "Sky" in names:
+
+```{r, eval = F}
+starwars %>%
+  filter(str_detect(name, "Sky"))
+```
+
+### Replacing text
+
+Replace the first occurrence/all occurrences of 
+"a" with "X" in each name:
+
+```{r, eval = F}
+starwars %>%
+  mutate(name_replaced = str_replace(name, "a", "X")) %>%
+  select(name, name_replaced) %>%
+  head()
+
+starwars %>%
+  mutate(name_replaced = str_replace_all(name, "a", "X")) %>%
+  select(name, name_replaced) %>%
+  head()
 ```
 
 ---
@@ -1163,7 +1233,7 @@ g = starwars %>%
     theme_minimal()+
     geom_density(aes(y = after_stat(density)), color = "red", linewidth = 1.2)
 g
-ggsave(g, filename="second_ggplot.pdf") ## Save a specific plot
+ggsave(g, filename="second_ggplot.pdf") ## Save plot g
 ```
 
 
