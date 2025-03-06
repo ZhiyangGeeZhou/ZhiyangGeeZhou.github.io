@@ -513,6 +513,7 @@ starwars %>% slice_min(order_by = height, n = 2)  # Select top 2 lowest characte
 mtcars %>% select(mpg, hp, wt)  
 # base R alternative: subset(mtcars, select = c(mpg, hp, wt))
 
+mtcars %>% select(-mpg, -hp, -wt)
 mtcars %>% select(-c(mpg, hp, wt))
 mtcars %>% select(!c(mpg, hp, wt))
 # base R alternative: subset(mtcars, select = -c(mpg, hp, wt))
@@ -521,14 +522,16 @@ mtcars %>% select(!c(mpg, hp, wt))
 ### Creating new columns that are functions of existing variables
 
 ```{r, eval = F}
-mtcars %>% mutate(weight_kg = wt * 453.5)  
-# base R alternative: mtcars$weight_kg <- mtcars$wt*453.5
+mtcars2 =  mtcars  %>% 
+  mutate(weight_kg = wt * 1000)
+# base R alternative: mtcars$weight_kg <- mtcars$wt*1000
 ```
 
 ### Summarizing data
 
 ```{r, eval = F}
 mtcars %>% summarize(avg_mpg = mean(mpg), max_hp = max(hp)) 
+mtcars %>% summarise(avg_mpg = mean(mpg), max_hp = max(hp)) 
 # base R alternative: data.frame(avg_mpg = mean(mtcars$mpg), max_hp = max(mtcars$hp))
 ```
 
@@ -556,7 +559,7 @@ mtcars %>%
 # (imperfect) base R alternative: 
 # aggregate(mpg ~ cyl+gear, data = mtcars, FUN = length)
 
-mtcars %>%
+mtcars2 = mtcars %>%
   group_by(cyl, gear) %>%
   mutate(avg_mpg_cy_gear = mean(mpg)) %>%
   ungroup()
@@ -676,7 +679,7 @@ Filter out characters with "Sky" in names:
 
 ```{r, eval = F}
 starwars %>%
-  filter(str_detect(name, "Sky"))
+  filter(str_detect(name, "Yo"))
 ```
 
 ### Replacing text
@@ -721,7 +724,7 @@ ggplot(
 ) +
   <GEOM_FUNCTION>() +  # geometric shapes (i.e., type of plot; e.g., points, bars and lines)
   <SCALE_FUNCTION>() + #  sizes and scales
-  <FACET_FUNCTION>() + # creates small multiples
+  <FACET_FUNCTION>() + # creates subplots
   <THEME_FUNCTION>() + # customizes the plot appearance
   <LABEL_FUNCTION>()   # labels and titles
 ```
@@ -736,12 +739,12 @@ ggplot(
   starwars, 
   aes(x = mass, y = height)
 ) +
-  geom_point() + # scatter plot
+  theme_bw() + # background theme
   labs( # titles and axis labels
     title = "Height vs. Mass of Star Wars Characters",
     x = "Mass (kg)", y = "Height (cm)"
   ) +
-  theme_minimal() # background theme
+  geom_point()  # scatter plot
 ```
 
 Filter out NAs and extreme values before plotting.
