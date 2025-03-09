@@ -735,16 +735,16 @@ A scatter plot visualizes the relationship between two numerical variables
 (e.g., `mass` vs `height`).
 
 ```{r, eval = F}
-ggplot(
-  starwars, 
-  aes(x = mass, y = height)
-) +
+starwars %>%
+  ggplot(
+    aes(x = mass, y = height)
+  ) +
+  geom_point() +  # scatter plot
   theme_bw() + # background theme
   labs( # titles and axis labels
     title = "Height vs. Mass of Star Wars Characters",
     x = "Mass (kg)", y = "Height (cm)"
-  ) +
-  geom_point()  # scatter plot
+  )
 ```
 
 Filter out NAs and extreme values before plotting.
@@ -765,6 +765,8 @@ starwars %>%
 
 Fit a trend line with prediction intervals using lm, loess, etc
 
+loess = local polynomial regression
+
 ```{r, eval = F}
 starwars %>% 
   filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
@@ -777,7 +779,7 @@ starwars %>%
     x = "Mass (kg)", y = "Height (cm)"
   ) +
   theme_bw()+
-  geom_smooth(method = lm, se = T)
+  geom_smooth(method = loess, se = F)
 ```
 
 Group points and color them by a categorical variable (e.g., `sex`).
@@ -790,14 +792,14 @@ starwars %>%
     aes(x = mass, y = height, color = sex)
   ) +
   geom_point() +
-  # scale_color_manual( # Customize colors
-  #   values = c("female" = "blue", "male" = "red", 'Unknown'='yellow')
-  # ) + 
   labs(
     title = "Height vs. Mass",
-    x = "Mass (kg)", y = "Height (cm)", color = "sex"
+    x = "Mass (kg)", y = "Height (cm)", color = "sex_no_na"
   ) +
-  theme_light()
+  theme_light()+
+  scale_color_manual( # Customize colors
+    values = c("female" = "blue", "male" = "red", 'Unknown'='yellow', 'none'='green')
+  )
 ```
 
 Differentiate points using `shape` or `size`.
@@ -827,14 +829,14 @@ Create subplots by a categorical variable.
 starwars %>% 
   filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
   replace_na(list(sex = 'Unknown')) %>%
-  ggplot(aes(x = mass, y = height,color = sex)) +
+  ggplot(aes(x = mass, y = height, color = sex)) +
   geom_point() +
   labs(
     title = "Height vs. Mass by sex",
     x = "Mass (kg)", y = "Height (cm)", size = 'Mass'
   ) +
   theme_minimal() +
-  facet_wrap(~sex) +
+  facet_wrap(~gender) +
   geom_smooth(method = lm, se= T)
 ```
 
@@ -848,9 +850,9 @@ A jitter plot reduces overplotting in scatter plots when points overlap.
   For example, age is measured in years,
   and height is given in centimeters.
   If you construct a scatter plot of weight versus age for a sufficiently 
-# large sample of people, there might be many people recorded 
-# as, say, 29 years and 70 kg, and therefore many markers 
-# plotted at the point (29, 70).
+  large sample of people, there might be many people recorded 
+  as, say, 29 years and 70 kg, and therefore many markers 
+  plotted at the point (29, 70).
 
 ```{r, eval = F}
 starwars %>% 
@@ -862,7 +864,8 @@ starwars %>%
   geom_jitter(
     width= .2, # each point is randomly moved up to 0.2 units left or right.
     height= .2, # each point is randomly moved up to 0.2 units up or down.
-    alpha = 0.5, color = "purple" # the transparency and color for jittered points
+    alpha = .2, # the transparency
+    color = "purple"  # color for jittered points
   ) + 
   labs(
     title = "Height vs. Mass",
@@ -879,31 +882,34 @@ Count (number of observations per bin) as the y-axis.
 starwars %>% 
   filter(!is.na(height)) %>%
   ggplot(aes(x = height)) +
-    geom_histogram(bins = 10, fill = "steelblue", color = "black") +
-    labs(title = "Distribution of Character Heights",
-         x = "Height (cm)", y = "Count") +
-    theme_minimal()
+  geom_histogram(bins = 10, fill = "steelblue", color = "black") +
+  labs(title = "Distribution of Character Heights",
+       x = "Height (cm)", y = "Count") +
+  theme_minimal()
 ```
 
 Relative frequency (proportion of total observations per bin) as the y-axis.
+But the relative frequency is not a variable in the original dataset;
+we need to first calculate it. 
+We use the `after_stat()` function to do so.
 
 ```{r, eval = F}
 starwars %>% 
   filter(!is.na(height)) %>%
   ggplot(aes(x = height)) +
     geom_histogram(
-      aes(y = after_stat(count / sum(count))),
+      aes(y = after_stat(count / sum(count))),  
       bins = 10, fill = "steelblue", color = "black"
     ) +
     labs(title = "Distribution of Character Heights",
-         x = "Height (cm)", y = "Count") +
+         x = "Height (cm)", y = "Frequency") +
     theme_minimal()
 ```
 
 Add a scaled fitted curve.
 
 ```{r, eval = F}
-binwidth_value = 10
+binwidth_value = 20
 starwars %>% 
   filter(!is.na(height)) %>%
   ggplot(aes(x = height)) +
@@ -912,7 +918,7 @@ starwars %>%
       binwidth = binwidth_value, fill = "steelblue", color = "black"
     ) +
     labs(title = "Distribution of Character Heights",
-         x = "Height (cm)", y = "Count") +
+         x = "Height (cm)", y = "Frequency") +
     theme_minimal()+
     geom_density(aes(y = after_stat(density)*binwidth_value), color = "red", linewidth = 1.2)
 ```
@@ -928,9 +934,63 @@ starwars %>%
       bins = 20, fill = "steelblue", color = "black"
     ) +
     labs(title = "Distribution of Character Heights",
-         x = "Height (cm)", y = "Count") +
+         x = "Height (cm)", y = "Density") +
     theme_minimal()+
     geom_density(aes(y = after_stat(density)), color = "red", linewidth = 1.2)
+```
+
+Overlay multiple histograms by a categorical variable.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height) & !is.na(sex)) %>%
+  ggplot(aes(x = height, fill = sex)) +
+  geom_histogram(position = "identity", bins=10, alpha = 0.5) + 
+  labs(title = "Overlayed Histograms of Heights by Color",
+       x = "Height (cm)", y = "Count", fill = "Sex") +
+  theme_minimal()
+```
+
+### Frequency polygon
+
+Use lines to connect frequency points.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height)) %>%
+  ggplot(aes(x = height)) +
+  # geom_histogram(bins = 10, fill = "steelblue", color = "black") +
+  geom_freqpoly(bins = 10, color = "orange", size = 1) +
+  labs(title = "Distribution of Character Heights",
+       x = "Height (cm)", y = "Count") +
+  theme_minimal()
+```
+
+Change the scale of y-axis.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height)) %>%
+  ggplot(aes(x = height)) +
+  geom_freqpoly(
+    aes(y = after_stat(density)), # density as the y-axis
+    aes(y = after_stat(count / sum(count))), # relative frequency as the y-axis
+    bins = 10, color = "orange", size = 1) +
+  labs(title = "Distribution of Character Heights",
+       x = "Height (cm)", y = "Count") +
+  theme_minimal()
+```
+
+Particularly useful for comparing multiple groups by overlaying multiple frequency polygons.
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(height) & !is.na(sex)) %>%
+  ggplot(aes(x = height, color = sex)) +
+  geom_freqpoly(bins = 10, size = 1) +
+  labs(title = "Distribution of Character Heights",
+       x = "Height (cm)", y = "Count") +
+  theme_minimal()
 ```
 
 ### Bar plot
@@ -945,6 +1005,7 @@ starwars %>%
        x = "Species", y = "Count") +
   theme_minimal() +
   coord_flip()  # Flip for better readability
+  # theme(axis.text.x = element_text(angle = 45, hjust = 1)) # alternatively change the angle of text
 ```
 
 Visualize categorical data by showing proportions
@@ -966,7 +1027,10 @@ Stacked bar chart
 
 ```{r, eval = F}
 starwars %>% 
-  ggplot(aes(x = fct_rev(species), fill = sex)) + # Reverses the order of species to correct flipping
+  ggplot(aes(
+    x = fct_rev(species), # Reverses the order of species to correct flipping
+    fill = sex
+  )) + 
   geom_bar(position = "stack") +  # position = "fill" or "stack"
   labs(title = "Stacked Bar Chart",
        x = "sex", y = "Count") +
@@ -1117,6 +1181,10 @@ plot_ly(x = ~x, y = ~y, z = ~z_matrix , type = "surface", colorscale = "Viridis"
 Represent the magnitude of values as colors.
 
 ```{r, eval = F}
+x <- seq(-pi, pi, length = 50)
+y <- x
+z_matrix <- outer(x, y, function(x, y) x^2 + y^2)
+df <- expand.grid(x = x, y = y) %>% mutate(z = as.vector(z_matrix))
 df %>%
   ggplot(aes(x = x, y = y, fill = z)) +
   geom_tile() +
@@ -1126,7 +1194,8 @@ df %>%
   theme_minimal()
 ```
 
-Commonly used to visualize correlation matrices.
+Commonly used to visualize correlation matrices,
+reflecting the covariation between two continous variables.
 
 ```{r, eval = F}
 # Convert the correlation matrix to long format
@@ -1149,14 +1218,11 @@ Useful too when showing the relationship among three variables
 (e.g., flight delay by month and origin airport).
 
 ```{r, eval = F}
-# Summarize average departure delay by month and origin
-flights_summary <- nycflights13::flights %>%
-  group_by(month, origin) %>%
-  summarise(avg_dep_delay = mean(dep_delay, na.rm = T)) %>%
-  ungroup()
-
-# Plotting
-flights_summary %>%
+nycflights13::flights %>%
+  group_by(month, origin) %>% 
+  summarise(
+    avg_dep_delay = mean(dep_delay, na.rm = T) # Summarize average departure delay by month and origin
+  ) %>% 
   ggplot(aes(x = factor(month), y = origin, fill = avg_dep_delay)) +
   geom_tile() +
   scale_fill_gradient(low = "white", high = "red") +
@@ -1165,9 +1231,24 @@ flights_summary %>%
   theme_minimal()
 ```
 
+### Count plot
+
+Visualize the number of observations for each combination of levels of two categorical variables,
+reflecting the covariation between categorical variables.
+
+```{r, eval = F}
+diamonds |> # A dataset containing the prices and other attributes of almost 54,000 diamonds
+  ggplot(aes(x = cut, y = color)) +
+  geom_count(color = "green") +
+  labs(x = "Cut",
+       y = "Color",
+       size = "Count") +
+  theme_minimal()
+```
+
 ### Line plot
 
-Showing relationships between two variables.
+Showing relationships between two continous variables.
 
 ```{r, eval = F}
 economics %>%
