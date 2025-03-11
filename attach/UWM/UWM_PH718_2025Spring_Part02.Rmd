@@ -1,12 +1,12 @@
 ---
 title: "PH 718 Data Management and Visualization in `R`"
-subtitle: "Part 2: R Markdown"
+subtitle: "Part 2: How to Use R Markdown"
 author: 
   - Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))
 date: "`r Sys.Date()`"
 output: pdf_document
 bibliography: UWM_PH718_2025Spring_Part02.bib
-link-citations: false
+link-citations: true
 ---
 
 # Introduction
@@ -224,7 +224,7 @@ bibliography: UWM_PH718_2025Spring_Part02.bib
 
 ## Cite references
 
-Use the `@` symbol followed by the citation key.
+Use the `@` symbol followed by the key of corresponding entry.
 
 ### In-text citation: `@Wickham2016`
 
@@ -240,8 +240,7 @@ Several `R` packages [@tidyr2024; @R2024] are fairly useful.
 
 ## Generate the bibliography
 
-The cited references are automatically compiled into a bibliography section 
-at the end of your document, 
+The cited references are automatically included at the end of your document, 
 even if you haven't explicitly added a section header.
 
 ---
