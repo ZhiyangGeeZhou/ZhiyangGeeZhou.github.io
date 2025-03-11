@@ -136,11 +136,11 @@ _Atmospheric Environment_ **61**:409--418.
 #### COURSES IN PROGRESS
 
 - [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2025Spring.pdf)  
-Part0 Syllabus Review & Introduction to R [pdf](attach/UWM/UWM_PH718_2025Spring_Part00.pdf)  
-Part1 R Basic Syntax [r](attach/UWM/UWM_PH718_2025Spring_Part01.r)  
-Part2 [Rmd](attach/UWM/UWM_PH718_2025Spring_Part02.Rmd) [bib](attach/UWM/UWM_PH718_2025Spring_Part02.bib)  
-Part3 [Rmd](attach/UWM/UWM_PH718_2025Spring_Part03.Rmd)  
-Part4 [Rmd](attach/UWM/UWM_PH718_2025Spring_Part04.Rmd)
+Part0: Syllabus Review & Introduction to R [pdf](attach/UWM/UWM_PH718_2025Spring_Part00.pdf)  
+Part1: R Basic Syntax [r](attach/UWM/UWM_PH718_2025Spring_Part01.r)  
+Part2: R Markdown [Rmd](attach/UWM/UWM_PH718_2025Spring_Part02.Rmd) [bib](attach/UWM/UWM_PH718_2025Spring_Part02.bib)  
+Part3: R Basic Graphics [Rmd](attach/UWM/UWM_PH718_2025Spring_Part03.Rmd)  
+Part4: Introduction to tidyverse [Rmd](attach/UWM/UWM_PH718_2025Spring_Part04.Rmd)
 
 #### SUPERVISION FOR
 
