@@ -939,13 +939,37 @@ starwars %>%
     geom_density(aes(y = after_stat(density)), color = "red", linewidth = 1.2)
 ```
 
-Overlay multiple histograms by a categorical variable.
+Histograms of height by sex with different colors.
 
 ```{r, eval = F}
 starwars %>% 
   filter(!is.na(height) & !is.na(sex)) %>%
   ggplot(aes(x = height, fill = sex)) +
-  geom_histogram(position = "identity", bins=10, alpha = 0.5) + 
+  geom_histogram(
+    bins=10,
+    position = "dodge",  # identity: overlayed; dodge: side-by-side 
+    alpha = 0.2
+  ) + 
+  scale_fill_manual(values = c("blue", "red", 'yellow', 'green')) + 
+  labs(title = "Overlayed Histograms of Heights by Color",
+       x = "Height (cm)", y = "Count", fill = "Sex") +
+  theme_minimal()
+```
+
+Histograms of height by sex with different textures.
+
+```{r, eval = F}
+library(ggpattern)
+starwars %>% 
+  filter(!is.na(height) & !is.na(sex)) %>%
+  ggplot(aes(x = height, pattern = sex)) + # Use 'pattern' instead of 'fill'
+  geom_histogram_pattern( # Use 'geom_histogram_pattern' instead of 'geom_histogram'
+    bins=10,
+    position = "identity", alpha = 0.2,
+    pattern_fill = "black",  # Color of the pattern lines
+    pattern_angle = 30,      # Optional: Adjust pattern angle
+    pattern_density = 0.1    # Optional: Adjust pattern thickness/spacing
+  ) + 
   labs(title = "Overlayed Histograms of Heights by Color",
        x = "Height (cm)", y = "Count", fill = "Sex") +
   theme_minimal()
