@@ -137,12 +137,11 @@ _Atmospheric Environment_ **61**:409--418.
 
 - [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2025Spring.pdf)  
 Lectures: 
-[00.pdf](attach/UWM/UWM_PH718_2025Spring_Part00.pdf)
-[00.r](attach/UWM/UWM_PH718_2025Spring_Part01.r)
-[02.Rmd](attach/UWM/UWM_PH718_2025Spring_Part02.Rmd) 
-[02.bib](attach/UWM/UWM_PH718_2025Spring_Part02.bib)
-[03.Rmd](attach/UWM/UWM_PH718_2025Spring_Part03.Rmd)
-[04.Rmd](attach/UWM/UWM_PH718_2025Spring_Part04.Rmd)
+Part00 [pdf](attach/UWM/UWM_PH718_2025Spring_Part00.pdf)  
+Part01 [r](attach/UWM/UWM_PH718_2025Spring_Part01.r)  
+Part02 [Rmd](attach/UWM/UWM_PH718_2025Spring_Part02.Rmd) [bib](attach/UWM/UWM_PH718_2025Spring_Part02.bib)  
+Part03 [Rmd](attach/UWM/UWM_PH718_2025Spring_Part03.Rmd)  
+Part04 [Rmd](attach/UWM/UWM_PH718_2025Spring_Part04.Rmd)
 
 #### SUPERVISION FOR
 
