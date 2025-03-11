@@ -1,6 +1,6 @@
 ---
 title: "PH 718 Data Management and Visualization in `R`"
-subtitle: "Part 2: How to Use R Markdown"
+subtitle: "Part 2: R Markdown"
 author: 
   - Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))
 date: "`r Sys.Date()`"
