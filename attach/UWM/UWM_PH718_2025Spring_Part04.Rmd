@@ -950,7 +950,7 @@ starwars %>%
     position = "dodge",  # identity: overlayed; dodge: side-by-side 
     alpha = 0.2
   ) + 
-  scale_fill_manual(values = c("blue", "red", 'yellow', 'green')) + 
+  # scale_fill_manual(values = c("blue", "red", 'yellow', 'green')) + 
   labs(title = "Overlayed Histograms of Heights by Color",
        x = "Height (cm)", y = "Count", fill = "Sex") +
   theme_minimal()
@@ -983,7 +983,7 @@ Use lines to connect frequency points.
 starwars %>% 
   filter(!is.na(height)) %>%
   ggplot(aes(x = height)) +
-  # geom_histogram(bins = 10, fill = "steelblue", color = "black") +
+  geom_histogram(bins = 10, fill = "steelblue", color = "black") +
   geom_freqpoly(bins = 10, color = "orange", size = 1) +
   labs(title = "Distribution of Character Heights",
        x = "Height (cm)", y = "Count") +
@@ -997,11 +997,11 @@ starwars %>%
   filter(!is.na(height)) %>%
   ggplot(aes(x = height)) +
   geom_freqpoly(
-    aes(y = after_stat(density)), # density as the y-axis
+    # aes(y = after_stat(density)), # density as the y-axis
     aes(y = after_stat(count / sum(count))), # relative frequency as the y-axis
     bins = 10, color = "orange", size = 1) +
   labs(title = "Distribution of Character Heights",
-       x = "Height (cm)", y = "Count") +
+       x = "Height (cm)", y = "Relative Frequency") +
   theme_minimal()
 ```
 
@@ -1019,7 +1019,7 @@ starwars %>%
 
 ### Bar plot
 
-Visualize categorical data by showing counts (by default)
+Visualize categorical variables by showing counts (by default)
 
 ```{r, eval = F}
 starwars %>% 
@@ -1028,8 +1028,8 @@ starwars %>%
   labs(title = "Character Count by Species",
        x = "Species", y = "Count") +
   theme_minimal() +
-  coord_flip()  # Flip for better readability
-  # theme(axis.text.x = element_text(angle = 45, hjust = 1)) # alternatively change the angle of text
+  # coord_flip()  # Flip for better readability
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) # alternatively change the angle of text
 ```
 
 Visualize categorical data by showing proportions
