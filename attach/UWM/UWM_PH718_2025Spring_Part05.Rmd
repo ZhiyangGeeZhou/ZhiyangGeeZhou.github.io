@@ -1,0 +1,337 @@
+---
+title: "PH 718 Data Management and Visualization in `R`"
+subtitle: 'Part 5: Exploratory Data Analysis (EDA)'
+author: "Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))"
+date: "`r format(Sys.time(), '%Y/%m/%d %H:%M:%S')`"
+output: pdf_document
+bibliography: UWM_PH718_2025Spring_Part05.bib
+link-citations: true
+---
+
+## What is EDA
+
+- Systematic examination of datasets to summarize their main characteristics
+- Often employing visualization
+- Preliminary step before statistical modeling
+
+## Why use EDA
+
+- Understand the data's underlying structure, identify outliers, 
+and test underlying assumptions
+- Determine the most appropriate statistical tools for further analysis
+
+## Brief history of EDA
+
+- Extensively promoted by @Tukey1977:
+He emphasized the importance of using data to suggest hypotheses, 
+thereby encouraging a more open-ended exploration of data.
+
+- Dr. Tukey's advocacy for EDA 
+led to the development of various statistical computing packages, 
+notably the `S` language at Bell Labs. 
+This language later inspired the creation of `S-PLUS` and `R`.
+
+- Has become an integral part of data analysis, 
+allowing researchers to make unexpected discoveries, 
+assess assumptions, 
+and select appropriate statistical tools.
+
+## Iterative Cycle of EDA
+
+EDA is an iterative process that includes:
+
+1. Generating Questions: Developing inquiries about the data's characteristics and relationships.
+1. Searching for Answers: Utilizing visualization, transformation, and modeling to explore these questions.
+1. Refining Questions: Based on findings, refining existing questions or generating new ones to delve deeper.
+
+This cyclical process emphasizes flexibility and adaptability, allowing analysts to uncover insights that may not be apparent through formal modeling alone.
+
+## Key Components of EDA
+
+### Understanding variation and covariation
+
+- Visualize the distribution of each variable
+- Explore how two or more variables vary together
+
+### Robust statistics
+
+To mitigate the influence of outliers and provide a more accurate summary of the data, 
+robust statistics are employed:
+
+- Median: A measure of central tendency less affected by extreme values compared to the mean.
+- Interquartile range 
+(IQR = `IQR(x)` = `quantile(x, .75)-quantile(x, .25)`, alternative to standard deviation):
+Measures the spread of the middle 50% of data
+- Median absolute deviation 
+(MAD = `mad(x)` = `median(abs(x-median(x))`), alternative to standard deviation): 
+Evaluates the dispersion of data points around the median
+  
+### Data Transformation
+
+- Purposes
+  - Stabilize variance
+  - Meet the assumptions of statistical methods
+  - Make the data more normal distribution-like, 
+  improving the validity of measures of association 
+  (such as the Pearson correlation)
+
+- Standardization: 
+  Rescaling data to have a mean of zero and a standard deviation of one, 
+  facilitating comparison across variables.
+
+- Box-Cox (for positives only, @BoxCox1964):
+$$
+  y^{(\lambda)} =
+  \begin{cases}
+    (y^\lambda - 1)/\lambda, 
+    & \text{if } y>0\ \&\ \lambda \neq 0,
+    \\
+    \ln(y), 
+    & \text{if } y>0\ \&\ \lambda=0.
+  \end{cases}
+$$
+
+- Box-Cox with negatives [@HawkinsWeisberg2017]
+$$
+y^{(\lambda,\gamma)} =
+  \begin{cases}
+    \{(y+\gamma)^\lambda - 1\}/\lambda, 
+    & \text{if } y>-\gamma\ \&\ \lambda \neq 0,
+    \\
+    \ln(y+\gamma), 
+    & \text{if } y>-\gamma\ \&\ \lambda=0.
+  \end{cases}
+$$
+
+- Yeo-Johnson [@YeoJohnson2000]
+$$
+y^{(\lambda)} =
+  \begin{cases}
+    \{(y+1)^\lambda - 1\}/\lambda, 
+    & \text{if } y\geq0\ \&\ \lambda \neq 0,
+    \\
+    \ln(y+1), 
+    & \text{if } y\geq0\ \&\ \lambda = 0.
+    \\
+    -\{(1-y)^{2-\lambda} - 1\}/(2-\lambda), 
+    & \text{if } y<0\ \&\ \lambda \neq 2,
+    \\
+    -\ln(1-y), 
+    & \text{if } y<0\ \&\ \lambda = 2.
+  \end{cases}
+$$
+- Empirical transformation
+  - logarithm for economic data
+  - logit for rates
+
+## Example: EDA with `ISLR2::Wage`
+
+Basic understanding of data:
+
+```{r, eval = F}
+?ISLR2::Wage
+View(ISLR2::Wage)
+which(rowSums(is.na(ISLR2::Wage)) > 0)
+str(ISLR2::Wage)
+summary(ISLR2::Wage)
+```
+
+Categorizing `year` and removing `region`:
+
+```{r, eval = F}
+wage = ISLR2::Wage |>
+  mutate(year = as.factor(year)) |>
+  select(-region, -logwage)
+summary(wage)
+```
+
+Boxplots of all the numerical variables
+
+```{r, eval = F}
+wage |>
+  select(where(is.numeric)) |>
+  scale() |>
+  boxplot(las = 2)
+# or
+wage |>
+  select(where(is.numeric)) |>
+  scale() |>
+  as.data.frame() |>
+  pivot_longer(cols = everything(), names_to = "Variable", values_to = "Value") |>
+  ggplot(aes(x = Variable, y = Value)) +
+  geom_boxplot(outlier.color = "red") +
+  labs(y = 'Standardized Value') +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+Potential transformation on continuous variables
+
+```{r, eval = F}
+trans_age_wage = car::powerTransform(
+  cbind(age, wage) ~ 1, 
+  family="bcPower", # Box-Cox
+  data = wage
+)
+summary(trans_age_wage)
+wage = wage |>
+  mutate(age_sqrt = age^.5, ln_wage = log(wage))
+```
+
+Boxplots of all the tranformed numerical variables
+
+```{r, eval = F}
+wage |>
+  select(where(is.numeric)) |>
+  scale() |>
+  boxplot(las = 2)
+# or
+wage |>
+  select(where(is.numeric)) |>
+  scale() |>
+  as.data.frame() |>
+  pivot_longer(cols = everything(), names_to = "Variable", values_to = "Value") |>
+  ggplot(aes(x = Variable, y = Value)) +
+  geom_boxplot(outlier.color = "red") +
+  labs(y = 'Standardized Value') +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+Output rows with outliers for a specific column
+
+```{r, eval = F}
+lower_bound = quantile(wage$age, .25) - IQR(wage$age) * 1.5
+upper_bound = quantile(wage$age, .75) + IQR(wage$age) * 1.5
+wage[which(wage$age<lower_bound | wage$age>upper_bound),]
+```
+
+Initial research question: 
+"How does year/age/marital status/race/education/job class/health level/health insurance influence wage?"
+
+```{r, eval = F}
+wage |>
+  select(-age, -wage) |>
+  pairs()
+```
+
+Insights for main effects:
+
+- `year` and `jobclass` seem irrelevant to `ln_wage`.
+- The `ln_wage` distribution for `<=good` group is close to 
+that for the group with no insurance,
+implying no need to consider both `health` and `health_ins`.
+
+```{r, eval = F}
+wage |>
+  ggplot(aes(x = age_sqrt, y = ln_wage)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "loess", col = "blue") +
+  theme_minimal() +
+  labs(x = "Age^.5", y = "ln(Wage)") +
+  # facet_wrap(~maritl)
+  # facet_wrap(~race)
+  # facet_wrap(~education)
+  # facet_wrap(~health)
+```
+
+Insights for 2-factor interactions (2fi's):
+
+- Potential differences in wage distribution across `education` or `maritl` levels
+
+Refining the research question:
+
+"How do age and education level interact to influence wage levels among workers?"
+
+Formulating specific aims:
+
+1. Investigate the relationship between `age` and `wage` across different `education` levels.
+2. Determine if the effect of `age` on `wage` varies significantly with `education` level.
+
+## Example: EDA with `ISLR::College`
+
+Basic understanding of the data:
+
+```{r, eval = F}
+?ISLR2::College
+View(ISLR2::College)
+str(ISLR2::College)
+summary(ISLR2::College)
+```
+
+Found unexpected values of `Grad.Rate` exceeding 100%
+
+```{r, eval = F}
+ISLR2::College[ISLR2::College$Grad.Rate>100,]
+college <- ISLR2::College |>
+  mutate(Grad.Rate = ifelse(Grad.Rate > 100, 100, Grad.Rate))
+```
+
+Potential transformation on continuous variables
+
+```{r, eval = F}
+trans = car::powerTransform(
+  as.formula(paste0(
+    'cbind(',
+    paste(names(college)[-1],collapse = ','),
+    ')~1'
+  )),
+  family="yjPower", # Yeo-Johnson
+  data = college
+)
+summary(trans)
+```
+
+Initial Research Question: 
+"What factors influence the graduation rate of colleges?"
+
+```{r, eval = F}
+college |>
+  GGally::ggpairs()
+```
+
+Insights from pairwise scatter plots:
+
+- A positive correlation between `Top10perc` and `Grad.Rate`
+- Distributions of almost all the variables varying with `Private`
+
+Refining the research question:
+
+"What factors influence the graduation rate in private versus public colleges?"
+
+Observing the heterogeneity across different college types
+and formulating specific aims:
+
+1. Model the graduation rate, taking `Private` as a factor 
+or splitting the data by `Private`.
+1. Compare the resulting models between private and public colleges.
+
+Further Analysis: logistic regression on an aggregated data:
+
+```{r, eval = F}
+college <- college |>
+  mutate(Grad.Rate = ifelse(Grad.Rate > 100, 100, Grad.Rate))
+mod1 <- glm(formula = Grad.Rate/100 ~ Private,
+  weights = Enroll, 
+  family = binomial(link='logit'), # leading to warnings due to rounded graduation rate
+  data = college)
+# change the family
+mod2 <- glm(formula = Grad.Rate/100 ~ Private,
+  weights = Enroll, 
+  family = quasibinomial(link='logit'), 
+  data = college)
+# or use svyglm
+library(survey)
+jdesign <- svydesign(
+  ids = ~1,
+  data = college,
+  weights = ~Enroll
+)
+mod3 <- svyglm(
+  formula = Grad.Rate/100 ~ Private,
+  design = jdesign,
+  family = quasibinomial(link = "logit")
+)
+```
+
+## Bibliography
