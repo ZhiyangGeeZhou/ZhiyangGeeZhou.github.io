@@ -1090,7 +1090,12 @@ starwars %>%
 
 ### Box plot
 
-Compare heights by sex.
+| Component | Description |
+|---|---|
+| Thick Line | Sample median. |
+| Quartiles (Box Edges)| 25% quantile (Q1) and 75% quantile (Q3). |
+| Whiskers (Thin Lines) | Extend up to 1.5x(Q3-Q1). |
+| Outliers | Points outside the whiskers. |
 
 ```{r, eval = F}
 starwars %>% 
@@ -1125,7 +1130,7 @@ A combination of a box plot and a density plot.
 | Component | Description |
 |---|---|
 | Violin Shape | Density curve. |
-| Thick Line | Sample median the dataset. |
+| Thick Line | Sample median. |
 | Quartiles (Box Edges)| 25% quantile (Q1) and 75% quantile (Q3). |
 | Whiskers (Thin Lines) | Extend up to 1.5x(Q3-Q1). |
 | Outliers | Points outside the whiskers. |
