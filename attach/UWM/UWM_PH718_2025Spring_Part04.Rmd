@@ -1090,12 +1090,14 @@ starwars %>%
 
 ### Box plot
 
+Showing summary statistics and illustrating the distribution of a variable.
+
 | Component | Description |
 |---|---|
-| Thick Line | Sample median. |
-| Quartiles (Box Edges)| 25% quantile (Q1) and 75% quantile (Q3). |
-| Whiskers (Thin Lines) | Extend up to 1.5x(Q3-Q1). |
-| Outliers | Points outside the whiskers. |
+| Thick horizontal segment | Sample median. |
+| Quartiles (Box edges)| 25% quantile (Q1) and 75% quantile (Q3). |
+| Whiskers (Thin vertical segments) | Extend up to 1.5x(Q3-Q1). |
+| Points outside the whiskers | Outliers. |
 
 ```{r, eval = F}
 starwars %>% 
@@ -1129,11 +1131,11 @@ A combination of a box plot and a density plot.
 
 | Component | Description |
 |---|---|
-| Violin Shape | Density curve. |
-| Thick Line | Sample median. |
-| Quartiles (Box Edges)| 25% quantile (Q1) and 75% quantile (Q3). |
-| Whiskers (Thin Lines) | Extend up to 1.5x(Q3-Q1). |
-| Outliers | Points outside the whiskers. |
+| Violin shape | Density curve. |
+| Thick horizontal segment | Sample median. |
+| Quartiles (Box edges)| 25% quantile (Q1) and 75% quantile (Q3). |
+| Whiskers (Thin vertical segments) | Extend up to 1.5x(Q3-Q1). |
+| Points outside the whiskers | Outliers. |
 
 ```{r, eval = F}
 starwars %>%
@@ -1154,6 +1156,7 @@ x <- seq(-pi, pi, length = 50)
 y <- x
 z_matrix <- outer(x, y, function(x, y) x^2 + y^2)
 df <- expand.grid(x = x, y = y) %>% mutate(z = as.vector(z_matrix))
+
 ggplot(df, aes(x = x, y = y, z = z)) +
   geom_contour(
     bins = 10, # number of contour levels
@@ -1263,21 +1266,21 @@ nycflights13::flights %>%
 ### Count plot
 
 Visualize the number of observations for each combination of levels of two categorical variables,
-reflecting the covariation between categorical variables.
+reflecting the relationship between categorical variables.
 
 ```{r, eval = F}
 diamonds |> # A dataset containing the prices and other attributes of almost 54,000 diamonds
   ggplot(aes(x = cut, y = color)) +
-  geom_count(color = "green") +
+  geom_count(color = "white") +
   labs(x = "Cut",
        y = "Color",
        size = "Count") +
-  theme_minimal()
+  theme_grey()
 ```
 
 ### Line plot
 
-Showing relationships between two continous variables.
+Showing relationships between two continuous variables.
 
 ```{r, eval = F}
 economics %>%
@@ -1333,20 +1336,35 @@ economics %>%
 ### Saving figures
 
 ```{r, eval = F}
-ggsave(filename="first_ggplot.png")  ## Save the last plot
-g = starwars %>% 
-  filter(!is.na(height)) %>%
-  ggplot(aes(x = height)) +
-    geom_histogram(
-      aes(y = after_stat(density)),
-      bins = 20, fill = "steelblue", color = "black"
-    ) +
-    labs(title = "Distribution of Character Heights",
-         x = "Height (cm)", y = "Count") +
-    theme_minimal()+
-    geom_density(aes(y = after_stat(density)), color = "red", linewidth = 1.2)
-g
-ggsave(g, filename="second_ggplot.pdf") ## Save plot g
+p = economics %>%
+  ggplot(aes(x = date)) +
+  geom_line(aes(y = unemploy, color = "Unemployment"), linewidth = 1) +  
+  geom_line(aes(y = psavert*1000, color = "Personal Savings Rate"), linewidth = 1) +  
+  scale_color_manual(values = c("Unemployment" = "blue", "Personal Savings Rate" = "red")) +
+  scale_y_continuous(sec.axis = sec_axis(~./1000, name = "Savings Rate (%)")) +
+  labs(title = "U.S. Unemployment and Savings Rate Over Time",
+       x = "Year", y = "Unemployed People (in Thousands)", color = "Variable") +
+  theme_grey()
+p
+ggsave( 
+  filename="first_ggplot.tiff", 
+  plot = p, # Save the last plot if this `plot` option is unspecified
+  width = 7.6, height = 1.2, 
+  unit = 'in', # 'in', 'cm', 'mm'
+  dpi = 600, # DPI (dots per inch)
+)
+# Specify pixel dimensions
+# E.g., per the author guidelines of Water Research,
+# a minimum of 531 x 1328 pixels (h x w) or proportionally more
+# dpi = pixels/inch => inch = pixels/dpi
+ggsave( 
+  filename="second_ggplot.tiff", 
+  plot = p, # Save the last plot if this `plot` option is unspecified
+  width = 13280/600, 
+  height = 5310/600, 
+  unit = 'in', # 'in', 'cm', 'mm'
+  dpi = 600, # DPI (dots per inch)
+)
 ```
 
 
