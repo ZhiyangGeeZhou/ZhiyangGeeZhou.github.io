@@ -12,18 +12,18 @@ link-citations: true
 
 - Systematic examination of datasets to summarize their main characteristics
 - Often employing visualization
-- Preliminary step before statistical modeling
+- Preliminary step before formal statistical modeling
 
 ## Why use EDA
 
 - Understand the data's underlying structure, identify outliers, 
 and test underlying assumptions
-- Determine the most appropriate statistical tools for further analysis
+- Determine the most appropriate statisticalm models for further analysis
 
 ## Brief history of EDA
 
 - Extensively promoted by @Tukey1977:
-He emphasized the importance of using data to suggest hypotheses, 
+He emphasized the importance of using data to suggest models, 
 thereby encouraging a more open-ended exploration of data.
 
 - Dr. Tukey's advocacy for EDA 
@@ -34,26 +34,26 @@ This language later inspired the creation of `S-PLUS` and `R`.
 - Has become an integral part of data analysis, 
 allowing researchers to make unexpected discoveries, 
 assess assumptions, 
-and select appropriate statistical tools.
+and select appropriate statistical models.
 
 ## Iterative Cycle of EDA
 
 EDA is an iterative process that includes:
 
-1. Generating Questions: Developing inquiries about the data's characteristics and relationships.
-1. Searching for Answers: Utilizing visualization, transformation, and modeling to explore these questions.
-1. Refining Questions: Based on findings, refining existing questions or generating new ones to delve deeper.
+  1. Generating questions: Developing inquiries about the data's characteristics and relationships.
+1. Searching for answers: Utilizing visualization, transformation, and modeling to explore these questions.
+1. Refining questions: Based on findings, refining existing questions or generating new ones to delve deeper.
 
-This cyclical process emphasizes flexibility and adaptability, allowing analysts to uncover insights that may not be apparent through formal modeling alone.
+This cyclical process emphasizes flexibility and adaptability.
 
 ## Key Components of EDA
 
 ### Understanding variation and covariation
 
-- Visualize the distribution of each variable
+- Visualize the distribution of each random variable
 - Explore how two or more variables vary together
 
-### Robust statistics
+### Robust summary statistics
 
 To mitigate the influence of outliers and provide a more accurate summary of the data, 
 robust statistics are employed:
@@ -66,20 +66,21 @@ Measures the spread of the middle 50% of data
 (MAD = `mad(x)` = `median(abs(x-median(x))`), alternative to standard deviation): 
 Evaluates the dispersion of data points around the median
   
-### Data Transformation
+### Data transformation
 
-- Purposes
-  - Stabilize variance
-  - Meet the assumptions of statistical methods
+- Why
+  - Stabilize variance (e.g., standardization)
+  - Meet the assumptions of statistical models 
+  (e.g., logit transformation in logistic regression)
   - Make the data more normal distribution-like, 
-  improving the validity of measures of association 
-  (such as the Pearson correlation)
+  improving the validity of association measures like the Pearson's correlation
+  (e.g., Box-Cox transformation)
 
 - Standardization: 
   Rescaling data to have a mean of zero and a standard deviation of one, 
-  facilitating comparison across variables.
+  facilitating comparison across variables of different units.
 
-- Box-Cox (for positives only, @BoxCox1964):
+- Box-Cox (for positive continuous variable only, @BoxCox1964):
 $$
   y^{(\lambda)} =
   \begin{cases}
@@ -122,7 +123,7 @@ y^{(\lambda)} =
 $$
 - Empirical transformation
   - logarithm for economic data
-  - logit for rates
+  - logit for percentages
 
 ## Example: EDA with `ISLR2::Wage`
 
@@ -131,7 +132,7 @@ Basic understanding of data:
 ```{r, eval = F}
 ?ISLR2::Wage
 View(ISLR2::Wage)
-which(rowSums(is.na(ISLR2::Wage)) > 0)
+colSums(is.na(ISLR2::Wage))
 str(ISLR2::Wage)
 summary(ISLR2::Wage)
 ```
