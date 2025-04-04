@@ -166,7 +166,7 @@ wage |>
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-Potential transformation on continuous variables
+Potential transformations on continuous variables
 
 ```{r, eval = F}
 trans_age_wage = car::powerTransform(
@@ -202,13 +202,14 @@ wage |>
 Output rows with outliers for a specific column
 
 ```{r, eval = F}
-lower_bound = quantile(wage$age, .25) - IQR(wage$age) * 1.5
-upper_bound = quantile(wage$age, .75) + IQR(wage$age) * 1.5
-wage[which(wage$age<lower_bound | wage$age>upper_bound),]
+lower_bound = quantile(wage$wage, .25) - IQR(wage$wage) * 1.5
+upper_bound = quantile(wage$wage, .75) + IQR(wage$wage) * 1.5
+wage[which(wage$wage<lower_bound | wage$wage>upper_bound),]
 ```
 
 Initial research question: 
 "How does year/age/marital status/race/education/job class/health level/health insurance influence wage?"
+--- Are we supposed to include all these main effects?
 
 ```{r, eval = F}
 wage |>
@@ -219,9 +220,12 @@ wage |>
 Insights for main effects:
 
 - `year` and `jobclass` seem irrelevant to `ln_wage`.
-- The `ln_wage` distribution for `<=good` group is close to 
+- The `ln_wage` distribution for the `health<=good` group is close to 
 that for the group with no insurance,
 implying no need to consider both `health` and `health_ins`.
+
+Any 2-factor interactions (2fi's) that should be included? 
+E.g., `age^.5:maritl`.
 
 ```{r, eval = F}
 wage |>
@@ -230,24 +234,21 @@ wage |>
   geom_smooth(method = "loess", col = "blue") +
   theme_minimal() +
   labs(x = "Age^.5", y = "ln(Wage)") +
-  # facet_wrap(~maritl)
-  # facet_wrap(~race)
-  # facet_wrap(~education)
-  # facet_wrap(~health)
+  facet_wrap(~maritl)
 ```
 
-Insights for 2-factor interactions (2fi's):
+Insights for 2fi's:
 
-- Potential differences in wage distribution across `education` or `maritl` levels
+- Potential differences in wage distribution across `education` or `maritl` levels,
+that is, `age^.5:maritl` and  `age^.5:education` to be included
 
 Refining the research question:
-
-"How do age and education level interact to influence wage levels among workers?"
+"How does age/marital status/race/education/health level influence wage?"
 
 Formulating specific aims:
 
-1. Investigate the relationship between `age` and `wage` across different `education` levels.
-2. Determine if the effect of `age` on `wage` varies significantly with `education` level.
+1. Investigate the relationship between `age` and `wage` across different `education`.
+1. Determine if the effect of `age` on `wage` varies significantly with `education` level.
 
 ## Example: EDA with `ISLR::College`
 
@@ -334,5 +335,68 @@ mod3 <- svyglm(
   family = quasibinomial(link = "logit")
 )
 ```
+
+## Model/variable selection
+
+### Forward/backward/(bidirectional) stepwise selection ([ISL], sec. 6.1)
+
+- Forward selection
+  1. Start with the minimal model.
+  1. Add predictors one by one:
+  consider adding each of the remaining predictors and evaluate how much it improves the model. 
+  The evaluation metric can be the improvement in likelihood, AIC, BIC, 
+  or any other appropriate metrics.
+  1. Select the best predictor: Add the predictor that improves the model the most 
+  (e.g., results in the largest decrease in AIC).
+  1. Repeat steps 2--3 until no significant improvement.
+  1. Final model: 
+  The process stops when no adding may improve the model.
+
+- Backward selection (NOT always doable)
+  1. Start with the maximal model.
+  1. Remove predictors one by one:
+  consider removing each predictor in the current model and evaluate how much it improves the model. 
+  The evaluation metric can be the improvement in likelihood, AIC, BIC, 
+  or any other appropriate metric.
+  1. Select the best predictor: Delete the predictor that improves the model the most 
+  (e.g., results in the largest decrease in AIC).
+  1. Repeat steps 2--3 until no significant improvement.
+  1. Final model: 
+  The process stops when no deletion may improve the model.
+
+- (Bidirectional) stepwise selection
+  1. Initiate by adding the best variable. 
+  1. After adding a new variable, 
+  it checks whether any of the previously included variables 
+  have become unnecessary and should be removed. 
+  1. Each forward selection step can be followed by one or more backward elimination steps.
+  1. This process continues until no variable can be added/removed to improve the model.
+
+### Revisit `ISLR2::Wage`
+
+```{r, eval = F}
+minimal = lm(
+  ln_wage~1, 
+  data=wage
+)
+maximal = lm(
+  ln_wage~(age_sqrt+maritl+race+education+health)^2, 
+  data=wage
+)
+scope = list(lower = minimal, upper = maximal)
+# Selection with AIC
+forward.AIC = step(minimal, scope = scope, direction = "forward", k = 2)
+backward.AIC = step(maximal, scope = scope, direction = "backward", k = 2)
+stepwise.AIC = step(minimal, scope = scope, direction = "both", k = 2)
+# Selection with BIC
+forward.BIC = step(minimal, scope = scope, direction = "forward", k = log(nrow(wage)))
+backward.BIC = step(maximal, scope = scope, direction = "backward", k = log(nrow(wage)))
+stepwise.BIC = step(minimal, scope = scope, direction = "both", k = log(nrow(wage)))
+```
+
+### Penalization/regularization/shirinkage ([ISL], sec. 6.2)
+
+- Model/variable selection 
+$\Leftrightarrow$ compressing certain coefficients to zeros
 
 ## Bibliography
