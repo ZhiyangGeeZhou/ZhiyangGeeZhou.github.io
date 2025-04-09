@@ -242,6 +242,10 @@ Insights for 2fi's:
 - Potential differences in wage distribution across `education` or `maritl` levels,
 that is, `age^.5:maritl` and  `age^.5:education` to be included
 
+Hierarchy principle: 
+if your model includes an interaction term, 
+then your model should also include the corresponding main effects.
+
 Refining the research question:
 "How does age/marital status/race/education/health level influence wage?"
 
@@ -338,7 +342,7 @@ mod3 <- svyglm(
 
 ## Model/variable selection
 
-### Forward/backward/(bidirectional) stepwise selection ([ISL], sec. 6.1)
+### Forward/backward/stepwise selection (ISL, Sec. 6.1)
 
 - Forward selection
   1. Start with the minimal model.
@@ -394,9 +398,16 @@ backward.BIC = step(maximal, scope = scope, direction = "backward", k = log(nrow
 stepwise.BIC = step(minimal, scope = scope, direction = "both", k = log(nrow(wage)))
 ```
 
-### Penalization/regularization/shirinkage ([ISL], sec. 6.2)
+### Penalization/regularization/shirinkage (ISL, Sec. 6.2)
 
 - Model/variable selection 
 $\Leftrightarrow$ compressing certain coefficients to zeros
+
+### Pros and cons
+
+- Data-driven
+- Automatic 
+- Model-based: 
+e.g., if using linear models, the model selection relies on the mean of response only.
 
 ## Bibliography
