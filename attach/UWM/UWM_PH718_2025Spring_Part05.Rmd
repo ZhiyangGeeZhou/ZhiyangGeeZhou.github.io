@@ -346,14 +346,14 @@ mod3 <- svyglm(
 
 - Forward selection
   1. Start with the minimal model.
-  1. Add predictors one by one:
+  2. Add predictors one by one:
   consider adding each of the remaining predictors and evaluate how much it improves the model. 
   The evaluation metric can be the improvement in likelihood, AIC, BIC, 
   or any other appropriate metrics.
-  1. Select the best predictor: Add the predictor that improves the model the most 
+  3. Select the best predictor: Add the predictor that improves the model the most 
   (e.g., results in the largest decrease in AIC).
-  1. Repeat steps 2--3 until no significant improvement.
-  1. Final model: 
+  4. Repeat steps 2--3 until no significant improvement.
+  5. Final model: 
   The process stops when no adding may improve the model.
 
 - Backward selection (NOT always doable)
@@ -397,11 +397,6 @@ forward.BIC = step(minimal, scope = scope, direction = "forward", k = log(nrow(w
 backward.BIC = step(maximal, scope = scope, direction = "backward", k = log(nrow(wage)))
 stepwise.BIC = step(minimal, scope = scope, direction = "both", k = log(nrow(wage)))
 ```
-
-### Penalization/regularization/shirinkage (ISL, Sec. 6.2)
-
-- Model/variable selection 
-$\Leftrightarrow$ compressing certain coefficients to zeros
 
 ### Pros and cons
 
