@@ -1,0 +1,449 @@
+---
+title: "PH 718 Data Management and Visualization in `R`"
+subtitle: 'Part 6: Interactive Plotting'
+author: "Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))"
+date: "`r format(Sys.time(), '%Y/%m/%d %H:%M:%S')`"
+output: pdf_document
+---
+
+## Examples of interactive plotting
+
+### Interactive 3D plot of surface z=x^2 + y^2 (also in Part 4: Introduction to `tidyverse`)
+
+```{r, eval = F}
+library(plotly)
+x <- seq(-pi, pi, length = 50)
+y <- x
+z_matrix <- outer(x, y, function(x, y) x^2 + y^2)
+
+plot_ly(x = ~x, y = ~y, z = ~z_matrix, type = "surface", colorscale = "Viridis") %>%
+  layout(
+    title = "3D Surface Plot: f(x, y) = x^2 + y^2",
+    scene = list(
+      xaxis = list(title = "X-axis"),
+      yaxis = list(title = "Y-axis"),
+      zaxis = list(title = "Z-axis")
+    )
+  )
+```
+
+### Interactive scatter plot deployed online
+
+https://shiny.posit.co/
+
+## Interactive plotting
+
+- Why interactive plotting is beneficial
+  - Enhances user engagement by allowing direct interaction with visualizations.
+  - Improves exploration of complex data through 
+  dynamic filtering, zooming, and detailed tooltips,
+  uncovering patterns and insights not immediately apparent from static plots.
+  - Facilitates the presentation of plots without code adjustments.
+
+## `plotly::ggplotly`: converting `ggplot2` figures to interactive ones
+
+### Interactive scatter plot
+
+```{r, eval = F}
+library(tidyverse)
+p <- ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
+  geom_point(size = 3) +
+  labs(title = "Scatter plot of MPG vs Weight",
+       x = "Weight (1000 lbs)",
+       y = "Miles per Gallon",
+       color = "Cylinders") +
+  theme_minimal()
+p  # Basic scatter plot (static)
+plotly::ggplotly(p) # Convert to an interactive plot
+```
+
+The above interactive scatter plot allows:
+
+- Hovering over points to see exact values.
+- Zooming and panning dynamically.
+- Interactive legend for highlighting different cylinder groups.
+
+### Interactive scatter plot with customized tooltips
+
+```{r, eval = F}
+p <- mtcars |>
+  ggplot(aes(
+    x = wt, y = mpg, color = factor(cyl), 
+    text = paste("Model:", rownames(mtcars), "<br>", # HTML tag <br> to initiate a new line
+                 "Cylinders:", cyl, "<br>",
+                 "Horsepower:", hp, "<br>",
+                 "Transmission:", ifelse(am == 0, "Automatic", "Manual"), "<br>",
+                 "Gear:", gear, "<br>",
+                 "Carburetors:", carb)
+  )) +
+  geom_point(size = 3) +
+  labs(title = "Scatter plot of MPG vs Weight",
+       x = "Weight (1000 lbs)",
+       y = "Miles per Gallon",
+       color = "Cylinders") +
+  theme_minimal()
+plotly::ggplotly(
+  p, 
+  # tooltip = c("text", "x", "y") # Hiding factor(cyl)
+)
+```
+
+### Interactive histogram
+
+```{r, eval = F}
+hist_plot <- ggplot(mtcars, aes(x = mpg, fill = factor(cyl))) +
+  geom_histogram(alpha = 0.8, bins = 10) +
+  labs(title = "Histogram of MPG by Cylinders",
+       x = "Miles per Gallon",
+       y = "Count",
+       fill = "Cylinders") +
+  theme_minimal()
+plotly::ggplotly(hist_plot)
+```
+
+### Interactive boxplot
+
+```{r, eval = F}
+box_plot <- ggplot(mtcars, aes(x = factor(cyl), y = mpg, fill = factor(cyl))) +
+  geom_boxplot() +
+  labs(title = "MPG distribution by Cylinders",
+       x = "Cylinders",
+       y = "Miles per Gallon") +
+  theme_minimal()
+plotly::ggplotly(box_plot)
+```
+
+### Interactive line plot
+
+```{r, eval = F}
+line_plot <- ggplot(economics, aes(x = date, y = unemploy)) +
+  geom_line(color = "steelblue") +
+  labs(title = "Unemployment over Time",
+       x = "Year",
+       y = "Number of Unemployed (thousands)") +
+  theme_minimal()
+plotly::ggplotly(line_plot)
+```
+
+### Interactive jitter plot
+
+```{r, eval = F}
+p = starwars %>% 
+  filter(!is.na(height) & !is.na(mass) & mass < 1000) %>%
+  ggplot(
+    aes(x = mass, y = height, color = sex)
+  ) +
+  geom_point() +
+  geom_jitter(
+    width= .2, # each point is randomly moved up to 0.2 units left or right.
+    height= .2, # each point is randomly moved up to 0.2 units up or down.
+    alpha = .2, # the transparency
+    color = "purple"  # color for jittered points
+  ) + 
+  labs(
+    title = "Height vs. Mass",
+    x = "Mass (kg)", y = "Height (cm)"
+  ) +
+  theme_bw()
+plotly::ggplotly(p)
+```
+
+### Interactive histogram with frequency polygon
+
+```{r, eval = F}
+p = starwars %>% 
+  filter(!is.na(height)) %>%
+  ggplot(aes(x = height)) +
+  geom_histogram(bins = 10, fill = "steelblue", color = "black") +
+  geom_freqpoly(bins = 10, color = "orange", size = 1) +
+  labs(title = "Distribution of Character Heights",
+       x = "Height (cm)", y = "Count") +
+  theme_minimal()
+plotly::ggplotly(p)
+```
+
+### Interactive stacked bar plot
+
+```{r, eval = F}
+p = starwars %>% 
+  ggplot(aes(
+    x = fct_rev(species), # Reverses the order of species to correct flipping
+    fill = sex
+  )) + 
+  geom_bar(position = "stack") +  # position = "fill" or "stack"
+  labs(title = "Stacked Bar Chart",
+       x = "Species", y = "Count") +
+  theme_minimal() +
+  coord_flip()
+plotly::ggplotly(p)
+```
+
+### Interactive density plot
+
+```{r, eval = F}
+p = starwars %>%
+  filter(!is.na(mass) & !is.na(sex) & mass<1000) %>%
+  ggplot(aes(x = mass, fill = sex)) +
+  geom_density(alpha = 0.6) + # alpha controls the transparency
+  labs(title = "Density Plot of Mass by sex",
+       x = "Mass (kg)",
+       y = "Density") +
+  theme_minimal()
+plotly::ggplotly(p)
+```
+
+### Interactive violin plot with a box plot inside
+
+```{r, eval = F}
+p = starwars %>%
+  ggplot(aes(x = sex, y = height, fill = sex)) +
+  geom_violin(alpha = 0.5) + 
+  geom_boxplot(width = 0.1) +  
+  labs(title = "Violin Plot with Box Plot",
+       x = "sex", y = "Height (cm)") +
+  theme_minimal()
+plotly::ggplotly(p)
+```
+
+### Interactive heatmap
+
+```{r, eval = F}
+cor_df <- as.data.frame(cor(mtcars)) %>%
+  rownames_to_column(var = "Var1") %>%
+  pivot_longer(cols = -Var1, names_to = "Var2", values_to = "Correlation")
+cor_df <- cor_df %>%
+  mutate(Var2 = factor(Var2, levels = rev(sort(unique(Var2)))))
+p = ggplot(cor_df, aes(Var1, Var2, fill = Correlation)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "red") +
+  labs(title = "Heatmap of mtcars Correlation Matrix",
+       x = "Variable", y = "Variable") +
+  theme_minimal()
+plotly::ggplotly(p)
+```
+
+## `plotly::plot_ly`: creating custom interactive plots from scratch
+
+### Interactive scatter plot
+
+```{r, eval = F}
+plotly::plot_ly(
+  data = mtcars,
+  x = ~wt,
+  y = ~mpg,
+  type = "scatter", mode = "markers", # Scatter plot
+  color = ~factor(cyl),           # Color by cylinder (categorical)
+  marker = list(size = 10),       # Marker size
+  text = ~paste("Cylinders:", cyl,
+                "<br>MPG:", mpg,
+                "<br>Weight:", wt),  # Tooltip
+  hoverinfo = "text"              # Show only custom text on hover
+) %>% plotly::layout(
+    title = "Scatter plot of MPG vs Weight",
+    xaxis = list(title = "Weight (1000 lbs)"),
+    yaxis = list(title = "Miles per Gallon"),
+    legend = list(title = list(text = "Cylinders"))
+  )
+```
+
+### Interactive histogram
+
+```{r, eval = F}
+plotly::plot_ly(
+  data = mtcars, 
+  x = ~mpg, 
+  color = ~factor(cyl), 
+  type = "histogram",
+  nbinsx = 20, 
+  opacity = 0.8
+) %>% plotly::layout(
+  title = "Histogram of MPG by Cylinders",
+  xaxis = list(title = "Miles per Gallon"),
+  yaxis = list(title = "Count"),
+  barmode = "stack",  # stacked histogram
+  legend = list(title = list(text = "Cylinders"))
+)
+```
+
+### Interactive boxplot
+
+```{r, eval = F}
+plotly::plot_ly(
+  data = mtcars,
+  x = ~factor(cyl),
+  y = ~mpg,
+  color = ~factor(cyl),
+  type = "box"
+) %>% plotly::layout(
+  title = "MPG distribution by Cylinders",
+  xaxis = list(title = "Cylinders"),
+  yaxis = list(title = "Miles per Gallon"),
+  legend = list(title = list(text = "Cylinders"))
+)
+```
+
+### Interactive line plot
+
+```{r, eval = F}
+plotly::plot_ly(
+  data = economics,
+  x = ~date,
+  y = ~unemploy,
+  type = "scatter",
+  mode = "lines",
+  line = list(color = "steelblue")
+) %>% plotly::layout(
+  title = "Unemployment over Time",
+  xaxis = list(title = "Year"),
+  yaxis = list(title = "Number of Unemployed (thousands)")
+)
+```
+
+### Interactive stacked bar plot
+
+```{r, eval = F}
+starwars %>% 
+  filter(!is.na(species), !is.na(sex)) %>%
+  count(species, sex) %>%
+  mutate(species = fct_rev(as.factor(species))) %>% 
+  plotly::plot_ly(
+    x = ~n,
+    y = ~species,
+    color = ~sex,
+    type = "bar",
+    orientation = "h"
+  ) %>% plotly::layout(
+    barmode = "stack",
+    title = "Stacked Bar Chart",
+    xaxis = list(title = "Count"),
+    yaxis = list(title = "Species"),
+    legend = list(title = list(text = "Sex")),
+    template = "plotly_white"
+  )
+```
+
+### Interactive violin plot with a box plot inside
+
+```{r, eval = F}
+starwars %>%
+  filter(!is.na(height), !is.na(sex)) |>
+  plotly::plot_ly(
+    x = ~sex,
+    y = ~height,
+    type = "violin",
+    split = ~sex,
+    box = list(visible = TRUE),         # adds boxplot inside
+    meanline = list(visible = TRUE),    # optional: shows mean
+    fillcolor = "rgba(100,100,255,0.5)",# semi-transparent fill
+    opacity = 0.5,
+    line = list(color = "black"),
+    showlegend = FALSE
+  ) %>% plotly::layout(
+    title = "Violin Plot with Box Plot",
+    xaxis = list(title = "Sex"),
+    yaxis = list(title = "Height (cm)"),
+    template = "plotly_white"
+  )
+```
+
+### Interactive heatmap
+
+```{r, eval = F}
+cor_df <- as.data.frame(cor(mtcars)) %>%
+  rownames_to_column(var = "Var1") %>%
+  pivot_longer(cols = -Var1, names_to = "Var2", values_to = "Correlation")
+cor_df <- cor_df %>%
+  mutate(Var2 = factor(Var2, levels = rev(sort(unique(Var2)))))
+plotly::plot_ly(
+  data = cor_df,
+  x = ~Var1,
+  y = ~Var2,
+  z = ~Correlation,
+  type = "heatmap",
+  colors = c("white", "red"),
+  colorbar = list(title = "Correlation")
+) %>% plotly::layout(
+  title = "Heatmap of mtcars Correlation Matrix",
+  xaxis = list(title = "Variable"),
+  yaxis = list(title = "Variable")
+)
+```
+
+### Interactive 3D scatter plot
+
+```{r, eval = F}
+plotly::plot_ly(
+  data = mtcars,
+  x = ~wt,
+  y = ~mpg,
+  z = ~hp,
+  type = "scatter3d",
+  mode = "markers",
+  color = ~factor(cyl)
+)
+```
+
+### Interactive 3D surface plot---visualizing a bivariate function
+
+```{r, eval = F}
+x <- seq(-10, 10, length.out = 50)
+y <- x
+z <- outer(x, y, function(x, y) cos(sqrt(x^2 + y^2)))
+plotly::plot_ly(
+  x = ~x, y = ~y, z = ~z,
+  type = "surface"
+) %>% plotly::layout(title = "3D Surface Plot")
+```
+
+### Interactive geographic map
+
+```{r, eval = F}
+df <- data.frame(
+  city = c("New York", "London", "Tokyo"),
+  lat = c(40.7128, 51.5074, 35.6895),
+  lon = c(-74.0060, -0.1278, 139.6917)
+)
+plotly::plot_ly(
+  data = df,
+  type = "scattergeo",
+  mode = "markers",
+  lat = ~lat,
+  lon = ~lon,
+  text = ~city,
+  marker = list(size = 10, color = "blue")
+) %>% plotly::layout(
+  geo = list(
+    projection = list(type = "orthographic"),
+    showland = TRUE
+  ),
+  title = "Cities on a Globe"
+)
+```
+
+## Summary: `plotly::plot_ly` vs `plotly::ggplotly`
+
+### Quick Comparison: `plot_ly()` vs `ggplotly()`
+
+| Feature           | `plot_ly()`                        | `ggplotly()`                           |
+|------------------|------------------------------------|----------------------------------------|
+| Style            | Build from scratch                 | Convert from `ggplot2`                 |
+| Syntax           | Plotly-native                      | `ggplot2`-based                        |
+| Flexibility      | High (fine control)                | Moderate (tied to `ggplot2`)           |
+| Tooltips         | Custom via `text`, `tooltip`       | From `aes(text = ...)`                 |
+| Layout Control   | Full via `layout()`                | Partial via `theme()`                  |
+| Best For         | Dashboards, 3D, maps, full control | Quick interactivity for `ggplot2` plots |
+
+### When to use which?
+
+- Use `ggplotly` when:
+  - You already have a `ggplot2` plot and want to add interactivity
+  - You want a fast way to enable zoom, pan, hover, and tooltips.
+  - You're more comfortable with ggplot2 syntax.
+
+- Use `plot_ly` when:
+  - You want full control over every interactive aspect (like hover behavior, annotations, animations).
+  - You're building web dashboards (e.g., with shiny) and want lightweight plots.
+  - You're working with `plotly`-specific types like 3D plots and maps.
+
+
+
