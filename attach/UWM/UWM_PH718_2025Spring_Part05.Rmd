@@ -340,7 +340,15 @@ mod3 <- svyglm(
 )
 ```
 
-## Model/variable selection
+## Model/variable selection (optional)
+
+- Primary goals
+  - Selecting the most relevant variables: 
+  (potentially) reducing noise and overfitting, and
+  (potentially) improving, model prediction, interpretability and computational efficiency.
+  - Avoiding multicollinearity:
+  Eliminates redundant or highly correlated variables, 
+  stabilizing model estimates and improving reliability.
 
 ### Forward/backward/stepwise selection (ISL, Sec. 6.1)
 
@@ -384,7 +392,11 @@ minimal = lm(
   data=wage
 )
 maximal = lm(
-  ln_wage~(age_sqrt+maritl+race+education+health)^2, 
+  ln_wage~(age_sqrt+maritl+race+education+health)^2, # the five main effects and all 2fi's involving them, equiv. 
+  # ln_wage ~ age_sqrt + maritl + race + education + health +
+  #     age_sqrt:maritl + age_sqrt:race + age_sqrt:education + age_sqrt:health +
+  #     maritl:race + maritl:education + maritl:health +
+  #     race:education + race:health + education:health
   data=wage
 )
 scope = list(lower = minimal, upper = maximal)
@@ -400,9 +412,26 @@ stepwise.BIC = step(minimal, scope = scope, direction = "both", k = log(nrow(wag
 
 ### Pros and cons
 
-- Data-driven
-- Automatic 
+- Data-driven and automatic model simplification
+- Unlikely to yield models with multicollinearity
 - Model-based: 
-e.g., if using linear models, the model selection relies on the mean of response only.
+e.g., the recommended variables above sticks to linear models
+
+## Potentially inconsistent recommendations given by distinct approaches (optional)
+
+```{r, eval = F}
+# Two models recommended by AIC and BIC, respectively
+summary(stepwise.AIC)
+summary(stepwise.BIC)
+```
+
+- Discussion amd comparison from multiple perspectives
+  - Model interpretability:
+  Evaluate whether one model aligns better with theoretical expectations or domain knowledge.
+  Simpler model may be preferred for ease of interpretation and lower risk of overfitting.
+  - Predictive performance:
+  Use cross-validation (ISL, Sec. 5.1) to compare predictive accuracy
+  - Residual diagnostics:
+  Check residual plots for each model to see if one fits assumptions better.
 
 ## Bibliography
