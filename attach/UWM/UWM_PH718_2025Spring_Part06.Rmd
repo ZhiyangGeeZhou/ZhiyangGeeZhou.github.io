@@ -4,41 +4,57 @@ subtitle: 'Part 6: Interactive Plotting'
 author: "Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))"
 date: "`r format(Sys.time(), '%Y/%m/%d %H:%M:%S')`"
 output: pdf_document
+bibliography: UWM_PH718_2025Spring_Part06.bib
+link-citations: true
+header-includes:
+  - \usepackage{color}
+  - \usepackage{fancyhdr}
+  - \fancypagestyle{plain}{\pagestyle{fancy}}
+  - \fancyhead{}
+  - \fancyfoot[L]{With acknowledgment to Dr. Kourosh Ravvaz for sharing course materials.}
+  - \fancyfoot[c]{}
 ---
 
 ## Examples of interactive plotting
 
-### Interactive 3D plot of surface z=x^2 + y^2 (also in Part 4: Introduction to `tidyverse`)
+### Example 1: Interactive 3D plot of surface z=x^2 + y^2 (also in Part 4: Introduction to `tidyverse`)
 
 ```{r, eval = F}
-library(plotly)
 x <- seq(-pi, pi, length = 50)
 y <- x
 z_matrix <- outer(x, y, function(x, y) x^2 + y^2)
 
-plot_ly(x = ~x, y = ~y, z = ~z_matrix, type = "surface", colorscale = "Viridis") %>%
-  layout(
-    title = "3D Surface Plot: f(x, y) = x^2 + y^2",
-    scene = list(
-      xaxis = list(title = "X-axis"),
-      yaxis = list(title = "Y-axis"),
-      zaxis = list(title = "Z-axis")
-    )
+plotly::plot_ly(
+  x = ~x, y = ~y, z = ~z_matrix, 
+  type = "surface", 
+  colorscale = "Viridis"
+) |> plotly::layout(
+  title = "3D Surface Plot: f(x, y) = x^2 + y^2",
+  scene = list(
+    xaxis = list(title = "X-axis"),
+    yaxis = list(title = "Y-axis"),
+    zaxis = list(title = "Z-axis")
   )
+)
 ```
 
-### Interactive scatter plot deployed online
+### Example 2: Interactive scatter plot deployed online
 
 https://shiny.posit.co/
 
-## Interactive plotting
+### Example 3: Interactive maps developed by the US Census Bureau
 
-- Why interactive plotting is beneficial
-  - Enhances user engagement by allowing direct interaction with visualizations.
-  - Improves exploration of complex data through 
-  dynamic filtering, zooming, and detailed tooltips,
-  uncovering patterns and insights not immediately apparent from static plots.
-  - Facilitates the presentation of plots without code adjustments.
+https://www.census.gov/programs-surveys/geography/data/interactive-maps.html
+
+##  Why interactive plotting is beneficial
+
+- Enhances user engagement by allowing direct interaction with visualizations.
+- Improves exploration of complex data through 
+dynamic filtering, zooming, and detailed tooltips,
+uncovering patterns and insights not immediately apparent from static plots.
+- Facilitates the presentation of plots without code adjustments.
+
+---
 
 ## `plotly::ggplotly`: converting `ggplot2` figures to interactive ones
 
@@ -395,7 +411,7 @@ plotly::plot_ly(
 ) %>% plotly::layout(title = "3D Surface Plot")
 ```
 
-### Interactive geographic map
+### Interactive geographic map: hightlighting coordinates
 
 ```{r, eval = F}
 df <- data.frame(
@@ -413,12 +429,83 @@ plotly::plot_ly(
   marker = list(size = 10, color = "blue")
 ) %>% plotly::layout(
   geo = list(
-    projection = list(type = "orthographic"),
+    projection = list(type = "orthographic"), "natural earth" or "orthographic"
     showland = TRUE
   ),
   title = "Cities on a Globe"
 )
 ```
+
+### Interactive geographic map: hightlighting states in US
+
+```{r, eval = F}
+plotly::plot_ly(
+  type = "choropleth",
+  locations = c("USA", "CAN", "AUS"), # ISO 3166-1 alpha-3 codes
+  locationmode = "ISO-3",
+  z = c(1,2,3),  # c(1,2,3): means one color for each country
+  colorscale = list(c(0, "lightgray"), c(1, "steelblue")),  # Color scale
+  showscale = F
+) |> plotly::layout(
+  geo = list(
+    showframe = T,
+    showcoastlines = TRUE,
+    projection = list(type = "orthographic")  #  "natural earth" or "orthographic"
+  ),
+  title = ""
+)
+```
+
+### Interactive geographic map: hightlighting Wisconsin on a USA Map
+
+```{r, eval = F}
+plotly::plot_ly(
+  type = "choropleth",
+  locations = c("WI", "AK"),
+  locationmode = "USA-states",
+  z = c(1,1),  # c(1,1): means one color for all
+  colorscale = list(c(0, "lightgray"), c(1, "forestgreen")),  # Color scale
+  showscale = F
+) |> plotly::layout(
+  geo = list(
+    scope = "usa",
+    showlakes = TRUE,
+    lakecolor = "lightblue"
+  ),
+  title = "Wisconsin and Alaska"
+)
+```
+
+### A dashboard combining multiple interactive plots into a single layout
+
+```{r, eval = F}
+p1 <- plotly::plot_ly(
+  mtcars, 
+  x = ~mpg, 
+  type = "histogram", 
+  name = "MPG"
+)
+p2 <- plotly::plot_ly(
+  mtcars, 
+  x = ~wt, y = ~mpg, 
+  type = "scatter", mode = "markers", 
+  name = "MPG vs Weight"
+)
+p3 <- plotly::plot_ly(
+  mtcars, 
+  x = ~cyl, y = ~hp, 
+  type = "box", 
+  name = "HP by Cylinders"
+)
+plotly::subplot(
+  p1, p2, p3, 
+  nrows = 2, margin = 0.05, 
+  titleX = TRUE, titleY = TRUE
+) %>% plotly::layout(
+  title = "Mini Dashboard with plotly"
+)
+```
+
 
 ## Summary: `plotly::plot_ly` vs `plotly::ggplotly`
 
@@ -430,8 +517,8 @@ plotly::plot_ly(
 | Syntax           | Plotly-native                      | `ggplot2`-based                        |
 | Flexibility      | High (fine control)                | Moderate (tied to `ggplot2`)           |
 | Tooltips         | Custom via `text`, `tooltip`       | From `aes(text = ...)`                 |
-| Layout Control   | Full via `layout()`                | Partial via `theme()`                  |
-| Best For         | Dashboards, 3D, maps, full control | Quick interactivity for `ggplot2` plots |
+| Layout control   | Full via `layout()`                | Partial via `theme()`                  |
+| Best for         | Dashboards, 3D, maps, full control | Quick interactivity for `ggplot2` plots |
 
 ### When to use which?
 
@@ -444,6 +531,540 @@ plotly::plot_ly(
   - You want full control over every interactive aspect (like hover behavior, annotations, animations).
   - You're building web dashboards (e.g., with shiny) and want lightweight plots.
   - You're working with `plotly`-specific types like 3D plots and maps.
+
+---
+
+## What is `R` Shiny
+
+- An `R` package allowing users to create interactive web applications (apps) 
+directly from R without the need for extensive web development knowledge
+
+- References: 
+  - Mastering Shiny: https://mastering-shiny.org/
+  - Cheatsheet: https://raw.githubusercontent.com/rstudio/cheatsheets/main/shiny.pdf
+
+## Key features of `R` Shiny
+
+- Create sophisticated interactive web apps directly from `R`
+
+- Integrate seamlessly with other languages like HTML, CSS, and JavaScript
+
+- Facilitate easy sharing of apps both online and internally
+
+- Supports reactive programming for dynamic content
+
+## Structure of a `R` Shiny app
+
+- User interface (UI): defines the layout and appearance of the app
+
+- Server: Contains `R` code and reactive expressions that generate the app's outputs based on user interactions
+
+## The first `R` Shiny app: interactive bar plot of `WorldPhones` data
+
+### Step 1
+
+```{r, eval = F}
+library(shiny)
+# Use a fluid page layout
+ui <- fluidPage()
+# Define a server for the Shiny app
+server <- function(input, output) {}
+# Return a Shiny app object
+shinyApp(ui = ui, server = server)
+```
+
+### Step 2
+
+```{r, eval = F}
+library(shiny)
+# Use a fluid page layout
+ui <- fluidPage(
+  # Give the page a title
+  titlePanel("Telephones by region")
+)
+# Define a server for the Shiny app
+server <- function(input, output) {}
+# Return a Shiny app object
+shinyApp(ui = ui, server = server)
+```
+
+### Step 3
+
+```{r, eval = F}
+library(shiny)
+# Use a fluid page layout
+ui <- fluidPage(
+  # Give the page a title
+  titlePanel("Telephones by region"),
+  # Layout a sidebar and main area
+  sidebarLayout(
+    # Define the sidebar 
+    sidebarPanel(
+      selectInput(
+        inputId = "region", 
+        label = "Region:",
+        choices=colnames(WorldPhones)
+      )
+    ),
+    # Create a spot for the main area 
+    mainPanel(
+      plotOutput("phonePlot")
+    )
+  )
+)
+# Define a server for the Shiny app
+server <- function(input, output) {
+}
+# Return a Shiny app object
+shinyApp(ui = ui, server = server)
+```
+
+### Step 4
+
+```{r, eval = F}
+library(shiny)
+# Use a fluid page layout
+ui <- fluidPage(
+  # Give the page a title
+  titlePanel("Telephones by region"),
+  # Layout a sidebar and main area
+  sidebarLayout(
+    # Define the sidebar 
+    sidebarPanel(
+      selectInput(
+        inputId = "region", 
+        label = "Region:",
+        choices=colnames(WorldPhones)
+      )
+    ),
+    # Create a spot for the main area 
+    mainPanel(
+      plotOutput("phonePlot")
+    )
+  )
+)
+# Define a server for the Shiny app
+server <- function(input, output) {
+  # Fill in the spot we created for a plot
+  output$phonePlot <- renderPlot(
+    # Render a barplot
+    barplot(
+      WorldPhones[,input$region]*1000,
+      main=input$region,
+      ylab="Number of Telephones",
+      xlab="Year"
+    )
+  )
+}
+# Return a Shiny app object
+shinyApp(ui = ui, server = server)
+```
+
+![Three panels](panels.png)
+
+### Step 5
+
+```{r, eval = F}
+library(shiny)
+# Use a fluid page layout
+ui <- fluidPage(
+  # Give the page a title
+  titlePanel("Telephones by region"),
+  # Layout a sidebar and main area
+  sidebarLayout(
+    # Define the sidebar 
+    sidebarPanel(
+      selectInput(
+        inputId = "region", 
+        label = "Region:",
+        choices=colnames(WorldPhones)
+      )
+    ),
+    # Create a spot for the main area 
+    mainPanel(
+      plotOutput("phonePlot")
+    )
+  )
+)
+# Define a server for the Shiny app
+server <- function(input, output) {
+  # Fill in the spot we created for a plot
+  output$phonePlot <- renderPlot(
+    # Render a barplot
+    barplot(
+      WorldPhones[,input$region]*1000,
+      main=input$region,
+      ylab="Number of Telephones",
+      xlab="Year"
+    )
+  )
+}
+# Return a Shiny app object
+shinyApp(ui = ui, server = server)
+```
+
+### Step 6
+
+```{r, eval = F}
+library(shiny)
+# Use a fluid page layout
+ui <- fluidPage(
+  # Give the page a title
+  titlePanel("Telephones by region"),
+  # Layout a sidebar and main area
+  sidebarLayout(
+    # Define the sidebar 
+    sidebarPanel(
+      selectInput(
+        inputId = "region", 
+        label = "Region:",
+        choices=colnames(WorldPhones)
+      ),
+      helpText("Data from AT&T (1961) The World's Telephones.")
+    ),
+    # Create a spot for the main area 
+    mainPanel(
+      plotOutput("phonePlot")
+    )
+  )
+)
+# Define a server for the Shiny app
+server <- function(input, output) {
+  # Fill in the spot we created for a plot
+  output$phonePlot <- renderPlot(
+    # Render a barplot
+    barplot(
+      WorldPhones[,input$region]*1000,
+      main = input$region,
+      ylab = "Number of Telephones",
+      xlab = "Year"
+    )
+  )
+}
+# Return a Shiny app object
+shinyApp(ui = ui, server = server)
+```
+
+### Step 7: if using bar plots generated via `ggplot2`
+
+```{r, eval = F}
+library(shiny)
+library(tidyverse)
+# Use a fluid page layout
+ui <- fluidPage(
+  # Give the page a title
+  titlePanel("Telephones by region"),
+  # Layout a sidebar and main area
+  sidebarLayout(
+    # Define the sidebar 
+    sidebarPanel(
+      selectInput(
+        inputId = "region", 
+        label = "Region:",
+        choices=colnames(WorldPhones)
+      ),
+      helpText("Data from AT&T (1961) The World's Telephones.")
+    ),
+    # Create a spot for the main area 
+    mainPanel(
+      plotOutput("phonePlot")
+    )
+  )
+)
+# Define a server for the Shiny app
+server <- function(input, output) {
+  # Fill in the spot we created for a plot
+  output$phonePlot <- renderPlot(
+    # Render a ggplot2 bar plot
+    WorldPhones |>
+      ggplot(aes(x = rownames(WorldPhones), y = WorldPhones[, input$region] * 1000)) +
+      geom_bar(stat = "identity") +
+      labs(
+        title = input$region,
+        x = "Year",
+        y = "Number of Telephones"
+      )
+  )
+}
+# Return a Shiny app object
+shinyApp(ui = ui, server = server)
+```
+
+### Step 8: if using bar plots generated via `plot_ly`
+
+```{r, eval = F}
+library(shiny)
+library(plotly)
+# Use a fluid page layout
+ui <- fluidPage(
+  # Give the page a title
+  titlePanel("Telephones by region"),
+  # Layout a sidebar panel and main panel
+  sidebarLayout(
+    # Define the sidebar 
+    sidebarPanel(
+      selectInput(
+        inputId = "region", 
+        label = "Region:",
+        choices=colnames(WorldPhones)
+      ),
+      helpText("Data from AT&T (1961) The World's Telephones.")
+    ),
+    # Create a spot for the main area 
+    mainPanel(
+      plotlyOutput("phonePlot") # plotOutpu -> plotlyOutput
+    )
+  )
+)
+# Define a server for the Shiny app
+server <- function(input, output) {
+  # Fill in the spot we created for a plot
+  output$phonePlot <- renderPlotly( # renderPlot -> renderPlotly
+    # Render a plot_ly barplot
+    plot_ly(
+      x = rownames(WorldPhones),  # Years from row names
+      y = WorldPhones[, input$region] * 1000,  # Data for selected region, scaled
+      type = "bar",
+      name = input$region
+    ) %>% layout(
+      title = input$region,
+      xaxis = list(title = "Year"),
+      yaxis = list(title = "Number of Telephones")
+    )
+  )
+}
+# Return a Shiny app object
+shinyApp(ui = ui, server = server)
+```
+
+## The second `R` Shiny app: interactive plots of `agridat::beaven.barley` data
+
+```{r, eval = F}
+library(shiny)
+library(tidyverse)
+
+Barley <- as.data.frame(agridat::beaven.barley)
+ui <- fluidPage(
+  titlePanel("Barley Yield"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "gen",  # Give the input a name "genotype"
+        label = "1. Select genotype",
+        choices = c(
+          "A" = "a",
+          "B" = "b",
+          "C" = "c",
+          "D" = "d",
+          "E" = "e",
+          "F" = "f",
+          "G" = "g",
+          "H" = "h"
+        ), 
+        selected = "a"
+      ),
+      selectInput(
+        inputId = "color",
+        label = "2. Select the color of histogram frame",
+        choices = c("blue","green","red","purple","grey"),
+        selected = "grey"
+      ),
+      selectInput(
+        inputId = "fill",
+        label = "3. Select the color of histogram bins",
+        choices = c("blue","green","red","purple","grey"), 
+        selected = "grey"
+      ),
+      sliderInput(
+        inputId = "bin",
+        label = "4. Select number of histogram bins",
+        min = 1, max= 25, step = 2, round = T,
+        value= 10 # Initial value
+      ),
+      textInput(
+        inputId = "text",
+        label = "4. Enter some text to be displayed", 
+        value = "" # Initial value
+      )
+    ),
+    mainPanel(
+      plotOutput("myhist"),
+      tableOutput("mytable"),
+      textOutput("mytext")
+    )
+  )
+)
+
+server <- function(input, output) {
+  output$myhist <- renderPlot(
+    ggplot(Barley, aes(x = yield)) +
+      geom_histogram(
+        bins = input$bin, group=input$gen,
+        data=Barley[Barley$gen == input$gen,],
+        color = input$color,
+        fill = input$fill
+      )
+    )
+  output$mytext <- renderText(input$text)
+  output$mytable <- renderTable({
+    Barley %>%
+      filter(gen == input$gen) %>%
+      summarise(
+        "Mean" = mean(yield),
+        "Median" = median(yield),
+        "STDEV" = sd(yield),
+        "Min" = min(yield),
+        "Max" = max(yield)
+      )
+    })
+}
+
+# Return a Shiny app object
+shinyApp(ui = ui, server = server)
+```
+
+## The third `R` Shiny app: visualizing movie ratings from IMDb
+
+https://shiny.posit.co/r/getstarted/build-an-app/hello-shiny/getting-started.html
+
+```{r, eval = F}
+library(shiny)
+library(tidyverse)
+
+# Get the data
+# An .RData file is a file format used in R to save and store R objects 
+# (such as data 3 frames, lists, vectors, functions, or entire workspaces)
+# E.g., use save.image(file = "workspace.RData") to save the entire workspace.
+
+url <- "https://github.com/rstudio-education/shiny-course/raw/main/movies.RData"
+destfile <- "movies.RData"
+download.file(url, destfile) # save movies.RData in a temporary dir
+load(destfile)
+
+ui <- fluidPage(sidebarLayout(
+  sidebarPanel(
+    selectInput(
+      inputId = "x",
+      label = "X-axis:",
+      choices = c(
+        "IMDB rating"          = "imdb_rating",
+        "IMDB number of votes" = "imdb_num_votes",
+        "Critics score"        = "critics_score",
+        "Audience score"       = "audience_score",
+        "Runtime"              = "runtime"
+      ),
+      selected = "audience_score"
+    ),
+    selectInput(
+      inputId = "y",
+      label = "Y-axis:",
+      choices = c(
+        "IMDB rating"          = "imdb_rating",
+        "IMDB number of votes" = "imdb_num_votes",
+        "Critics score"        = "critics_score",
+        "Audience score"       = "audience_score",
+        "Runtime"              = "runtime"
+      ),
+      selected = "critics_score"
+    ),
+    selectInput(
+      inputId = "z",
+      label = "Color by:",
+      choices = c(
+        "Title type" = "title_type",
+        "Genre" = "genre",
+        "MPAA rating" = "mpaa_rating",
+        "Critics rating" = "critics_rating",
+        "Audience rating" = "audience_rating"
+      ),
+      selected = "mpaa_rating"
+    ),
+    sliderInput(
+      inputId = "opacity",
+      label = "Opacity:",
+      min = 0, max = 1,
+      value = 0.5
+    ),
+    dateRangeInput(
+      inputId = "date",
+      label = "Select dates:",
+      start = min(as.Date(movies$thtr_rel_date)), 
+      end = max(as.Date(movies$thtr_rel_date)),
+      min = min(as.Date(movies$thtr_rel_date)),
+      max = max(as.Date(movies$thtr_rel_date)),
+      startview = "year"
+    ),
+    checkboxInput(
+      inputId = "show_data",
+      label = "Show data table", 
+      value = TRUE
+    ),
+    downloadButton(outputId = "download_data", label = "Download Data")
+  ),
+  mainPanel(
+    plotOutput(outputId = "scatterplot"),
+    plotOutput(outputId = "densityplot", height = 200),
+    DT::dataTableOutput(outputId = "moviestable")
+  )
+))
+
+server <- function(input, output) {
+  output$scatterplot <- renderPlot({
+    movies |> filter(
+      thtr_rel_date >= as.POSIXct(input$date[1]) &
+      thtr_rel_date <= as.POSIXct(input$date[2])
+    ) |>  ggplot(
+      aes(x = .data[[input$x]], y = .data[[input$y]], color = .data[[input$z]])
+    ) +
+    geom_point(alpha = input$opacity)
+  })
+  
+  output$densityplot <- renderPlot({
+    movies |> filter(
+      thtr_rel_date >= as.POSIXct(input$date[1]) &
+      thtr_rel_date <= as.POSIXct(input$date[2])
+    ) |>
+      ggplot(aes(x = .data[[input$x]])) +
+      geom_density()
+  })
+  
+  output$moviestable <- DT::renderDT({
+    if(input$show_data == T){
+      movies |> filter(
+        thtr_rel_date >= as.POSIXct(input$date[1]) &
+        thtr_rel_date <= as.POSIXct(input$date[2])
+      ) |> DT::datatable(
+        options = list(pageLength = 10), rownames = FALSE)
+    }
+  })
+  
+  output$download_data <- downloadHandler(
+    filename = function() {
+      paste("movies_filtered_", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(
+        movies |> filter(
+          thtr_rel_date >= as.POSIXct(input$date[1]) &
+          thtr_rel_date <= as.POSIXct(input$date[2])
+        ), 
+        file, 
+        row.names = FALSE
+      )
+    }
+  )
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+<!-- ## Summary -->
+
+<!-- ### Different input widgets -->
+
+<!-- ![Inputs](cheatsheet-inputs.png) -->
+
+
 
 
 
