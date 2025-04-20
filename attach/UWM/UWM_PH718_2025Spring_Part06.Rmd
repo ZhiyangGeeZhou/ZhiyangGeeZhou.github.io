@@ -4,8 +4,8 @@ subtitle: 'Part 6: Interactive Plotting'
 author: "Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))"
 date: "`r format(Sys.time(), '%Y/%m/%d %H:%M:%S')`"
 output: pdf_document
-bibliography: UWM_PH718_2025Spring_Part06.bib
-link-citations: true
+# bibliography: UWM_PH718_2025Spring_Part06.bib
+# link-citations: true
 header-includes:
   - \usepackage{color}
   - \usepackage{fancyhdr}
@@ -100,7 +100,7 @@ p <- mtcars |>
   theme_minimal()
 plotly::ggplotly(
   p, 
-  # tooltip = c("text", "x", "y") # Hiding factor(cyl)
+  tooltip = c("text", "x", "y") # Hiding color
 )
 ```
 
@@ -254,12 +254,12 @@ plotly::plot_ly(
                 "<br>MPG:", mpg,
                 "<br>Weight:", wt),  # Tooltip
   hoverinfo = "text"              # Show only custom text on hover
-) %>% plotly::layout(
-    title = "Scatter plot of MPG vs Weight",
-    xaxis = list(title = "Weight (1000 lbs)"),
-    yaxis = list(title = "Miles per Gallon"),
-    legend = list(title = list(text = "Cylinders"))
-  )
+) |> plotly::layout(
+  title = "Scatter plot of MPG vs Weight",
+  xaxis = list(title = "Weight (1000 lbs)"),
+  yaxis = list(title = "Miles per Gallon"),
+  legend = list(title = list(text = "Cylinders"))
+)
 ```
 
 ### Interactive histogram
@@ -429,47 +429,47 @@ plotly::plot_ly(
   marker = list(size = 10, color = "blue")
 ) %>% plotly::layout(
   geo = list(
-    projection = list(type = "orthographic"), "natural earth" or "orthographic"
+    projection = list(type = "natural earth"), # "natural earth" or "orthographic"
     showland = TRUE
   ),
   title = "Cities on a Globe"
 )
 ```
 
-### Interactive geographic map: hightlighting states in US
+### Interactive geographic map: hightlighting countries
 
 ```{r, eval = F}
 plotly::plot_ly(
   type = "choropleth",
   locations = c("USA", "CAN", "AUS"), # ISO 3166-1 alpha-3 codes
   locationmode = "ISO-3",
-  z = c(1,2,3),  # c(1,2,3): means one color for each country
+  z = c(1,1,3),  # c(1,2,3): means one color for each country
   colorscale = list(c(0, "lightgray"), c(1, "steelblue")),  # Color scale
   showscale = F
 ) |> plotly::layout(
   geo = list(
     showframe = T,
     showcoastlines = TRUE,
-    projection = list(type = "orthographic")  #  "natural earth" or "orthographic"
+    projection = list(type = "natural earth")  #  "natural earth" or "orthographic"
   ),
   title = ""
 )
 ```
 
-### Interactive geographic map: hightlighting Wisconsin on a USA Map
+### Interactive geographic map: hightlighting Wisconsin on a US Map
 
 ```{r, eval = F}
 plotly::plot_ly(
   type = "choropleth",
-  locations = c("WI", "AK"),
+  locations = c("WI", "AK", "MN"),
   locationmode = "USA-states",
-  z = c(1,1),  # c(1,1): means one color for all
+  z = c(10000,5000, 3000),  # c(1,1): means one color for all
   colorscale = list(c(0, "lightgray"), c(1, "forestgreen")),  # Color scale
   showscale = F
 ) |> plotly::layout(
   geo = list(
     scope = "usa",
-    showlakes = TRUE,
+    showlakes = F,
     lakecolor = "lightblue"
   ),
   title = "Wisconsin and Alaska"
@@ -499,7 +499,7 @@ p3 <- plotly::plot_ly(
 )
 plotly::subplot(
   p1, p2, p3, 
-  nrows = 2, margin = 0.05, 
+  nrows = 1, margin = 0.05, 
   titleX = TRUE, titleY = TRUE
 ) %>% plotly::layout(
   title = "Mini Dashboard with plotly"
@@ -607,9 +607,7 @@ ui <- fluidPage(
       )
     ),
     # Create a spot for the main area 
-    mainPanel(
-      plotOutput("phonePlot")
-    )
+    mainPanel()
   )
 )
 # Define a server for the Shiny app
@@ -1058,13 +1056,768 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 ```
 
-<!-- ## Summary -->
+## Reactive programming
 
-<!-- ### Different input widgets -->
+- A programming paradigm that automatically updates outputs 
+when inputs change, without you needing to write manual control flow logic.
 
-<!-- ![Inputs](cheatsheet-inputs.png) -->
+- In Shiny, reactive programming is what enables your app to respond to user input and update UI elements in real time.
+  - E.g., user adjusts a slider → a reactive expression recalculates → a plot/table/text output updates accordingly
 
+- Key reactive building blocks in `R` Shiny
 
+| Function         | Purpose                                                   |
+|------------------|------------------------------------------------------------|
+| `input$...`       | Access values from UI inputs                              |
+| `output$...`      | Assign reactive outputs to UI placeholders                |
+| `render*()`       | Create outputs that react to input changes                |
+| `reactive()`      | Define a reusable reactive expression (returns a value)   |
+| `observe()`       | Perform side effects when inputs change (no return value) |
+| `observeEvent()`  | Trigger action when a specific input changes              |
+| `isolate()`       | Prevent reactive tracking of an expression                |
 
+- Use `reactive()` when you want to re-use a computation across multiple outputs
 
+```{r, eval = F}
+library(shiny)
+library(tidyverse)
 
+# Get the data
+# An .RData file is a file format used in R to save and store R objects 
+# (such as data 3 frames, lists, vectors, functions, or entire workspaces)
+# E.g., use save.image(file = "workspace.RData") to save the entire workspace.
+
+url <- "https://github.com/rstudio-education/shiny-course/raw/main/movies.RData"
+destfile <- "movies.RData"
+download.file(url, destfile) # save movies.RData in a temporary dir
+load(destfile)
+
+ui <- fluidPage(
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "x",
+        label = "X-axis:",
+        choices = c(
+          "IMDB rating"          = "imdb_rating",
+          "IMDB number of votes" = "imdb_num_votes",
+          "Critics score"        = "critics_score",
+          "Audience score"       = "audience_score",
+          "Runtime"              = "runtime"
+        ),
+        selected = "audience_score"
+      ),
+      selectInput(
+        inputId = "y",
+        label = "Y-axis:",
+        choices = c(
+          "IMDB rating"          = "imdb_rating",
+          "IMDB number of votes" = "imdb_num_votes",
+          "Critics score"        = "critics_score",
+          "Audience score"       = "audience_score",
+          "Runtime"              = "runtime"
+        ),
+        selected = "critics_score"
+      ),
+      selectInput(
+        inputId = "z",
+        label = "Color by:",
+        choices = c(
+          "Title type" = "title_type",
+          "Genre" = "genre",
+          "MPAA rating" = "mpaa_rating",
+          "Critics rating" = "critics_rating",
+          "Audience rating" = "audience_rating"
+        ),
+        selected = "mpaa_rating"
+      ),
+      sliderInput(
+        inputId = "opacity",
+        label = "Opacity:",
+        min = 0, max = 1,
+        value = 0.5
+      ),
+      dateRangeInput(
+        inputId = "date",
+        label = "Select dates:",
+        start = min(as.Date(movies$thtr_rel_date)), 
+        end = max(as.Date(movies$thtr_rel_date)),
+        min = min(as.Date(movies$thtr_rel_date)),
+        max = max(as.Date(movies$thtr_rel_date)),
+        startview = "year"
+      ),
+      checkboxInput(
+        inputId = "show_data",
+        label = "Show data table", 
+        value = TRUE
+      ),
+      downloadButton(outputId = "download_data", label = "Download Data")
+    ),
+    mainPanel(
+      plotOutput(outputId = "scatterplot"),
+      plotOutput(outputId = "densityplot", height = 200),
+      DT::dataTableOutput(outputId = "moviestable")
+    )
+  )
+)
+
+server <- function(input, output) {
+  movies_filtered = reactive({
+    movies |> filter(
+      thtr_rel_date >= as.POSIXct(input$date[1]) &
+      thtr_rel_date <= as.POSIXct(input$date[2])
+    )
+  })
+  output$scatterplot <- renderPlot({
+    movies_filtered() |>  ggplot(
+      aes(x = .data[[input$x]], y = .data[[input$y]], color = .data[[input$z]])
+    ) +
+    geom_point(alpha = input$opacity)
+  })
+  
+  output$densityplot <- renderPlot({
+    movies_filtered() |>
+      ggplot(aes(x = .data[[input$x]])) +
+      geom_density()
+  })
+  
+  output$moviestable <- DT::renderDT({
+    if(input$show_data == T){
+      movies_filtered() |> DT::datatable(
+        options = list(pageLength = 10), rownames = FALSE)
+    }
+  })
+  
+  output$download_data <- downloadHandler(
+    filename = function() {
+      paste("movies_filtered_", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(
+        movies_filtered(), 
+        file, 
+        row.names = FALSE
+      )
+    }
+  )
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+- `observe()`: react to real-time changes in inputs
+
+```{r, eval = F}
+library(shiny)
+library(tidyverse)
+
+# Get the data
+# An .RData file is a file format used in R to save and store R objects 
+# (such as data 3 frames, lists, vectors, functions, or entire workspaces)
+# E.g., use save.image(file = "workspace.RData") to save the entire workspace.
+
+url <- "https://github.com/rstudio-education/shiny-course/raw/main/movies.RData"
+destfile <- "movies.RData"
+download.file(url, destfile) # save movies.RData in a temporary dir
+load(destfile)
+
+ui <- fluidPage(
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "x",
+        label = "X-axis:",
+        choices = c(
+          "IMDB rating"          = "imdb_rating",
+          "IMDB number of votes" = "imdb_num_votes",
+          "Critics score"        = "critics_score",
+          "Audience score"       = "audience_score",
+          "Runtime"              = "runtime"
+        ),
+        selected = "audience_score"
+      ),
+      selectInput(
+        inputId = "y",
+        label = "Y-axis:",
+        choices = c(
+          "IMDB rating"          = "imdb_rating",
+          "IMDB number of votes" = "imdb_num_votes",
+          "Critics score"        = "critics_score",
+          "Audience score"       = "audience_score",
+          "Runtime"              = "runtime"
+        ),
+        selected = "critics_score"
+      ),
+      selectInput(
+        inputId = "z",
+        label = "Color by:",
+        choices = c(
+          "Title type" = "title_type",
+          "Genre" = "genre",
+          "MPAA rating" = "mpaa_rating",
+          "Critics rating" = "critics_rating",
+          "Audience rating" = "audience_rating"
+        ),
+        selected = "mpaa_rating"
+      ),
+      sliderInput(
+        inputId = "opacity",
+        label = "Opacity:",
+        min = 0, max = 1,
+        value = 0.5
+      ),
+      dateRangeInput(
+        inputId = "date",
+        label = "Select dates:",
+        start = min(as.Date(movies$thtr_rel_date)), 
+        end = max(as.Date(movies$thtr_rel_date)),
+        min = min(as.Date(movies$thtr_rel_date)),
+        max = max(as.Date(movies$thtr_rel_date)),
+        startview = "year"
+      ),
+      checkboxInput(
+        inputId = "show_data",
+        label = "Show data table", 
+        value = TRUE
+      ),
+      downloadButton(outputId = "download_data", label = "Download Data")
+    ),
+    mainPanel(
+      plotOutput(outputId = "scatterplot"),
+      plotOutput(outputId = "densityplot", height = 200),
+      DT::dataTableOutput(outputId = "moviestable")
+    )
+  )
+)
+
+server <- function(input, output) {
+  observe({
+    showNotification(
+      paste("You picked data from", as.POSIXct(input$date[1]), "through", as.POSIXct(input$date[2]))
+    )
+  })
+  movies_filtered = reactive({
+    movies |> filter(
+      thtr_rel_date >= as.POSIXct(input$date[1]) &
+      thtr_rel_date <= as.POSIXct(input$date[2])
+    )
+  })
+  output$scatterplot <- renderPlot({
+    movies_filtered() |>  ggplot(
+      aes(x = .data[[input$x]], y = .data[[input$y]], color = .data[[input$z]])
+    ) +
+    geom_point(alpha = input$opacity)
+  })
+  
+  output$densityplot <- renderPlot({
+    movies_filtered() |>
+      ggplot(aes(x = .data[[input$x]])) +
+      geom_density()
+  })
+  
+  output$moviestable <- DT::renderDT({
+    if(input$show_data == T){
+      movies_filtered() |> DT::datatable(
+        options = list(pageLength = 10), rownames = FALSE)
+    }
+  })
+  
+  output$download_data <- downloadHandler(
+    filename = function() {
+      paste("movies_filtered_", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(
+        movies_filtered(), 
+        file, 
+        row.names = FALSE
+      )
+    }
+  )
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+- `observeEvent()`: react to discrete events
+
+```{r, eval = F}
+library(shiny)
+library(tidyverse)
+
+url <- "https://github.com/rstudio-education/shiny-course/raw/main/movies.RData"
+destfile <- "movies.RData"
+download.file(url, destfile) # save movies.RData in a temporary dir
+load(destfile)
+
+ui <- fluidPage(
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "x",
+        label = "X-axis:",
+        choices = c(
+          "IMDB rating"          = "imdb_rating",
+          "IMDB number of votes" = "imdb_num_votes",
+          "Critics score"        = "critics_score",
+          "Audience score"       = "audience_score",
+          "Runtime"              = "runtime"
+        ),
+        selected = "audience_score"
+      ),
+      selectInput(
+        inputId = "y",
+        label = "Y-axis:",
+        choices = c(
+          "IMDB rating"          = "imdb_rating",
+          "IMDB number of votes" = "imdb_num_votes",
+          "Critics score"        = "critics_score",
+          "Audience score"       = "audience_score",
+          "Runtime"              = "runtime"
+        ),
+        selected = "critics_score"
+      ),
+      selectInput(
+        inputId = "z",
+        label = "Color by:",
+        choices = c(
+          "Title type" = "title_type",
+          "Genre" = "genre",
+          "MPAA rating" = "mpaa_rating",
+          "Critics rating" = "critics_rating",
+          "Audience rating" = "audience_rating"
+        ),
+        selected = "mpaa_rating"
+      ),
+      sliderInput(
+        inputId = "opacity",
+        label = "Opacity:",
+        min = 0, max = 1,
+        value = 0.5
+      ),
+      dateRangeInput(
+        inputId = "date",
+        label = "Select dates:",
+        start = min(as.Date(movies$thtr_rel_date)), 
+        end = max(as.Date(movies$thtr_rel_date)),
+        min = min(as.Date(movies$thtr_rel_date)),
+        max = max(as.Date(movies$thtr_rel_date)),
+        startview = "year"
+      ),
+      checkboxInput(
+        inputId = "show_data",
+        label = "Show data table", 
+        value = TRUE
+      ),
+      downloadButton(
+        outputId = "download_data", 
+        label = "Download Data"
+      )
+    ),
+    mainPanel(
+      plotOutput(outputId = "scatterplot"),
+      plotOutput(outputId = "densityplot", height = 200),
+      DT::dataTableOutput(outputId = "moviestable")
+    )
+  )
+)
+
+server <- function(input, output) {
+  observeEvent(
+    eventExpr = input$x, 
+    handlerExpr = {
+      showNotification(paste("You selected", input$x, "as the x-axis."))
+  },ignoreInit = TRUE)
+  observeEvent(
+    eventExpr = input$y, 
+    handlerExpr = {
+      showNotification(paste("You selected", input$y, "as the y-axis."))
+  },ignoreInit = TRUE)
+  movies_filtered = reactive({
+    movies |> filter(
+      thtr_rel_date >= as.POSIXct(input$date[1]) &
+      thtr_rel_date <= as.POSIXct(input$date[2])
+    )
+  })
+  output$scatterplot <- renderPlot({
+    movies_filtered() |>  ggplot(
+      aes(x = .data[[input$x]], y = .data[[input$y]], color = .data[[input$z]])
+    ) +
+    geom_point(alpha = input$opacity)
+  })
+  
+  output$densityplot <- renderPlot({
+    movies_filtered() |>
+      ggplot(aes(x = .data[[input$x]])) +
+      geom_density()
+  })
+  
+  output$moviestable <- DT::renderDT({
+    if(input$show_data == T){
+      movies_filtered() |> DT::datatable(
+        options = list(pageLength = 10), rownames = FALSE)
+    }
+  })
+  
+  output$download_data <- downloadHandler(
+    filename = function() {
+      paste("movies_filtered_", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(
+        movies_filtered(), 
+        file, 
+        row.names = FALSE
+      )
+    }
+  )
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+- `isolate()`: read inputs without triggering automatic reactivity
+
+```{r, eval = F}
+library(shiny)
+library(tidyverse)
+
+url <- "https://github.com/rstudio-education/shiny-course/raw/main/movies.RData"
+destfile <- "movies.RData"
+download.file(url, destfile) # save movies.RData in a temporary dir
+load(destfile)
+
+ui <- fluidPage(
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "x",
+        label = "X-axis:",
+        choices = c(
+          "IMDB rating"          = "imdb_rating",
+          "IMDB number of votes" = "imdb_num_votes",
+          "Critics score"        = "critics_score",
+          "Audience score"       = "audience_score",
+          "Runtime"              = "runtime"
+        ),
+        selected = "audience_score"
+      ),
+      selectInput(
+        inputId = "y",
+        label = "Y-axis:",
+        choices = c(
+          "IMDB rating"          = "imdb_rating",
+          "IMDB number of votes" = "imdb_num_votes",
+          "Critics score"        = "critics_score",
+          "Audience score"       = "audience_score",
+          "Runtime"              = "runtime"
+        ),
+        selected = "critics_score"
+      ),
+      selectInput(
+        inputId = "z",
+        label = "Color by:",
+        choices = c(
+          "Title type" = "title_type",
+          "Genre" = "genre",
+          "MPAA rating" = "mpaa_rating",
+          "Critics rating" = "critics_rating",
+          "Audience rating" = "audience_rating"
+        ),
+        selected = "mpaa_rating"
+      ),
+      sliderInput(
+        inputId = "opacity",
+        label = "Opacity:",
+        min = 0, max = 1,
+        value = 0.5
+      ),
+      dateRangeInput(
+        inputId = "date",
+        label = "Select dates:",
+        start = min(as.Date(movies$thtr_rel_date)), 
+        end = max(as.Date(movies$thtr_rel_date)),
+        min = min(as.Date(movies$thtr_rel_date)),
+        max = max(as.Date(movies$thtr_rel_date)),
+        startview = "year"
+      ),
+      checkboxInput(
+        inputId = "show_data",
+        label = "Show data table", 
+        value = TRUE
+      ),
+      actionButton(
+        inputId = "go", 
+        label = "Generate"
+      ),
+      br(), # initiate a newline
+      downloadButton(
+        outputId = "download_data", 
+        label = "Download Data"
+      ),
+    ),
+    mainPanel(
+      plotOutput(outputId = "scatterplot"),
+      plotOutput(outputId = "densityplot", height = 200),
+      DT::dataTableOutput(outputId = "moviestable")
+    )
+  )
+)
+
+server <- function(input, output) {
+  observeEvent(
+    eventExpr = input$x, 
+    handlerExpr = {
+      showNotification(paste("You selected", input$x, "as the x-axis."))
+  },ignoreInit = TRUE)
+  observeEvent(
+    eventExpr = input$y, 
+    handlerExpr = {
+      showNotification(paste("You selected", input$y, "as the y-axis."))
+  },ignoreInit = TRUE)
+  movies_filtered = reactive({
+    movies |> filter(
+      thtr_rel_date >= as.POSIXct(input$date[1]) &
+      thtr_rel_date <= as.POSIXct(input$date[2])
+    )
+  })
+  observeEvent(
+    eventExpr = input$go, 
+    handlerExpr = {
+      output$scatterplot <- renderPlot({
+        movies_filtered() |>  ggplot(
+          aes(x = .data[[isolate(input$x)]], y = .data[[isolate(input$y)]], color = .data[[isolate(input$z)]])
+        ) +
+        geom_point(alpha = isolate(input$opacity))
+      })
+      output$densityplot <- renderPlot({
+        movies_filtered() |>
+          ggplot(aes(x = .data[[isolate(input$x)]])) +
+          geom_density()
+      })
+      output$moviestable <- DT::renderDT({
+        if(input$show_data == T){
+          movies_filtered() |> DT::datatable(
+            options = list(pageLength = 10), rownames = FALSE)
+        }
+      })
+  })
+  output$download_data <- downloadHandler(
+    filename = function() {
+      paste("movies_filtered_", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(
+        movies_filtered(), 
+        file, 
+        row.names = FALSE
+      )
+    }
+  )
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+## More `R` Shiny input widgets
+
+https://raw.githubusercontent.com/rstudio/cheatsheets/main/shiny.pdf
+
+---
+
+## `bslib` for a customized look
+
+- `bslib` is an `R` package that enables you to customize the look and feel of Shiny apps and R Markdown documents 
+using Bootstrap themes
+(pre-designed website templates built using the Bootstrap framework, 
+a popular HTML, CSS, and JavaScript framework for responsive web development)
+
+```{r, eval = F}
+library(shiny)
+library(tidyverse)
+library(bslib)
+
+url <- "https://github.com/rstudio-education/shiny-course/raw/main/movies.RData"
+destfile <- "movies.RData"
+download.file(url, destfile) # save movies.RData in a temporary dir
+load(destfile)
+
+ui <- fluidPage(
+  theme = bs_theme(
+    version = 5, # Bootstrap version (4 or 5)
+    bootswatch = "cosmo", # Prebuilt Bootstrap themes; available themes at
+    # print(bootswatch_themes(version = "5")); previews at
+    # bs_theme_preview(bs_theme(bootswatch = "superhero"))
+    primary = "#198754", # Color; available colors at
+    # https://rstudio.github.io/bslib/articles/bs4-variables/index.html
+    # https://rstudio.github.io/bslib/articles/bs5-variables/index.html
+    base_font = font_google("Special Gothic Expanded One"), # available fonts at https://fonts.google.com
+    heading_font = font_google("Merriweather"),
+    code_font = font_google("Fira Code") 
+  ),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "x",
+        label = "X-axis:",
+        choices = c(
+          "IMDB rating"          = "imdb_rating",
+          "IMDB number of votes" = "imdb_num_votes",
+          "Critics score"        = "critics_score",
+          "Audience score"       = "audience_score",
+          "Runtime"              = "runtime"
+        ),
+        selected = "audience_score"
+      ),
+      selectInput(
+        inputId = "y",
+        label = "Y-axis:",
+        choices = c(
+          "IMDB rating"          = "imdb_rating",
+          "IMDB number of votes" = "imdb_num_votes",
+          "Critics score"        = "critics_score",
+          "Audience score"       = "audience_score",
+          "Runtime"              = "runtime"
+        ),
+        selected = "critics_score"
+      ),
+      selectInput(
+        inputId = "z",
+        label = "Color by:",
+        choices = c(
+          "Title type" = "title_type",
+          "Genre" = "genre",
+          "MPAA rating" = "mpaa_rating",
+          "Critics rating" = "critics_rating",
+          "Audience rating" = "audience_rating"
+        ),
+        selected = "mpaa_rating"
+      ),
+      sliderInput(
+        inputId = "opacity",
+        label = "Opacity:",
+        min = 0, max = 1,
+        value = 0.5
+      ),
+      dateRangeInput(
+        inputId = "date",
+        label = "Select dates:",
+        start = min(as.Date(movies$thtr_rel_date)), 
+        end = max(as.Date(movies$thtr_rel_date)),
+        min = min(as.Date(movies$thtr_rel_date)),
+        max = max(as.Date(movies$thtr_rel_date)),
+        startview = "year"
+      ),
+      checkboxInput(
+        inputId = "show_data",
+        label = "Show data table", 
+        value = TRUE
+      ),
+      actionButton(
+        inputId = "go", 
+        label = "Generate"
+      ),
+      br(), # initiate a newline
+      downloadButton(
+        outputId = "download_data", 
+        label = "Download Data"
+      ),
+    ),
+    mainPanel(
+      plotOutput(outputId = "scatterplot"),
+      plotOutput(outputId = "densityplot", height = 200),
+      DT::dataTableOutput(outputId = "moviestable")
+    )
+  )
+)
+
+server <- function(input, output) {
+  observeEvent(
+    eventExpr = input$x, 
+    handlerExpr = {
+      showNotification(paste("You selected", input$x, "as the x-axis."))
+  },ignoreInit = TRUE)
+  observeEvent(
+    eventExpr = input$y, 
+    handlerExpr = {
+      showNotification(paste("You selected", input$y, "as the y-axis."))
+  },ignoreInit = TRUE)
+  movies_filtered = reactive({
+    movies |> filter(
+      thtr_rel_date >= as.POSIXct(input$date[1]) &
+      thtr_rel_date <= as.POSIXct(input$date[2])
+    )
+  })
+  observeEvent(
+    eventExpr = input$go, 
+    handlerExpr = {
+      output$scatterplot <- renderPlot({
+        movies_filtered() |>  ggplot(
+          aes(x = .data[[isolate(input$x)]], y = .data[[isolate(input$y)]], color = .data[[isolate(input$z)]])
+        ) +
+        geom_point(alpha = isolate(input$opacity))
+      })
+      output$densityplot <- renderPlot({
+        movies_filtered() |>
+          ggplot(aes(x = .data[[isolate(input$x)]])) +
+          geom_density()
+      })
+      output$moviestable <- DT::renderDT({
+        if(input$show_data == T){
+          movies_filtered() |> DT::datatable(
+            options = list(pageLength = 10), rownames = FALSE)
+        }
+      })
+  })
+  output$download_data <- downloadHandler(
+    filename = function() {
+      paste("movies_filtered_", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(
+        movies_filtered(), 
+        file, 
+        row.names = FALSE
+      )
+    }
+  )
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+---
+
+## Sharing `R` Shiny apps as webpages
+
+- User-friendly: local installation of `R` NOT required for users
+
+- Still a bit sticking: depends on intended audience, required computing power, number of expected users, ...
+
+- shinyapps.io
+  - https://www.shinyapps.io/
+  - Posit's hosting service with different plans
+    - Free plan limited to 5 apps, 25 active hours per month
+
+- Shiny server
+  - https://posit.co/download/shiny-server/
+  - Building a server by yourself to host Shiny apps (free, open source)
+
+## Deploying an `R` Shiny app on shinyapps.io
+
+- Sign Up at https://www.shinyapps.io with your email or GitHub account.
+  
+- Install `rsconnect` package locally.
+  
+- Create an `R` Script including the source code of your app.
+
+- Open the `R` Script in RStudio.
+
+- Test your app locally by clicking the "**Run**" button (upper-right).
+
+- Click the "**Publish**" button (upper-right),
+choose shinyapps.io as the server and follow prompts.
+  - Go to your shinyapps.io account and copy the name, token and secret for authentication. 
+
+- `R` will upload your app and provide a public URL like 
+https://yourname.shinyapps.io/shiny_app_name/
