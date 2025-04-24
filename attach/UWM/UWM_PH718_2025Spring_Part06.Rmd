@@ -876,7 +876,7 @@ ui <- fluidPage(
       sliderInput(
         inputId = "bin",
         label = "4. Select number of histogram bins",
-        min = 1, max= 25, step = 2, round = T,
+        min = 1, max= 25, step = 1, round = T,
         value= 10 # Initial value
       ),
       textInput(
@@ -1082,11 +1082,6 @@ when inputs change, without you needing to write manual control flow logic.
 library(shiny)
 library(tidyverse)
 
-# Get the data
-# An .RData file is a file format used in R to save and store R objects 
-# (such as data 3 frames, lists, vectors, functions, or entire workspaces)
-# E.g., use save.image(file = "workspace.RData") to save the entire workspace.
-
 url <- "https://github.com/rstudio-education/shiny-course/raw/main/movies.RData"
 destfile <- "movies.RData"
 download.file(url, destfile) # save movies.RData in a temporary dir
@@ -1211,11 +1206,6 @@ shinyApp(ui = ui, server = server)
 library(shiny)
 library(tidyverse)
 
-# Get the data
-# An .RData file is a file format used in R to save and store R objects 
-# (such as data 3 frames, lists, vectors, functions, or entire workspaces)
-# E.g., use save.image(file = "workspace.RData") to save the entire workspace.
-
 url <- "https://github.com/rstudio-education/shiny-course/raw/main/movies.RData"
 destfile <- "movies.RData"
 download.file(url, destfile) # save movies.RData in a temporary dir
@@ -1292,7 +1282,7 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   observe({
-    showNotification(
+    message(
       paste("You picked data from", as.POSIXct(input$date[1]), "through", as.POSIXct(input$date[2]))
     )
   })
@@ -1566,24 +1556,14 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   observeEvent(
-    eventExpr = input$x, 
-    handlerExpr = {
-      showNotification(paste("You selected", input$x, "as the x-axis."))
-  },ignoreInit = TRUE)
-  observeEvent(
-    eventExpr = input$y, 
-    handlerExpr = {
-      showNotification(paste("You selected", input$y, "as the y-axis."))
-  },ignoreInit = TRUE)
-  movies_filtered = reactive({
-    movies |> filter(
-      thtr_rel_date >= as.POSIXct(input$date[1]) &
-      thtr_rel_date <= as.POSIXct(input$date[2])
-    )
-  })
-  observeEvent(
     eventExpr = input$go, 
     handlerExpr = {
+      movies_filtered = reactive({
+        movies |> filter(
+          thtr_rel_date >= as.POSIXct(isolate(input$date[1])) &
+          thtr_rel_date <= as.POSIXct(isolate(input$date[2]))
+        )
+      })
       output$scatterplot <- renderPlot({
         movies_filtered() |>  ggplot(
           aes(x = .data[[isolate(input$x)]], y = .data[[isolate(input$y)]], color = .data[[isolate(input$z)]])
@@ -1644,14 +1624,15 @@ load(destfile)
 
 ui <- fluidPage(
   theme = bs_theme(
-    version = 5, # Bootstrap version (4 or 5)
+    version = 5, # Bootstrap theme version (4 or 5)
     bootswatch = "cosmo", # Prebuilt Bootstrap themes; available themes at
     # print(bootswatch_themes(version = "5")); previews at
     # bs_theme_preview(bs_theme(bootswatch = "superhero"))
     primary = "#198754", # Color; available colors at
     # https://rstudio.github.io/bslib/articles/bs4-variables/index.html
     # https://rstudio.github.io/bslib/articles/bs5-variables/index.html
-    base_font = font_google("Special Gothic Expanded One"), # available fonts at https://fonts.google.com
+    base_font = font_google("Special Gothic Expanded One"), # available fonts at
+    # https://fonts.google.com
     heading_font = font_google("Merriweather"),
     code_font = font_google("Fira Code") 
   ),
@@ -1733,27 +1714,21 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   observeEvent(
-    eventExpr = input$x, 
-    handlerExpr = {
-      showNotification(paste("You selected", input$x, "as the x-axis."))
-  },ignoreInit = TRUE)
-  observeEvent(
-    eventExpr = input$y, 
-    handlerExpr = {
-      showNotification(paste("You selected", input$y, "as the y-axis."))
-  },ignoreInit = TRUE)
-  movies_filtered = reactive({
-    movies |> filter(
-      thtr_rel_date >= as.POSIXct(input$date[1]) &
-      thtr_rel_date <= as.POSIXct(input$date[2])
-    )
-  })
-  observeEvent(
     eventExpr = input$go, 
     handlerExpr = {
+      movies_filtered = reactive({
+        movies |> filter(
+          thtr_rel_date >= as.POSIXct(isolate(input$date[1])) &
+          thtr_rel_date <= as.POSIXct(isolate(input$date[2]))
+        )
+      })
       output$scatterplot <- renderPlot({
         movies_filtered() |>  ggplot(
-          aes(x = .data[[isolate(input$x)]], y = .data[[isolate(input$y)]], color = .data[[isolate(input$z)]])
+          aes(
+            x = .data[[isolate(input$x)]], 
+            y = .data[[isolate(input$y)]], 
+            color = .data[[isolate(input$z)]]
+          )
         ) +
         geom_point(alpha = isolate(input$opacity))
       })
@@ -1819,5 +1794,6 @@ shinyApp(ui = ui, server = server)
 choose shinyapps.io as the server and follow prompts.
   - Go to your shinyapps.io account and copy the name, token and secret for authentication. 
 
-- `R` will upload your app and provide a public URL like 
-https://yourname.shinyapps.io/shiny_app_name/
+- `R` will upload your app and provide a unique public URL
+
+- Updated when you republish
