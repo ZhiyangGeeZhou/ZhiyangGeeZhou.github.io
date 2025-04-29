@@ -143,6 +143,7 @@ Part3: R Basic Graphics [Rmd](attach/UWM/UWM_PH718_2025Spring_Part03.Rmd)
 Part4: Introduction to tidyverse [Rmd](attach/UWM/UWM_PH718_2025Spring_Part04.Rmd)  
 Part5: Exploratory Data Analysis [Rmd](attach/UWM/UWM_PH718_2025Spring_Part05.Rmd) [bib](attach/UWM/UWM_PH718_2025Spring_Part05.bib)  
 Part6: Interactive Plotting [Rmd](attach/UWM/UWM_PH718_2025Spring_Part06.Rmd) [pdf](attach/UWM/UWM_PH718_2025Spring_Part06.pdf)  
+Part7: Imputation [Rmd](attach/UWM/UWM_PH718_2025Spring_Part07.Rmd) [bib](attach/UWM/UWM_PH718_2025Spring_Part07.bib)
 
 #### SUPERVISION FOR
 
