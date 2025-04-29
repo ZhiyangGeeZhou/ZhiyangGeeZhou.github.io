@@ -1767,22 +1767,20 @@ shinyApp(ui = ui, server = server)
 
 - User-friendly: local installation of `R` NOT required for users
 
-- Still a bit sticking: depends on intended audience, required computing power, number of expected users, ...
+- Still a bit sticking: required computing power to fit the number of expected users, ...
 
-- shinyapps.io
-  - https://www.shinyapps.io/
-  - Posit's hosting service with different plans
-    - Free plan limited to 5 apps, 25 active hours per month
-
-- Shiny server
-  - https://posit.co/download/shiny-server/
-  - Building a server by yourself to host Shiny apps (free, open source)
+- Platforms
+  - shinyapps.io
+    - https://www.shinyapps.io/
+    - Posit's hosting service with different plans
+      - Free plan limited to 5 apps, 25 active hours per month
+  - Shiny server
+    - https://posit.co/download/shiny-server/
+    - Building a server by yourself to host Shiny apps (free, open source)
 
 ## Deploying an `R` Shiny app on shinyapps.io
 
 - Sign Up at https://www.shinyapps.io with your email or GitHub account.
-  
-- Install `rsconnect` package locally.
   
 - Create an `R` Script including the source code of your app.
 
