@@ -1780,7 +1780,7 @@ shinyApp(ui = ui, server = server)
 
 ## Deploying an `R` Shiny app on shinyapps.io
 
-- Sign Up at https://www.shinyapps.io with your email or GitHub account.
+- Sign up at https://www.shinyapps.io with the free plan.
   
 - Create an `R` Script including the source code of your app.
 
