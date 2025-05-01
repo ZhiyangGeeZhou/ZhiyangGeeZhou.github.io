@@ -1790,7 +1790,9 @@ shinyApp(ui = ui, server = server)
 
 - Click the "**Publish**" button (upper-right),
 choose shinyapps.io as the server and follow prompts.
-  - Go to your shinyapps.io account and copy the name, token and secret for authentication. 
+  - Go to your shinyapps.io account.
+  - Under the "Account" tab, 
+  copy the name, token and secret for authentication. 
 
 - `R` will upload your app and provide a unique public URL
 
