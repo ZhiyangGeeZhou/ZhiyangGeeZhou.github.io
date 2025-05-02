@@ -1780,13 +1780,21 @@ shinyApp(ui = ui, server = server)
 
 ## Deploying an `R` Shiny app on shinyapps.io
 
+- Make sure the `R` Shiny app is executable locally on your own machine.
+
 - Sign up at https://www.shinyapps.io with the free plan.
   
 - Create an `R` Script including the source code of your app.
+  - The code should starts by loading the necessary packages, 
+  preprocessing the data, and defining the UI and server settings. 
+  Finish it with a call to the shinyApp() function, without anything unnecessary.
 
-- Open the `R` Script in RStudio.
+- Leave the script in a separate folder 
+(with no redundant file in the folder).
 
-- Test your app locally by clicking the "**Run**" button (upper-right).
+- Open the script in `RStudio`.
+
+- Test your app locally by clicking the "**Run App**" button (upper-right).
 
 - Click the "**Publish**" button (upper-right),
 choose shinyapps.io as the server and follow prompts.
