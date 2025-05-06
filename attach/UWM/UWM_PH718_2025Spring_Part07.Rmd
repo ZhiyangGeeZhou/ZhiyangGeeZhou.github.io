@@ -1,6 +1,6 @@
 ---
 title: "PH 718 Data Management and Visualization in `R`"
-subtitle: 'Part 7: Imputation'
+subtitle: 'Part 7: Special topic---Imputation'
 author: "Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))"
 date: "`r format(Sys.time(), '%Y/%m/%d %H:%M:%S')`"
 output: pdf_document
@@ -17,8 +17,9 @@ leading to biased estimates and reduced statistical power.
 The likelihood of missingness is unrelated to any observed or unobserved data. Examples:
   - A participant accidentally skips a survey question due to a technical glitch.
   - A random subset of data is lost due to equipment malfunction during data collection.
-- Missing at random (MAR): The probability of missingness is related to observed data but not to the missing values themselves. Examples:
-  - Participants with lower educational backgrounds might not report their income due to misunderstanding the survey question.
+- Missing at random (MAR): 
+The probability of missingness is related to observed data but not to the missing values themselves. Examples:
+  - Participants with lower educational backgrounds might not report their income due to misunderstanding of the survey question.
   - Older respondents might skip answering online survey questions due to difficulty using the technology.
 - Missing not at random (MNAR): The missingness is related directly to the missing data itself, creating more challenging conditions for imputation. Examples:
   - Individuals with high incomes may choose not to disclose their exact income in a survey.
@@ -36,7 +37,7 @@ The likelihood of missingness is unrelated to any observed or unobserved data. E
 
 - Replace missing numeric values with the mean or median of the observed values.
 
-- Replace missing categorical values with the mode (the most frequent value).
+- Replace missing categorical values with the mode (i.e., the most frequent value).
 
 - Easy but can lead to biased results and underestimated variance.
 
@@ -64,94 +65,57 @@ The likelihood of missingness is unrelated to any observed or unobserved data. E
 
 - Predict missing values using regression, iteratively updating until stable.
 
-- Better than the mean/median/mode imputation, but doesn't fully account for uncertainty.
+- Better than the simple imputation, but doesn't fully account for uncertainty.
 
 - Can work for MCAR and MAR if the regression model is correctly specified
 
 ```{r, eval = F}
-# Illustrative example: impute the airquality data
-## Method I: Frequentist
-### Initial mean imputation
-df <- airquality
-df$Ozone[is.na(df$Ozone)] <- mean(df$Ozone, na.rm = TRUE)
-df$Solar.R[is.na(df$Solar.R)] <- mean(df$Solar.R, na.rm = TRUE)
-
-### Set convergence criteria
+# Illustrative example: the airquality data
+## Preprocessing
+old_df <- airquality
+# old_df$lnOzone = log(old_df$Ozone)
+# old_df$lnSolar.R = log(old_df$Solar.R)
+colSums(is.na(old_df))
+## Initial simple imputation
+missing_ozone <- which(is.na(old_df$Ozone))
+missing_solar <- which(is.na(old_df$Solar.R))
+old_df$Ozone[missing_ozone] <- mean(old_df$Ozone, na.rm = TRUE)
+old_df$Solar.R[missing_solar] <- mean(old_df$Solar.R, na.rm = TRUE)
+## Set convergence criteria
 tolerance <- 1e-4
 max_iterations <- 20
 
-### Iterative process with convergence check
-prev_df <- df
+## Iterative process with convergence check
 for (i in 1:max_iterations) {
-  #### Impute Ozone
-  model_ozone <- lm(Ozone ~ Solar.R + Wind + Temp + as.factor(Month) + as.factor(Day), data = df)
-  missing_ozone <- which(is.na(airquality$Ozone))
-  if (length(missing_ozone) > 0) {
-    df$Ozone[missing_ozone] <- predict(model_ozone, newdata = df[missing_ozone, ])
+  if (i==1) {
+    curr_df <- old_df
+  }else{
+    curr_df <- next_df
   }
-  
-  #### Impute Solar.R
-  model_solar <- lm(Solar.R ~ Ozone + Wind + Temp + as.factor(Month) + as.factor(Day), data = df)
-  missing_solar <- which(is.na(airquality$Solar.R))
-  if (length(missing_solar) > 0) {
-    df$Solar.R[missing_solar] <- predict(model_solar, newdata = df[missing_solar, ])
-  }
+  #### Regressions
+  model_ozone <- lm(
+    Ozone ~ Solar.R + Wind + Temp + as.factor(Month) + as.factor(Day),
+    data = curr_df
+  )
+  model_solar <- lm(
+    Solar.R ~ Ozone + Wind + Temp + as.factor(Month) + as.factor(Day), 
+    data = curr_df
+  )
+  #### Updating data
+  next_df = curr_df
+  next_df$Ozone[missing_ozone] <- predict(model_ozone, newdata = curr_df[missing_ozone, ])
+  next_df$Solar.R[missing_solar] <- predict(model_solar, newdata = curr_df[missing_solar, ])
   
   #### Check the mean squared difference
-  diff <- mean((df$Ozone - prev_df$Ozone)^2 + (df$Solar.R - prev_df$Solar.R)^2)
+  diff <- mean((curr_df$Ozone - next_df$Ozone)^2 + (curr_df$Solar.R - next_df$Solar.R)^2)
   cat("Iteration:", i, "Difference:", diff, "\n")
   
   if (diff < tolerance) {
     cat("Convergence achieved after", i, "iterations.\n")
     break
   }
-  
-  #### Update previous dataframe for next iteration
-  prev_df <- df
 }
-```
-
-```{r, eval = F}
-# Illustrative example: impute the airquality data
-## Method II: Bayes
-### Default regression models include:
-### predictive mean matching (pmm, for numeric data) 
-### logistic regression (logreg, for factors with 2 levels) 
-### polytomous regression (polyreg, for unordered factor > 2 levels) 
-### proportional odds model for (polr, ordered factors > 2 levels)
-library(mice)
-colSums(is.na(airquality))
-imp_obj <- mice(
-  airquality,
-  m = 1, # single imputation
-  maxit = 20, 
-  method = c("pmm","pmm","", "", "", ""), 
-  seed = 123
-)
-### Extract the imputed data
-data_imp <- complete(imp_obj, 1)
-plot(imp_obj) # Each trajectory should stabilize; no upward/downward trends = good convergence
-
-## Could be problematic if using the convergence rule for frequentist
-maxit <- 20
-### Initialize the imputation model
-ini <- mice(airquality, m = 1, maxit = 0, seed = 123)
-prev_imp <- ini
-prev_df = complete(prev_imp, 1)
-### One iteration at a time
-for (i in 1:max_iterations) {
-  imp <- mice.mids(prev_imp, maxit = 1, printFlag = FALSE)  # perform one iteration
-  df <- complete(imp, 1) # extract current imputed dataset
-  
-  diff <- mean((df$Ozone - prev_df$Ozone)^2 + (df$Solar.R - prev_df$Solar.R)^2)
-  cat("Iteration:", i, "Difference:", diff, "\n")
-  if (diff < 1e-4) {
-    cat("Convergence achieved after", i, "iterations.\n")
-    break
-  }
-  prev_df <- df
-  prev_imp = imp
-}
+View(next_df)
 ```
 
 ### Multiple imputation (MI)
@@ -187,34 +151,41 @@ $$
   \text{95\% confidence interval: }
   \bar Q \pm t_{\nu, 0.975}\sqrt{V_t}
 $$
-
 ```{r, eval = F}
-# Illustrative example: impute the airquality data
+# Illustrative example: airquality
+## Using mice::mice() with default Bayesian regression models:
+### predictive mean matching (pmm, for numeric data) 
+### logistic regression (logreg, for factors with 2 levels) 
+### polytomous regression (polyreg, for unordered factor > 2 levels) 
+### proportional odds model for (polr, ordered factors > 2 levels)
 library(mice)
-colSums(is.na(airquality))
+old_df <- airquality
+colSums(is.na(old_df))
 imp_obj <- mice(
-  airquality,
-  m = 2, maxit = 10, 
+  old_df,
+  m = 2, # number of imputed datasets
+  maxit = 20, 
   method = c("pmm","pmm","", "", "", ""), 
   seed = 123
 )
 ## Check convergence visually
-## Each trajectory should stabilize and mix well over iterations
-## No upward/downward trends = good convergence.
-## Wiggly lines or divergence = possible convergence issues.
+### Each trajectory should stabilize and mix well over iterations
+### No upward/downward trends = good convergence.
+### Wiggly lines or divergence = possible convergence issues.
 plot(imp_obj)
-## Extract imputed data
+## Extracting imputed data
 for (i in 1:imp_obj$m) {
   data_name <- paste0("data_imp_", i)
   assign(data_name, complete(imp_obj, i))
 }
+## Model fitting with imputed data
 fit <- with(data = imp_obj, exp = lm(Ozone ~ Solar.R + Wind + Temp))
 pooled <- pool(fit, rule = "rubin1987") # Pool the results using Rubin's rules
 summary(pooled, conf.int = T) # Summarize the pooled result
 ```
 
 ```{r, eval = F}
-# Illustrative example: impute the mice::nhanes2 data
+# Illustrative example: mice::nhanes2
 library(mice)
 colSums(is.na(nhanes2))
 imp_obj <- mice(
