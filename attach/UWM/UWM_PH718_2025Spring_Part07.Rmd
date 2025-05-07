@@ -70,11 +70,10 @@ The probability of missingness is related to observed data but not to the missin
 - Can work for MCAR and MAR if the regression model is correctly specified
 
 ```{r, eval = F}
-# Illustrative example: the airquality data
+# Illustrative example: airquality
 ## Preprocessing
 old_df <- airquality
-# old_df$lnOzone = log(old_df$Ozone)
-# old_df$lnSolar.R = log(old_df$Solar.R)
+old_df$lnOzone = log(old_df$Ozone)
 colSums(is.na(old_df))
 ## Initial simple imputation
 missing_ozone <- which(is.na(old_df$Ozone))
@@ -94,7 +93,7 @@ for (i in 1:max_iterations) {
   }
   #### Regressions
   model_ozone <- lm(
-    Ozone ~ Solar.R + Wind + Temp + as.factor(Month) + as.factor(Day),
+    lnOzone ~ Solar.R + Wind + Temp + as.factor(Month) + as.factor(Day),
     data = curr_df
   )
   model_solar <- lm(
@@ -103,7 +102,8 @@ for (i in 1:max_iterations) {
   )
   #### Updating data
   next_df = curr_df
-  next_df$Ozone[missing_ozone] <- predict(model_ozone, newdata = curr_df[missing_ozone, ])
+  next_df$Ozone[missing_ozone] <- exp(predict(model_ozone, newdata = curr_df[missing_ozone, ]))
+  next_df$lnOzone = log(next_df$Ozone)
   next_df$Solar.R[missing_solar] <- predict(model_solar, newdata = curr_df[missing_solar, ])
   
   #### Check the mean squared difference
@@ -164,8 +164,8 @@ colSums(is.na(old_df))
 imp_obj <- mice(
   old_df,
   m = 2, # number of imputed datasets
-  maxit = 20, 
-  method = c("pmm","pmm","", "", "", ""), 
+  maxit = 200, 
+  method = c("pmm","pmm","", "", "", ""),
   seed = 123
 )
 ## Check convergence visually
@@ -189,7 +189,9 @@ summary(pooled, conf.int = T) # Summarize the pooled result
 library(mice)
 colSums(is.na(nhanes2))
 imp_obj <- mice(
-  nhanes2, m = 2, maxit = 10, 
+  nhanes2, 
+  m = 2, 
+  maxit = 100, 
   method = c("", "pmm", "logreg", "pmm"), 
   seed = 123
 )
