@@ -32,6 +32,15 @@ He also adapts and extends classical techniques to accommodate complex and heter
 applying rigorous statistical reasoning to address real-world challenges.
 See his [curriculum vitae](attach/CV20250504.pdf){:target="_blank"} (updated on 2025/May/04).
 
+### INTERESTS
+
+- Functional data analysis (Inference from trajectories, images, and complex data structures)
+- Deep learning (Leveraging multi-layer neural networks to approximate non-linear patterns)
+- Transfer learning (Applying knowledge from related domains to enhance inference)
+- Survival analysis (Modeling time-to-event data and estimating survival probabilities)
+- Tensor data analysis (Exploring multi-dimensional arrays to capture complex structures)
+- Design of experiments (Strategically planning and analyzing experiments)
+
 # APPOINTMENTS
 
 - 2023--, Assistant Professor (Tenure-Track), [Joseph J. Zilber College of Public Health](https://uwm.edu/publichealth/){:target="_blank"}, [University of Wisconsin-Milwaukee](https://uwm.edu/){:target="_blank"}, United States
@@ -51,15 +60,6 @@ Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/){:target="_blank"}, Pr
 Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/){:target="_blank"}, Professor
 
 # RESEARCH
-
-### INTERESTS
-
-- Functional data analysis (Inference from trajectories, images, and complex data structures)
-- Deep learning (Leveraging multi-layer neural networks to approximate non-linear patterns)
-- Transfer learning (Applying knowledge from related domains to enhance inference)
-- Survival analysis (Modeling time-to-event data and estimating survival probabilities)
-- Tensor data analysis (Exploring multi-dimensional arrays to capture complex structures)
-- Design of experiments (Strategically planning and analyzing experiments)
 
 ### PEER-REVIEWED
 
