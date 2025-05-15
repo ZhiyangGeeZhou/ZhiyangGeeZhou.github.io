@@ -23,7 +23,8 @@ zhou67<i class="fas fa-at" aria-hidden="true"></i>uwm<i class="fa-solid fa-circl
 
 Zhiyang is an Assistant Professor of Biostatistics 
 in the Joseph J. Zilber College of Public Health at the University of Wisconsin-Milwaukee. 
-Prior to the current appointment, he was an Assistant Professor in the Department of Statistics at the University of Manitoba. 
+Prior to the current appointment, 
+he was an Assistant Professor in the Department of Statistics at the University of Manitoba. 
 Zhiyang's research is situated at the intersection of statistics and machine learning, 
 focusing on the development of novel methods to enhance predictive performance and strengthen statistical inference. 
 He also adapts and extends classical techniques to accommodate complex and heterogeneous data structures, 
@@ -52,13 +53,12 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### INTERESTS
 
-- Functional/longitudinal data analysis
-- Deep learning/neural networks
-- Transfer learning
-- Survival analysis
-- Survey sampling
-- Tensor data analysis
-- Design of experiments
+- Functional data analysis (making inference from trajectories, images and other complex data structures)
+- Deep learning (capturing complex, non-linear patterns in data with multi-layer neural networks)
+- Transfer learning (improve the inference on a dataset by applying knowledge learned from different but related sources)
+- Survival analysis (modeling time-to-event data and estimating survival probabilities)
+- Tensor data analysis (analyzing multi-dimensional array data to capture complex relationships and structures)
+- Design of experiments (planning and analyzing experiments)
 
 ### PEER-REVIEWED
 
