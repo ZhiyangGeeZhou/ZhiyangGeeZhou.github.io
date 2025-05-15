@@ -53,12 +53,12 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### INTERESTS
 
-- Functional data analysis (making inference from trajectories, images and other complex data structures)
-- Deep learning (capturing complex, non-linear patterns in data with multi-layer neural networks)
-- Transfer learning (improve the inference on a dataset by applying knowledge learned from different but related sources)
-- Survival analysis (modeling time-to-event data and estimating survival probabilities)
-- Tensor data analysis (analyzing multi-dimensional array data to capture complex relationships and structures)
-- Design of experiments (planning and analyzing experiments)
+- Functional data analysis (Making inference from trajectories, images and other complex data structures)
+- Deep learning (Leveraging multi-layer neural networks to model complex, non-linear patterns in data)
+- Transfer learning (Enhancing inference on a target dataset by incorporating knowledge from related but different domains)
+- Survival analysis (Modeling time-to-event data and estimating survival probabilities)
+- Tensor data analysis (Analyzing multi-dimensional array data to uncover intricate relationships and structural patterns)
+- Design of experiments (Strategically planning and analyzing experiments to ensure reliable and efficient data collection)
 
 ### PEER-REVIEWED
 
