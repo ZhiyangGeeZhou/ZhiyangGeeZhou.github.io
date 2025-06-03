@@ -148,8 +148,8 @@ Part7: Imputation [Rmd](attach/UWM/UWM_PH718_2025Spring_Part07.Rmd) [bib](attach
 
 #### SUPERVISION FOR
 
-- Liliana Isabel Kasta (2024--, M.Sc. student, uwm.edu)
-- Ian Nadolski (2024--, M.Sc. student, uwm.edu)
+- Liliana Isabel Kasta (2024--25, M.Sc. student, uwm.edu)
+- Ian Nadolski (2024--25, M.Sc. student, uwm.edu)
 - Kelly Wikoff (2023--24, M.Sc. in Biostatistics, uwm.edu)
 - Donald Kenneth Cramer (2023--, Ph.D. student, uwm.edu)
 - Ke Wang (2022--24, M.Sc. in Statistics, umanitoba.ca)
