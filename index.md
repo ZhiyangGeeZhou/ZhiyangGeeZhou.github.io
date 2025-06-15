@@ -136,15 +136,7 @@ _Atmospheric Environment_ **61**:409--418.
 
 #### COURSES IN PROGRESS
 
-- [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2025Spring.pdf)  
-Part0: Syllabus Review & Introduction to R [pdf](attach/UWM/UWM_PH718_2025Spring_Part00.pdf)  
-Part1: R Basic Syntax [r](attach/UWM/UWM_PH718_2025Spring_Part01.r)  
-Part2: R Markdown [Rmd](attach/UWM/UWM_PH718_2025Spring_Part02.Rmd) [bib](attach/UWM/UWM_PH718_2025Spring_Part02.bib)  
-Part3: R Basic Graphics [Rmd](attach/UWM/UWM_PH718_2025Spring_Part03.Rmd)  
-Part4: Introduction to tidyverse [Rmd](attach/UWM/UWM_PH718_2025Spring_Part04.Rmd)  
-Part5: Exploratory Data Analysis [Rmd](attach/UWM/UWM_PH718_2025Spring_Part05.Rmd) [bib](attach/UWM/UWM_PH718_2025Spring_Part05.bib)  
-Part6: Interactive Plotting [Rmd](attach/UWM/UWM_PH718_2025Spring_Part06.Rmd) [pdf](attach/UWM/UWM_PH718_2025Spring_Part06.pdf)  
-Part7: Imputation [Rmd](attach/UWM/UWM_PH718_2025Spring_Part07.Rmd) [bib](attach/UWM/UWM_PH718_2025Spring_Part07.bib)
+- [PH 712 Probability and Statistical Inference](attach/UWM/Syllabus_UWM_PH712_2025Fall.pdf)  
 
 #### SUPERVISION FOR
 
@@ -244,6 +236,9 @@ Lectures (password-protected): [24F](attach/UWM/Lectures_UWM_PH712_2024Fall.zip)
 - PH 716 Applied Survival Analysis  
 Syllabuses: [24S](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
 Lectures (password-protected): [24S](attach/UWM/Lectures_UWM_PH716_2024Spring.zip)
+- PH 718 Data Management and Visualization in R  
+Syllabuses: [25S](attach/UWM/Syllabus_UWM_PH718_2025Spring.pdf)  
+Lectures (password-protected): [25S](attach/UWM/Lectures_UWM_PH718_2025Spring.zip)
 
 #### INSTRUCTION @umanitoba.ca
 
