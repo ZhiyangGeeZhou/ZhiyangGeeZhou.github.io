@@ -208,6 +208,8 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 
 #### UNIVERSITY COMMITTEE MEMBER
 
+- @uwm.edu:
+Non-Academic Misconduct Hearing Committee (2025-26)
 - @manitoba.ca: 
 Graduate (Stats, 2022--23), 
 IT (Stats, 2022--23), 
