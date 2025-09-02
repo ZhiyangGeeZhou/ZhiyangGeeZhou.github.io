@@ -136,9 +136,9 @@ _Atmospheric Environment_ **61**:409--418.
 
 #### COURSES IN PROGRESS
 
-- [PH 712 Probability and Statistical Inference](attach/UWM/Syllabus_UWM_PH712_2025Fall.pdf)  
+- [PH 712 Probability and Statistical Inference](attach/UWM/Syllabus_UWM_PH712_2025Fall.pdf){:target="_blank"}  
 Lecture Notes:
-[0](attach/UWM/UWM_PH712_2025Fall_Part00.pdf)
+[0](attach/UWM/UWM_PH712_2025Fall_Part00.pdf){:target="_blank"}
 
 #### SUPERVISION FOR
 
