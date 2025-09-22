@@ -194,6 +194,7 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis){:target="_blank"},
 [_Knowledge-Based Systems_](https://www.sciencedirect.com/journal/knowledge-based-systems){:target="_blank"},
 [_Mathematical Modelling and Analysis_](https://journals.vgtu.lt/index.php/MMA){:target="_blank"},
+[_Statistics and Computing_](https://link.springer.com/journal/11222){:target="_blank"},
 [_Statistics in Biosciences_](https://link.springer.com/journal/12561){:target="_blank"},
 [_Statistics in Medicine_](https://onlinelibrary.wiley.com/journal/10970258){:target="_blank"},
 [_Statistics & Probability Letters_](https://www.sciencedirect.com/journal/statistics-and-probability-letters){:target="_blank"},
