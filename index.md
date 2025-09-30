@@ -140,6 +140,7 @@ _Atmospheric Environment_ **61**:409--418.
 Lecture Notes:
 [0](attach/UWM/UWM_PH712_2025Fall_Part00.pdf){:target="_blank"}
 [1](attach/UWM/UWM_PH712_2025Fall_Part01.pdf){:target="_blank"}
+[2](attach/UWM/UWM_PH712_2025Fall_Part02.pdf){:target="_blank"}
 
 #### SUPERVISION FOR
 
