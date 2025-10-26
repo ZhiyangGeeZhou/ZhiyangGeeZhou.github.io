@@ -143,6 +143,7 @@ Lecture Notes:
 [2](attach/UWM/UWM_PH712_2025Fall_Part02.pdf){:target="_blank"}
 [3](attach/UWM/UWM_PH712_2025Fall_Part03.pdf){:target="_blank"}
 [4](attach/UWM/UWM_PH712_2025Fall_Part04.pdf){:target="_blank"}
+[5](attach/UWM/UWM_PH712_2025Fall_Part05.pdf){:target="_blank"}
 
 #### SUPERVISION FOR
 
