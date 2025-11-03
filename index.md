@@ -41,7 +41,9 @@ See his [curriculum vitae](attach/CV20250829.pdf){:target="_blank"} (updated on 
 - Tensor data analysis (Exploring multi-dimensional arrays to capture complex structures)
 - Design of experiments (Strategically planning and analyzing experiments)
 
-### APPLICATION RESEARCH INTERESTS
+### APPLIED RESEARCH INTERESTS
+
+I have collaborated with investigators from many areas including
 
 # APPOINTMENTS
 
