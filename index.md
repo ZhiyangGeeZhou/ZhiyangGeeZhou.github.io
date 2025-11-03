@@ -43,7 +43,8 @@ See his [curriculum vitae](attach/CV20250829.pdf){:target="_blank"} (updated on 
 
 ### COLLABORATIVE RESEARCH EXPERIENCE
 
-I have collaborated with investigators from many areas including the atmospheric science, cardiovascular disease, mental health, infectious disease, and nutrition research.
+I have collaborated with investigators from many areas including the atmospheric science, 
+cardiovascular disease, mental health, infectious disease, and nutrition science.
 
 # APPOINTMENTS
 
