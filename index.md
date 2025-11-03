@@ -41,7 +41,7 @@ See his [curriculum vitae](attach/CV20250829.pdf){:target="_blank"} (updated on 
 - Tensor data analysis (Exploring multi-dimensional arrays to capture complex structures)
 - Design of experiments (Strategically planning and analyzing experiments)
 
-### COLLABORATIVE EXPERIENCE
+### COLLABORATIVE RESEARCH EXPERIENCE
 
 I have collaborated with investigators from many areas including the atmospheric science, cardiovascular disease, mental health, infectious disease, and nutrition research.
 
