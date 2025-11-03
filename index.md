@@ -32,7 +32,7 @@ He also adapts and extends classical techniques to accommodate complex and heter
 applying rigorous statistical reasoning to address real-world challenges.
 See his [curriculum vitae](attach/CV20250829.pdf){:target="_blank"} (updated on 2025/Aug/29).
 
-### INTERESTS
+### METHODOLOGICAL RESEARCH INTERESTS
 
 - Functional data analysis (Inference from trajectories, images, and complex data structures)
 - Deep learning (Leveraging multi-layer neural networks to approximate non-linear patterns)
@@ -40,6 +40,8 @@ See his [curriculum vitae](attach/CV20250829.pdf){:target="_blank"} (updated on 
 - Survival analysis (Modeling time-to-event data and estimating survival probabilities)
 - Tensor data analysis (Exploring multi-dimensional arrays to capture complex structures)
 - Design of experiments (Strategically planning and analyzing experiments)
+
+### APPLICATION RESEARCH INTERESTS
 
 # APPOINTMENTS
 
