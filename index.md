@@ -137,7 +137,7 @@ _Atmospheric Environment_ **61**:409--418.
 [NSERC Discovery Grants](https://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsInsDetail-ResultatsEtabDetails_eng.asp?Year=2022&Institution=32){:target="_blank"}
 (with the Discovery Launch Supplement, 2022/Apr/01--2027/Mar/31; terminated early on 2023/Sep/01 due to relocation)
 
-# TEACHING
+# TEACHING PROFILE
 
 #### COURSES IN PROGRESS
 
@@ -242,7 +242,7 @@ Nasiba Ahmed (2022/Aug/22, Stats, umanitoba.ca)
 Xiaohua Liu (2023/Jun/29, Stats, umanitoba.ca), 
 Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 
-# ARCHIVE OF TEACHING ACTIVITIES  
+# ARCHIVE OF TEACHING PROFILE  
 
 #### INSTRUCTION @uwm.edu
 
