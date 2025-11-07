@@ -64,7 +64,7 @@ Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/){:target="_blank"}, Pr
 - 2005--09, B.Sc. in Statistics, [Beijing Normal University](https://english.bnu.edu.cn/){:target="_blank"}, China  
 Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/){:target="_blank"}, Professor
 
-# RESEARCH
+# RESEARCH PROFILE
 
 ### PEER-REVIEWED
 
@@ -242,7 +242,7 @@ Nasiba Ahmed (2022/Aug/22, Stats, umanitoba.ca)
 Xiaohua Liu (2023/Jun/29, Stats, umanitoba.ca), 
 Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 
-# ARCHIVE OF TEACHING PROFILE  
+# ARCHIVES  
 
 #### INSTRUCTION @uwm.edu
 
