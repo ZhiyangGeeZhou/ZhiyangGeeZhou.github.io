@@ -152,6 +152,10 @@ Lecture Notes:
 [6](attach/UWM/UWM_PH712_2025Fall_Part06.pdf){:target="_blank"}
 [7](attach/UWM/UWM_PH712_2025Fall_Part07.pdf){:target="_blank"}
 
+#### COURSES IN THE COMING SEMESTER
+
+- [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2026Spring.pdf){:target="_blank"}  
+
 #### SUPERVISION FOR
 
 - Liliana Isabel Kasta (2024--25, M.Sc. student, uwm.edu)
