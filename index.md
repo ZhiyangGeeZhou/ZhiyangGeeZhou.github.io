@@ -151,6 +151,7 @@ Lecture Notes:
 [5](attach/UWM/UWM_PH712_2025Fall_Part05.pdf){:target="_blank"}
 [6](attach/UWM/UWM_PH712_2025Fall_Part06.pdf){:target="_blank"}
 [7](attach/UWM/UWM_PH712_2025Fall_Part07.pdf){:target="_blank"}
+[8](attach/UWM/UWM_PH712_2025Fall_Part08.pdf){:target="_blank"}
 
 #### COURSES IN THE COMING SEMESTER
 
