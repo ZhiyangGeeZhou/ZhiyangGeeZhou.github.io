@@ -104,7 +104,7 @@ _Atmospheric Environment_ **61**:409--418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029){:target="_blank"}
 {: reversed="reversed"}
 
-### UNDER REVISION
+### UNDER-REVISION
 
 - **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., and Zhao, L. (2025). 
 Deep neural network with a smooth monotonic output layer for dynamic risk prediction.  
