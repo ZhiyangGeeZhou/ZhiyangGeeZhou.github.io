@@ -102,13 +102,19 @@ _Journal of Statistical Planning and Inference_ **148**:95--100.
 1. Wang, W., Gong, D., **Zhou, Z.**, & Guo, Y. (2012). Robustness of the aerosol weekly cycle over Southeastern China.
 _Atmospheric Environment_ **61**:409--418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029){:target="_blank"}
+{: reversed="reversed"}
+
+### UNDER REVISION
+
+- **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., and Zhao, L. (2025). 
+Deep neural network with a smooth monotonic output layer for dynamic risk prediction.  
+`Python` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"}
 
 ### PREPRINTS
 
-1. **Zhou, Z.**, & Lockhart, R. A. (2020). Partial least squares for sparsely observed curves with measurement errors.
+- **Zhou, Z.**, & Lockhart, R. A. (2020). Partial least squares for sparsely observed curves with measurement errors.
 [arXiv:2003.11542](https://arxiv.org/abs/2003.11542){:target="_blank"}  
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS){:target="_blank"}
-{: reversed="reversed"}
 
 ### INVITED PRESENTATIONS
 
