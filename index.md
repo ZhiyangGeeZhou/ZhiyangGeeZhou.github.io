@@ -108,7 +108,7 @@ _Atmospheric Environment_ **61**:409--418.
 
 - **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., and Zhao, L. (2025). 
 Deep neural network with a smooth monotonic output layer for dynamic risk prediction.  
-`Python` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"}
+`Python` [github.com/ZhiyangGeeZhou/DDH-SMOL](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"}
 
 ### PREPRINTS
 
