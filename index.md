@@ -161,23 +161,20 @@ Lecture Notes:
 - Donald Kenneth Cramer (2023--, Ph.D. student, uwm.edu)
 - Ke Wang (2022--24, M.Sc. in Statistics, umanitoba.ca)
 
-#### CO-SUPERVISION FOR
-
-- Yuting Kang (2023--25, M.Sc. student at ctgu.edu.cn, 
-with [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:target="_blank"} &
-[Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"} as senior supervisors)
-- Omar Hassan (2022--23, B.Sc. in Physics, umanitoba.ca, 
-with [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"} as the senior supervisor; 
-currently Ph.D. student at uvic.ca)
-
 #### ADVISORY COMMITTEE MEMBER FOR
 
 - Hassan Maleki Golandouz (2023--, Ph.D. student at umanitoba.ca, 
 supervised by [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
+- Qiao Tang (2023--25, Ph.D. student at umanitoba.ca, 
+supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
+- Yuting Kang (2023--25, M.Sc. student at ctgu.edu.cn, 
+supervised by [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:target="_blank"} &
+[Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"})
 - Ying Miao (2023, M.Sc. student at umanitoba.ca, 
 supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
-- Qiao Tang (2023--, Ph.D. student at umanitoba.ca, 
-supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
+- Omar Hassan (2022--23, B.Sc. in Physics, umanitoba.ca, 
+supervised by [Wouter Deconinck](https://sci.umanitoba.ca/physics-astronomy/profiles/wouterdeconinck/){:target="_blank"}; 
+currently Ph.D. student at uvic.ca)
 
 # SERVICE
 
