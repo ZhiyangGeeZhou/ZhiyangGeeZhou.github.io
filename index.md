@@ -147,24 +147,11 @@ Deep neural network with a smooth monotonic output layer for dynamic risk predic
 
 #### COURSES IN PROGRESS
 
-- [PH 712 Probability and Statistical Inference](attach/UWM/Syllabus_UWM_PH712_2025Fall.pdf){:target="_blank"}  
+- PH 716 Applied Survival Analysis  
+Lecture Notes:
+- [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2026Spring.pdf){:target="_blank"}  
 Lecture Notes:
 [0](attach/UWM/UWM_PH712_2025Fall_Part00.pdf){:target="_blank"}
-[1](attach/UWM/UWM_PH712_2025Fall_Part01.pdf){:target="_blank"}
-[2](attach/UWM/UWM_PH712_2025Fall_Part02.pdf){:target="_blank"}
-[3](attach/UWM/UWM_PH712_2025Fall_Part03.pdf){:target="_blank"}
-[4](attach/UWM/UWM_PH712_2025Fall_Part04.pdf){:target="_blank"}
-[5](attach/UWM/UWM_PH712_2025Fall_Part05.pdf){:target="_blank"}
-[6](attach/UWM/UWM_PH712_2025Fall_Part06.pdf){:target="_blank"}
-[7](attach/UWM/UWM_PH712_2025Fall_Part07.pdf){:target="_blank"}
-[8](attach/UWM/UWM_PH712_2025Fall_Part08.pdf){:target="_blank"}
-[9](attach/UWM/UWM_PH712_2025Fall_Part09.pdf){:target="_blank"}
-[10](attach/UWM/UWM_PH712_2025Fall_Part10.pdf){:target="_blank"}
-
-#### COURSES IN THE COMING SEMESTER
-
-- PH 716 Applied Survival Analysis
-- [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2026Spring.pdf){:target="_blank"}  
 
 #### SUPERVISION FOR
 
@@ -263,8 +250,12 @@ Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 #### INSTRUCTION @uwm.edu
 
 - PH 712 Probability and Statistical Inference  
-Syllabuses: [24F](attach/UWM/Syllabus_UWM_PH712_2024Fall.pdf)  
-Lectures (password-protected): [24F](attach/UWM/Lectures_UWM_PH712_2024Fall.zip)
+Syllabuses: 
+[24F](attach/UWM/Syllabus_UWM_PH712_2024Fall.pdf)
+[25F](attach/UWM/Syllabus_UWM_PH712_2025Fall.pdf)    
+Lectures (password-protected): 
+[24F](attach/UWM/Lectures_UWM_PH712_2024Fall.zip)
+[25F](attach/UWM/Lectures_UWM_PH712_2025Fall.zip)
 - PH 716 Applied Survival Analysis  
 Syllabuses: [24S](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
 Lectures (password-protected): [24S](attach/UWM/Lectures_UWM_PH716_2024Spring.zip)
