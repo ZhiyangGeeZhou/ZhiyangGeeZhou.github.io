@@ -151,7 +151,7 @@ Deep neural network with a smooth monotonic output layer for dynamic risk predic
 Lecture Notes:
 - [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2026Spring.pdf){:target="_blank"}  
 Lecture Notes:
-[0](attach/UWM/UWM_PH712_2025Fall_Part00.pdf){:target="_blank"}
+[0](attach/UWM/UWM_PH718_2026Spring_Part00.pdf){:target="_blank"}
 
 #### SUPERVISION FOR
 
