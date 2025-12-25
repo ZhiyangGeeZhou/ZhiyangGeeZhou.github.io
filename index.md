@@ -163,7 +163,7 @@ Lecture Notes:
 
 #### CO-SUPERVISION FOR
 
-- Yuting Kang (2023--, M.Sc. student at ctgu.edu.cn, 
+- Yuting Kang (2023--25, M.Sc. student at ctgu.edu.cn, 
 with [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:target="_blank"} &
 [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"} as senior supervisors)
 - Omar Hassan (2022--23, B.Sc. in Physics, umanitoba.ca, 
