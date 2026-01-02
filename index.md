@@ -68,6 +68,9 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### PEER-REVIEWED
 
+1. **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., & Zhao, L. (2026). 
+Deep neural network with a smooth monotonic output layer for dynamic risk prediction. Accepted by _Statistics in Medicine_.  
+`Python` [github.com/ZhiyangGeeZhou/DDH-SMOL](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"}
 1. Liu, J., **Zhou, Z.**, Cheng, X., Zhang, D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
 Food insecurity trends and disparities according to immigration status in the US households, 2011--2021.
 _Preventive Medicine_ **187**:108121.
@@ -104,11 +107,10 @@ _Atmospheric Environment_ **61**:409--418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029){:target="_blank"}
 {: reversed="reversed"}
 
-### UNDER-REVISION
+### UNDER-REVIEW
 
-- **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., and Zhao, L. (2025). 
-Deep neural network with a smooth monotonic output layer for dynamic risk prediction. Under revision.  
-`Python` [github.com/ZhiyangGeeZhou/DDH-SMOL](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"}
+- **Zhou, Z.**, & Zhao, L. (2025). 
+Parsimonious joint model of survival outcome and multiple longitudinal biomarkers.
 
 ### PREPRINTS
 
