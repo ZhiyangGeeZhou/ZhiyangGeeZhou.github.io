@@ -116,7 +116,7 @@ Parsimonious joint model of survival outcome and multiple longitudinal biomarker
 ### PREPRINTS
 
 - **Zhou, Z.**, & Lockhart, R. A. (2020). Partial least squares for sparsely observed curves with measurement errors.
-[arXiv:2003.11542](https://arxiv.org/abs/2003.11542){:target="_blank"}  
+[doi:10.48550/arXiv.2003.11542](https://doi.org/10.48550/arXiv.2003.11542){:target="_blank"}  
 `R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS){:target="_blank"}
 
 ### INVITED PRESENTATIONS
