@@ -150,7 +150,7 @@ Parsimonious joint model of survival outcome and multiple longitudinal biomarker
 
 #### COURSES IN PROGRESS
 
-- PH 716 Applied Survival Analysis  
+- [PH 716 Applied Survival Analysis](attach/UWM/Syllabus_UWM_PH716_2026Spring.pdf){:target="_blank"}  
 Lecture Notes:
 - [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2026Spring.pdf){:target="_blank"}  
 Lecture Notes:
