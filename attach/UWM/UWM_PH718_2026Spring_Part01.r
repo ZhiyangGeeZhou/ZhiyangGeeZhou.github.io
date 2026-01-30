@@ -18,7 +18,7 @@
 # Introduce realistic missing values in selected variables. 
 # Save the dataset in CSV format."
 
-# My generated dataset is saved as "sim_ehr_1000" on Canvas.
+# My generated dataset is saved as "sim_ehr_1000.csv" on Canvas.
 
 #------------------------------------------------------------------
 ## Working directory: where inputs are found and outputs are sent
@@ -42,22 +42,21 @@ head(ehr)
 summary(ehr)
 
 #------------------------------------------------------------------
-## How to help yourself when exploring unfamiliar data
+## How to help yourself when exploring unfamiliar functions
 #------------------------------------------------------------------
 # Help manual of specific functions
 
 ?dim
-?str 
 ?summary
+?head
 ?read.csv
 
 #------------------------------------------------------------------
 ## Assigning values to objects
 #------------------------------------------------------------------
 # The left arrow (<-) or equals sign (=) assigns the value at the right-hand side to the left-hand side.
-n_patients <- nrow(ehr)
-n_patients = nrow(ehr)
-n_vars <- ncol(ehr)
+n_patients <- nrow(ehr) # equiv. n_patients = nrow(ehr)
+n_vars = ncol(ehr)
 
 n_patients
 n_vars
@@ -67,24 +66,21 @@ n_vars
 #------------------------------------------------------------------
 
 str(ehr)
-class(ehr$age)
+class(ehr$`age`) # ehr$`age` equiv. ehr$age equiv. ehr[,'age']
 class(ehr$sex)
 class(ehr$sud_dx)
 
 # Convert to factors where appropriate
-ehr$sex <- factor(ehr$sex)
-ehr$sud_dx_f <- factor(ehr$sud_dx, levels = c(0,1), labels = c("No SUD","SUD"))
+ehr$sex_f <- factor(ehr$sex)
+ehr$sud_dx_f <- factor(ehr$sud_dx, levels = c(0,1), labels = c("NoSUD","SUD"))
 class(ehr$sud_dx_f)
 
-#------------------------------------------------------------------
-## Data Structures: let str() or class() tell you
-#------------------------------------------------------------------
 # Data frame: each column is a variable, each row is an observation
 class(ehr)
 
 ehr[1, ] # the 1st row
 ehr[, 1] # the 1st column
-ehr[, "age"] # the column with name == "age"
+ehr[, 'age'] # the column with name == "age"
 ehr$age # the column with name == "age"
 ehr[1:10, c("age","sex","sud_dx")]
 
@@ -100,7 +96,7 @@ str(ehr[, "age"])
 class(ehr[, "age"])
 
 # Matrix: entries should share the SAME data type
-m1 <- ehr[, c("age","bmi","sbp")]
+m1 <- as.matrix(ehr[, c("age","bmi","sbp")])
 m1
 dim(m1)
 class(m1)
@@ -114,7 +110,7 @@ m1[, 2] # return the 2nd column
 ## Checking for missing values
 #------------------------------------------------------------------
 anyNA(ehr)
-ehr_complete_bmi <- ehr[!is.na(ehr$bmi), ] # remove rows with missing bmi; exclamation mark "!" means "not"
+ehr_complete_bmi <- ehr[!is.na(ehr$aic), ] # remove rows with missing a1c values; exclamation mark "!" means "not"
 
 #------------------------------------------------------------------
 ## Exporting data
