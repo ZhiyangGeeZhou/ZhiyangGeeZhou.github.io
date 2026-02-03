@@ -30,7 +30,7 @@ Zhiyang's research is situated at the intersection of statistics and machine lea
 focusing on the development of novel methods to enhance predictive performance and strengthen statistical inference. 
 He also adapts and extends classical techniques to accommodate complex and heterogeneous data structures, 
 applying rigorous statistical reasoning to address real-world challenges.
-See his [curriculum vitae](attach/CV20260102.pdf){:target="_blank"} (updated on 2026/Jan/02).
+See his [curriculum vitae](attach/CV20260202.pdf){:target="_blank"} (updated on 2026/Feb/02).
 
 ### METHODOLOGICAL RESEARCH INTERESTS
 
