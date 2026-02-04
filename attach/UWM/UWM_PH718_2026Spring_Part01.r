@@ -110,12 +110,19 @@ m1[, 2] # return the 2nd column
 ## Checking for missing values
 #------------------------------------------------------------------
 anyNA(ehr)
-ehr_complete_bmi <- ehr[!is.na(ehr$aic), ] # remove rows with missing a1c values; exclamation mark "!" means "not"
+summary(ehr)
+is.na(ehr$sbp)
+!is.na(ehr$sbp)
+ehr_complete_sbp <- ehr[!is.na(ehr$sbp), ] # remove rows with missing a1c values; exclamation mark "!" means "not"
+ehr_complete = ehr[complete.cases(ehr), ] # remove rows with any missing values
+
+ehr_complete$alcohol_use[ehr_complete$alcohol_use == ""] = NA
+ehr_complete = ehr_complete[complete.cases(ehr_complete), ] # remove rows with any missing values again
 
 #------------------------------------------------------------------
 ## Exporting data
 #------------------------------------------------------------------
-write.csv(ehr, "ehr_clean.csv", row.names = FALSE)
+write.csv(ehr_complete, "ehr_complete.csv", row.names = FALSE)
 
 #------------------------------------------------------------------
 ## Logic and control
@@ -129,17 +136,21 @@ ehr$age >= 65
 ehr$older_adult <- ifelse(ehr$age >= 65, 1, 0)
 table(ehr$older_adult)
 
-ehr$sbp >= 130
-ehr$dbp >= 80
-ehr$sbp >= 130 | ehr$dbp >= 80
+ehr$sbp[1] >= 130
+ehr$dbp[1] >= 80
+ehr$sbp[1] >= 130 & ehr$dbp[1] >= 80
 ehr$high_bp <- ifelse(ehr$sbp >= 130 | ehr$dbp >= 80, 1, 0)
 table(ehr$high_bp)
 
-ehr$sud_dx_f == "SUD"
+ehr$sud_dx_f <- factor(ehr$sud_dx, levels = c(0,1), labels = c("NoSUD","SUD"))
+ehr$sud_dx_f[10] == "SUD"
 ehr_sud <- ehr[ehr$sud_dx_f == "SUD", ]
 summary(ehr_sud$age)
 
+ehr[ehr$age > 50 & ehr$high_bp == 1,]
 ehr[ehr$age > 50 & ehr$high_bp == 1, c("age","sbp","dbp")]
+ehr[ehr$age > 50 & ehr$high_bp == 1, names(ehr) != "age"] # all columns except "age"
+ehr[ehr$age > 50 & ehr$high_bp == 1, !names(ehr) %in% c("sbp", 'dbp')]
 
 #------------------------------------------------------------------
 ## Defining functions
