@@ -118,8 +118,8 @@ Parsimonious joint model of survival outcome and multiple longitudinal biomarker
 - Yang, Y., & **Zhou, Z.** (2026). Transfer learning for scalar-on-function regression via control variates.
 [doi:10.48550/arXiv.2601.17217](https://doi.org/10.48550/arXiv.2601.17217){:target="_blank"}  
 - **Zhou, Z.**, & Lockhart, R. A. (2020). Partial least squares for sparsely observed curves with measurement errors.
-[doi:10.48550/arXiv.2003.11542](https://doi.org/10.48550/arXiv.2003.11542){:target="_blank"}  
-`R` [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS){:target="_blank"}
+[doi:10.48550/arXiv.2003.11542](https://doi.org/10.48550/arXiv.2003.11542){:target="_blank"}
+(with `R` code at [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS){:target="_blank"})
 
 ### INVITED PRESENTATIONS
 
