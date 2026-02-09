@@ -71,7 +71,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 1. **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., & Zhao, L. (2026). 
 Deep neural network with a smooth monotonic output layer for dynamic risk prediction. _Statistics in Medicine_ **45**:e70401.
 [doi:10.1002/sim.70401](https://dx.doi.org/10.1002/sim.70401){:target="_blank"}
-(with source code at [github.com/ZhiyangGeeZhou/DDH-SMOL](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"})
+(with `Python` code at [github.com/ZhiyangGeeZhou/DDH-SMOL](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"})
 1. Liu, J., **Zhou, Z.**, Cheng, X., Zhang, D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
 Food insecurity trends and disparities according to immigration status in the US households, 2011--2021.
 _Preventive Medicine_ **187**:108121.
@@ -87,22 +87,22 @@ Comparison of state-of-the-art neural network survival models with the pooled co
 1. **Zhou, Z.**, & Sang, P. (2022). Continuum centroid classifier for functional data.
 _Canadian Journal of Statistics_ **50**:200--220.
 [doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624){:target="_blank"}
-(with source code at [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC){:target="_blank"})
+(with `R` code at [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC){:target="_blank"})
 1. Zhao, Y., Wang, Y., Liu, J., Xia, H., Xu, Z., Hong, Q., **Zhou, Z.**, & Petzold, L. (2021). Empirical quantitative analysis of COVID-19 forecasting models.
 _2021 International Conference on Data Mining Workshops_ (ICDMW) 517--526. (Best Paper Award)
 [doi:10.1109/ICDMW53433.2021.00069](https://dx.doi.org/10.1109/ICDMW53433.2021.00069){:target="_blank"}  
 1. **Zhou, Z.**. (2021). Fast implementation of partial least squares for function-on-function regression.
 _Journal of Multivariate Analysis_ **185**:104769.
 [doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769){:target="_blank"}
-(with source code at [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS){:target="_blank"})
+(with `R` code at [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS){:target="_blank"})
 1. **Zhou, Z.**. (2019). Functional continuum regression.
 _Journal of Multivariate Analysis_ **173**:328--346.
 [doi:10.1016/j.jmva.2019.03.006](https://dx.doi.org/10.1016/j.jmva.2019.03.006){:target="_blank"}
-(with source code at [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression){:target="_blank"})
+(with `R` code at [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression){:target="_blank"})
 1. **Zhou, Z.**, & Zhang, R. (2014). A generalized general minimum lower order confounding criterion for nonregular designs.
 _Journal of Statistical Planning and Inference_ **148**:95--100.
 [doi:10.1016/j.jspi.2013.12.003](https://dx.doi.org/10.1016/j.jspi.2013.12.003){:target="_blank"}
-(with source code at [github.com/ZhiyangGeeZhou/G-GMC](https://github.com/ZhiyangGeeZhou/G-GMC){:target="_blank"})
+(with `R` code at [github.com/ZhiyangGeeZhou/G-GMC](https://github.com/ZhiyangGeeZhou/G-GMC){:target="_blank"})
 1. Wang, W., Gong, D., **Zhou, Z.**, & Guo, Y. (2012). Robustness of the aerosol weekly cycle over Southeastern China.
 _Atmospheric Environment_ **61**:409--418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029){:target="_blank"}
