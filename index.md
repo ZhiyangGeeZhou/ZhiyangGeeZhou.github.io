@@ -71,7 +71,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 1. **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., & Zhao, L. (2026). 
 Deep neural network with a smooth monotonic output layer for dynamic risk prediction. _Statistics in Medicine_ **45**:e70401.
 [doi:10.1002/sim.70401](https://dx.doi.org/10.1002/sim.70401){:target="_blank"}  
-`Python` [github.com/ZhiyangGeeZhou/DDH-SMOL](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"}
+Source code (in `Python`) [github.com/ZhiyangGeeZhou/DDH-SMOL](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"}
 1. Liu, J., **Zhou, Z.**, Cheng, X., Zhang, D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
 Food insecurity trends and disparities according to immigration status in the US households, 2011--2021.
 _Preventive Medicine_ **187**:108121.
