@@ -156,10 +156,12 @@ ehr[ehr$age > 50 & ehr$high_bp == 1, !names(ehr) %in% c("sbp", 'dbp')]
 ## Defining functions
 #------------------------------------------------------------------
 # A simple example
-flag_high_bp <- function(sbp, dbp) {
-  ifelse(sbp >= 130 | dbp >= 80, 1, 0)
+flag_high_bp <- function(arg1, arg2) {
+  ifelse(arg1 >= 130 | arg2 >= 80, 1, 0)
 }
 
+flag_high_bp(arg1 = 120, arg2 = 80) # equiv. flag_high_bp(120, 80)
+flag_high_bp(arg2 = 120, arg1 = 80)
 ehr$high_bp2 <- flag_high_bp(ehr$sbp, ehr$dbp)
 
 #------------------------------------------------------------------
@@ -175,23 +177,23 @@ for (i in 1:nrow(ehr)) {
   score <- 0
   
   # Add points based on conditions (adjust variables to match your dataset)
-  if (!is.na(ehr$age[i]) && ehr$age[i] < 25) score <- score + 1
-  if (!is.na(ehr$phq9[i]) && ehr$phq9[i] >= 10) score <- score + 1
-  if (!is.na(ehr$alcohol_use[i]) && ehr$alcohol_use[i] %in% c("Moderate","Heavy")) score <- score + 1
-  if (!is.na(ehr$smoking[i]) && ehr$smoking[i] == "Current") score <- score + 1
+  if (!is.na(ehr$age[i]) & ehr$age[i] < 25) score <- score + 1
+  if (!is.na(ehr$phq9[i]) & ehr$phq9[i] >= 10) score <- score + 1
+  if (!is.na(ehr$alcohol_use[i]) & ehr$alcohol_use[i] %in% c("Moderate","Heavy")) score <- score + 1
+  if (!is.na(ehr$smoking[i]) & ehr$smoking[i] == "Current") score <- score + 1
   
   risk_score[i] <- score
 }
 ehr$risk_score <- risk_score
 
 # Example 2: Count missing values per column
-na_count <- rep(NA, ncol(ehr))
+na_count <- rep(0, ncol(ehr))
 names(na_count) <- colnames(ehr)
 
-for (j in 1:ncol(ehr)) {
-  na_count[j] <- sum(is.na(ehr[, j]))
+for (lp_idx in 1:ncol(ehr)) {
+  na_count[lp_idx] <- sum(is.na(ehr[, lp_idx]))
 }
-sort(na_count, decreasing = TRUE) # return the sorted na_count in decreasing order
+sort(na_count, decreasing = T) # return the sorted na_count in decreasing order
 
 # Example 3: Nested for-loops to build a contingency table (sex x sud_dx)
 sex_levels <- sort(unique(ehr$sex))
@@ -210,7 +212,6 @@ prop.table(tab, margin = 1)  # row proportions
 
 # Example 4: Compute BMI category but skip rows with missing BMI using `next`
 bmi_cat <- rep(NA, nrow(ehr))
-
 for (i in 1:nrow(ehr)) {
   if (is.na(ehr$bmi[i])) next  # skip if missing
   
@@ -224,9 +225,9 @@ ehr$bmi_cat <- factor(bmi_cat, levels = c("Underweight","Normal","Overweight","O
 # Example 5: Find the first patient with very high PHQ-9 AND SUD
 first_index <- NA
 for (i in 1:nrow(ehr)) {
-  if (!is.na(ehr$phq9[i]) && ehr$phq9[i] >= 20 && ehr$sud_dx[i] == 1) {
+  if (!is.na(ehr$phq9[i]) & ehr$phq9[i] >= 10 & ehr$sud_dx[i] == 1) {
     first_index <- i
-    break
+    break  # exit the loop once the first match is found
   }
 }
 first_index
@@ -235,15 +236,15 @@ ehr[first_index, ]
 #------------------------------------------------------------------
 ## Loops: while-loop
 #------------------------------------------------------------------
-# Find a minimum sample size where mean value of SUD stabilizes
-n <- 1
-prev_old <- mean(ehr$sud_dx[1:n] == 1, na.rm = TRUE)
+# Find a minimum sample size where the proportion of SUD patients stabilizes
+n <- 10
+mean_old <- mean(ehr$sud_dx[1:n], na.rm = TRUE)
 diff <- 1
-while (diff > 0.005 && n < nrow(ehr)) {
+while (diff > 0.005 & n < nrow(ehr)) {
   n <- n + 1
-  prev_new <- mean(ehr$sud_dx[1:n] == 1, na.rm = TRUE)
-  diff <- abs(prev_new - prev_old)
-  prev_old <- prev_new
+  mean_new <- mean(ehr$sud_dx[1:n], na.rm = TRUE)
+  diff <- abs(mean_new - mean_old)
+  mean_old <- mean_new
 }
 n
 
