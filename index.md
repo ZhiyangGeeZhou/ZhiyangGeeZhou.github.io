@@ -162,6 +162,7 @@ Lecture Notes:
 [0](attach/UWM/UWM_PH718_2026Spring_Part00.pdf){:target="_blank"}
 [1](attach/UWM/UWM_PH718_2026Spring_Part01.r){:target="_blank"}
 [2](attach/UWM/UWM_PH718_2026Spring_Part02.pdf){:target="_blank"}
+[3](attach/UWM/UWM_PH718_2026Spring_Part03.rmd){:target="_blank"}
 
 #### SUPERVISION FOR
 
