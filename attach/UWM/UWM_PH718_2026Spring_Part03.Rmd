@@ -1,0 +1,254 @@
+---
+title: "PH 718 Data Management and Visualization in `R`"
+subtitle: "Part 3: R Markdown"
+author: 
+  - Zhiyang Zhou (zhou67@uwm.edu, [zhiyanggeezhou.github.io](https://zhiyanggeezhou.github.io/))
+date: "`r Sys.Date()`"
+output: pdf_document
+bibliography: ph718.bib
+link-citations: true
+csl: apa-6th-edition.csl # Specify style (default is Chicago author-date); find more CSL files at https://www.zotero.org/styles
+---
+
+# Introduction
+
+R Markdown is versatile tools for creating documents, presentations, dashboards, and more.
+
+This guide covers basic Markdown syntax, features of R Markdown, and examples to help you get started.
+
+---
+
+# Installation of R Markdown
+
+You can install the R Markdown package from CRAN with:
+```{r eval=FALSE}
+install.packages("rmarkdown")
+```
+The following link provides a quick tour of R Markdown:
+https://rmarkdown.rstudio.com/lesson-1.html
+
+---
+
+# Basics of Markdown
+
+Markdown is a lightweight language used for formatting text. 
+It is simple to use and widely supported. Here are some basic Markdown features:
+
+### Headings: using `#`
+
+- `# Heading 1`
+- `## Heading 2`
+- `### Heading 3`
+
+### Emphasis
+
+- **Bold:** `**bold text**`
+- *Italics:* `*italicized text*`
+- ~~Strikethrough:~~ `~~strikethrough~~`
+
+### Lists
+
+* **Unordered list:**
+  - Use `-` or `*` for items.
+    - Nested list item.
+* **Ordered list:**
+  1. First item
+  1. Second item
+  1. Third item
+
+### Links and images
+
+- **Links:** `[text](URL)`
+  - Example: [R Markdown website](https://rmarkdown.rstudio.com/)
+- **Images:** `![alt text](image_URL)`
+  - Example: `![Sample Image](https://via.placeholder.com/150)`
+
+### Code blocks
+
+- Inline code: Use backticks \`code\`.
+- Fenced code block:
+  ```
+  print("Hello, Markdown!")
+  ```
+- Blockquote: `> blockquote`
+
+
+### Extended syntax 
+
+https://www.markdownguide.org/cheat-sheet/
+
+---
+
+# Basics of R Markdown
+
+### R code chunks
+
+R Markdown extends Markdown by allowing you to embed R code within your document. A chunk starts with three backticks and `{r}`.
+
+Example:
+```{r, cache=T}
+# A simple R code chunk
+data(cars)
+summary(cars)
+```
+
+```{r, cache=T}
+# A simple R code chunk
+result1 = 0 
+for (i in 1:10^4){
+  result1 = result1 + i^2
+}
+result1
+```
+
+
+### Inline code
+
+You can include R code inline using backticks and `r`:
+`r 2 + 2` becomes `r 2 + 2`.
+
+---
+
+# Additional features
+
+### Plots
+Include plots using R code chunks:
+```{r, cache=T}
+# Example of a scatter plot
+data(mtcars)
+plot(
+  mtcars$mpg, 
+  mtcars$wt, 
+  main = "Scatter Plot of MPG vs Weight", 
+  xlab = "Weight", 
+  ylab = "MPG"
+)
+```
+
+### Tables
+Use functions like `knitr::kable()` or `gt` for formatted tables:
+```{r, cache=T}
+library(knitr)
+kable(head(mtcars), caption = "Sample Table of mtcars Dataset")
+```
+
+### Caching
+Speed up document rendering with caching:
+```{r, cache=T}
+# Cached code chunk
+summary(mtcars)
+```
+
+---
+
+# Incorporating references using a BibTeX (`.bib`) file 
+
+## Citing the works of others in your writing is essential
+
+- Acknowledgment of original ideas: 
+citations give proper credit to the original authors for their contributions, recognizing their intellectual property and efforts.
+
+- Upholding academic integrity: Citing sources is crucial to avoid plagiarism, 
+which is the unethical practice of presenting someone else's work or ideas as your own.
+
+- Demonstrating research depth: By referencing existing literature, 
+you showcase the breadth and depth of your research, 
+indicating a comprehensive understanding of the subject matter.
+
+- Supporting your arguments: Citations provide evidence for your claims, 
+strengthening your arguments by linking them to established knowledge. 
+
+- Facilitating further research: Proper citations allow readers to trace the original sources, enabling them to explore the topic further and verify information.
+
+## Create a BibTeX (`.bib`) file:
+
+Begin by creating a `.bib` file that contains all your bibliographic entries. 
+Each entry should follow the BibTeX format.
+
+### Templates for different types of entries
+
+An article from a magazine or a journal. For example:
+
+```{eval=FALSE}
+@article{greenwade93,
+    author  = "George D. Greenwade",
+    title   = "The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN})",
+    year    = "1993",
+    journal = "TUGBoat",
+    volume  = "14",
+    number  = "3",
+    pages   = "342--351"
+}
+```
+
+A published book. For example:
+
+```{eval=FALSE}
+@book{goossens93,
+    author    = "Michel Goossens and Frank Mittelbach and Alexander Samarin",
+    title     = "The LaTeX Companion",
+    year      = "1993",
+    publisher = "Addison-Wesley",
+    address   = "Reading, Massachusetts"
+}
+```
+
+An article accepted by a conference. For example:
+
+```{eval=FALSE}
+@inproceedings{lesk:1977,
+  title={Computer Typesetting of Technical Journals on {UNIX}},
+  author={Michael Lesk and Brian Kernighan},
+  booktitle={Proceedings of American Federation of
+             Information Processing Societies: 1977
+             National Computer Conference},
+  pages={879--888},
+  year={1977},
+  address={Dallas, Texas}
+}
+```
+
+You can find more information about other entry types
+[here](https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#BibTeX).
+
+## Link the `.bib` file to your `.Rmd` file
+
+In the header of your `.Rmd` file, 
+specify the path to your bibliography file.
+If the `.bib` and `.Rmd` files are in the same folder, 
+you may merely specify the name of the `.bib` file 
+rather than the full path to it.
+
+```{eval=FALSE}
+bibliography: ph718.bib
+```
+
+## Cite references
+
+Use the `@` symbol followed by the key of corresponding entry.
+
+### In-text citation: `@Wickham2016`
+
+As demonstrated in @Wickham2016, data visualization is a powerful tool.
+
+### Parenthetical citation: `[@Wickham2016]`
+
+Data visualization is a powerful tool [@Wickham2016].
+
+### For multiple citations, separate the keys with semicolons
+
+Several `R` packages [@tidyr2024; @R2024] are fairly useful.
+
+## Generate the bibliography
+
+The cited references are automatically included at the end of your document, 
+even if you haven't explicitly added a section header.
+
+---
+
+# Resources
+
+- [Markdown Guide](https://www.markdownguide.org/)
+- [R Markdown Documentation](https://rmarkdown.rstudio.com/)
+
+# References
