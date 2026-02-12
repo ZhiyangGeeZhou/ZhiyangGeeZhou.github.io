@@ -334,7 +334,7 @@ x %*% t(y)
 
 # Mathematical functions
 sqrt(x)  # Square root
-x^(0.5)
+x^(.5) # equiv. x^(0.5)
 abs(x)  # Absolute value
 log(x)  # Natural logarithm 
 exp(x)  # Exponentiation (with base e)
@@ -351,7 +351,7 @@ data(cars)
 plot(cars[,2], cars[,3])
 
 # Example 2
-new_data <- cars[which(cars$speed == 4)]
+new_data <- cars[which(cars$speed == 4)] # equiv. cars[c(1,2)] equiv. cars[,c(1,2)]
 plot(new_data$speed, new_data$dist)
      
 # Example 3
