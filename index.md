@@ -123,6 +123,7 @@ Parsimonious joint model of survival outcome and multiple longitudinal biomarker
 
 ### INVITED PRESENTATIONS
 
+- 2026/May/15--17, [International Conference on Frontiers of Data Science](https://icfds2026.scimeeting.cn/){:target="_blank"}
 - 2025/Jul/13, [The 3rd Joint Conference on Statistics and Data Science in China](https://www.jconf-sds.com/en/web/index/25705){:target="_blank"}
 - 2025/Jun/16, [WNAR/IMS Annual Meeting](https://wnarofibs.wildapricot.org/wnar2025/){:target="_blank"}
 - 2024/Dec/16, [The 18th International Joint Conference on Computational and Financial Econometrics (CFE) and Computational and Methodological Statistics (CMStatistics), CFE-CMStatistics 2024](https://www.cmstatistics.org/CFECMStatistics2024/){:target="_blank"}
