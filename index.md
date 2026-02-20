@@ -184,7 +184,7 @@ supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:t
 supervised by [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:target="_blank"} &
 [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"};
 2026-, Ph.D. student at sdu.edu.cn,
-supervised by [Chang-Lin Xiang](https://mathcenter.ctgu.edu.cn/info/1092/1391.htm){:target="_blank"})
+supervised by [Changyu Guo](http://en.mis.sdu.edu.cn/People/Academic_Faculty/Professor/Changyu_GUO/Short_Biography.htm){:target="_blank"})
 - Ying Miao (2023, M.Sc. student at umanitoba.ca, 
 supervised by [Po Yang](https://sci.umanitoba.ca/statistics/profiles/poyang/){:target="_blank"})
 - Omar Hassan (2022--23, B.Sc. in Physics, umanitoba.ca, 
