@@ -159,6 +159,7 @@ Lecture Notes:
 [1](attach/UWM/UWM_PH716_2026Spring_Part01.pdf){:target="_blank"}
 [2](attach/UWM/UWM_PH716_2026Spring_Part02.pdf){:target="_blank"}
 [3](attach/UWM/UWM_PH716_2026Spring_Part03.pdf){:target="_blank"}
+[4](attach/UWM/UWM_PH716_2026Spring_Part04.pdf){:target="_blank"}
 - [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2026Spring.pdf){:target="_blank"}  
 Lecture Notes:
 [0](attach/UWM/UWM_PH718_2026Spring_Part00.pdf){:target="_blank"}
