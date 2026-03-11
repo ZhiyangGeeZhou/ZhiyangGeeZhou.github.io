@@ -69,7 +69,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 ### PEER-REVIEWED
 
 1. Golandouz, H., Doupe, M., **Zhou, Z.**, & Lix, L. (2026).
-Evaluating Accuracy and Fairness of Machine-Learning Osteoporosis Case Definitions in Linked Administrative Data.
+Evaluating accuracy and fairness of machine-learning osteoporosis case definitions in linked administrative data.
 _2026 International Population Data Linkage Network Conference (IPDLN)_. 
 [virtual.oxfordabstracts.com/event/76116/titles](https://virtual.oxfordabstracts.com/event/76116/titles){:target="_blank"}
 1. **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., & Zhao, L. (2026). 
