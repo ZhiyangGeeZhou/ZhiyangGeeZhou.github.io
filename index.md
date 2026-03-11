@@ -70,7 +70,7 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 1. Golandouz, H., Doupe, M., **Zhou, Z.**, & Lix, L. (2026).
 Evaluating Accuracy and Fairness of Machine-Learning Osteoporosis Case Definitions in Linked Administrative Data.
-_2026 International Population Data Linkage Network (IPDLN) Conference_. 
+_2026 International Population Data Linkage Network Conference (IPDLN)_. 
 [virtual.oxfordabstracts.com/event/76116/titles](https://virtual.oxfordabstracts.com/event/76116/titles){:target="_blank"}
 1. **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., & Zhao, L. (2026). 
 Deep neural network with a smooth monotonic output layer for dynamic risk prediction. _Statistics in Medicine_ **45**:e70401.
