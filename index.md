@@ -68,6 +68,10 @@ Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/)
 
 ### PEER-REVIEWED
 
+1. Golandouz, H., Doupe, M., **Zhou, Z.**, & Lix, L. (2026).
+Evaluating Accuracy and Fairness of Machine-Learning Osteoporosis Case Definitions in Linked Administrative Data.
+_2026 International Population Data Linkage Network (IPDLN) Conference_. 
+[virtual.oxfordabstracts.com/event/76116/titles](https://virtual.oxfordabstracts.com/event/76116/titles){:target="_blank"}
 1. **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., & Zhao, L. (2026). 
 Deep neural network with a smooth monotonic output layer for dynamic risk prediction. _Statistics in Medicine_ **45**:e70401.
 [doi:10.1002/sim.70401](https://dx.doi.org/10.1002/sim.70401){:target="_blank"}
@@ -89,7 +93,7 @@ _Canadian Journal of Statistics_ **50**:200--220.
 [doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624){:target="_blank"}
 (with `R` code at [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC){:target="_blank"})
 1. Zhao, Y., Wang, Y., Liu, J., Xia, H., Xu, Z., Hong, Q., **Zhou, Z.**, & Petzold, L. (2021). Empirical quantitative analysis of COVID-19 forecasting models.
-_2021 International Conference on Data Mining Workshops_ (ICDMW) 517--526. (Best Paper Award)
+_2021 International Conference on Data Mining Workshops (ICDMW)_ 517--526. (Best Paper Award)
 [doi:10.1109/ICDMW53433.2021.00069](https://dx.doi.org/10.1109/ICDMW53433.2021.00069){:target="_blank"}  
 1. **Zhou, Z.**. (2021). Fast implementation of partial least squares for function-on-function regression.
 _Journal of Multivariate Analysis_ **185**:104769.
