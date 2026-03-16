@@ -245,8 +245,7 @@ Currently Ph.D. student at uvic.ca)
 - Scientific Committee for _International Applied Statistics Congress (UYIK, 
 [2024](https://www.uyik.org/uploads/uyik---2024.pdf){:target="_blank"},
 [25](https://www.uyik.org/uploads/uyik---2025.pdf){:target="_blank"},
-[26](https://www.uyik.org/committees-and-boards#){:target="_blank"}
-)_
+[26](https://www.uyik.org/committees-and-boards#){:target="_blank"})_
 - Program Committee for the [_ICSA-Canada Chapter 2024 Symposium_](https://icsa-canada-chapter.org/symposium2024/wp-content/uploads/2024/06/programbook_without_abstract.pdf){:target="_blank"}
 
 #### UNIVERSITY COMMITTEE MEMBER
