@@ -270,6 +270,10 @@ Nasiba Ahmed (2022/Aug/22, Stats, umanitoba.ca)
 Xiaohua Liu (2023/Jun/29, Stats, umanitoba.ca), 
 Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
 
+#### OTHERS
+
+- Official Nominator for the [VinFuture Prize](https://vinfutureprize.org/){:target="_blank"}
+
 # ARCHIVES  
 
 #### INSTRUCTION @uwm.edu
