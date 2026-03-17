@@ -186,6 +186,8 @@ Lecture Notes:
 
 #### ADVISORY COMMITTEE MEMBER FOR
 
+- Sanaa Mohammed Sami Raja Mahmoud (2025--,  Ph.D. student at uwm.edu, 
+supervised by [Jennifer Doering](https://uwm.edu/nursing/directory/doering-jennifer/){:target="_blank"})
 - Hassan Maleki Golandouz (2023--, Ph.D. student at umanitoba.ca, 
 supervised by [Lisa Lix](https://umanitoba.ca/medicine/faculty-staff/lisa-lix){:target="_blank"})
 - Qiao Tang (2023--25, Ph.D. student at umanitoba.ca, 
