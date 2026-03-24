@@ -175,6 +175,14 @@ Lecture Notes:
 [3](attach/UWM/UWM_PH718_2026Spring_Part03.pdf){:target="_blank"}
 [4](attach/UWM/UWM_PH718_2026Spring_Part04.pdf){:target="_blank"}
 
+#### COURSES PENDING
+
+- [PH 702 Introduction to Biostatistics](){:target="_blank"}
+Lecture Notes:
+
+- [PH 813 Practice of Biostatistical Consulting](){:target="_blank"}
+Lecture Notes:
+
 #### SUPERVISION FOR
 
 - Liliana Isabel Kasta (2024--25, M.Sc. student, uwm.edu)
