@@ -245,38 +245,38 @@ Currently Ph.D. student at uvic.ca)
 [_The American Statistician_](https://www.tandfonline.com/journals/utas20){:target="_blank"},
 [_Trials_](https://trialsjournal.biomedcentral.com/){:target="_blank"}
 - Conferences: 
-[_Conference on Neural Information Processing Systems (NeurIPS)_](https://nips.cc/){:target="_blank"},
-[_International Conference on Learning Representations (ICLR)_](https://iclr.cc/){:target="_blank"}
+[Conference on Neural Information Processing Systems (NeurIPS)](https://nips.cc/){:target="_blank"},
+[International Conference on Learning Representations (ICLR)](https://iclr.cc/){:target="_blank"}
 
 #### CONFERENCE COMMITTEE MEMBER
 
-- Scientific Committee for _International Applied Statistics Congress (UYIK, 
+- Scientific Committee for the International Applied Statistics Congress (UYIK, 
 [2024](https://www.uyik.org/uploads/uyik---2024.pdf){:target="_blank"},
 [25](https://www.uyik.org/uploads/uyik---2025.pdf){:target="_blank"},
-[26](https://www.uyik.org/committees-and-boards#){:target="_blank"})_
-- Program Committee for the [_ICSA-Canada Chapter 2024 Symposium_](https://icsa-canada-chapter.org/symposium2024/wp-content/uploads/2024/06/programbook_without_abstract.pdf){:target="_blank"}
+[26](https://www.uyik.org/committees-and-boards#){:target="_blank"})
+- Program Committee for the [ICSA-Canada Chapter 2024 Symposium](https://icsa-canada-chapter.org/symposium2024/wp-content/uploads/2024/06/programbook_without_abstract.pdf){:target="_blank"}
 
 #### UNIVERSITY COMMITTEE MEMBER
 
 - @uwm.edu:
-Non-Academic Misconduct Hearing Committee (2025-26)
+Non-Academic Misconduct Hearing Committee (Dean of Students Office, 2025--26)
 - @manitoba.ca: 
-Graduate (Stats, 2022--23), 
-IT (Stats, 2022--23), 
-Research & Seminar (Stats, 2021--22), 
-Statistical Consulting (Stats, 2022--23),
-Executive Committee (Faculty of Science, 2022--23)
+Executive Committee (Faculty of Science, 2022--23),
+Graduate (Department of Statistics, 2022--23), 
+IT (Department of Statistics, 2022--23), 
+Statistical Consulting (Department of Statistics, 2022--23),
+Research & Seminar (Department of Statistics, 2021--22)
 
 #### CHAIRING
 
 - M.Sc. defence: 
-Guanhong Xiao (2023/Aug/16, Stats, umanitoba.ca), 
-Aaron (Xiang) Zheng (2023/Jan/18, Stats, umanitoba.ca), 
-Keith Uzelmann (2022/Aug/24, Stats, umanitoba.ca), 
-Nasiba Ahmed (2022/Aug/22, Stats, umanitoba.ca)
+Guanhong Xiao (2023/Aug/16, Statistics, umanitoba.ca), 
+Aaron (Xiang) Zheng (2023/Jan/18, Statistics, umanitoba.ca), 
+Keith Uzelmann (2022/Aug/24, Statistics, umanitoba.ca), 
+Nasiba Ahmed (2022/Aug/22, Statistics, umanitoba.ca)
 - Ph.D. defence: 
-Xiaohua Liu (2023/Jun/29, Stats, umanitoba.ca), 
-Yungang (Yg) Liang (2022/Dec/23, Math, umanitoba.ca)
+Xiaohua Liu (2023/Jun/29, Statistics, umanitoba.ca), 
+Yungang (Yg) Liang (2022/Dec/23, Mathematics, umanitoba.ca)
 
 #### OTHERS
 
