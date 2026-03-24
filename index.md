@@ -177,10 +177,10 @@ Lecture Notes:
 
 #### COURSES PENDING
 
-- [PH 702 Introduction to Biostatistics](){:target="_blank"}
+- [PH 702 Introduction to Biostatistics](){:target="_blank"}  
 Lecture Notes:
 
-- [PH 813 Practice of Biostatistical Consulting](){:target="_blank"}
+- [PH 813 Practice of Biostatistical Consulting](){:target="_blank"}  
 Lecture Notes:
 
 #### SUPERVISION FOR
