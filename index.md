@@ -248,7 +248,7 @@ Currently Ph.D. student at uvic.ca)
 [Conference on Neural Information Processing Systems (NeurIPS)](https://nips.cc/){:target="_blank"},
 [International Conference on Learning Representations (ICLR)](https://iclr.cc/){:target="_blank"}
 
-#### CONFERENCE COMMITTEE MEMBER
+#### COMMITTEE MEMBER FOR CONFERENCES
 
 - Scientific Committee for the International Applied Statistics Congress (UYIK, 
 [2024](https://www.uyik.org/uploads/uyik---2024.pdf){:target="_blank"},
