@@ -256,16 +256,17 @@ Currently Ph.D. student at uvic.ca)
 [26](https://www.uyik.org/committees-and-boards#){:target="_blank"})
 - Program Committee for the [ICSA-Canada Chapter 2024 Symposium](https://icsa-canada-chapter.org/symposium2024/wp-content/uploads/2024/06/programbook_without_abstract.pdf){:target="_blank"}
 
-#### UNIVERSITY COMMITTEE MEMBER
+#### COMMITTEE MEMBER @uwm.edu
 
-- @uwm.edu:
-Non-Academic Misconduct Hearing Committee (Dean of Students Office, 2025--26)
-- @manitoba.ca: 
-Executive Committee (Faculty of Science, 2022--23),
-Graduate (Department of Statistics, 2022--23), 
-IT (Department of Statistics, 2022--23), 
-Statistical Consulting (Department of Statistics, 2022--23),
-Research & Seminar (Department of Statistics, 2021--22)
+- Non-Academic Misconduct Hearing Committee (Dean of Students Office, 2025--26)
+
+#### COMMITTEE MEMBER @manitoba.ca
+
+- Executive Committee (Faculty of Science, 2022--23)
+- Graduate (Department of Statistics, 2022--23)
+- IT (Department of Statistics, 2022--23)
+- Statistical Consulting (Department of Statistics, 2022--23)
+- Research & Seminar (Department of Statistics, 2021--22)
 
 #### CHAIRING
 
