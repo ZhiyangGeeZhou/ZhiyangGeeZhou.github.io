@@ -43,7 +43,7 @@ See his [curriculum vitae](attach/CV20260324.pdf){:target="_blank"} (updated on 
 
 ### COLLABORATIVE RESEARCH EXPERIENCE
 
-I have collaborated with investigators from many areas including the atmospheric science, 
+Zhiyang has collaborated with investigators from many areas including the atmospheric science, 
 cardiovascular disease, diabetes, infectious disease, mental health, and nutrition science.
 
 # APPOINTMENTS
