@@ -172,6 +172,9 @@ Lecture Notes:
 [2](attach/UWM/UWM_PH718_2026Spring_Part02.pdf){:target="_blank"}
 [3](attach/UWM/UWM_PH718_2026Spring_Part03.pdf){:target="_blank"}
 [4](attach/UWM/UWM_PH718_2026Spring_Part04.pdf){:target="_blank"}
+[5](attach/UWM/UWM_PH718_2026Spring_Part05.pdf){:target="_blank"}
+[6](attach/UWM/UWM_PH718_2026Spring_Part06.pdf){:target="_blank"}
+[7](attach/UWM/UWM_PH718_2026Spring_Part07.pdf){:target="_blank"}
 
 #### COURSES PENDING
 
