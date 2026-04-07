@@ -3,7 +3,7 @@ title: Teaching
 nav_order: 4
 ---
 
-#### COURSES IN PROGRESS
+### COURSES IN PROGRESS
 
 - [PH 716 Applied Survival Analysis](attach/UWM/Syllabus_UWM_PH716_2026Spring.pdf){:target="_blank"}  
 Lecture Notes:
@@ -25,7 +25,7 @@ Lecture Notes:
 [6](attach/UWM/UWM_PH718_2026Spring_Part06.pdf){:target="_blank"}
 [7](attach/UWM/UWM_PH718_2026Spring_Part07.pdf){:target="_blank"}
 
-#### COURSES PENDING
+### COURSES PENDING
 
 - [PH 702 Introduction to Biostatistics](){:target="_blank"}  
 Lecture Notes:
@@ -33,7 +33,7 @@ Lecture Notes:
 - [PH 813 Practice of Biostatistical Consulting](){:target="_blank"}  
 Lecture Notes:
 
-#### SUPERVISION FOR
+### SUPERVISION FOR
 
 - Liliana Isabel Kasta (2024--25, M.Sc. student, uwm.edu)
 - Ian Nadolski (2024--25, M.Sc. student, uwm.edu)
@@ -41,7 +41,7 @@ Lecture Notes:
 - Donald Kenneth Cramer (2023--, Ph.D. student, uwm.edu)
 - Ke Wang (2022--24, M.Sc. in Statistics, umanitoba.ca)
 
-#### ADVISORY COMMITTEE MEMBER FOR
+### ADVISORY COMMITTEE MEMBER FOR
 
 - Sanaa Mohammed Sami Raja Mahmoud (2025--,  Ph.D. student at uwm.edu, 
 supervised by [Jennifer Doering](https://uwm.edu/nursing/directory/doering-jennifer/){:target="_blank"})
