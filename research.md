@@ -31,11 +31,11 @@ _Canadian Journal of Statistics_ 50:200--220.
 - Zhao, Y., Wang, Y., Liu, J., Xia, H., Xu, Z., Hong, Q., **Zhou, Z.**, & Petzold, L. (2021). Empirical quantitative analysis of COVID-19 forecasting models.
 _2021 International Conference on Data Mining Workshops (ICDMW)_ 517--526. (Best Paper Award)
 [doi:10.1109/ICDMW53433.2021.00069](https://dx.doi.org/10.1109/ICDMW53433.2021.00069){:target="_blank"}
-- **Zhou, Z.**. (2021). Fast implementation of partial least squares for function-on-function regression.
+- **Zhou, Z.** (2021). Fast implementation of partial least squares for function-on-function regression.
 _Journal of Multivariate Analysis_ 185:104769.
 [doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769){:target="_blank"}
 (with `R` code at [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS){:target="_blank"})
-- **Zhou, Z.**. (2019). Functional continuum regression.
+- **Zhou, Z.** (2019). Functional continuum regression.
 _Journal of Multivariate Analysis_ 173:328--346.
 [doi:10.1016/j.jmva.2019.03.006](https://dx.doi.org/10.1016/j.jmva.2019.03.006){:target="_blank"}
 (with `R` code at [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression){:target="_blank"})
