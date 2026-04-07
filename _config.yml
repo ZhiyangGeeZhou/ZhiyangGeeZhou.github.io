@@ -3,6 +3,8 @@ description: Academic homepage of Zhiyang Zhou
 remote_theme: just-the-docs/just-the-docs
 
 url: "https://zhiyanggeezhou.github.io"
+  
+color_scheme: dark
 
 search_enabled: true
 heading_anchors: true
@@ -15,5 +17,3 @@ aux_links:
 
 plugins:
   - jekyll-remote-theme
-  
-color_scheme: dark
