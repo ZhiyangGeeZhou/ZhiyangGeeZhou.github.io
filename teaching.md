@@ -1,6 +1,6 @@
 ---
-title: Research Profile
-nav_order: 5
+title: Teaching Profile
+nav_order: 4
 ---
 
 # TEACHING PROFILE
