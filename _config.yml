@@ -1,3 +1,28 @@
-remote_theme: pages-themes/leap-day@v0.2.0
+title: Zhiyang Zhou
+description: Academic homepage of Zhiyang Zhou, PhD
+theme: null
+remote_theme: just-the-docs/just-the-docs
+
+url: "https://zhiyanggeezhou.github.io"
+
+search_enabled: true
+heading_anchors: true
+
+color_scheme: light
+
+aux_links:
+  CV:
+    - "/attach/CV20260324.pdf"
+  GitHub:
+    - "https://github.com/ZhiyangGeeZhou"
+  UWM Profile:
+    - "https://uwm.edu/publichealth/people/zhou-zhiyang/"
+
+nav_enabled: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright © 2026 Zhiyang Zhou."
+
 plugins:
-- jekyll-theme-cayman
+  - jekyll-remote-theme
