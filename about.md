@@ -14,12 +14,12 @@ applying rigorous statistical reasoning to address real-world challenges.
 
 ### METHODOLOGICAL RESEARCH INTERESTS
 
-- Functional data analysis (Inference from trajectories, images, and complex data structures)
-- Deep learning (Leveraging multi-layer neural networks to approximate non-linear patterns)
-- Transfer learning (Applying knowledge from related domains to enhance inference)
-- Survival analysis (Modeling time-to-event data and estimating survival probabilities)
-- Tensor data analysis (Exploring multi-dimensional arrays to capture complex structures)
-- Design of experiments (Strategically planning and analyzing experiments)
+- Functional data analysis (inference from trajectories, images, and complex data structures)
+- Deep learning (leveraging multi-layer neural networks to approximate non-linear patterns)
+- Transfer learning (applying knowledge from related domains to enhance inference)
+- Survival analysis (modeling time-to-event data and estimating survival probabilities)
+- Tensor data analysis (exploring multi-dimensional arrays to capture complex structures)
+- Design of experiments (strategically planning and analyzing experiments)
 
 ### COLLABORATIVE RESEARCH EXPERIENCE
 
