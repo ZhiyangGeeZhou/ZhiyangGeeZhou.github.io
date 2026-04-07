@@ -1,9 +1,7 @@
 ---
-title: Teaching Profile
+title: Teaching
 nav_order: 4
 ---
-
-# TEACHING PROFILE
 
 #### COURSES IN PROGRESS
 
