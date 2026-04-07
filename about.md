@@ -3,8 +3,6 @@ title: About
 nav_order: 2
 ---
 
-# ABOUT
-
 Zhiyang is an Assistant Professor of Biostatistics 
 in the Joseph J. Zilber College of Public Health at the University of Wisconsin-Milwaukee. 
 Prior to the current appointment, 
