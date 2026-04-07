@@ -1,5 +1,5 @@
 ---
-title: Research Profile
+title: Research
 nav_order: 3
 ---
 
