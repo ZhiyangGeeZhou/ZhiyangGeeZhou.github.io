@@ -15,3 +15,5 @@ aux_links:
 
 plugins:
   - jekyll-remote-theme
+  
+color_scheme: dark
