@@ -14,37 +14,37 @@ Deep neural network with a smooth monotonic output layer for dynamic risk predic
 (with `Python` code at [github.com/ZhiyangGeeZhou/DDH-SMOL](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"})
 - Liu, J., **Zhou, Z.**, Cheng, X., Zhang, D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
 Food insecurity trends and disparities according to immigration status in the US households, 2011--2021.
-_Preventive Medicine_ **187**:108121.
+_Preventive Medicine_ 187:108121.
 [doi:10.1016/j.ypmed.2024.108121](https://dx.doi.org/10.1016/j.ypmed.2024.108121){:target="_blank"}
 - Liu, J., **Zhou, Z.**, Cheng, X., & Vangeepuram, N. (2023).
 Geographic and sociodemographic variations in prevalence of mental health symptoms among US youths, 2022.
-_American Journal of Public Health_ **113**:1116--1119.
+_American Journal of Public Health_ 113:1116--1119.
 [doi:10.2105/AJPH.2023.307355](https://dx.doi.org/10.2105/AJPH.2023.307355){:target="_blank"}
 - Deng, Y., Liu, L., Jiang, H., Peng, Y., Wei, Y., **Zhou, Z.**, Zhong, Y., Zhao, Y., Yang, X., Yu, J., Lu, Z., Kho, A., Ning, H., Allen, N. B., Wilkins, J. T., Liu, K., Lloyd-Jones, D. M., & Zhao, L. (2023). 
 Comparison of state-of-the-art neural network survival models with the pooled cohort equations for cardiovascular disease risk prediction. 
- _BMC Medical Research Methodology_ **23**:22.
+ _BMC Medical Research Methodology_ 23:22.
 [doi:10.1186/s12874-022-01829-w](https://dx.doi.org/10.1186/s12874-022-01829-w){:target="_blank"}
 - **Zhou, Z.**, & Sang, P. (2022). Continuum centroid classifier for functional data.
-_Canadian Journal of Statistics_ **50**:200--220.
+_Canadian Journal of Statistics_ 50:200--220.
 [doi:10.1002/cjs.11624](https://dx.doi.org/10.1002/cjs.11624){:target="_blank"}
 (with `R` code at [github.com/ZhiyangGeeZhou/CCC](https://github.com/ZhiyangGeeZhou/CCC){:target="_blank"})
 - Zhao, Y., Wang, Y., Liu, J., Xia, H., Xu, Z., Hong, Q., **Zhou, Z.**, & Petzold, L. (2021). Empirical quantitative analysis of COVID-19 forecasting models.
 _2021 International Conference on Data Mining Workshops (ICDMW)_ 517--526. (Best Paper Award)
-[doi:10.1109/ICDMW53433.2021.00069](https://dx.doi.org/10.1109/ICDMW53433.2021.00069){:target="_blank"}  
+[doi:10.1109/ICDMW53433.2021.00069](https://dx.doi.org/10.1109/ICDMW53433.2021.00069){:target="_blank"}
 - **Zhou, Z.**. (2021). Fast implementation of partial least squares for function-on-function regression.
-_Journal of Multivariate Analysis_ **185**:104769.
+_Journal of Multivariate Analysis_ 185:104769.
 [doi:10.1016/j.jmva.2021.104769](https://dx.doi.org/10.1016/j.jmva.2021.104769){:target="_blank"}
 (with `R` code at [github.com/ZhiyangGeeZhou/fAPLS](https://github.com/ZhiyangGeeZhou/fAPLS){:target="_blank"})
 - **Zhou, Z.**. (2019). Functional continuum regression.
-_Journal of Multivariate Analysis_ **173**:328--346.
+_Journal of Multivariate Analysis_ 173:328--346.
 [doi:10.1016/j.jmva.2019.03.006](https://dx.doi.org/10.1016/j.jmva.2019.03.006){:target="_blank"}
 (with `R` code at [github.com/ZhiyangGeeZhou/Functional-continuum-regression](https://github.com/ZhiyangGeeZhou/Functional-continuum-regression){:target="_blank"})
 - **Zhou, Z.**, & Zhang, R. (2014). A generalized general minimum lower order confounding criterion for nonregular designs.
-_Journal of Statistical Planning and Inference_ **148**:95--100.
+_Journal of Statistical Planning and Inference_ 148:95--100.
 [doi:10.1016/j.jspi.2013.12.003](https://dx.doi.org/10.1016/j.jspi.2013.12.003){:target="_blank"}
 (with `R` code at [github.com/ZhiyangGeeZhou/G-GMC](https://github.com/ZhiyangGeeZhou/G-GMC){:target="_blank"})
 - Wang, W., Gong, D., **Zhou, Z.**, & Guo, Y. (2012). Robustness of the aerosol weekly cycle over Southeastern China.
-_Atmospheric Environment_ **61**:409--418.
+_Atmospheric Environment_ 61:409--418.
 [doi:10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012.07.029){:target="_blank"}
 {: reversed="reversed"}
 
@@ -56,7 +56,7 @@ Parsimonious joint model of survival outcome and multiple longitudinal biomarker
 ### PREPRINTS
 
 - Yang, Y., & **Zhou, Z.** (2025). Transfer learning for functional linear regression via control variates.
-[doi:10.48550/arXiv.2601.17217](https://doi.org/10.48550/arXiv.2601.17217){:target="_blank"}  
+[doi:10.48550/arXiv.2601.17217](https://doi.org/10.48550/arXiv.2601.17217){:target="_blank"}
 - **Zhou, Z.**, & Lockhart, R. A. (2020). Partial least squares for sparsely observed curves with measurement errors.
 [doi:10.48550/arXiv.2003.11542](https://doi.org/10.48550/arXiv.2003.11542){:target="_blank"}
 (with `R` code at [github.com/ZhiyangGeeZhou/PLEASS](https://github.com/ZhiyangGeeZhou/PLEASS){:target="_blank"})
