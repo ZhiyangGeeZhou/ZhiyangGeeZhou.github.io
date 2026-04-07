@@ -3,12 +3,12 @@ title: Service
 nav_order: 5
 ---
 
-#### EDITORIAL BOARD MEMBER
+### EDITORIAL BOARD MEMBER
 
 - [_hLife_](https://www.sciencedirect.com/journal/hlife/){:target="_blank"} (Youth Editorial Board, 2024-28)
 - [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis){:target="_blank"} (Early Career Advisory Board, 2024--26)
 
-#### REVIEWER
+### REVIEWER
 
 - Grants:
 [NSERC Discovery Grants](https://www.nserc-crsng.gc.ca/professors-professeurs/grants-subs/dgigp-psigp_eng.asp){:target="_blank"}
@@ -40,7 +40,7 @@ nav_order: 5
 [Conference on Neural Information Processing Systems (NeurIPS)](https://nips.cc/){:target="_blank"},
 [International Conference on Learning Representations (ICLR)](https://iclr.cc/){:target="_blank"}
 
-#### COMMITTEE MEMBER FOR CONFERENCES
+### COMMITTEE MEMBER FOR CONFERENCES
 
 - Scientific Committee for the International Applied Statistics Congress (UYIK, 
 [2024](https://www.uyik.org/uploads/uyik---2024.pdf){:target="_blank"},
@@ -48,11 +48,11 @@ nav_order: 5
 [26](https://www.uyik.org/committees-and-boards#){:target="_blank"})
 - Program Committee for the [ICSA-Canada Chapter 2024 Symposium](https://icsa-canada-chapter.org/symposium2024/wp-content/uploads/2024/06/programbook_without_abstract.pdf){:target="_blank"}
 
-#### COMMITTEE MEMBER @uwm.edu
+### COMMITTEE MEMBER @uwm.edu
 
 - Non-Academic Misconduct Hearing Committee (Dean of Students Office, 2025--26)
 
-#### COMMITTEE MEMBER @manitoba.ca
+### COMMITTEE MEMBER @manitoba.ca
 
 - Executive Committee (Faculty of Science, 2022--23)
 - Graduate (Department of Statistics, 2022--23)
@@ -60,7 +60,7 @@ nav_order: 5
 - Statistical Consulting (Department of Statistics, 2022--23)
 - Research & Seminar (Department of Statistics, 2021--22)
 
-#### CHAIRING
+### CHAIRING
 
 - M.Sc. defence: 
 Guanhong Xiao (2023/Aug/16, Statistics, umanitoba.ca), 
@@ -71,6 +71,6 @@ Nasiba Ahmed (2022/Aug/22, Statistics, umanitoba.ca)
 Xiaohua Liu (2023/Jun/29, Statistics, umanitoba.ca), 
 Yungang (Yg) Liang (2022/Dec/23, Mathematics, umanitoba.ca)
 
-#### OTHERS
+### OTHERS
 
 - Official Nominator for the [VinFuture Prize](https://vinfutureprize.org/){:target="_blank"}
