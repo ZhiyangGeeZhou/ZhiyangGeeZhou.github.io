@@ -32,7 +32,6 @@ Lecture Notes:
 
 - [PH 702 Introduction to Biostatistics](){:target="_blank"}  
 Lecture Notes:
-
 - [PH 724 Data Analysis & Scientific Communication Incorporating Use of Generative AI](){:target="_blank"}  
 Lecture Notes:
 
