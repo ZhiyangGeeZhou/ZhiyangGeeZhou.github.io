@@ -52,6 +52,8 @@ _Atmospheric Environment_ 61:409--418.
 
 - **Zhou, Z.**, & Zhao, L. (2025). 
 Parsimonious joint model of survival outcome and multiple longitudinal biomarkers.
+- Li, C., Xu, X., Zhong, S., **Zhou, Z.**, & Lian, H. (2026). 
+Tensor elliptical partial least squares under non-Gaussian distributions.
 
 ### PREPRINTS
 
