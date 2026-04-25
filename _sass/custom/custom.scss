@@ -37,31 +37,34 @@
 }
 
 /* Rotating cube */
-/* Give the scene depth */
-body {
-  perspective: relative;
-}
-
-/* Cube container */
-.rotating-cube {
-  position: absolute;
+.cube-scene {
+  position: fixed;
   right: 20px;
-  bottom: 0;
+  bottom: 20px;
+  width: 42px;
+  height: 42px;
+  perspective: 800px;
+  z-index: 9999;
+  pointer-events: none;
 }
 
-/* All faces */
+.rotating-cube {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotateCube 4s linear infinite;
+}
+
 .rotating-cube div {
   position: absolute;
   width: 42px;
   height: 42px;
-
   background: rgba(80, 130, 200, 0.18);
   border: 1px solid rgba(80, 130, 200, 0.45);
-
   backface-visibility: hidden;
 }
 
-/* Position each face in 3D space */
 .front  { transform: rotateY(0deg) translateZ(21px); }
 .back   { transform: rotateY(180deg) translateZ(21px); }
 .right  { transform: rotateY(90deg) translateZ(21px); }
@@ -69,7 +72,6 @@ body {
 .top    { transform: rotateX(90deg) translateZ(21px); }
 .bottom { transform: rotateX(-90deg) translateZ(21px); }
 
-/* Rotation animation */
 @keyframes rotateCube {
   from {
     transform: rotateX(0deg) rotateY(0deg);
