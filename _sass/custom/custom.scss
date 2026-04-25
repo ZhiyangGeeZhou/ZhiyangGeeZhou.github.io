@@ -39,20 +39,27 @@
 /* Rotating scatter plot */
 .scatter {
   position: fixed;
-  right: 30px;
-  bottom: 30px;
+  right: 25px;
+  bottom: 25px;
   width: 60px;
   height: 60px;
+  z-index: 9999;
+  pointer-events: none;
 }
 
 .scatter span {
   position: absolute;
   width: 5px;
   height: 5px;
-  background: #4a6fa5;
+  background: rgba(80, 130, 200, 0.7);
   border-radius: 50%;
   animation: orbit 6s linear infinite;
 }
+
+.scatter span:nth-child(1) { animation-delay: 0s; }
+.scatter span:nth-child(2) { animation-delay: 1s; }
+.scatter span:nth-child(3) { animation-delay: 2s; }
+.scatter span:nth-child(4) { animation-delay: 3s; }
 
 @keyframes orbit {
   from { transform: rotate(0deg) translateX(20px); }
