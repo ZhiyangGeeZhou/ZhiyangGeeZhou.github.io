@@ -42,13 +42,3 @@ Thesis: [_Supervised Basis Functions Applied to Functional Regression and Classi
 Supervisor: [Runchu Zhang](http://222.30.48.141/~rczhang/){:target="_blank"}, Professor
 - 2005--09, B.Sc. in Statistics, [Beijing Normal University](https://english.bnu.edu.cn/){:target="_blank"}, China  
 Advisor: [Feng-yu Wang](https://www.swansea.ac.uk/staff/science/maths/f.y.wang/){:target="_blank"}, Professor
-
-
-<div class="rotating-cube">
-  <div class="front"></div>
-  <div class="back"></div>
-  <div class="right"></div>
-  <div class="left"></div>
-  <div class="top"></div>
-  <div class="bottom"></div>
-</div>
