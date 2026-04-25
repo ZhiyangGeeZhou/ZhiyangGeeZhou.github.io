@@ -39,7 +39,7 @@
 /* Rotating cube */
 /* Give the scene depth */
 body {
-  perspective: 800px;
+  perspective: relative;
 }
 
 /* Cube container */
