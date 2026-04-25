@@ -17,3 +17,7 @@ aux_links:
 
 plugins:
   - jekyll-remote-theme
+  
+just_the_docs:
+  custom_css:
+    - css/custom.css
