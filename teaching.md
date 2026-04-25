@@ -3,8 +3,6 @@ title: Teaching
 nav_order: 4
 ---
 
-<link rel="stylesheet" href="/css/custom.css">
-
 ### COURSES IN PROGRESS
 
 - [PH 716 Applied Survival Analysis](attach/UWM/Syllabus_UWM_PH716_2026Spring.pdf){:target="_blank"}  
