@@ -37,15 +37,11 @@
 }
 
 .rotating-cube {
-  position: fixed;
-  right: 28px;
-  bottom: 28px;
-  width: 42px;
-  height: 42px;
-  transform-style: preserve-3d;
-  animation: rotateCube 6s linear infinite;
-  z-index: 999;
-  opacity: 0.75;
+  position: fixed !important;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+  pointer-events: none; /* optional: makes it not block clicks */
 }
 
 .rotating-cube div {
