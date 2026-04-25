@@ -3,8 +3,6 @@ title: Research
 nav_order: 3
 ---
 
-<link rel="stylesheet" href="/css/custom.css">
-
 ### PEER-REVIEWED
 
 - Golandouz, H., Doupe, M., **Zhou, Z.**, & Lix, L. (2026).
