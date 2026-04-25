@@ -36,32 +36,35 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* Rotating scatter plot */
-.scatter {
-  position: fixed;
-  right: 25px;
-  bottom: 25px;
-  width: 60px;
-  height: 60px;
+/* Rotating cube */
+.rotating-cube {
+  position: fixed !important;
+  right: 20px;
+  bottom: 20px;
   z-index: 9999;
-  pointer-events: none;
+  pointer-events: none; /* optional: makes it not block clicks */
 }
 
-.scatter span {
+.rotating-cube div {
   position: absolute;
-  width: 5px;
-  height: 5px;
-  background: rgba(80, 130, 200, 0.7);
-  border-radius: 50%;
-  animation: orbit 6s linear infinite;
+  width: 42px;
+  height: 42px;
+  background: rgba(80, 130, 200, 0.18);
+  border: 1px solid rgba(80, 130, 200, 0.45);
 }
 
-.scatter span:nth-child(1) { animation-delay: 0s; }
-.scatter span:nth-child(2) { animation-delay: 1s; }
-.scatter span:nth-child(3) { animation-delay: 2s; }
-.scatter span:nth-child(4) { animation-delay: 3s; }
+.rotating-cube .front  { transform: translateZ(21px); }
+.rotating-cube .back   { transform: rotateY(180deg) translateZ(21px); }
+.rotating-cube .right  { transform: rotateY(90deg) translateZ(21px); }
+.rotating-cube .left   { transform: rotateY(-90deg) translateZ(21px); }
+.rotating-cube .top    { transform: rotateX(90deg) translateZ(21px); }
+.rotating-cube .bottom { transform: rotateX(-90deg) translateZ(21px); }
 
-@keyframes orbit {
-  from { transform: rotate(0deg) translateX(20px); }
-  to   { transform: rotate(360deg) translateX(20px); }
+@keyframes rotateCube {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
 }
