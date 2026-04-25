@@ -46,16 +46,7 @@ body {
 .rotating-cube {
   position: absolute;
   right: 20px;
-  bottom: 20px;
-
-  width: 42px;
-  height: 42px;
-
-  transform-style: preserve-3d;
-  animation: rotateCube 4s linear infinite;
-
-  z-index: 9999;
-  pointer-events: none;
+  bottom: 0;
 }
 
 /* All faces */
