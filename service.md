@@ -3,8 +3,6 @@ title: Service
 nav_order: 5
 ---
 
-<link rel="stylesheet" href="/css/custom.css">
-
 ### EDITORIAL BOARD MEMBER
 
 - [_hLife_](https://www.sciencedirect.com/journal/hlife/){:target="_blank"} (Youth Editorial Board, 2024-28)
