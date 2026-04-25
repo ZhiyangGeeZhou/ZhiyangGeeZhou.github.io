@@ -20,4 +20,4 @@ plugins:
   
 just_the_docs:
   custom_css:
-    - css/custom.css
+    - assets/css/custom.css
