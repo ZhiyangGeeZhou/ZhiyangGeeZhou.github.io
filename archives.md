@@ -3,6 +3,8 @@ title: Archives
 nav_order: 6
 ---
 
+<link rel="stylesheet" href="/css/custom.css">
+
 ### INSTRUCTION @uwm.edu
 
 - PH 712 Probability and Statistical Inference  
