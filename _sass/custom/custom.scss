@@ -37,29 +37,48 @@
 }
 
 /* Rotating cube */
-.rotating-cube {
-  position: fixed !important;
-  right: 20px;
-  bottom: 20px;
-  z-index: 9999;
-  pointer-events: none; /* optional: makes it not block clicks */
+/* Give the scene depth */
+body {
+  perspective: 800px;
 }
 
+/* Cube container */
+.rotating-cube {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+  width: 42px;
+  height: 42px;
+
+  transform-style: preserve-3d;
+  animation: rotateCube 4s linear infinite;
+
+  z-index: 9999;
+  pointer-events: none;
+}
+
+/* All faces */
 .rotating-cube div {
   position: absolute;
   width: 42px;
   height: 42px;
+
   background: rgba(80, 130, 200, 0.18);
   border: 1px solid rgba(80, 130, 200, 0.45);
+
+  backface-visibility: hidden;
 }
 
-.rotating-cube .front  { transform: translateZ(21px); }
-.rotating-cube .back   { transform: rotateY(180deg) translateZ(21px); }
-.rotating-cube .right  { transform: rotateY(90deg) translateZ(21px); }
-.rotating-cube .left   { transform: rotateY(-90deg) translateZ(21px); }
-.rotating-cube .top    { transform: rotateX(90deg) translateZ(21px); }
-.rotating-cube .bottom { transform: rotateX(-90deg) translateZ(21px); }
+/* Position each face in 3D space */
+.front  { transform: rotateY(0deg) translateZ(21px); }
+.back   { transform: rotateY(180deg) translateZ(21px); }
+.right  { transform: rotateY(90deg) translateZ(21px); }
+.left   { transform: rotateY(-90deg) translateZ(21px); }
+.top    { transform: rotateX(90deg) translateZ(21px); }
+.bottom { transform: rotateX(-90deg) translateZ(21px); }
 
+/* Rotation animation */
 @keyframes rotateCube {
   from {
     transform: rotateX(0deg) rotateY(0deg);
