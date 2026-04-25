@@ -56,7 +56,7 @@
   animation: rotateCube 4s linear infinite;
 }
 
-.rotating-cube div {
+.rotating-cube > div {
   position: absolute;
   width: 42px;
   height: 42px;
