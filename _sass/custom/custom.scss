@@ -36,34 +36,25 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
-.rotating-cube {
-  position: fixed !important;
-  right: 20px;
-  bottom: 20px;
-  z-index: 9999;
-  pointer-events: none; /* optional: makes it not block clicks */
+/* Rotating scatter plot */
+.scatter {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 60px;
+  height: 60px;
 }
 
-.rotating-cube div {
+.scatter span {
   position: absolute;
-  width: 42px;
-  height: 42px;
-  background: rgba(80, 130, 200, 0.18);
-  border: 1px solid rgba(80, 130, 200, 0.45);
+  width: 5px;
+  height: 5px;
+  background: #4a6fa5;
+  border-radius: 50%;
+  animation: orbit 6s linear infinite;
 }
 
-.rotating-cube .front  { transform: translateZ(21px); }
-.rotating-cube .back   { transform: rotateY(180deg) translateZ(21px); }
-.rotating-cube .right  { transform: rotateY(90deg) translateZ(21px); }
-.rotating-cube .left   { transform: rotateY(-90deg) translateZ(21px); }
-.rotating-cube .top    { transform: rotateX(90deg) translateZ(21px); }
-.rotating-cube .bottom { transform: rotateX(-90deg) translateZ(21px); }
-
-@keyframes rotateCube {
-  from {
-    transform: rotateX(0deg) rotateY(0deg);
-  }
-  to {
-    transform: rotateX(360deg) rotateY(360deg);
-  }
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(20px); }
+  to   { transform: rotate(360deg) translateX(20px); }
 }
