@@ -30,7 +30,6 @@ Lecture Notes:
 [6](attach/UWM/UWM_PH718_2026Spring_Part06.pdf){:target="_blank"}
 [7](attach/UWM/UWM_PH718_2026Spring_Part07.pdf){:target="_blank"}
 [8](attach/UWM/UWM_PH718_2026Spring_Part08.pdf){:target="_blank"}
-[DemoShinyApp](attach/UWM/shinyApp3.R){:target="_blank"}
 
 ### COURSES PENDING
 
