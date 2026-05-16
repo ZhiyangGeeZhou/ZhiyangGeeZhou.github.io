@@ -63,6 +63,8 @@ DOI: [10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012
 Parsimonious joint model of survival outcome and multiple longitudinal biomarkers.
 - Li, C., Xu, X., Zhong, S., **Zhou, Z.**, & Lian, H. (2026). 
 Tensor elliptical partial least squares under non-Gaussian distributions.
+- Yang, Y., & **Zhou, Z.** (2026).
+Asymmetric transfer in energy-based models for financial time series.
 
 ### PREPRINTS
 
