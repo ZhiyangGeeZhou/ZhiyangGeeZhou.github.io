@@ -11,26 +11,26 @@ _2026 International Population Data Linkage Network Conference (IPDLN)_,  in pre
 - **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., & Zhao, L. (2026). 
 Deep neural network with a smooth monotonic output layer for dynamic risk prediction. _Statistics in Medicine_ 45:e70401.
 DOI: [10.1002/sim.70401](https://dx.doi.org/10.1002/sim.70401){:target="_blank"};
-PMID: 41640287;
+PMID: [41640287](https://pubmed.ncbi.nlm.nih.gov/41640287/){:target="_blank"};
 PMCID: [PMC12873558](https://pmc.ncbi.nlm.nih.gov/articles/PMC12873558/){:target="_blank"}.
 `Python` code: [github.com/ZhiyangGeeZhou/DDH-SMOL](https://github.com/ZhiyangGeeZhou/DDH-SMOL){:target="_blank"}.
 - Liu, J., **Zhou, Z.**, Cheng, X., Zhang, D., Li, L., Zhang, X., & Vangeepuram, N. (2024).
 Food insecurity trends and disparities according to immigration status in the US households, 2011--2021.
 _Preventive Medicine_ 187:108121.
 DOI: [10.1016/j.ypmed.2024.108121](https://dx.doi.org/10.1016/j.ypmed.2024.108121){:target="_blank"};
-PMID: 39208951;
+PMID: [39208951](https://pubmed.ncbi.nlm.nih.gov/39208951/){:target="_blank"};
 PMCID: [PMC12056756](https://pmc.ncbi.nlm.nih.gov/articles/PMC12056756/){:target="_blank"}.
 - Liu, J., **Zhou, Z.**, Cheng, X., & Vangeepuram, N. (2023).
 Geographic and sociodemographic variations in prevalence of mental health symptoms among US youths, 2022.
 _American Journal of Public Health_ 113:1116--1119.
 DOI: [10.2105/AJPH.2023.307355](https://dx.doi.org/10.2105/AJPH.2023.307355){:target="_blank"};
-PMID: 37672739;
+PMID: [37672739](https://pubmed.ncbi.nlm.nih.gov/37672739/){:target="_blank"};
 PMCID: [PMC10484142](https://pmc.ncbi.nlm.nih.gov/articles/PMC10484142/){:target="_blank"}.
 - Deng, Y., Liu, L., Jiang, H., Peng, Y., Wei, Y., **Zhou, Z.**, Zhong, Y., Zhao, Y., Yang, X., Yu, J., Lu, Z., Kho, A., Ning, H., Allen, N. B., Wilkins, J. T., Liu, K., Lloyd-Jones, D. M., & Zhao, L. (2023). 
 Comparison of state-of-the-art neural network survival models with the pooled cohort equations for cardiovascular disease risk prediction. 
  _BMC Medical Research Methodology_ 23:22.
 DOI: [10.1186/s12874-022-01829-w](https://dx.doi.org/10.1186/s12874-022-01829-w){:target="_blank"};
-PMID: 36694118;
+PMID: [36694118](https://pubmed.ncbi.nlm.nih.gov/36694118/){:target="_blank"};
 PMCID: [PMC9872364](https://pmc.ncbi.nlm.nih.gov/articles/PMC9872364/){:target="_blank"}.
 - **Zhou, Z.**, & Sang, P. (2022). Continuum centroid classifier for functional data.
 _Canadian Journal of Statistics_ 50:200--220.
