@@ -10,7 +10,7 @@ Asymmetric transfer in energy-based models for financial time series.
 Accepted by [_STAI-X '26 Statistics and Trustworthy AI for Cross (X)-Domain Acceleration (STAI-X 2026)_](https://statsupai.org/STAIX2026/index.html).
 - Golandouz, H., Doupe, M., **Zhou, Z.**, & Lix, L. (2026).
 Evaluating accuracy and fairness of machine-learning osteoporosis case definitions in linked administrative data.
-_2026 International Population Data Linkage Network Conference (IPDLN)_,  in press.
+Accepted by _2026 International Population Data Linkage Network Conference (IPDLN)_.
 - **Zhou, Z.**, Deng, Y., Liu, L., Jiang, H., Peng, Y., Yang, X., Zhao, Y., Ning, H., Allen, N., Wilkins, J., Liu, K., Lloyd-Jones, D., & Zhao, L. (2026). 
 Deep neural network with a smooth monotonic output layer for dynamic risk prediction. _Statistics in Medicine_ 45:e70401.
 DOI: [10.1002/sim.70401](https://dx.doi.org/10.1002/sim.70401){:target="_blank"};
