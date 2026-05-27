@@ -7,7 +7,7 @@ nav_order: 3
 
 - Yang, Y., & **Zhou, Z.** (2026).
 Asymmetric transfer in energy-based models for financial time series.
-Accepted by [_STAI-X '26 Statistics and Trustworthy AI for Cross (X)-Domain Acceleration_](https://statsupai.org/STAIX2026/index.html).
+Accepted by [_STAI-X '26 Statistics and Trustworthy AI for Cross (X)-Domain Acceleration (STAI-X 2026)_](https://statsupai.org/STAIX2026/index.html).
 - Golandouz, H., Doupe, M., **Zhou, Z.**, & Lix, L. (2026).
 Evaluating accuracy and fairness of machine-learning osteoporosis case definitions in linked administrative data.
 _2026 International Population Data Linkage Network Conference (IPDLN)_,  in press.
