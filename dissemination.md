@@ -24,3 +24,7 @@ nav_order: 6
 - 2022/Jun/07, Machine Learning Special Interest Group Meeting, George & Fay Yee Centre for Healthcare Innovation
 - 2021/Oct/22, NIC-ASA & ICSA Midwest Chapter Joint Fall Meeting
 - 2021/Sep/13, [ICSA Applied Statistics Symposium](https://symposium2021.icsa.org/){:target="_blank"}
+
+### OTHERS
+
+- 2023/Sep/18, [Who in America has mental health problems?](https://marginalrevolution.com/marginalrevolution/2023/09/who-in-america-has-mental-health-problems.html?utm_source=rss&utm_medium=rss&utm_campaign=who-in-america-has-mental-health-problems)
