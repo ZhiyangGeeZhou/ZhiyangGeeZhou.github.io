@@ -27,5 +27,6 @@ nav_order: 6
 
 ### OTHERS
 
-- 2023/10/05, [Geographic, Sociodemographic Challenges Linked to Poor Mental Health Symptoms in Youth](https://www.hcplive.com/view/geographic-sociodemographic-challenges-linked-poor-mental-health-symptoms--youth){:target="_blank"}
-- 2023/Sep/18, [Who in America has mental health problems?](https://marginalrevolution.com/marginalrevolution/2023/09/who-in-america-has-mental-health-problems.html?utm_source=rss&utm_medium=rss&utm_campaign=who-in-america-has-mental-health-problems){:target="_blank"}
+- 2023/10/05, [Geographic, Sociodemographic Challenges Linked to Poor Mental Health Symptoms in Youth](https://www.hcplive.com/view/geographic-sociodemographic-challenges-linked-poor-mental-health-symptoms--youth){:target="_blank"} 
+at _HCPLive_
+- 2023/Sep/18, [Who in America has mental health problems?](https://marginalrevolution.com/marginalrevolution/2023/09/who-in-america-has-mental-health-problems.html?utm_source=rss&utm_medium=rss&utm_campaign=who-in-america-has-mental-health-problems){:target="_blank"} at 
