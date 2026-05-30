@@ -1,6 +1,6 @@
 ---
 title: Archives
-nav_order: 6
+nav_order: 7
 ---
 
 ### INSTRUCTION @uwm.edu
