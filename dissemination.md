@@ -28,8 +28,8 @@ nav_order: 6
 ### MEDIA AND EDITORIAL COVERAGE OF MY WORK
 
 - 2023/Nov/22, "[Adolescent mental health and well-being: A public health of consequence, February 2024](https://ajph.aphapublications.org/doi/full/10.2105/AJPH.2023.307543){:target="_blank"}"
-by Farzana Kapadia at _American Journal of Public Health_
+by Farzana Kapadia in _American Journal of Public Health_
 - 2023/Oct/05, "[Geographic, sociodemographic challenges linked to poor mental health symptoms in youth](https://www.hcplive.com/view/geographic-sociodemographic-challenges-linked-poor-mental-health-symptoms--youth){:target="_blank"}"
-by Chelsie Derman at _HCPLive_
+by Chelsie Derman in _HCPLive_
 - 2023/Sep/18, "[Who in America has mental health problems?](https://marginalrevolution.com/marginalrevolution/2023/09/who-in-america-has-mental-health-problems.html?utm_source=rss&utm_medium=rss&utm_campaign=who-in-america-has-mental-health-problems){:target="_blank"}" 
-by Tyler Cowen at _Marginal REVOLUTION_
+by Tyler Cowen in _Marginal REVOLUTION_
