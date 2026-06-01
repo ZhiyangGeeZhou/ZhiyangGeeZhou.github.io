@@ -3,7 +3,7 @@ title: Dissemination
 nav_order: 6
 ---
 
-### INVITED PRESENTATIONS
+### INVITED ORAL PRESENTATIONS
 
 - 2026/Jun/27, [ICSA China Conference](https://china2026.icsa.org/){:target="_blank"}
 - 2025/Jul/13, [Joint Conference on Statistics and Data Science in China](https://www.jconf-sds.com/en/web/index/25705){:target="_blank"}
