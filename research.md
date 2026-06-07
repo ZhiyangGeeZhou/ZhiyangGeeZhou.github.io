@@ -66,8 +66,6 @@ DOI: [10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012
 Tensor elliptical partial least squares under non-Gaussian distributions.
 - Yang, Y., & **Zhou, Z.** (2025). Transfer learning for functional linear regression via control variates.
 [doi:10.48550/arXiv.2601.17217](https://doi.org/10.48550/arXiv.2601.17217){:target="_blank"}
-- **Zhou, Z.**, & Zhao, L. (2025). 
-Parsimonious joint model of survival outcome and multiple longitudinal biomarkers.
 
 ### PREPRINTS
 
