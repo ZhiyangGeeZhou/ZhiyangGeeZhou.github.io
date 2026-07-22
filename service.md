@@ -27,6 +27,7 @@ nav_order: 5
 [_Journal of Computational and Graphical Statistics_](https://www.tandfonline.com/toc/ucgs20/current){:target="_blank"},
 [_Journal of Medical Internet Research_](https://www.jmir.org/){:target="_blank"},
 [_Journal of Multivariate Analysis_](https://www.sciencedirect.com/journal/journal-of-multivariate-analysis){:target="_blank"},
+[_Journal of Statistical Theory and Practice_](https://link.springer.com/journal/42519){:target="_blank"},
 [_Knowledge-Based Systems_](https://www.sciencedirect.com/journal/knowledge-based-systems){:target="_blank"},
 [_Mathematical Modelling and Analysis_](https://journals.vgtu.lt/index.php/MMA){:target="_blank"},
 [_Statistical Methods in Medical Research_](https://journals.sagepub.com/home/smm){:target="_blank"},
