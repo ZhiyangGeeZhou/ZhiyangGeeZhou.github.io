@@ -14,6 +14,7 @@ nav_order: 5
 [NSERC Discovery Grants](https://www.nserc-crsng.gc.ca/professors-professeurs/grants-subs/dgigp-psigp_eng.asp){:target="_blank"}
 - Journals: 
 [_American Journal of Public Health_](https://ajph.aphapublications.org/){:target="_blank"},
+[_Annals of Statistics_](https://imstat.org/journals-and-publications/annals-of-statistics/){:target="_blank"},
 [_Biometrics_](https://academic.oup.com/biometrics){:target="_blank"},
 [_Biostatistics & Epidemiology_](https://www.tandfonline.com/toc/tbep20/current){:target="_blank"},
 [_Chemometrics and Intelligent Laboratory Systems_](https://www.sciencedirect.com/journal/chemometrics-and-intelligent-laboratory-systems){:target="_blank"},
