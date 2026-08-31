@@ -53,6 +53,7 @@ nav_order: 5
 
 ### COMMITTEE MEMBER @uwm.edu
 
+- [Codification Committee](https://uwm.edu/secu/governance/faculty/standing-committees/codification-committee/){:target="_blank"}(2026--2028)
 - Non-Academic Misconduct Hearing Committee (Dean of Students Office, 2025--26)
 
 ### COMMITTEE MEMBER @manitoba.ca
