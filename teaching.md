@@ -7,7 +7,7 @@ nav_order: 4
 
 - [PH 702 Introduction to Biostatistics](attach/UWM/Syllabus_UWM_PH702_2026Fall.pdf){:target="_blank"}  
 Lecture Notes:
-- [PH 724 Data Analysis & Scientific Communication Incorporating Use of Generative AI](){:target="_blank"}  
+- [PH 724 Data Analysis & Scientific Communication Incorporating Use of Generative AI](attach/UWM/Syllabus_UWM_PH724_2026Fall.pdf){:target="_blank"}  
 Lecture Notes:
 
 ### SUPERVISION FOR
