@@ -5,35 +5,7 @@ nav_order: 4
 
 ### COURSES IN PROGRESS
 
-- [PH 716 Applied Survival Analysis](attach/UWM/Syllabus_UWM_PH716_2026Spring.pdf){:target="_blank"}  
-Lecture Notes:
-[0](attach/UWM/UWM_PH716_2026Spring_Part00.pdf){:target="_blank"}
-[1](attach/UWM/UWM_PH716_2026Spring_Part01.pdf){:target="_blank"}
-[2](attach/UWM/UWM_PH716_2026Spring_Part02.pdf){:target="_blank"}
-[3](attach/UWM/UWM_PH716_2026Spring_Part03.pdf){:target="_blank"}
-[4](attach/UWM/UWM_PH716_2026Spring_Part04.pdf){:target="_blank"}
-[5](attach/UWM/UWM_PH716_2026Spring_Part05.pdf){:target="_blank"}
-[6](attach/UWM/UWM_PH716_2026Spring_Part06.pdf){:target="_blank"}
-[7](attach/UWM/UWM_PH716_2026Spring_Part07.pdf){:target="_blank"}
-[8](attach/UWM/UWM_PH716_2026Spring_Part08.pdf){:target="_blank"}
-[9](attach/UWM/UWM_PH716_2026Spring_Part09.pdf){:target="_blank"}
-[10](attach/UWM/UWM_PH716_2026Spring_Part10.pdf){:target="_blank"}
-[11](attach/UWM/UWM_PH716_2026Spring_Part11.pdf){:target="_blank"}
-- [PH 718 Data Management and Visualization in R](attach/UWM/Syllabus_UWM_PH718_2026Spring.pdf){:target="_blank"}  
-Lecture Notes:
-[0](attach/UWM/UWM_PH718_2026Spring_Part00.pdf){:target="_blank"}
-[1](attach/UWM/UWM_PH718_2026Spring_Part01.r){:target="_blank"}
-[2](attach/UWM/UWM_PH718_2026Spring_Part02.pdf){:target="_blank"}
-[3](attach/UWM/UWM_PH718_2026Spring_Part03.pdf){:target="_blank"}
-[4](attach/UWM/UWM_PH718_2026Spring_Part04.pdf){:target="_blank"}
-[5](attach/UWM/UWM_PH718_2026Spring_Part05.pdf){:target="_blank"}
-[6](attach/UWM/UWM_PH718_2026Spring_Part06.pdf){:target="_blank"}
-[7](attach/UWM/UWM_PH718_2026Spring_Part07.pdf){:target="_blank"}
-[8](attach/UWM/UWM_PH718_2026Spring_Part08.pdf){:target="_blank"}
-
-### COURSES PENDING
-
-- [PH 702 Introduction to Biostatistics](){:target="_blank"}  
+- [PH 702 Introduction to Biostatistics](attach/UWM/Syllabus_UWM_PH702_2026Fall.pdf){:target="_blank"}  
 Lecture Notes:
 - [PH 724 Data Analysis & Scientific Communication Incorporating Use of Generative AI](){:target="_blank"}  
 Lecture Notes:
