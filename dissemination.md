@@ -5,6 +5,7 @@ nav_order: 6
 
 ### INVITED ORAL PRESENTATIONS
 
+- 2027/Jun/11, [Lifetime Data Science (LiDS) Conference](https://community.amstat.org/lids/events/2027lids-conf){:target="_blank"}
 - 2026/Jun/27, [ICSA China Conference](https://china2026.icsa.org/){:target="_blank"}
 - 2025/Jul/13, [Joint Conference on Statistics and Data Science in China](https://www.jconf-sds.com/en/web/index/25705){:target="_blank"}
 - 2025/Jun/16, [WNAR/IMS Annual Meeting](https://wnarofibs.wildapricot.org/wnar2025/){:target="_blank"}
