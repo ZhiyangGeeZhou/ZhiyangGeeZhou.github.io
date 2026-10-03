@@ -13,11 +13,19 @@ Lectures (password-protected):
 [24F](attach/UWM/Lectures_UWM_PH712_2024Fall.zip)
 [25F](attach/UWM/Lectures_UWM_PH712_2025Fall.zip)
 - PH 716 Applied Survival Analysis  
-Syllabuses: [24S](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)  
-Lectures (password-protected): [24S](attach/UWM/Lectures_UWM_PH716_2024Spring.zip)
+Syllabuses: 
+[24S](attach/UWM/Syllabus_UWM_PH716_2024Spring.pdf)
+[26S](attach/UWM/Syllabus_UWM_PH716_2026Spring.pdf)  
+Lectures (password-protected): 
+[24S](attach/UWM/Lectures_UWM_PH716_2024Spring.zip)
+[26S](attach/UWM/Lectures_UWM_PH716_2026Spring.zip)
 - PH 718 Data Management and Visualization in R  
-Syllabuses: [25S](attach/UWM/Syllabus_UWM_PH718_2025Spring.pdf)  
-Lectures (password-protected): [25S](attach/UWM/Lectures_UWM_PH718_2025Spring.zip)
+Syllabuses: 
+[25S](attach/UWM/Syllabus_UWM_PH718_2025Spring.pdf)
+[26S](attach/UWM/Syllabus_UWM_PH718_2026Spring.pdf)  
+Lectures (password-protected): 
+[25S](attach/UWM/Lectures_UWM_PH718_2025Spring.zip)
+[26S](attach/UWM/Lectures_UWM_PH718_2026Spring.zip)
 
 ### INSTRUCTION @umanitoba.ca
 
