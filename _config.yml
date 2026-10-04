@@ -13,7 +13,7 @@ aux_links:
   GitHub:
     - "https://github.com/ZhiyangGeeZhou"
   CV:
-    - "/attach/CV20260324.pdf"
+    - "/attach/CV20261003.pdf"
 
 plugins:
   - jekyll-remote-theme
