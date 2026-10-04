@@ -23,5 +23,6 @@ applying rigorous statistical reasoning to address real-world challenges.
 
 ### COLLABORATIVE RESEARCH EXPERIENCE
 
-Zhiyang has collaborated with investigators from many areas including the atmospheric science, 
-cardiovascular disease, diabetes, infectious disease, mental health, and nutrition science.
+Zhiyang has collaborated with investigators across a wide range of research areas, 
+including the atmospheric science, cardiovascular disease, diabetes, geriatric health, 
+infectious diseases, mental health, and nutrition science.
