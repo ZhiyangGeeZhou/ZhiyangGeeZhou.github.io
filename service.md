@@ -66,7 +66,7 @@ nav_order: 5
 
 ### CHAIRING
 
-- Conference Sessions: [ICSA-Canada Chapter Symposium](https://icsa-canada-chapter.org/symposium2024/){:target="_blank"} (2024/Jun/09)
+- Conference sessions: [ICSA-Canada Chapter Symposium](https://icsa-canada-chapter.org/symposium2024/){:target="_blank"} (2024/Jun/09)
 - M.Sc. defence: 
 Guanhong Xiao (2023/Aug/16, Statistics, umanitoba.ca), 
 Aaron (Xiang) Zheng (2023/Jan/18, Statistics, umanitoba.ca), 
