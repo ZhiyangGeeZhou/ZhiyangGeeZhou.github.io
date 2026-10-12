@@ -20,6 +20,8 @@ Lecture Notes:
 [02](attach/UWM/UWM_PH724_2026Fall_Part02.pdf){:target="_blank"}
 [03](attach/UWM/UWM_PH724_2026Fall_Part03.pdf){:target="_blank"}
 [04](attach/UWM/UWM_PH724_2026Fall_Part04.pdf){:target="_blank"}
+[05](attach/UWM/UWM_PH724_2026Fall_Part05.pdf){:target="_blank"}
+[06](attach/UWM/UWM_PH724_2026Fall_Part06.pdf){:target="_blank"}
 
 ### SUPERVISION FOR
 
