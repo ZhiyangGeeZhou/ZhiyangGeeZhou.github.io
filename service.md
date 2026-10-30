@@ -20,6 +20,7 @@ nav_order: 5
 [_Canadian Journal of Statistics_](https://onlinelibrary.wiley.com/journal/1708945x){:target="_blank"},
 [_Chemometrics and Intelligent Laboratory Systems_](https://www.sciencedirect.com/journal/chemometrics-and-intelligent-laboratory-systems){:target="_blank"},
 [_Computational Statistics_](https://www.springer.com/journal/180){:target="_blank"},
+[_Electronic Journal of Statistics_](https://projecteuclid.org/journals/electronic-journal-of-statistics){:target="_blank"},
 [_Environmental Modeling & Assessment_](https://www.springer.com/journal/10666){:target="_blank"},
 [_hLife_](https://www.sciencedirect.com/journal/hlife/){:target="_blank"},
 [_IISE Transactions_](https://www.tandfonline.com/action/journalInformation?journalCode=uiie21){:target="_blank"},
