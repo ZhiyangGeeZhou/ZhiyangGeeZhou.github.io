@@ -29,6 +29,7 @@ Lecture Notes:
 
 ### SUPERVISION FOR
 
+- Cole Little (2025--, M.Sc. in Biostatistics, uwm.edu)
 - Liliana Isabel Kasta (2024--25, M.Sc. in Biostatistics, uwm.edu)
 - Ian Nadolski (2024--25, M.Sc. in Biostatistics, uwm.edu)
 - Kelly Wikoff (2023--24, M.Sc. in Biostatistics, uwm.edu)
