@@ -14,6 +14,7 @@ Lecture Notes:
 [04](attach/UWM/UWM_PH702_2026Fall_Part04.pptx){:target="_blank"}
 [05](attach/UWM/UWM_PH702_2026Fall_Part05.pptx){:target="_blank"}
 [06](attach/UWM/UWM_PH702_2026Fall_Part06.pptx){:target="_blank"}
+[07](attach/UWM/UWM_PH702_2026Fall_Part07.pptx){:target="_blank"}
 - [PH 724 Data Analysis & Scientific Communication Incorporating Use of Generative AI](attach/UWM/Syllabus_UWM_PH724_2026Fall.pdf){:target="_blank"}  
 Lecture Notes:
 [00](attach/UWM/UWM_PH724_2026Fall_Part00.pdf){:target="_blank"}
@@ -26,6 +27,7 @@ Lecture Notes:
 [07](attach/UWM/UWM_PH724_2026Fall_Part07.pdf){:target="_blank"}
 [08](attach/UWM/UWM_PH724_2026Fall_Part08.pdf){:target="_blank"}
 [09](attach/UWM/UWM_PH724_2026Fall_Part09.pdf){:target="_blank"}
+[10](attach/UWM/UWM_PH724_2026Fall_Part10.pdf){:target="_blank"}
 
 ### SUPERVISION FOR
 
