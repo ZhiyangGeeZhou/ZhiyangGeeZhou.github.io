@@ -64,6 +64,8 @@ DOI: [10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012
 
 ### UNDER-REVIEW
 
+- Golandouz, H., Doupe, M., **Zhou, Z.**, & Lix, L. (2026).
+Fairness auditing of machine learning-based osteoporosis case definitions across population subgroups.
 - Li, C., Xu, X., Zhong, S., **Zhou, Z.**, & Lian, H. (2026). 
 Tensor elliptical partial least squares under non-Gaussian distributions.
 - Yang, Y., & **Zhou, Z.** (2025). Transfer learning for functional linear regression via control variates.
