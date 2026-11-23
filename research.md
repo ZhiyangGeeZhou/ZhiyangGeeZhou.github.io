@@ -64,7 +64,7 @@ DOI: [10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012
 
 ### UNDER-REVIEW
 
-- Golandouz, H., Doupe, M., **Zhou, Z.**, & Lix, L. (2026).
+- Golandouz, H., Doupe, M., **Zhou, Z.**, Leslie, W., & Lix, L. (2026).
 Fairness auditing of machine learning-based osteoporosis case definitions across population subgroups.
 - **Zhou, Z.**, & Zhao, L. (2026).
 Parsimonious joint model of survival outcome and multiple longitudinal risk factors.
