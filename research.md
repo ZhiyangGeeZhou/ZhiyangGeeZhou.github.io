@@ -64,6 +64,8 @@ DOI: [10.1016/j.atmosenv.2012.07.029](https://dx.doi.org/10.1016/j.atmosenv.2012
 
 ### UNDER-REVIEW
 
+- Cheng, X., Liu, J., Yoshida, Y., Hu, B., **Zhou, Z.**. (2026).
+Quantifying contributions of sociodemographic, clinical, and health care factors to racial and ethnic disparities in gestational diabetes mellitus in the United States.
 - Golandouz, H., Doupe, M., **Zhou, Z.**, Leslie, W., & Lix, L. (2026).
 Fairness auditing of machine learning-based osteoporosis case definitions across population subgroups.
 - **Zhou, Z.**, & Zhao, L. (2026).
